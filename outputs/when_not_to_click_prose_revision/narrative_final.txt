@@ -1,0 +1,1343 @@
+When Not to Click: Auditing Native Visual Confidence under GUI Target Ambiguity and Distribution Shift
+Dr. Sowmya K S, Garvit Mundra, Gaurang Bhatia
+B.M.S. College Of Engineering
+ABSTRACT
+A graphical user interface (GUI) agent needs to establish that a requested control is present and uniquely identified before deciding where to click. We examine the native scores returned by a pinned visual interface, Jev 1.14: a visible-presence probability, a match-count distribution and one bounding box per request. These scores form the basis of frozen selective-execution policies. Presence and uniqueness gates made no incorrect accepted clicks on held-out synthetic layouts. The result did not carry over to real interfaces. A source audit found that 200 of the 951 human-labelled cases reused pilot screenshots. Among the 751 independent real-interface cases, the three-signal policy accepted 26 with a conditional risk of 61.5%; the frozen logistic gate accepted one. Strict localization succeeded on 41 of 131 unique targets (31.3%), limiting any gate to about 6.1% coverage at 10% accepted-error risk. Recalibration on real data improved Brier loss, but no threshold met the 10% risk target. A quantized Qwen2.5-VL-7B baseline tested on matched inputs achieved 16.8% strict accuracy. We contribute a reproducible audit of transfer failure, the dependence of safety metrics on their denominators, and cohort provenance. We do not introduce a new uncertainty-control algorithm.
+Keywords: GUI grounding; selective prediction; abstention; calibration; distribution shift; vision–language models
+Introduction
+Knowing where a model would click does not tell us whether the requested control exists or whether it has been identified uniquely. An absent target calls for a different decision from a duplicated, occluded or offscreen target. The pinned native visual interface studied here returns a presence score, a caller-defined match-count distribution and one bounding box in the same request. We examine these outputs through four research questions:
+RQ1. Do native presence and uniqueness scores reduce incorrect accepted clicks relative to box confidence on held-out synthetic layouts?
+RQ2. How well do the frozen policies transfer to human-labelled real interfaces?
+RQ3. How do coverage, localization, calibration, latency and cost change across sources and target states?
+RQ4. How does a frozen local vision–language model (VLM) baseline perform on the same images and human references?
+Our contribution is an audit that can be reproduced: it examines a native model interface, documents the limits of transfer and includes a baseline evaluated on matched inputs. It does not propose a new uncertainty-control algorithm.
+The related-work section places the study in its research context. Materials and methods describes the policies, data, annotation and evaluation protocol. Results reports the transfer, calibration and model comparisons; Discussion interprets them. Conclusion sets out the claims supported by the evidence.
+Related work
+OS-ATLAS develops cross-platform GUI grounding and action modelling (Wu et al. 2024). SafeGround uses stochastic spatial dispersion and calibration to control false discoveries (Wang, Fan, and Wang 2026). Argus compares uncertainty methods across models and interfaces, and finds that transfer depends on the observable regime (Kumar et al. 2026). CORA learns an action-risk guardian and calibrates execute/abstain behaviour (Feng et al. 2026).
+Selective classification (Geifman and El-Yaniv 2017), Learn then Test (Angelopoulos et al. 2021) and Conformal Risk Control (Angelopoulos et al. 2024) supply the foundational rejection and risk-control framework. Qwen2.5-VL (Qwen Team 2025), ScreenSpot-Pro (Li et al. 2025) and UI-TARS (Qin et al. 2025) provide additional GUI-model and benchmark context. Together these establish prior art for abstention, calibration and GUI safety.
+We focus on the three native scores exposed by Jev 1.14 and on what a synthetic-to-real evaluation can establish. Appendix D includes published VLM results for context. Those results were not obtained using our labels.
+Materials and methods
+Native confidence and selective execution
+All primary-study requests use the pinned model version jev-1.14.0 and prompt presence-count-box-v1. The separate protocol for repeated requests and prompt variants is specified in Appendix C.4.
+For case i, the interface returns three scores:
+pᵢ ∈ [0, 1], the visible-presence confidence;
+qᵢ = (qᵢ,₀, qᵢ,₁, qᵢ,>₁), a probability distribution over match counts (“Choice”), with uᵢ = qᵢ,₁ the probability of exactly one match;
+bᵢ ∈ [0, 1], the box confidence attached to the predicted box B̂ᵢ.
+The parser rejects malformed probabilities, unexpected model versions, non-finite coordinates and degenerate boxes. Let vᵢ = 1 if the output parses validly and vᵢ = 0 otherwise. A failed output counts as an abstention for every policy and stays in all evaluation denominators. The selected Choice label, argmaxₖ qᵢ,ₖ, is used only to route rejected cases to clarification or abstention. No interactive clarification was executed.
+Each policy maps the native scores to an acceptance score g and compares it with a threshold τ (Table 1). Policy E is an L2-regularised logistic regression on the three native scores, with no interaction terms (Equation 1). Its coefficients β₀ = −4.496, βₚ = 2.509, βᵤ = 2.696 and β_b = 0.600 were fitted to the 79 valid development responses.
+
+
+(1)
+Table 1. Policy definitions. All original thresholds and logistic coefficients remain frozen.
+Policy
+Acceptance score g
+Threshold τ
+A
+Every valid parsed box (g ≡ 1)
+0
+B
+b
+0.83
+C
+min(p, b)
+0.83
+D
+min(p, u, b)
+0.80
+E
+g_E(p, u, b), Equation (1)
+0.761012
+Presence
+p
+1.00
+Uniqueness
+u
+1.00
+Presence + uniqueness
+min(p, u)
+1.00
+Thresholds were chosen on the synthetic calibration split: maximise attainable calibration coverage subject to coverage at most 30%, breaking ties toward the larger threshold (Equation 2). Here  is the candidate threshold set and Ĉ_cal(τ) is the calibration coverage defined in Equation (6a).
+
+
+(2)
+The rule selects coverage; it does not calibrate or guarantee risk. We keep the original policies fixed and do not refit them using external labels. The real-fitted diagnostic reported under “Calibration and decision analysis” is a separate analysis.
+Correctness. For two boxes B and B′, intersection-over-union (IoU) is given by Equation (3), where |·| denotes pixel area. Let sᵢ be the human target state, Bᵢ the human reference box and c(B̂ᵢ) the centre of the predicted box. The strict correctness indicator yᵢ is Equation (4), where 𝟙[·] is 1 if its condition holds and 0 otherwise. A case is accepted under policy g at threshold τ when Equation (5) holds, where xᵢ denotes the native outputs for case i.
+
+
+(3)
+
+
+(4)
+
+
+(5)
+Metrics. Over n evaluated cases, coverage, conditional selective risk and marginal incorrect-action rate are given by Equations (6a)–(6c).
+
+
+(6a)
+
+
+(6b)
+
+
+(6c)
+When no cases are accepted, risk is undefined. We do not assign zero risk to an empty acceptance set. R̂ conditions on acceptance, whereas M̂ uses all cases as its denominator.
+Each score is calibrated against a different event:
+presence targets the human states unique or multiple;
+uniqueness targets the unique state;
+box and logistic scores target the full correctness criterion in Equation (4).
+Because each score refers to a different event, the scores cannot be interpreted as interchangeable probabilities.
+Data, annotation and provenance
+Synthetic pilot. We generated procedural geometry labels for 25 templates spanning five layout families, with eight state variants for each template. Development uses 80 cases from sidebar and kanban layouts; calibration uses 40 table cases; the held-out test uses 80 dialog and toolbar cases. Each template supplies three unique cases and one case in each of the absent, multiple, occluded, offscreen and unclear states. We made 200 calls without retries. Of these, 199 parsed successfully; a zero-width box in the development split failed closed.
+Annotation. Two annotators labelled the same 951 cases independently, without access to model predictions. They assigned one of six target states to each case, drew boxes around every valid visible target in unique and multiple cases, and recorded their confidence. Structural validation passed for both corrected exports.
+Status agreement is 759/951 (79.8%), with Cohen’s κ = 0.613.
+Mean matched box IoU is 0.619 across 205 comparable cases.
+We flag cases deterministically for status disagreement, disagreement about the number of boxes, matched IoU below 0.5, or low confidence. This identifies 259 cases; a case may have more than one reason for being flagged. For these cases, the authors directed that the reviewer-approved Annotator B decision be used as final. The remaining 692 cases use the consensus status and, when localization is possible, the mean of matched box coordinates.
+Source audit. We checked source provenance offline and found that 200 of the 951 human-labelled cases repeated both the screenshot bytes and the instructions from the pilot. They comprise 80 development, 40 calibration and 80 held-out cases. Since these repeats cannot provide independent external evidence, we treat the full 951-case collection as descriptive and report it as a mixed cohort. We analyse the 751 ScreenSpot-v2-variant real-interface cases separately (ScreenSpot-v2-variants n.d.; Figure 1).
+We added this subset analysis after examining the mixed results. It is therefore a post-hoc correction of provenance, not a new preregistered experiment. Humans rechecked the negative instructions proposed by the source; 131 received a final label of unique. This finding explains why the automatic negative labels could not be used on their own. The subset should not be confused with the standard ScreenSpot-v2 test set of positive targets.
+Table 2. Cohort composition by frozen human target state. No cases are dropped for schema errors.
+Cohort
+Unique
+Absent
+Multiple
+Occluded
+Offscreen
+Unclear
+Real interfaces (751)
+131
+583
+29
+2
+5
+1
+Reused synthetic (200)
+75
+57
+25
+25
+0
+18
+Mixed total (951)
+206
+640
+54
+27
+5
+19
+
+Figure 1. Annotation, source-audit and evaluation flow. Two blind annotators labelled 951 cases; a deterministic rule flagged 259 for reviewer-approved Annotator B decisions, and the remaining 692 use consensus labels. The source audit separates 200 pilot-reused cases (dashed: descriptive sensitivity only) from the 751 independent real-interface cases on which the frozen policies are evaluated.
+Evaluation and uncertainty protocol
+We retain the original experimental policy definitions. Evaluation covers strict localization (Equation 4), secondary centre-only accuracy, accepted-error risk and marginal error (Equation 6), acceptance within each target state, and useful automation among unique cases.
+We form confidence intervals from 2,000 nonparametric bootstrap resamples of source-image clusters, using seed 1729. Instructions referring to the same screenshot stay together during resampling. We recompute each ratio in every resample, omit undefined replicates and retain the number omitted. The primary paired comparisons use 10,000 randomizations that flip source-cluster effects. Within each cohort, Holm adjustment covers the absent and multiple endpoints.
+The real-only comparisons are exploratory, as are the new subgroup, calibration, entropy and curve analyses. The adjusted absent-target p = .0476 is borderline within this exploratory family and does not support a central claim. Holm adjustment for two endpoints does not account for the full set of diagnostic analyses. We use percentile bootstrap intervals descriptively; with few accepted cases, they may be unreliable. Resampling an error-free set cannot introduce an unseen error, so a degenerate zero-error interval does not demonstrate zero true risk.
+Results
+Frozen-policy transfer and localization
+Table 3. Primary real-interface results: 751 cases, including 131 unique targets. Original thresholds remain frozen.
+Policy
+Accepted
+Errors
+Coverage
+Risk
+Unique automation
+B
+45
+28
+6.0%
+62.2%
+13.0%
+C
+26
+17
+3.5%
+65.4%
+6.9%
+D
+26
+16
+3.5%
+61.5%
+7.6%
+E
+1
+0
+0.1%
+0.0%
+0.8%
+Uniqueness
+2
+1
+0.3%
+50.0%
+0.8%
+Reused synthetic inputs account for most of the error-free logistic result in the mixed cohort: 68 of its 69 accepted cases belong to the reused group. Restricting evaluation to the 751 real interfaces leaves E with one correctly accepted mobile case and 0.13% coverage. D accepts 26 cases, makes 16 errors and has 61.5% risk. B accepts 45, makes 28 errors and has 62.2% risk. Abstention reduces the number of errors, but that reduction alone establishes neither lower conditional risk nor useful transfer (Figure 2).
+
+Figure 2. Useful unique-target automation (the share of unique targets that a policy accepts with a strictly correct box) on the synthetic held-out test and on the 751 real interfaces. Values are from Tables A1 and 3; thresholds are frozen. The three policies with zero synthetic errors (D, E and uniqueness) correctly accept at most 7.6% of real unique targets.
+Under strict localization, 41/131 unique real targets are correct (31.3%). IoU ≥ 0.75 holds for 12/131 (9.2%), and mean IoU is 0.327. The secondary centre-only criterion is met in 77/131 cases (58.8%). The scoring rule thus changes apparent accuracy considerably. This is why we evaluate acceptance of a box separately from safe target selection.
+Table 4. Source-cluster 95% intervals on the real subset. Risk for E is not inferentially informative.
+Policy
+Coverage [95% CI]
+Risk [95% CI]
+Useful unique [95% CI]
+B
+6.0% [4.4%, 7.7%]
+62.2% [47.8%, 76.0%]
+13.0% [7.7%, 19.1%]
+D
+3.5% [2.2%, 4.9%]
+61.5% [41.7%, 80.0%]
+7.6% [3.6%, 12.4%]
+E
+0.1% [0.0%, 0.4%]
+Not informative (1 accept)
+0.8% [0.0%, 2.4%]
+For absent real targets, B accepts 15/583 cases and D accepts 7/583. The case-weighted difference is −1.37 percentage points (exploratory two-endpoint Holm-adjusted cluster-sign p = .0476). For multiple real targets, acceptance falls from 1/29 to 0/29 (adjusted p = 1.0). The corresponding reduction in the mixed cohort, from 21/54 to 0/54, is much larger because it draws mainly on reused synthetic examples. Significance in that mixed cohort cannot establish an ambiguity result for real interfaces.
+Table 5. Additional real-subset 95% source-cluster intervals. A zero-error interval is degenerate, not a guarantee.
+Metric
+B estimate [95% CI]
+D estimate [95% CI]
+Marginal incorrect-action rate, M̂
+3.7% [2.4%, 5.1%]
+2.1% [1.2%, 3.3%]
+Absent false-accept rate
+2.6% [1.4%, 3.9%]
+1.2% [0.4%, 2.2%]
+Multiple wrong-accept rate
+3.4% [0.0%, 11.1%]
+0.0% [0.0%, 0.0%]
+The completed repeat study also yields low coverage. Across five passes with the original prompt, D accepts 21–26 real cases at 57.1–71.4% conditional risk, and E accepts 0–1. E accepts nothing under either prewritten prompt variant. Repeating a prediction allows us to assess its stability, but adds no independent source images. Appendix C.4 gives the metrics for every pass, along with failures and additional cost.
+Calibration and decision analysis
+Rejection quality must be considered alongside base localization. Strict accuracy on unique real targets is 31.3%; a centre-only rule gives 58.8%, and IoU ≥ 0.3 alone gives 48.9%. Even where both annotators label a real case unique, only 61.2% of their boxes agree at IoU ≥ 0.5. This human agreement is a conditional reference, not an absolute ceiling on performance. Appendix C.1 gives the full sensitivity analysis for labels and scoring criteria.
+Oracle coverage bound. For fixed recorded boxes and labels, let π̂_corr = (1/n) Σᵢ vᵢ yᵢ be the fraction of all cases with a strictly correct localization. Any gate accepts correct cases at a rate of at most π̂_corr (Equation 7a). If the gate’s observed conditional risk is at most a tolerance α, its total coverage is bounded by Equation (7b).
+
+
+(7a)
+
+
+(7b)
+Here π̂_corr = 41/751 = 0.0546, so even an oracle gate is bounded by 0.0546/0.90 ≈ 6.1% coverage at α = 0.10 (Figure 3). This is a deterministic finite-cohort bound, not a population guarantee or a human ceiling; a different grounder or scoring rule changes it.
+
+Figure 3. Frozen real-cohort operating points (coverage, conditional risk; Table 3) against the oracle frontier of Equation (7b). For a fixed set of recorded boxes, no gate can reach the shaded region, because only 41 of 751 cases are strictly correct. At α = 0.10, coverage is bounded by 6.1%. The observed policies sit far above the frontier, so better gating alone cannot recover useful low-risk automation.
+Probability quality. Original E has a Brier loss of 0.06125. The retrospective constant-prevalence predictor does better at 0.05234, leaving E with Brier skill −0.170 (Equation C1). Its low expected calibration error (ECE) is therefore insufficient evidence of useful probabilities. Nor do the extra native signals show strong additional discrimination: B and E have nearly the same AUROC, with overlapping source-cluster intervals on the real cohort. Appendix C.2 reports the ranking and Brier results in full.
+Real-data recalibration. In a diagnostic with separate source images for fitting, calibration and testing, we train a new logistic score using only the real fitting data. Test Brier loss falls from 0.07345 to 0.05822. Yet neither the empirical calibration-risk rule nor the fixed Learn-then-Test procedure identifies a threshold that meets 10% accepted-error risk. Better probability estimates do not, in this experiment, yield useful acceptance at low risk. The retrospective design and assumptions about source distributions prevent a new confirmatory guarantee. Appendix C.3 describes the procedure.
+Strata. The appendix breaks down results by platform (desktop, mobile, web), target status, target area, element type, instruction length, annotator confidence and label provenance. For unique cases only, target size is the reference-box area divided by screenshot area: small is below 0.1%, medium is 0.1–1%, and large is at least 1%. We take annotator confidence to be the lower confidence of the two annotators. Results for sparse strata are descriptive; they play no part in policy tuning.
+Entropy baselines. For an exploratory entropy baseline, we use the normalised certainty h(qᵢ) of the match-count distribution (Equation 8), with the convention 0 ln 0 = 0. A second baseline, “entropy-plus-one”, uses h(qᵢ) · 𝟙[argmaxₖ qᵢ,ₖ = 1], i.e. it also requires the selected Choice to be one. Thresholds for both use only original synthetic calibration outputs under the same rule (Equation 2), but these baseline designs were introduced after seeing transfer outcomes.
+
+
+(8)
+Entropy alone selects τ* = +∞ and accepts nothing, because the tied high-score calibration mass exceeds 30%.
+Entropy-plus-one uses τ* = 1 and accepts two real cases, one of them in error.
+A low-entropy prediction may be confident that a target is absent or that several matches exist. It need not be confident that a click is safe. The complete risk–coverage sweeps appear in Figure 4, followed by reliability diagrams in Figure 5.
+
+Figure 4. Risk–coverage curves for the frozen policy scores and the entropy-plus-one baseline on (a) the mixed 951-case cohort and (b) the 751-case real-interface cohort. Dots mark the originally frozen operating points. The curves inspect test outcomes and cannot be used to select a validated deployment threshold.
+
+Figure 5. Reliability diagrams with ten equal-width bins, valid responses only, for (a) the mixed cohort and (b) the real-interface cohort. Presence is scored against visible presence, uniqueness against a unique target, and B and E against strict correct localization (Equation 4); the curves therefore target different events and are not interchangeable calibration comparisons.
+Table 6. Real-subset calibration on 740 valid responses. Brier score and ECE are descriptive, with ten fixed bins.
+Score
+Event
+Brier
+ECE
+Presence
+Visible presence
+0.123
+0.057
+Uniqueness
+Unique target
+0.143
+0.130
+B
+Correct localization
+0.163
+0.287
+E
+Correct localization
+0.061
+0.070
+Utility framing. As standard decision-theoretic framing rather than a methodological contribution, we define a transparent utility: a correct accepted click earns one unit, an incorrect accepted click loses λ > 0 units, and a rejection earns zero. This is a hypothetical sensitivity model, not measured harm; dollar API cost and wall-clock latency are reported separately. With TP = Σᵢ aᵢyᵢ and FP = Σᵢ aᵢ(1 − yᵢ), the utility is Equation (9).
+
+
+(9)
+On real interfaces, Û_B = (17 − 28λ)/751, Û_D = (10 − 16λ)/751 and Û_E = 1/751. The pairwise break-even points are:
+D exceeds B only when λ > 7/12;
+E exceeds D only when λ > 9/16;
+E exceeds B only when λ > 4/7.
+The ranking is therefore B > D > E for λ < 9/16, and E > D > B for λ > 7/12. A completely abstaining policy has zero utility. These break-even points expose the coverage–risk trade-off rather than labelling one policy universally best (Figure 6).
+
+Figure 6. Utility of the frozen policies on the 751 real interfaces as a function of the error penalty λ (Equation 9), scaled per 1,000 cases. The shaded band spans the three pairwise break-even points (λ = 9/16, 4/7 and 7/12). B has the highest utility below the band and E above it; complete abstention scores zero. The utility model is hypothetical, not measured harm.
+If a score q(x) were a calibrated probability of correctness, the expected-utility (Bayes) rule would accept exactly when Equation (10) holds. The native scores have not been shown to satisfy this calibration assumption, so Equation (10) supplies no guarantee for D or E.
+
+
+(10)
+Zero-error observations. Under optimistic independent Bernoulli sampling, zero errors in m accepted cases yields the exact one-sided 95% upper confidence bound in Equation (11). For the single real E acceptance (m = 1), this bound is 95%, which shows how weak that zero-error observation is. Source dependence makes even this illustration optimistic.
+
+
+(11)
+Model comparison, latency and cost
+For the independent Qwen2.5-VL-7B baseline, we use the same 951 prepared images and human references. All input-image hashes agree, and the pinned model/protocol hashes remain consistent throughout collection. We calculate primary accuracy on the 751 real cases, which include 131 unique targets.
+The deployments differ in their interfaces as well as their execution. Qwen runs through Ollama with Q4_K_M quantization, a frozen prompt that forces a box in JSON, and prompted confidence values. Jev exposes its native typed interface. We do not apply the logistic coefficients trained on Jev to Qwen. Our comparison is limited to these deployment and interface choices.
+Table 7. Observed same-input comparison. Accuracy denominators are the 131 unique real targets; timing and failures use all 951 matched inputs. Local total economic cost is unmeasured.
+Model / deployment
+Strict
+Centre-only
+Failures (/951)
+Mean (s)
+p95 (s)
+API cost (/951)
+Jev HTTP
+31.3%
+58.8%
+11
+0.459
+0.628
+$0.1344
+Qwen Q4 local
+16.8%
+51.1%
+62
+11.339
+16.667
+$0 API; compute unpriced
+
+Figure 7. Same-input localization on the 131 unique real targets under fixed human labels. (a) Accuracy of Jev and Qwen under three scoring rules, with correct counts in brackets. (b) Qwen-minus-Jev differences in percentage points; the strict-criterion 95% interval is from 2,000 paired source-image bootstrap resamples. Intervals are exploratory and unadjusted across criteria, and hardware, quantization and interface effects are not separated.
+Jev achieves 31.3% strict accuracy, compared with 16.8% for Qwen. The paired strict difference, Qwen minus Jev, is −14.5 percentage points, with a source-cluster 95% interval of −22.2 to −7.3. Under the centre-only criterion the accuracies are closer, at 58.8% and 51.1%, and the interval for their difference includes zero. These results favour the tested Jev interface within this cohort; they do not establish that the model is generally superior (Figure 7).
+We also apply a common semantic rule: accept a valid output only if its predicted match-count label is one. For Jev, this accepts 194/751 cases, including 163 incorrect accepts. For Qwen, it accepts 604/751, including 583 incorrect accepts. The rule is deliberately simple and is evaluated separately from the frozen B–E policies. Its results show that the semantic “one” label is insufficient for reliable acceptance. Qwen’s prompted scores should not be interpreted as native calibrated probabilities.
+Failures. All 62 Qwen failures contain out-of-bounds or degenerate boxes and fail closed; 57 belong to the real subset. Jev produces 11 malformed outputs in the original matched collection of 951, all within the real subset. We neither repair outputs nor rerun selected cases. The experiment compares the specified interfaces that force a box. It does not separate the contributions of model weights, quantization, structured decoding and coordinate prompting. Results may change with different optimization for each model.
+Latency. For each deployment, we measure elapsed wall-clock time from the request until the full response arrives, including time spent on malformed responses. Hosted Jev and serial local Qwen run on different hardware and software stacks. Their measured latencies therefore do not constitute a comparison at matched hardware. We have not priced the local Qwen hardware or electricity; no API charge does not mean no economic cost. Appendix D retains published model results and GPT-4o price scenarios as historical context.
+Collection and cost. The external collection records 951 HTTP-200 responses, preceded by 71 credential rejections. Among the 951 responses, 940 parse successfully and 11 fail closed: six have invalid boxes and five have invalid probability sums. We extracted usage even from raw responses that failed parsing, for totals of 3,199,297 input and 73,284 output tokens. The recorded Jev input price is $0.042 per million tokens, with output tokens listed as free (TypeSafe AI 2026). On that basis, estimated cost is $0.134370, or about $0.0001413 per HTTP-200 response. This estimate uses the published rate; it is not a provider invoice. The synthetic study cost approximately $0.019235. Across valid and malformed HTTP-200 responses, mean latency is 459 ms and p95 is 628 ms. Including setup rejections gives a mean of 456 ms.
+Discussion
+The study exposes a gap between discrimination on authored templates and usefulness on real interfaces. Native semantic confidence may reject clear synthetic duplicates while transferring poorly to small controls and underspecified real instructions. Near-universal abstention can also make marginal error look low. The provenance audit shows why a strong-looking mixed result needs to be separated by source before it can support a generalization claim.
+Annotation limitations. Agreement on target status is below 80%. For flagged cases, the final labels follow reviewer-approved Annotator B decisions rather than decisions from a separate third adjudicator. This provenance cannot by itself establish the reliability of independent review. We have prepared a blinded audit package of 100 cases, comprising 60 flagged and 40 consensus cases, for a human reviewer. We do not claim any completed third-review results. Later label changes must be released as a new dataset version and analysed as a clearly identified sensitivity cohort.
+Cohort limitations.
+Absent targets dominate the real cohort (583/751). The unique labels come from human rechecking of instructions that were proposed as negatives.
+The cohort covers mobile, web and desktop interfaces. Offscreen and occluded cases are rare, leaving too few observations for stable conclusions about those strata.
+We cannot rule out training contamination because Jev’s public training data are unknown.
+Clustering by source image accounts for repeated template screenshots, although dependence within applications may persist.
+The subgroup diagnostics were devised after the mixed outcomes had been seen. No global correction for multiple comparisons was applied.
+Scope of the expansion. The reviewer-driven extension adds a five-pass Jev study with two prompt variants and a collection from a pinned local Qwen2.5-VL baseline. Both are complete and reported in Appendix C. One quantized baseline cannot establish robustness across model families or deployment configurations. We provide no formal control of risk under distribution shift. The recorded incorrect clicks are offline outcomes, not measurements of user harm; no real application action was executed. Further evidence will require independent adjudication, new balanced cases from real interfaces, and tests spanning more models and configurations.
+Conclusion
+On authored synthetic layouts, native presence and uniqueness signals substantially improve selective clicking. The real-interface results do not establish comparable usefulness. Once the 200 reused pilot cases are removed, the frozen logistic gate accepts only one of 751 real cases, while conditional risk for the three-signal policy is still 61.5%. What the study supports is a reproducible account of failed transfer, cohort provenance and safety metrics whose interpretation depends on the denominator. Under the tested interface, the quantized Qwen baseline has weaker strict localization, and neither model’s semantic one-label rule provides reliable acceptance. We have not established broader model superiority, formal safety or practical utility.
+Acknowledgements
+The authors thank Guruprasad N Gowda and Lalit Kumar Sureliya for their assistance with the dataset.
+Author contributions
+CRediT: Dr. Sowmya K S: [ROLES TBD]; Garvit Mundra: [ROLES TBD].
+Disclosure statement
+No potential conflict of interest was reported by the author(s). [CONFIRM]
+[IF APPLICABLE:] During the preparation of this work, the authors used [TOOL, VERSION] to [PURPOSE]. After using this tool, the authors reviewed and edited the content as needed and take full responsibility for the content of the published article.
+Funding
+This work is sponsored by B.M.S. College Of Engineering.
+ORCID
+Dr. Sowmya K S [ORCID TBD]; Garvit Mundra [ORCID TBD]
+Data availability statement
+API keys are held in environment variables and excluded from artifacts. Logs, frozen labels and policies remain unchanged; corrected accounting and post-hoc analyses are versioned separately. External images may contain names or other personal information, so screenshots and full annotation exports remain access-controlled until privacy and source-licence review. Public reproducibility material is therefore a manifest and code package with a restricted-data acquisition note, not an unrestricted image redistribution.
+The artifact contains raw synthetic and external API responses; label exports and source metadata; the image-hash overlap audit; a per-case decision ledger and full stratified CSVs; 2,000-resample intervals and source-cluster randomization tests; risk–coverage sweeps and reliability bins; cost assumptions and qualitative examples; and a shared-content manuscript builder. The offline analysis never imports an API client. A reproduction script runs on existing data only, with paid collection commands excluded. Repository: [PUBLIC REPOSITORY URL / DOI TBD].
+Ethics statement
+Two human annotators labelled screenshots; no user-facing application actions were executed. [ETHICS APPROVAL / EXEMPTION AND ANNOTATOR CONSENT TBD]
+References
+Angelopoulos, A. N., S. Bates, E. J. Candès, M. I. Jordan, and L. Lei. 2021. “Learn Then Test: Calibrating Predictive Algorithms to Achieve Risk Control.” arXiv preprint. https://arxiv.org/abs/2110.01052.
+Angelopoulos, A. N., S. Bates, A. Fisch, L. Lei, and T. Schuster. 2024. “Conformal Risk Control.” In International Conference on Learning Representations (ICLR). https://arxiv.org/abs/2208.02814.
+Feng, Y., et al. [FULL AUTHOR LIST] 2026. “CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation.” arXiv preprint. https://arxiv.org/abs/2604.09155.
+Geifman, Y., and R. El-Yaniv. 2017. “Selective Classification for Deep Neural Networks.” In Advances in Neural Information Processing Systems 30 (NeurIPS 2017). https://papers.neurips.cc/paper_files/paper/2017/hash/4a8423d5e91fda00bb7e46540e2b0cf1-Abstract.html.
+Kumar, D., et al. [FULL AUTHOR LIST] 2026. “Uncertainty Quantification for Computer-Use Agents: A Benchmark across Vision-Language Models and GUI Grounding Datasets.” arXiv preprint. https://arxiv.org/abs/2606.25760.
+Li, H., Y. Chen, and Z. Zhang. 2026. “GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction.” arXiv preprint. https://arxiv.org/abs/2604.23941.
+Li, K., et al. [FULL AUTHOR LIST] 2025. “ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use.” arXiv preprint. https://arxiv.org/abs/2504.07981.
+OpenAI. 2026a. “GPT-4o Model Documentation and Pricing.” Accessed October 23, 2026. https://developers.openai.com/api/docs/models/gpt-4o.
+OpenAI. 2026b. “Images and Vision: Tile-Based Image Tokenization.” Accessed October 23, 2026. https://developers.openai.com/api/docs/guides/images-vision.
+Qin, Y., et al. [FULL AUTHOR LIST] 2025. “UI-TARS: Pioneering Automated GUI Interaction with Native Agents.” arXiv preprint. https://arxiv.org/abs/2501.12326.
+Qwen Team. 2025. “Qwen2.5-VL Technical Report.” arXiv preprint. https://arxiv.org/abs/2502.13923.
+ScreenSpot-v2-variants. n.d. Dataset repository, pinned revision aa4d83b6833d77d3bb3b7cb769951e2db80052b6. Hugging Face. https://huggingface.co/datasets/likaixin/ScreenSpot-v2-variants.
+TypeSafe AI. 2026. “Introducing System One Models and Jev.” Accessed October 23, 2026. https://typesafe.ai/blog/introducing-system-one-models-and-jev.
+Wang, Q., Y. Fan, and X. E. Wang. 2026. “SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration.” arXiv preprint. https://arxiv.org/abs/2602.02419.
+Wu, Z., et al. [FULL AUTHOR LIST] 2024. “OS-ATLAS: A Foundation Action Model for Generalist GUI Agents.” arXiv preprint. https://arxiv.org/abs/2410.23218.
+Appendices
+Old → new numbering: Tables 8–16 → A1–A9; Figures 5–10 → Figure B1(a)–(f); Tables 17–24 → C1–C8; Table 25 → D1.
+Appendix A. Additional results and subgroup diagnostics
+Table A1. Held-out synthetic results (80 cases; 30 unique targets).
+Policy
+Accepted
+Incorrect
+Risk
+Unique automation
+B
+27
+10
+37.0%
+56.7%
+C
+22
+5
+22.7%
+56.7%
+D
+26
+0
+0.0%
+86.7%
+E
+29
+0
+0.0%
+96.7%
+Uniqueness
+30
+0
+0.0%
+100.0%
+On the synthetic test, B incorrectly accepts five multiple-target cases and five occluded cases. D and E accept no incorrect clicks, but they reject four and one correctly localized unique cases, respectively. Uniqueness-only accepts all 30 unique targets. For multiple targets, the difference from B to D is −50 percentage points; the originally reported Holm-adjusted p = .126 does not establish significance. The pilot gives a reason to test transfer, rather than grounds for a safety claim.
+Table A2. Descriptive mixed-cohort and reused-pilot results. The reused cohort includes fitting and calibration cases and supplies no independent transfer evidence.
+Cohort
+Policy
+Accepted
+Errors
+Coverage
+Risk
+Mixed
+B
+127
+61
+13.4%
+48.0%
+Mixed
+D
+92
+16
+9.7%
+17.4%
+Mixed
+E
+69
+0
+7.3%
+0.0%
+Mixed
+Uniqueness
+73
+1
+7.7%
+1.4%
+Reused
+B
+82
+33
+41.0%
+40.2%
+Reused
+D
+66
+0
+33.0%
+0.0%
+Reused
+E
+68
+0
+34.0%
+0.0%
+Reused
+Uniqueness
+71
+0
+35.5%
+0.0%
+Tables A3–A9 share one note: mixed cohort (n = 951); “synthetic, reused” denotes the explicitly reused cohort; target size applies only to unique cases; “—” means risk is undefined (no accepts).
+Table A3. Platform strata.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+Desktop
+B
+235
+11
+9
+4.7%
+81.8%
+Desktop
+D
+235
+7
+6
+3.0%
+85.7%
+Desktop
+E
+235
+0
+0
+0.0%
+—
+Mobile
+B
+258
+23
+12
+8.9%
+52.2%
+Mobile
+D
+258
+11
+5
+4.3%
+45.5%
+Mobile
+E
+258
+1
+0
+0.4%
+0.0%
+Web
+B
+258
+11
+7
+4.3%
+63.6%
+Web
+D
+258
+8
+5
+3.1%
+62.5%
+Web
+E
+258
+0
+0
+0.0%
+—
+Web (synthetic, reused)
+B
+200
+82
+33
+41.0%
+40.2%
+Web (synthetic, reused)
+D
+200
+66
+0
+33.0%
+0.0%
+Web (synthetic, reused)
+E
+200
+68
+0
+34.0%
+0.0%
+Table A4. Target-state strata. Offscreen and unclear rows each combine three identical rows, one per policy.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+Absent
+B
+640
+15
+15
+2.3%
+100.0%
+Absent
+D
+640
+7
+7
+1.1%
+100.0%
+Absent
+E
+640
+0
+0
+0.0%
+—
+Multiple
+B
+54
+21
+21
+38.9%
+100.0%
+Multiple
+D
+54
+0
+0
+0.0%
+—
+Multiple
+E
+54
+0
+0
+0.0%
+—
+Occluded
+B
+27
+13
+13
+48.1%
+100.0%
+Occluded
+D
+27
+0
+0
+0.0%
+—
+Occluded
+E
+27
+0
+0
+0.0%
+—
+Offscreen
+B / D / E
+5
+0
+0
+0.0%
+—
+Unclear
+B / D / E
+19
+0
+0
+0.0%
+—
+Unique
+B
+206
+78
+12
+37.9%
+15.4%
+Unique
+D
+206
+85
+9
+41.3%
+10.6%
+Unique
+E
+206
+69
+0
+33.5%
+0.0%
+Table A5. Target-size strata.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+Large (≥ 1%)
+B
+39
+9
+0
+23.1%
+0.0%
+Large (≥ 1%)
+D
+39
+7
+0
+17.9%
+0.0%
+Large (≥ 1%)
+E
+39
+2
+0
+5.1%
+0.0%
+Medium (0.1–1%)
+B
+158
+66
+9
+41.8%
+13.6%
+Medium (0.1–1%)
+D
+158
+75
+6
+47.5%
+8.0%
+Medium (0.1–1%)
+E
+158
+67
+0
+42.4%
+0.0%
+Small (< 0.1%)
+B
+9
+3
+3
+33.3%
+100.0%
+Small (< 0.1%)
+D
+9
+3
+3
+33.3%
+100.0%
+Small (< 0.1%)
+E
+9
+0
+0
+0.0%
+—
+Not unique
+B
+745
+49
+49
+6.6%
+100.0%
+Not unique
+D
+745
+7
+7
+0.9%
+100.0%
+Not unique
+E
+745
+0
+0
+0.0%
+—
+Table A6. Annotator-confidence strata (minimum of the two annotators).
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+High
+B
+830
+117
+55
+14.1%
+47.0%
+High
+D
+830
+90
+15
+10.8%
+16.7%
+High
+E
+830
+68
+0
+8.2%
+0.0%
+Medium
+B
+85
+6
+4
+7.1%
+66.7%
+Medium
+D
+85
+1
+1
+1.2%
+100.0%
+Medium
+E
+85
+1
+0
+1.2%
+0.0%
+Low
+B
+36
+4
+2
+11.1%
+50.0%
+Low
+D
+36
+1
+0
+2.8%
+0.0%
+Low
+E
+36
+0
+0
+0.0%
+—
+Table A7. Final-label provenance strata.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+Two-annotator consensus
+B
+692
+98
+40
+14.2%
+40.8%
+Two-annotator consensus
+D
+692
+74
+5
+10.7%
+6.8%
+Two-annotator consensus
+E
+692
+65
+0
+9.4%
+0.0%
+Reviewer-approved Annotator B
+B
+259
+29
+21
+11.2%
+72.4%
+Reviewer-approved Annotator B
+D
+259
+18
+11
+6.9%
+61.1%
+Reviewer-approved Annotator B
+E
+259
+4
+0
+1.5%
+0.0%
+Table A8. Source element-type strata.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+Icon
+B
+343
+19
+13
+5.5%
+68.4%
+Icon
+D
+343
+8
+4
+2.3%
+50.0%
+Icon
+E
+343
+1
+0
+0.3%
+0.0%
+Text
+B
+408
+26
+15
+6.4%
+57.7%
+Text
+D
+408
+18
+12
+4.4%
+66.7%
+Text
+E
+408
+0
+0
+0.0%
+—
+Synthetic UI element (reused)
+B
+200
+82
+33
+41.0%
+40.2%
+Synthetic UI element (reused)
+D
+200
+66
+0
+33.0%
+0.0%
+Synthetic UI element (reused)
+E
+200
+68
+0
+34.0%
+0.0%
+Table A9. Instruction-length strata.
+Stratum
+Policy
+N
+Accepted
+Errors
+Coverage
+Risk
+1–3 words
+B
+833
+115
+52
+13.8%
+45.2%
+1–3 words
+D
+833
+84
+10
+10.1%
+11.9%
+1–3 words
+E
+833
+68
+0
+8.2%
+0.0%
+4–7 words
+B
+118
+12
+9
+10.2%
+75.0%
+4–7 words
+D
+118
+8
+6
+6.8%
+75.0%
+4–7 words
+E
+118
+1
+0
+0.8%
+0.0%
+The machine-readable tables include strata by source dataset, every frozen ablation and state-specific denominator, and decompositions for both the mixed and real cohorts. We use these breakdowns to generate diagnostic hypotheses, not to claim independent significance. Element type comes from the source metadata for the original target. It may therefore differ from the type of the relabelled counterfactual target.
+Appendix B. Qualitative examples
+For each diagnostic condition, we select the first matching case by a deterministic rule. These examples do not form a representative sample.
+
+Figure B1. Deterministically selected qualitative examples from the real-interface cohort. Human reference boxes are green; valid predicted boxes are red. (a) Box false accept, ssv2v_desktop_106_neg, “check spelling”; human status absent; B = 1, D = 1, E = 0; IoU = 0.000. (b) Multiple rejected, ssv2v_web_306_neg, “set up MediaWiki”; human status multiple; B = 1, D = 0, E = 0; IoU = 0.000. (c) Absent rejected, ssv2v_desktop_0_neg, “save”; human status absent; B = 0, D = 0, E = 0; IoU = 0.000. (d) Correct accept, ssv2v_mobile_176_neg, “create a new task”; human status unique; B = 1, D = 1, E = 1; IoU = 0.814. (e) Schema failure, ssv2v_desktop_109_neg, “update protection”; human status absent; strict parser error (Choice probabilities do not sum to one); B = 0, D = 0, E = 0. (f) False rejection, ssv2v_desktop_101_neg, “upload”; human status unique; B = 1, D = 0, E = 0; IoU = 0.755. An absent-target case has no valid human reference box.
+Appendix C. Label sensitivity and recalibration
+We designed this extension after examining the original real-interface outcomes. It examines the base grounder, the gate and the sensitivity of results to annotation. The original policy definitions and final labels stay frozen. Estimates from the new splits are exploratory: dividing the data retrospectively does not produce an untouched confirmatory test.
+C.1 Label and geometry sensitivity
+Table C1. Frozen accepts evaluated under alternative human references. Consensus-only changes the evaluation population and is not directly comparable in magnitude.
+Labels
+Policy
+N
+Accepted
+Errors
+Risk
+Final
+B
+751
+45
+28
+62.2%
+Final
+D
+751
+26
+16
+61.5%
+Final
+E
+751
+1
+0
+0.0%
+A only
+B
+751
+45
+22
+48.9%
+A only
+D
+751
+26
+15
+57.7%
+A only
+E
+751
+1
+0
+0.0%
+B only
+B
+751
+45
+28
+62.2%
+B only
+D
+751
+26
+16
+61.5%
+B only
+E
+751
+1
+0
+0.0%
+Consensus only
+B
+515
+20
+8
+40.0%
+Consensus only
+D
+515
+12
+5
+41.7%
+Consensus only
+E
+515
+1
+0
+0.0%
+We map A-only and B-only boxes using the recorded image scale and padding applied to the final labels. Consensus-only uses the original subset on which the two annotators agreed and excludes flags resolved through reviewer decisions. This analysis measures sensitivity to the observed labels; it supplies no model-based bound on unknown true risk. Differences in error across label choices support the need for the pending independent audit.
+Table C2. Final human labels, real 751: localization-criterion sensitivity. IoU ≥ 0.3 uses overlap alone; strict uses centre-in-box and IoU ≥ 0.5 (Equation 4).
+Criterion
+Policy
+Correct boxes (/131 unique)
+Accepted
+Errors
+Risk
+Strict
+B
+41
+45
+28
+62.2%
+Strict
+D
+41
+26
+16
+61.5%
+Strict
+E
+41
+1
+0
+0.0%
+IoU ≥ 0.3
+B
+64
+45
+24
+53.3%
+IoU ≥ 0.3
+D
+64
+26
+12
+46.2%
+IoU ≥ 0.3
+E
+64
+1
+0
+0.0%
+Centre-only
+B
+77
+45
+23
+51.1%
+Centre-only
+D
+77
+26
+11
+42.3%
+Centre-only
+E
+77
+1
+0
+0.0%
+Both annotators label 98 real cases unique. Across these cases, mean IoU between their boxes is 0.512. The boxes meet IoU ≥ 0.3 in 79.6% of cases, IoU ≥ 0.5 in 61.2%, and IoU ≥ 0.75 in 19.4%. A’s box centre falls within B’s box in 81.6%; reversing the direction gives 88.8%. These agreement rates provide a conditional annotation reference. They exclude status disagreements, use no independently verified true boxes, and cannot define an absolute ceiling for either humans or models.
+C.2 Brier skill and threshold-free ranking
+For scores sᵢ, binary outcomes yᵢ and a constant reference prediction c, the Brier skill score is Equation (C1). The retrospective reference sets c to the evaluated positive prevalence (an optimistic in-sample reference); the deployment-oriented reference uses prevalence estimated only from valid real calibration outputs. The all-real E_real row mixes fitting and non-fitting cases and is diagnostic only; its test-only row is the relevant recovery estimate.
+
+
+(C1)
+Table C3. Brier loss and skill under the strict correctness event. Higher skill is better; negative skill is worse than the constant.
+Scope
+Score
+Brier
+Retrospective constant
+Skill
+Calibration-constant skill
+All valid real
+B
+0.1630
+0.0523
+−2.115
+−2.101
+All valid real
+E
+0.0613
+0.0523
+−0.170
+−0.165
+All valid real
+E_real
+0.0450
+0.0523
+0.141
+0.145
+Test valid
+B
+0.1591
+0.0653
+−1.438
+−1.404
+Test valid
+E
+0.0734
+0.0653
+−0.126
+−0.110
+Test valid
+E_real
+0.0582
+0.0653
+0.108
+0.120
+When correct localizations are rare, low ECE is not sufficient. For the 740 valid real outputs, positive prevalence is 41/740 and the corresponding constant predictor has Brier loss 0.05234. Original E has loss 0.06125 and skill −0.170. On the exploratory held-out valid subset, real-fitted E_real lowers Brier loss to 0.05822, compared with 0.07345 for original E and 0.06616 for the calibration-prevalence constant. The skill relative to that constant is 12.0%. This improves probability estimation without demonstrating a usable automation policy at 10% risk.
+Table C4. Threshold-free metrics on 740 valid real outputs, with 95% intervals from 1,000 source-cluster resamples. Higher AUROC and lower AURC are better.
+Score
+AUROC [95% CI]
+AURC [95% CI]
+B
+0.869 [0.820, 0.913]
+0.859 [0.816, 0.900]
+C
+0.843 [0.787, 0.897]
+0.865 [0.825, 0.906]
+D
+0.837 [0.780, 0.890]
+0.866 [0.825, 0.905]
+E
+0.869 [0.826, 0.910]
+0.861 [0.820, 0.902]
+Uniqueness
+0.861 [0.810, 0.904]
+0.864 [0.823, 0.904]
+AURC integrates right-continuous threshold risk over the observed coverage range. Equal scores enter together, so no arbitrary ordering is imposed within a tie. Separate machine-readable results include all cases, placing parser failures below valid scores, and the subset of valid unique-target cases. B and E have almost identical AUROC. Their intervals overlap and their AURC values are similar, giving no evidence of strong additional discrimination from the extra native signals on real interfaces. These metrics describe ranking quality, rather than calibrated risk or downstream harm.
+C.3 Real-data recalibration
+Partition. We assign source images to fitting, calibration and test sets deterministically with a seeded hash. A screenshot can appear in only one partition. The fit partition contains 296 cases from 292 source clusters; calibration contains 226 from 218 clusters; test contains 229 from 220 clusters. E_real is a new L2 logistic diagnostic trained only on valid fitting outputs. The original E remains frozen and is not replaced.
+Learn then Test. For Learn then Test (Angelopoulos et al. 2021), the threshold grid is fixed at Λ = {0, 0.05, …, 1}, i.e. 21 thresholds. For threshold λⱼ ∈ Λ, let Kⱼ be the number of accepted calibration cases and Eⱼ the number of incorrect ones. We test the null hypothesis that conditional accepted-error risk is at least α = 0.10 with the one-sided exact binomial lower-tail p-value in Equation (C2), where δ = 0.05 and M = 126 (21 thresholds × 6 scores) applies Bonferroni correction. To address within-screenshot dependence, one case is independently hash-selected from every source cluster, using no labels. Certified thresholds maximise calibration acceptance within the passing family; if none passes, the procedure abstains.
+
+
+(C2)
+A threshold with Eⱼ = 0 passes only if 0.9^Kⱼ ≤ 0.05/126, i.e. only with Kⱼ ≥ 75 error-free accepts.
+The binomial guarantees concern the sampled-cluster distribution. They depend on independent, identically distributed source clusters and a fixed calibration protocol. We cannot establish those assumptions fully after inspecting the data. Certification in this analysis is consequently a property of the stated diagnostic procedure, rather than a guarantee for deployment.
+Empirical comparator. The comparator selects the greatest calibration acceptance with observed risk no higher than 10%; it provides no statistical guarantee. Under the strict criterion, neither this comparator nor LTT finds a qualifying threshold for any of the six scores. The recovery experiment therefore fails to demonstrate useful automation at the specified 10% risk target. Testing a different risk budget or correctness criterion would require a separate, explicitly identified analysis, rather than a choice made from test outcomes.
+Table C5. Exploratory recovery on 229 test cases. Zero accepts means undefined selective risk, not zero risk.
+Score
+Empirical accepts
+LTT accepts
+Incorrect accepts
+B
+0
+0
+0
+C
+0
+0
+0
+D
+0
+0
+0
+E
+0
+0
+0
+Uniqueness
+0
+0
+0
+E_real
+0
+0
+0
+There are 220 cases in the source-selected test unit. We also retain descriptive metrics for the full 229-case test set. Recalibration may improve probabilities or change which scores pass a rejection threshold, but it cannot supply a correct box where the grounder produced none. Only 41/131 unique real cases meet the strict localization rule in the original pass. The limitation here is weak base localization; it does not imply that rejection is itself inappropriate.
+C.4 Repeatability and model comparison
+Protocol. For the repeat study, we add four passes with the original prompt over the 751 real cases, giving five passes when the existing collection is included. Two prewritten prompt variants bring the plan to 4,506 additional requests. Each new request has a separate repeat/prompt ID and an immutable protocol hash. Once an ID has a non-auth attempt, it is not silently resent, including after a timeout or malformed output. All 7/7 pass/variant cohorts are complete at manuscript generation; headline metrics exclude partial collections.
+Stability. Correctness changes across the five original-prompt passes in 15/751 cases. The mean per-case fraction assigned the modal match-count label is 0.976. The frozen acceptance decision changes for B in 26/751 cases, for D in 17/751 and for E in 1/751. Mean pairwise box IoU is 0.711 over 7,315 valid within-case output pairs; pairs containing malformed outputs are excluded. We retain between-pass metrics separately from per-case consistency. Repeated observations are never pooled as independent screenshots.
+Additional collection. The completed extension contains 4,506 attempts and 67 fail-closed outputs. Recorded usage totals 16,457,448 input tokens and 346,928 output tokens. Including usage recorded for malformed responses, the estimated additional cost is $0.691213 at the recorded rate, with output tokens free. We did not automatically repeat any failed attempt.
+Pass results. B accepts 43–47 cases across the five original-prompt passes, while D accepts 21–26. Conditional risk for D ranges from 57.1% to 71.4%; E accepts 0–1 cases. With the literal prompt, D accepts 24 and makes 15 errors. With the conservative prompt, it accepts 32 and makes 23 errors. Changing the prompt does not restore useful coverage at low risk with the frozen thresholds. These repeats describe variation within cases and add no independent test screens.
+Table C6. Completed Jev pass metrics (751 cases each). Errors are incorrect accepts; malformed responses remain in coverage denominators. Restructured from long to wide format; values unchanged.
+Pass
+B accepted / errors (risk)
+D accepted / errors (risk)
+E accepted / errors (risk)
+Original r1
+45 / 28 (62.2%)
+26 / 16 (61.5%)
+1 / 0 (0.0%)
+Original r2
+47 / 30 (63.8%)
+23 / 14 (60.9%)
+1 / 0 (0.0%)
+Original r3
+43 / 29 (67.4%)
+21 / 13 (61.9%)
+1 / 0 (0.0%)
+Original r4
+47 / 28 (59.6%)
+21 / 12 (57.1%)
+1 / 0 (0.0%)
+Original r5
+44 / 29 (65.9%)
+21 / 15 (71.4%)
+0 / 0 (—)
+Literal r1
+55 / 39 (70.9%)
+24 / 15 (62.5%)
+0 / 0 (—)
+Conservative r1
+37 / 27 (73.0%)
+32 / 23 (71.9%)
+0 / 0 (—)
+Qwen baseline configuration. We pin the same-input baseline to Qwen2.5-VL-7B (Qwen Team 2025), run it through Ollama and record the model digest. It uses Q4_K_M quantization, deterministic decoding with seed 1729, context length 4,096 and at most 180 output tokens. We froze the prompt and JSON schema before collecting the first response. The prompt forces a box and asks for verbalised presence, uniqueness and box-confidence scores. These scores are prompted self-reports, unlike Jev’s native probabilities. Requests run serially on an 18 GiB Apple arm64 Mac. Because local compute and energy costs are unmeasured, the API charge is not treated as total economic cost.
+Table C7. Completed same-data comparison on 751 real cases. Both models use the same prepared images; strict correctness follows Equation (4).
+Model
+Valid
+Strict (/131 unique)
+IoU ≥ 0.3 (/131)
+Centre (/131)
+One-label accepts / errors
+Jev
+740
+41
+64
+77
+194 / 163
+Qwen
+694
+22
+34
+67
+604 / 583
+Table C8. Same-input strict localization under alternative human references. Consensus-only is a smaller selected population, not a noise bound.
+Reference
+Cases
+Unique targets
+Jev correct / unique
+Qwen correct / unique
+Final
+751
+131
+41/131
+22/131
+A only
+751
+200
+55/200
+18/200
+B only
+751
+131
+41/131
+20/131
+Consensus only
+515
+55
+20/55
+15/55
+Each human reference gives the same ordering of strict accuracy, although annotation choice substantially changes the absolute performance and even the number of unique targets. This supports further auditing of labels; it does not prove that any reference is correct. The machine-readable sensitivity table also retains centre-only and IoU ≥ 0.3 results.
+Qwen latency and integrity. Mean time from a local Qwen request to its full response is 11.34 s, and p95 is 16.67 s, including the cold first call. These measurements describe the local quantized deployment; they do not represent a hosted service or a comparison at matched hardware. Jev and Qwen use matching hashes for all 951 input images. The pinned Qwen model/protocol hashes also remain unchanged through the resumed collection. Each of the 62 baseline failures violates box geometry. The artifact includes the completed per-case comparison ledger and paired bootstrap intervals. We resumed collection after 446 attempts without rerunning any earlier logged input.
+New candidate pool. We constructed a source-disjoint pool of 180 tasks using 60 ScreenSpot-Pro screenshots (Li et al. 2025). It contains 60 source-positive instructions, 60 cross-application absent candidates and 60 generic multiple-target candidates. We reject file-name and decoded-pixel duplicates of the previous 951 cases. These categories describe construction, not verified target states. Final labels require two blind human passes and independent adjudication before confirmatory inference. This professional desktop source adds a domain; it does not form a balanced mobile/web/desktop sample. We collect no model predictions before labelling.
+Pending human tasks. The independent audit of 100 cases, including 60 flagged and 40 consensus cases, still requires human responses. An annotation package and automated analysis cannot replace that work. Any future labels must define a versioned sensitivity cohort while the frozen experiment is retained.
+Appendix D. Published VLM and price context
+GoClick (Li, Chen, and Zhang 2026, Table 3) reports point grounding on standard ScreenSpot-v2. Local timing uses one L20 GPU, batch size one and 360 × 780 images. The task distribution and timing definitions differ from those in our matched-input experiment. We therefore include these values as historical context, without treating them as new tests or ranking the models.
+Table D1. Published model context versus our measurement. Different datasets, metrics and timing definitions prevent a head-to-head ranking.
+Model / evidence
+Accuracy / scoring set
+Timing
+Cost evidence
+GPT-4o (Li, Chen, and Zhang 2026)
+20.4%, standard ScreenSpot-v2 point
+Not reported
+Official rate (OpenAI 2026a); scenario below
+Qwen2-VL-7B (Li, Chen, and Zhang 2026)
+66.9%, same published benchmark
+118.9 ms TTFT; 21.2 ms/token
+Local GPU bill not reported
+UGround (Li, Chen, and Zhang 2026)
+76.5%, same published benchmark
+1,034.6 ms TTFT; 27.9 ms/token
+Local GPU bill not reported
+Jev, our real unique cases
+58.8% centre-only; 31.3% strict
+459 ms mean full response
+Recorded-rate estimate, 951 calls
+Timing definitions. Published local measurements distinguish time to first token (TTFT) from time per output token (TPOT). Our measurements instead cover the full HTTP response. For L output tokens, approximate local generation time is TTFT + (L − 1) × TPOT. The selected study gives no comparable timing for GPT-4o, so it cannot establish a Jev speedup.
+GPT-4o price scenario. The official input/output prices are $2.50/$10 per million tokens (OpenAI 2026a). Applying the documented high-detail image rules (OpenAI 2026b) to our prepared image dimensions gives 992,205 image tokens for 951 cases. If each case also uses 250 text-input tokens and 80 output tokens, the estimated bill is $3.835688. The assumed prompt lengths were not measured, and this scenario supplies neither a GPT-4o bill nor an accuracy result.

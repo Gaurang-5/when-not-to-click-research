@@ -1,0 +1,332 @@
+[
+  {
+    "original_paragraph": 4,
+    "before": "Graphical user interface (GUI) agents must decide not only where to click but whether the requested control exists and is uniquely identified. We audit a pinned native visual interface, Jev 1.14, that returns a visible-presence probability, a match-count distribution and one bounding box per request. We evaluate frozen selective-execution policies built from these scores. On held-out synthetic layouts, presence- and uniqueness-gated policies made no incorrect accepted clicks, but this did not transfer. A source audit showed that 200 of 951 human-labelled cases reused pilot screenshots. On the 751 independent real-interface cases, the three-signal policy accepted 26 cases with 61.5% conditional risk, and the frozen logistic gate accepted one case. Strict localization was correct for 41 of 131 unique targets (31.3%). This bounds any gate to about 6.1% coverage at 10% accepted-error risk. Real-data recalibration improved Brier loss but found no threshold meeting a 10% risk target. A matched-input quantized Qwen2.5-VL-7B baseline reached 16.8% strict accuracy. The contribution is a reproducible audit of transfer failure, denominator-sensitive safety metrics and cohort provenance, not a new uncertainty-control algorithm.",
+    "after": "A graphical user interface (GUI) agent needs to establish that a requested control is present and uniquely identified before deciding where to click. We examine the native scores returned by a pinned visual interface, Jev 1.14: a visible-presence probability, a match-count distribution and one bounding box per request. These scores form the basis of frozen selective-execution policies. Presence and uniqueness gates made no incorrect accepted clicks on held-out synthetic layouts. The result did not carry over to real interfaces. A source audit found that 200 of the 951 human-labelled cases reused pilot screenshots. Among the 751 independent real-interface cases, the three-signal policy accepted 26 with a conditional risk of 61.5%; the frozen logistic gate accepted one. Strict localization succeeded on 41 of 131 unique targets (31.3%), limiting any gate to about 6.1% coverage at 10% accepted-error risk. Recalibration on real data improved Brier loss, but no threshold met the 10% risk target. A quantized Qwen2.5-VL-7B baseline tested on matched inputs achieved 16.8% strict accuracy. We contribute a reproducible audit of transfer failure, the dependence of safety metrics on their denominators, and cohort provenance. We do not introduce a new uncertainty-control algorithm."
+  },
+  {
+    "original_paragraph": 7,
+    "before": "A screen coordinate answers where a model would click. It does not establish whether the requested control exists or is uniquely identified. Missing, duplicated, occluded and offscreen targets create different decision problems. We study a pinned native visual interface that returns three outputs per request: a presence score, a caller-defined match-count distribution, and one bounding box. We address four research questions:",
+    "after": "Knowing where a model would click does not tell us whether the requested control exists or whether it has been identified uniquely. An absent target calls for a different decision from a duplicated, occluded or offscreen target. The pinned native visual interface studied here returns a presence score, a caller-defined match-count distribution and one bounding box in the same request. We examine these outputs through four research questions:"
+  },
+  {
+    "original_paragraph": 12,
+    "before": "The contribution is a reproducible audit of a native model interface, its transfer limitations and a matched-input baseline. We do not propose a new uncertainty-control algorithm.",
+    "after": "Our contribution is an audit that can be reproduced: it examines a native model interface, documents the limits of transfer and includes a baseline evaluated on matched inputs. It does not propose a new uncertainty-control algorithm."
+  },
+  {
+    "original_paragraph": 13,
+    "before": "“Related work” reviews prior work. “Materials and methods” defines the policies, data, annotation and evaluation protocol. “Results” reports transfer, calibration and model-comparison findings, which are interpreted in “Discussion”. “Conclusion” summarises the defensible claims.",
+    "after": "The related-work section places the study in its research context. Materials and methods describes the policies, data, annotation and evaluation protocol. Results reports the transfer, calibration and model comparisons; Discussion interprets them. Conclusion sets out the claims supported by the evidence."
+  },
+  {
+    "original_paragraph": 17,
+    "before": "Our narrower evidence concerns three native scores from Jev 1.14 and the limitations of a synthetic-to-real evaluation. Appendix D gives published VLM performance as context rather than as an experiment on our labels.",
+    "after": "We focus on the three native scores exposed by Jev 1.14 and on what a synthetic-to-real evaluation can establish. Appendix D includes published VLM results for context. Those results were not obtained using our labels."
+  },
+  {
+    "original_paragraph": 20,
+    "before": "Every primary-study request pins model version jev-1.14.0 with prompt presence-count-box-v1. Appendix C.4 separately specifies the repeat and prompt-variant protocol.",
+    "after": "All primary-study requests use the pinned model version jev-1.14.0 and prompt presence-count-box-v1. The separate protocol for repeated requests and prompt variants is specified in Appendix C.4."
+  },
+  {
+    "original_paragraph": 58,
+    "before": "This is a coverage-selection rule, not a calibrated risk guarantee. No external labels are used to refit these original policies; “Calibration and decision analysis” reports a separately named real-fitted diagnostic.",
+    "after": "The rule selects coverage; it does not calibrate or guarantee risk. We keep the original policies fixed and do not refit them using external labels. The real-fitted diagnostic reported under “Calibration and decision analysis” is a separate analysis."
+  },
+  {
+    "original_paragraph": 67,
+    "before": "Risk is undefined when no cases are accepted, and is never reported as zero for an empty set. R̂ is conditional on acceptance, while M̂ is marginal over all cases.",
+    "after": "When no cases are accepted, risk is undefined. We do not assign zero risk to an empty acceptance set. R̂ conditions on acceptance, whereas M̂ uses all cases as its denominator."
+  },
+  {
+    "original_paragraph": 72,
+    "before": "These events are distinct, so the scores must not be read as interchangeable probabilities.",
+    "after": "Because each score refers to a different event, the scores cannot be interpreted as interchangeable probabilities."
+  },
+  {
+    "original_paragraph": 74,
+    "before": "Synthetic pilot. The pilot has 25 templates in five layout families, eight state variants per template, and procedural geometry labels. The splits are development (80 cases: sidebar and kanban layouts), calibration (40 cases: tables) and held-out test (80 cases: dialogs and toolbars). Each template contributes three unique cases and one case each of absent, multiple, occluded, offscreen and unclear. The synthetic experiment issued 200 calls without retries, and 199 parsed successfully. One development zero-width box failed closed.",
+    "after": "Synthetic pilot. We generated procedural geometry labels for 25 templates spanning five layout families, with eight state variants for each template. Development uses 80 cases from sidebar and kanban layouts; calibration uses 40 table cases; the held-out test uses 80 dialog and toolbar cases. Each template supplies three unique cases and one case in each of the absent, multiple, occluded, offscreen and unclear states. We made 200 calls without retries. Of these, 199 parsed successfully; a zero-width box in the development split failed closed."
+  },
+  {
+    "original_paragraph": 75,
+    "before": "Annotation. Two annotators independently labelled the same 951 cases without seeing model predictions. For each case they chose one of six target states, boxed all valid visible targets for unique and multiple cases, and recorded their confidence. Both corrected exports pass structural validation.",
+    "after": "Annotation. Two annotators labelled the same 951 cases independently, without access to model predictions. They assigned one of six target states to each case, drew boxes around every valid visible target in unique and multiple cases, and recorded their confidence. Structural validation passed for both corrected exports."
+  },
+  {
+    "original_paragraph": 78,
+    "before": "A deterministic rule flags a case if any of the following holds: status disagreement, box-count disagreement, matched IoU below 0.5, or low confidence. It flags 259 cases, and the reasons overlap. At the authors’ direction, the reviewer-approved Annotator B decision is final for flagged cases. The other 692 cases use consensus status and, where localizable, matched-coordinate means.",
+    "after": "We flag cases deterministically for status disagreement, disagreement about the number of boxes, matched IoU below 0.5, or low confidence. This identifies 259 cases; a case may have more than one reason for being flagged. For these cases, the authors directed that the reviewer-approved Annotator B decision be used as final. The remaining 692 cases use the consensus status and, when localization is possible, the mean of matched box coordinates."
+  },
+  {
+    "original_paragraph": 79,
+    "before": "Source audit. An offline source audit found that 200 of the 951 human-labelled cases reuse exactly the same screenshot bytes and instructions as the pilot: 80 development, 40 calibration and 80 held-out cases. These cannot supply independent external evidence. We therefore report all 951 only as a mixed descriptive cohort, and separately analyse the 751 ScreenSpot-v2-variant real-interface cases (ScreenSpot-v2-variants n.d.; Figure 1).",
+    "after": "Source audit. We checked source provenance offline and found that 200 of the 951 human-labelled cases repeated both the screenshot bytes and the instructions from the pilot. They comprise 80 development, 40 calibration and 80 held-out cases. Since these repeats cannot provide independent external evidence, we treat the full 951-case collection as descriptive and report it as a mixed cohort. We analyse the 751 ScreenSpot-v2-variant real-interface cases separately (ScreenSpot-v2-variants n.d.; Figure 1)."
+  },
+  {
+    "original_paragraph": 80,
+    "before": "The subset analysis was added after inspecting the mixed results, so it is an explicit post-hoc provenance correction, not a new preregistered experiment. The real subset consists of source-proposed negative instructions rechecked by humans; 131 were ultimately labelled unique, which shows why automatic negative labels were insufficient. This subset is not the standard positive-target ScreenSpot-v2 test set.",
+    "after": "We added this subset analysis after examining the mixed results. It is therefore a post-hoc correction of provenance, not a new preregistered experiment. Humans rechecked the negative instructions proposed by the source; 131 received a final label of unique. This finding explains why the automatic negative labels could not be used on their own. The subset should not be confused with the standard ScreenSpot-v2 test set of positive targets."
+  },
+  {
+    "original_paragraph": 113,
+    "before": "The main experimental policy definitions remain unchanged. We report strict localization (Equation 4); centre-only accuracy as a secondary metric; accepted-error risk and marginal error (Equation 6); state-specific acceptance; and useful automation among unique cases.",
+    "after": "We retain the original experimental policy definitions. Evaluation covers strict localization (Equation 4), secondary centre-only accuracy, accepted-error risk and marginal error (Equation 6), acceptance within each target state, and useful automation among unique cases."
+  },
+  {
+    "original_paragraph": 114,
+    "before": "Confidence intervals use 2,000 nonparametric source-image cluster bootstrap resamples with seed 1729. Repeated instructions that share a screenshot are resampled together. Each ratio is recomputed after resampling; undefined replicates are omitted and their count is retained. Primary comparison tests flip paired source-cluster effects using 10,000 randomizations. Holm adjustment covers the absent and multiple endpoints within each cohort.",
+    "after": "We form confidence intervals from 2,000 nonparametric bootstrap resamples of source-image clusters, using seed 1729. Instructions referring to the same screenshot stay together during resampling. We recompute each ratio in every resample, omit undefined replicates and retain the number omitted. The primary paired comparisons use 10,000 randomizations that flip source-cluster effects. Within each cohort, Holm adjustment covers the absent and multiple endpoints."
+  },
+  {
+    "original_paragraph": 115,
+    "before": "The real-only comparisons and all new subgroup, calibration, entropy and curve analyses are exploratory. The absent-target adjusted p = .0476 is borderline under this exploratory family and supports no central claim. The two-endpoint Holm adjustment does not cover the full collection of diagnostic analyses. Percentile bootstrap intervals are descriptive and can be unreliable with few accepted cases. A zero-error bootstrap interval is degenerate because resampling cannot create unseen errors; it is not evidence of a true zero risk.",
+    "after": "The real-only comparisons are exploratory, as are the new subgroup, calibration, entropy and curve analyses. The adjusted absent-target p = .0476 is borderline within this exploratory family and does not support a central claim. Holm adjustment for two endpoints does not account for the full set of diagnostic analyses. We use percentile bootstrap intervals descriptively; with few accepted cases, they may be unreliable. Resampling an error-free set cannot introduce an unseen error, so a degenerate zero-error interval does not demonstrate zero true risk."
+  },
+  {
+    "original_paragraph": 155,
+    "before": "The mixed-cohort zero-error logistic result is dominated by reused synthetic inputs: 68 of its 69 accepted cases come from the reused group. On the 751 real interfaces, E accepts one correct mobile case (0.13% coverage); D accepts 26 cases with 16 errors (61.5% risk); and B accepts 45 cases with 28 errors (62.2% risk). Reducing the absolute number of errors through abstention does not establish lower conditional risk or useful transfer (Figure 2).",
+    "after": "Reused synthetic inputs account for most of the error-free logistic result in the mixed cohort: 68 of its 69 accepted cases belong to the reused group. Restricting evaluation to the 751 real interfaces leaves E with one correctly accepted mobile case and 0.13% coverage. D accepts 26 cases, makes 16 errors and has 61.5% risk. B accepts 45, makes 28 errors and has 62.2% risk. Abstention reduces the number of errors, but that reduction alone establishes neither lower conditional risk nor useful transfer (Figure 2)."
+  },
+  {
+    "original_paragraph": 158,
+    "before": "For real unique targets, strict localization is correct in 41/131 cases (31.3%); IoU ≥ 0.75 occurs in 12/131 (9.2%); mean IoU is 0.327; and the secondary centre-only criterion is satisfied in 77/131 (58.8%). The large gap shows how sensitive apparent accuracy is to the scoring rule, so box acceptance and safe selection should be evaluated separately.",
+    "after": "Under strict localization, 41/131 unique real targets are correct (31.3%). IoU ≥ 0.75 holds for 12/131 (9.2%), and mean IoU is 0.327. The secondary centre-only criterion is met in 77/131 cases (58.8%). The scoring rule thus changes apparent accuracy considerably. This is why we evaluate acceptance of a box separately from safe target selection."
+  },
+  {
+    "original_paragraph": 176,
+    "before": "On real absent targets, B accepts 15/583 cases and D accepts 7/583, a case-weighted difference of −1.37 percentage points (exploratory two-endpoint Holm-adjusted cluster-sign p = .0476). On real multiple targets, acceptance changes from 1/29 to 0/29 (adjusted p = 1.0). The much larger mixed-cohort multiple-target reduction, from 21/54 to 0/54, comes mostly from reused synthetic examples, so its mixed-cohort significance does not establish a real-interface ambiguity result.",
+    "after": "For absent real targets, B accepts 15/583 cases and D accepts 7/583. The case-weighted difference is −1.37 percentage points (exploratory two-endpoint Holm-adjusted cluster-sign p = .0476). For multiple real targets, acceptance falls from 1/29 to 0/29 (adjusted p = 1.0). The corresponding reduction in the mixed cohort, from 21/54 to 0/54, is much larger because it draws mainly on reused synthetic examples. Significance in that mixed cohort cannot establish an ambiguity result for real interfaces."
+  },
+  {
+    "original_paragraph": 190,
+    "before": "The completed repeat study reinforces this low-coverage result. Across five original-prompt passes, D accepts 21–26 real cases with 57.1–71.4% conditional risk, while E accepts 0–1 cases. Both prewritten prompt variants leave E with no accepts. These repetitions assess prediction stability; they do not increase the number of independent source images. Appendix C.4 reports all pass metrics, failures and additional cost.",
+    "after": "The completed repeat study also yields low coverage. Across five passes with the original prompt, D accepts 21–26 real cases at 57.1–71.4% conditional risk, and E accepts 0–1. E accepts nothing under either prewritten prompt variant. Repeating a prediction allows us to assess its stability, but adds no independent source images. Appendix C.4 gives the metrics for every pass, along with failures and additional cost."
+  },
+  {
+    "original_paragraph": 192,
+    "before": "Base localization and rejection quality are distinct. On real unique targets, strict accuracy is 31.3%, rising to 58.8% under a centre-only rule, and IoU ≥ 0.3 alone gives 48.9%. Among real cases that both annotators label unique, only 61.2% of their boxes meet IoU ≥ 0.5. These human agreement rates are a conditional reference, not an absolute performance ceiling. Full label and criterion sensitivity appears in Appendix C.1.",
+    "after": "Rejection quality must be considered alongside base localization. Strict accuracy on unique real targets is 31.3%; a centre-only rule gives 58.8%, and IoU ≥ 0.3 alone gives 48.9%. Even where both annotators label a real case unique, only 61.2% of their boxes agree at IoU ≥ 0.5. This human agreement is a conditional reference, not an absolute ceiling on performance. Appendix C.1 gives the full sensitivity analysis for labels and scoring criteria."
+  },
+  {
+    "original_paragraph": 199,
+    "before": "Probability quality. Original E has Brier loss 0.06125, worse than the retrospective constant-prevalence predictor at 0.05234, giving a Brier skill of −0.170 (Equation C1). E’s low expected calibration error (ECE) therefore does not establish useful probability quality. B and E have nearly identical AUROC and overlapping source-cluster intervals, so the extra native signals show no strong added discrimination on this real cohort. Appendix C.2 reports the full ranking and Brier analysis.",
+    "after": "Probability quality. Original E has a Brier loss of 0.06125. The retrospective constant-prevalence predictor does better at 0.05234, leaving E with Brier skill −0.170 (Equation C1). Its low expected calibration error (ECE) is therefore insufficient evidence of useful probabilities. Nor do the extra native signals show strong additional discrimination: B and E have nearly the same AUROC, with overlapping source-cluster intervals on the real cohort. Appendix C.2 reports the ranking and Brier results in full."
+  },
+  {
+    "original_paragraph": 200,
+    "before": "Real-data recalibration. A source-separated fit/calibration/test diagnostic trains a new logistic score on real fitting data only. Test Brier loss improves from 0.07345 to 0.05822. However, neither an empirical calibration-risk rule nor the fixed Learn-then-Test procedure finds a qualifying threshold at 10% accepted-error risk. This negative recovery result separates improved probability estimation from useful low-risk acceptance. The retrospective design and source-distribution assumptions preclude a new confirmatory guarantee; Appendix C.3 details the procedure.",
+    "after": "Real-data recalibration. In a diagnostic with separate source images for fitting, calibration and testing, we train a new logistic score using only the real fitting data. Test Brier loss falls from 0.07345 to 0.05822. Yet neither the empirical calibration-risk rule nor the fixed Learn-then-Test procedure identifies a threshold that meets 10% accepted-error risk. Better probability estimates do not, in this experiment, yield useful acceptance at low risk. The retrospective design and assumptions about source distributions prevent a new confirmatory guarantee. Appendix C.3 describes the procedure."
+  },
+  {
+    "original_paragraph": 201,
+    "before": "Strata. The appendix reports strata by platform (desktop, mobile, web), status, target area, element type, instruction length, annotator confidence and label provenance. Target size is reference-box area divided by screenshot area, defined only for unique cases: small below 0.1%, medium 0.1–1%, large at least 1%. Annotator confidence is the lower of the two annotators’ confidences. Sparse strata are descriptive and are not used to tune policies.",
+    "after": "Strata. The appendix breaks down results by platform (desktop, mobile, web), target status, target area, element type, instruction length, annotator confidence and label provenance. For unique cases only, target size is the reference-box area divided by screenshot area: small is below 0.1%, medium is 0.1–1%, and large is at least 1%. We take annotator confidence to be the lower confidence of the two annotators. Results for sparse strata are descriptive; they play no part in policy tuning."
+  },
+  {
+    "original_paragraph": 206,
+    "before": "Low entropy can mean confidence in absence or in multiplicity; it is not equivalent to confidence in a safe click. Figure 4 shows the full risk–coverage sweeps, and Figure 5 the reliability diagrams.",
+    "after": "A low-entropy prediction may be confident that a target is absent or that several matches exist. It need not be confident that a click is safe. The complete risk–coverage sweeps appear in Figure 4, followed by reliability diagrams in Figure 5."
+  },
+  {
+    "original_paragraph": 246,
+    "before": "The independent Qwen2.5-VL-7B baseline uses the same 951 prepared images and human references. Input-image hashes and pinned model/protocol hashes match throughout. Primary accuracy uses only the 751 real cases, including 131 unique targets.",
+    "after": "For the independent Qwen2.5-VL-7B baseline, we use the same 951 prepared images and human references. All input-image hashes agree, and the pinned model/protocol hashes remain consistent throughout collection. We calculate primary accuracy on the 751 real cases, which include 131 unique targets."
+  },
+  {
+    "original_paragraph": 247,
+    "before": "The two deployments differ: Qwen uses Q4_K_M quantization through Ollama, a frozen forced-box JSON prompt and prompted confidence values, while Jev uses its native typed interface. No Jev-trained logistic coefficients are applied to Qwen. The comparison is limited to these interface and deployment choices.",
+    "after": "The deployments differ in their interfaces as well as their execution. Qwen runs through Ollama with Q4_K_M quantization, a frozen prompt that forces a box in JSON, and prompted confidence values. Jev exposes its native typed interface. We do not apply the logistic coefficients trained on Jev to Qwen. Our comparison is limited to these deployment and interface choices."
+  },
+  {
+    "original_paragraph": 272,
+    "before": "Strict accuracy is 31.3% for Jev and 16.8% for Qwen. The paired Qwen-minus-Jev strict difference is −14.5 percentage points (source-cluster 95% interval −22.2 to −7.3). Centre-only accuracy is closer, 58.8% versus 51.1%, and its difference interval reaches zero. The strict result favours the tested Jev interface on this cohort without establishing general model superiority (Figure 7).",
+    "after": "Jev achieves 31.3% strict accuracy, compared with 16.8% for Qwen. The paired strict difference, Qwen minus Jev, is −14.5 percentage points, with a source-cluster 95% interval of −22.2 to −7.3. Under the centre-only criterion the accuracies are closer, at 58.8% and 51.1%, and the interval for their difference includes zero. These results favour the tested Jev interface within this cohort; they do not establish that the model is generally superior (Figure 7)."
+  },
+  {
+    "original_paragraph": 273,
+    "before": "A shared semantic rule accepts a valid output only when the predicted match-count label is one. It accepts 194/751 Jev cases with 163 incorrect accepts, and 604/751 Qwen cases with 583 incorrect accepts. This deliberately simple common rule is separate from frozen policies B–E, and shows that a semantic “one” label alone is insufficient for reliable acceptance. Prompted Qwen scores are not native calibrated probabilities.",
+    "after": "We also apply a common semantic rule: accept a valid output only if its predicted match-count label is one. For Jev, this accepts 194/751 cases, including 163 incorrect accepts. For Qwen, it accepts 604/751, including 583 incorrect accepts. The rule is deliberately simple and is evaluated separately from the frozen B–E policies. Its results show that the semantic “one” label is insufficient for reliable acceptance. Qwen’s prompted scores should not be interpreted as native calibrated probabilities."
+  },
+  {
+    "original_paragraph": 274,
+    "before": "Failures. The 62 Qwen failures are out-of-bounds or degenerate boxes and remain fail-closed; 57 occur in the real subset. Jev has 11 malformed outputs in the original matched 951 collection, all in the real subset. No output repair or selective rerun was applied. The comparison evaluates the specified forced-box interfaces; it does not isolate the effects of model weights, quantization, structured decoding or coordinate prompting, and different model-specific optimization may change the results.",
+    "after": "Failures. All 62 Qwen failures contain out-of-bounds or degenerate boxes and fail closed; 57 belong to the real subset. Jev produces 11 malformed outputs in the original matched collection of 951, all within the real subset. We neither repair outputs nor rerun selected cases. The experiment compares the specified interfaces that force a box. It does not separate the contributions of model weights, quantization, structured decoding and coordinate prompting. Results may change with different optimization for each model."
+  },
+  {
+    "original_paragraph": 275,
+    "before": "Latency. Latency is wall-clock request-to-full-response time for each tested deployment. Hosted Jev and serial local Qwen use different hardware and execution stacks, so their observed times are not a hardware-normalised speed comparison. Both include malformed-response time. Local Qwen hardware and electricity are unpriced, so zero API charges do not imply zero economic cost. Published model numbers and GPT-4o price scenarios remain historical context in Appendix D.",
+    "after": "Latency. For each deployment, we measure elapsed wall-clock time from the request until the full response arrives, including time spent on malformed responses. Hosted Jev and serial local Qwen run on different hardware and software stacks. Their measured latencies therefore do not constitute a comparison at matched hardware. We have not priced the local Qwen hardware or electricity; no API charge does not mean no economic cost. Appendix D retains published model results and GPT-4o price scenarios as historical context."
+  },
+  {
+    "original_paragraph": 276,
+    "before": "Collection and cost. The external collection contains 951 HTTP-200 responses and 71 earlier credential rejections. Of the 951 responses, 940 parse and 11 fail closed (six invalid boxes and five invalid probability sums). Usage was extracted from raw responses even when parsing failed: 3,199,297 input and 73,284 output tokens. At the recorded Jev input rate of $0.042 per million tokens, with output tokens listed as free (TypeSafe AI 2026), estimated cost is $0.134370, about $0.0001413 per HTTP-200 response. This is a rate-based estimate rather than a provider invoice. Synthetic-study cost was approximately $0.019235. Mean HTTP-200 latency (valid or malformed) is 459 ms and p95 is 628 ms; including setup rejections gives a 456 ms mean.",
+    "after": "Collection and cost. The external collection records 951 HTTP-200 responses, preceded by 71 credential rejections. Among the 951 responses, 940 parse successfully and 11 fail closed: six have invalid boxes and five have invalid probability sums. We extracted usage even from raw responses that failed parsing, for totals of 3,199,297 input and 73,284 output tokens. The recorded Jev input price is $0.042 per million tokens, with output tokens listed as free (TypeSafe AI 2026). On that basis, estimated cost is $0.134370, or about $0.0001413 per HTTP-200 response. This estimate uses the published rate; it is not a provider invoice. The synthetic study cost approximately $0.019235. Across valid and malformed HTTP-200 responses, mean latency is 459 ms and p95 is 628 ms. Including setup rejections gives a mean of 456 ms."
+  },
+  {
+    "original_paragraph": 278,
+    "before": "The central result is the gap between authored-template discrimination and real-interface usefulness. Semantic confidence may reject obvious synthetic duplicates yet fail to transfer to underspecified real instructions and small controls. A low marginal error can be obtained through almost universal abstention. The source audit shows why an apparently strong mixed-cohort result must be decomposed before a generalization claim is made.",
+    "after": "The study exposes a gap between discrimination on authored templates and usefulness on real interfaces. Native semantic confidence may reject clear synthetic duplicates while transferring poorly to small controls and underspecified real instructions. Near-universal abstention can also make marginal error look low. The provenance audit shows why a strong-looking mixed result needs to be separated by source before it can support a generalization claim."
+  },
+  {
+    "original_paragraph": 279,
+    "before": "Annotation limitations. Status agreement is below 80%, and final labels for flagged cases follow reviewer-approved Annotator B rather than a separate third adjudicator, so independent review reliability cannot be inferred from this provenance alone. A blinded 100-case audit package (60 flagged and 40 consensus cases) is prepared for a human reviewer, but no third-review results are claimed. Changing labels later requires a new dataset version and a clearly marked sensitivity analysis.",
+    "after": "Annotation limitations. Agreement on target status is below 80%. For flagged cases, the final labels follow reviewer-approved Annotator B decisions rather than decisions from a separate third adjudicator. This provenance cannot by itself establish the reliability of independent review. We have prepared a blinded audit package of 100 cases, comprising 60 flagged and 40 consensus cases, for a human reviewer. We do not claim any completed third-review results. Later label changes must be released as a new dataset version and analysed as a clearly identified sensitivity cohort."
+  },
+  {
+    "original_paragraph": 281,
+    "before": "The real cohort is skewed toward absence (583/751), and unique labels arise from rechecking proposed negative instructions.",
+    "after": "Absent targets dominate the real cohort (583/751). The unique labels come from human rechecking of instructions that were proposed as negatives."
+  },
+  {
+    "original_paragraph": 282,
+    "before": "Mobile, web and desktop are represented, but the rare offscreen and occluded strata are too small for stable conclusions.",
+    "after": "The cohort covers mobile, web and desktop interfaces. Offscreen and occluded cases are rare, leaving too few observations for stable conclusions about those strata."
+  },
+  {
+    "original_paragraph": 283,
+    "before": "Jev’s public training data are not known, so training contamination cannot be ruled out.",
+    "after": "We cannot rule out training contamination because Jev’s public training data are unknown."
+  },
+  {
+    "original_paragraph": 284,
+    "before": "Repeated template screenshots are addressed by source-image clustering, but application-level dependence may remain.",
+    "after": "Clustering by source image accounts for repeated template screenshots, although dependence within applications may persist."
+  },
+  {
+    "original_paragraph": 285,
+    "before": "The new subgroup diagnostics were planned after mixed outcomes were visible and have no global multiplicity correction.",
+    "after": "The subgroup diagnostics were devised after the mixed outcomes had been seen. No global correction for multiple comparisons was applied."
+  },
+  {
+    "original_paragraph": 286,
+    "before": "Scope of the expansion. The reviewer-driven expansion adds a five-pass Jev study with two prompt variants and a pinned local Qwen2.5-VL collection; both are complete and reported in Appendix C. The single quantized baseline does not establish robustness across model families or deployment configurations. This study provides no formal risk control under distribution shift. Offline incorrect clicks are not measurements of actual user harm, and no real application action was executed. Stronger future evidence requires independent adjudication, new balanced real-interface cases and broader model and configuration coverage.",
+    "after": "Scope of the expansion. The reviewer-driven extension adds a five-pass Jev study with two prompt variants and a collection from a pinned local Qwen2.5-VL baseline. Both are complete and reported in Appendix C. One quantized baseline cannot establish robustness across model families or deployment configurations. We provide no formal control of risk under distribution shift. The recorded incorrect clicks are offline outcomes, not measurements of user harm; no real application action was executed. Further evidence will require independent adjudication, new balanced cases from real interfaces, and tests spanning more models and configurations."
+  },
+  {
+    "original_paragraph": 288,
+    "before": "Native uniqueness and presence signals substantially improve selective clicking on authored synthetic layouts, but this does not establish real-interface usefulness. Removing the 200 reused pilot cases shows that the frozen logistic gate accepts just one of 751 real-interface cases, while three-signal conditional risk remains 61.5%. The defensible contribution is a transparent account of transfer failure, denominator-sensitive safety metrics and cohort provenance. The matched-input quantized Qwen baseline shows weaker strict localization under the specified interface, and neither semantic one-label rule yields reliable acceptance. Broader model superiority, formal safety and practical utility remain unestablished.",
+    "after": "On authored synthetic layouts, native presence and uniqueness signals substantially improve selective clicking. The real-interface results do not establish comparable usefulness. Once the 200 reused pilot cases are removed, the frozen logistic gate accepts only one of 751 real cases, while conditional risk for the three-signal policy is still 61.5%. What the study supports is a reproducible account of failed transfer, cohort provenance and safety metrics whose interpretation depends on the denominator. Under the tested interface, the quantized Qwen baseline has weaker strict localization, and neither model’s semantic one-label rule provides reliable acceptance. We have not established broader model superiority, formal safety or practical utility."
+  },
+  {
+    "original_paragraph": 355,
+    "before": "On the synthetic test, B incorrectly accepts five multiple-target and five occluded cases. D and E make no incorrect accepted clicks but reject four and one correctly localized unique cases, respectively, and uniqueness-only accepts all 30 unique targets. The multiple-target B-to-D difference is −50 percentage points; its originally reported Holm-adjusted p = .126 does not establish significance. The synthetic pilot therefore motivates a transfer check rather than a safety claim.",
+    "after": "On the synthetic test, B incorrectly accepts five multiple-target cases and five occluded cases. D and E accept no incorrect clicks, but they reject four and one correctly localized unique cases, respectively. Uniqueness-only accepts all 30 unique targets. For multiple targets, the difference from B to D is −50 percentage points; the originally reported Holm-adjusted p = .126 does not establish significance. The pilot gives a reason to test transfer, rather than grounds for a safety claim."
+  },
+  {
+    "original_paragraph": 944,
+    "before": "The machine-readable tables also contain source-dataset strata, all frozen ablations, every state-specific denominator and both mixed and real cohort decompositions. These tables support diagnostic hypotheses rather than independent significance claims. Source element type is metadata about the original target and may not describe the relabelled counterfactual target.",
+    "after": "The machine-readable tables include strata by source dataset, every frozen ablation and state-specific denominator, and decompositions for both the mixed and real cohorts. We use these breakdowns to generate diagnostic hypotheses, not to claim independent significance. Element type comes from the source metadata for the original target. It may therefore differ from the type of the relabelled counterfactual target."
+  },
+  {
+    "original_paragraph": 946,
+    "before": "Examples are selected deterministically as the first case meeting each stated diagnostic condition; they are not a representative sample.",
+    "after": "For each diagnostic condition, we select the first matching case by a deterministic rule. These examples do not form a representative sample."
+  },
+  {
+    "original_paragraph": 950,
+    "before": "This expansion was designed after the original real-interface outcomes were inspected. It examines the base grounder, the gate and sensitivity to annotation. All original policy definitions and final labels remain frozen. New split-based estimates are exploratory; a retrospective split does not create a previously untouched confirmatory test.",
+    "after": "We designed this extension after examining the original real-interface outcomes. It examines the base grounder, the gate and the sensitivity of results to annotation. The original policy definitions and final labels stay frozen. Estimates from the new splits are exploratory: dividing the data retrospectively does not produce an untouched confirmatory test."
+  },
+  {
+    "original_paragraph": 1031,
+    "before": "A-only and B-only boxes are mapped through the same recorded image scale and padding as the final labels. Consensus-only includes the original two-annotator consensus subset, excluding reviewer-resolved flags. This is an observed sensitivity analysis, not a model-based bound on unknown true risk. The label-dependent error differences show why the pending independent audit matters.",
+    "after": "We map A-only and B-only boxes using the recorded image scale and padding applied to the final labels. Consensus-only uses the original subset on which the two annotators agreed and excludes flags resolved through reviewer decisions. This analysis measures sensitivity to the observed labels; it supplies no model-based bound on unknown true risk. Differences in error across label choices support the need for the pending independent audit."
+  },
+  {
+    "original_paragraph": 1093,
+    "before": "On the 98 real cases that both annotators label unique, mean human-to-human IoU is 0.512. Box agreement reaches IoU ≥ 0.3 in 79.6% of cases, IoU ≥ 0.5 in 61.2% and IoU ≥ 0.75 in 19.4%. A’s box centre lies in B’s box in 81.6% of cases; the reverse direction is 88.8%. These conditional agreement rates are an annotation reference, not an absolute human or model ceiling; they exclude status disagreements and use no independently verified true boxes.",
+    "after": "Both annotators label 98 real cases unique. Across these cases, mean IoU between their boxes is 0.512. The boxes meet IoU ≥ 0.3 in 79.6% of cases, IoU ≥ 0.5 in 61.2%, and IoU ≥ 0.75 in 19.4%. A’s box centre falls within B’s box in 81.6%; reversing the direction gives 88.8%. These agreement rates provide a conditional annotation reference. They exclude status disagreements, use no independently verified true boxes, and cannot define an absolute ceiling for either humans or models."
+  },
+  {
+    "original_paragraph": 1140,
+    "before": "Low ECE alone is insufficient when correct localizations are rare. On all 740 valid real outputs, the constant prevalence is 41/740, whose Brier loss is 0.05234; original E has 0.06125 and skill −0.170. On the exploratory held-out valid subset, real-fitted E_real improves Brier loss to 0.05822, versus 0.07345 for the original E and 0.06616 for the calibration-prevalence constant — a 12.0% Brier skill relative to that constant. Probability estimation improves without demonstrating recovery of a 10%-risk automation policy.",
+    "after": "When correct localizations are rare, low ECE is not sufficient. For the 740 valid real outputs, positive prevalence is 41/740 and the corresponding constant predictor has Brier loss 0.05234. Original E has loss 0.06125 and skill −0.170. On the exploratory held-out valid subset, real-fitted E_real lowers Brier loss to 0.05822, compared with 0.07345 for original E and 0.06616 for the calibration-prevalence constant. The skill relative to that constant is 12.0%. This improves probability estimation without demonstrating a usable automation policy at 10% risk."
+  },
+  {
+    "original_paragraph": 1160,
+    "before": "AURC integrates right-continuous threshold risk over observed coverage; equal confidence scores enter together, preventing arbitrary within-tie ordering. Separate machine-readable results cover all cases (with parser failures placed below valid scores) and the unique-target valid subset. B and E have almost identical AUROC, and their overlapping intervals and similar AURC give no evidence that the extra native signals add strong discrimination on this real cohort. AUROC and AURC diagnose ranking, not calibrated risk or downstream harm.",
+    "after": "AURC integrates right-continuous threshold risk over the observed coverage range. Equal scores enter together, so no arbitrary ordering is imposed within a tie. Separate machine-readable results include all cases, placing parser failures below valid scores, and the subset of valid unique-target cases. B and E have almost identical AUROC. Their intervals overlap and their AURC values are similar, giving no evidence of strong additional discrimination from the extra native signals on real interfaces. These metrics describe ranking quality, rather than calibrated risk or downstream harm."
+  },
+  {
+    "original_paragraph": 1162,
+    "before": "Partition. Source images are assigned deterministically to fit, calibration and test partitions by a seeded hash, so no screenshot crosses partitions: fit has 296 cases in 292 source clusters, calibration 226 cases in 218 clusters, and test 229 cases in 220 clusters. E_real is a new L2 logistic diagnostic fitted on valid fit-partition outputs only; it does not replace the frozen original E.",
+    "after": "Partition. We assign source images to fitting, calibration and test sets deterministically with a seeded hash. A screenshot can appear in only one partition. The fit partition contains 296 cases from 292 source clusters; calibration contains 226 from 218 clusters; test contains 229 from 220 clusters. E_real is a new L2 logistic diagnostic trained only on valid fitting outputs. The original E remains frozen and is not replaced."
+  },
+  {
+    "original_paragraph": 1166,
+    "before": "Binomial guarantees target this sampled-cluster distribution and require independent, identically distributed source clusters and a fixed calibration protocol. Those assumptions cannot be fully established retrospectively, so certification here is a diagnostic property of the stated procedure rather than a deployment guarantee.",
+    "after": "The binomial guarantees concern the sampled-cluster distribution. They depend on independent, identically distributed source clusters and a fixed calibration protocol. We cannot establish those assumptions fully after inspecting the data. Certification in this analysis is consequently a property of the stated diagnostic procedure, rather than a guarantee for deployment."
+  },
+  {
+    "original_paragraph": 1167,
+    "before": "Empirical comparator. The empirical comparator maximises calibration acceptance subject to observed risk at most 10%, without a statistical guarantee. Neither it nor LTT finds a qualifying threshold for any of the six scores under the strict criterion, so the implemented recovery experiment does not show useful automation at the specified 10% risk target. An alternative risk budget or criterion would require an explicitly separate analysis and is not selected from test outcomes.",
+    "after": "Empirical comparator. The comparator selects the greatest calibration acceptance with observed risk no higher than 10%; it provides no statistical guarantee. Under the strict criterion, neither this comparator nor LTT finds a qualifying threshold for any of the six scores. The recovery experiment therefore fails to demonstrate useful automation at the specified 10% risk target. Testing a different risk budget or correctness criterion would require a separate, explicitly identified analysis, rather than a choice made from test outcomes."
+  },
+  {
+    "original_paragraph": 1197,
+    "before": "The source-selected test unit has 220 cases; full 229-case test metrics are also retained descriptively. Recalibration can improve probabilities and alter rejection thresholds, but it cannot create correct boxes that the grounder did not produce. At most 41/131 real unique cases satisfy the strict localization rule in the original pass. This separates weak base localization from a claim that rejection itself is wrong.",
+    "after": "There are 220 cases in the source-selected test unit. We also retain descriptive metrics for the full 229-case test set. Recalibration may improve probabilities or change which scores pass a rejection threshold, but it cannot supply a correct box where the grounder produced none. Only 41/131 unique real cases meet the strict localization rule in the original pass. The limitation here is weak base localization; it does not imply that rejection is itself inappropriate."
+  },
+  {
+    "original_paragraph": 1199,
+    "before": "Protocol. The Jev repeat protocol adds four original-prompt passes on the 751 real cases (five passes including the existing one) plus two prewritten prompt variants, planning 4,506 additional requests. New requests use separate repeat/prompt IDs and immutable protocol hashes; non-auth attempted IDs, including timeouts and malformed outputs, are not silently resent. At manuscript generation, all 7/7 pass/variant cohorts are complete. Partial collections are not used for headline metrics.",
+    "after": "Protocol. For the repeat study, we add four passes with the original prompt over the 751 real cases, giving five passes when the existing collection is included. Two prewritten prompt variants bring the plan to 4,506 additional requests. Each new request has a separate repeat/prompt ID and an immutable protocol hash. Once an ID has a non-auth attempt, it is not silently resent, including after a timeout or malformed output. All 7/7 pass/variant cohorts are complete at manuscript generation; headline metrics exclude partial collections."
+  },
+  {
+    "original_paragraph": 1200,
+    "before": "Stability. Across the five original-prompt passes, correctness changes in 15/751 cases; the mean per-case modal match-count-label fraction is 0.976; the frozen accept decision changes for B in 26/751 cases, for D in 17/751 and for E in 1/751; and mean pairwise box IoU across 7,315 valid within-case output pairs is 0.711 (pairs involving malformed outputs excluded). Between-pass metrics and per-case consistency are retained separately; repeated observations are not pooled as independent screenshots.",
+    "after": "Stability. Correctness changes across the five original-prompt passes in 15/751 cases. The mean per-case fraction assigned the modal match-count label is 0.976. The frozen acceptance decision changes for B in 26/751 cases, for D in 17/751 and for E in 1/751. Mean pairwise box IoU is 0.711 over 7,315 valid within-case output pairs; pairs containing malformed outputs are excluded. We retain between-pass metrics separately from per-case consistency. Repeated observations are never pooled as independent screenshots."
+  },
+  {
+    "original_paragraph": 1201,
+    "before": "Additional collection. The completed additional collection has 4,506 attempts, 67 fail-closed outputs, 16,457,448 input tokens and 346,928 output tokens. Including recorded usage from malformed responses, the additional rate-based cost estimate is $0.691213 (output tokens free at the recorded provider rate). No failed attempt was automatically repeated.",
+    "after": "Additional collection. The completed extension contains 4,506 attempts and 67 fail-closed outputs. Recorded usage totals 16,457,448 input tokens and 346,928 output tokens. Including usage recorded for malformed responses, the estimated additional cost is $0.691213 at the recorded rate, with output tokens free. We did not automatically repeat any failed attempt."
+  },
+  {
+    "original_paragraph": 1202,
+    "before": "Pass results. Across the five original-prompt passes, B accepts 43–47 cases and D 21–26, with D conditional risk from 57.1% to 71.4%; E accepts 0–1 cases. The literal prompt yields 24 D accepts with 15 errors, and the conservative prompt 32 with 23. Prompt changes do not recover useful low-risk coverage under these frozen thresholds. These are descriptive within-case repetitions, not additional independent test screens.",
+    "after": "Pass results. B accepts 43–47 cases across the five original-prompt passes, while D accepts 21–26. Conditional risk for D ranges from 57.1% to 71.4%; E accepts 0–1 cases. With the literal prompt, D accepts 24 and makes 15 errors. With the conservative prompt, it accepts 32 and makes 23 errors. Changing the prompt does not restore useful coverage at low risk with the frozen thresholds. These repeats describe variation within cases and add no independent test screens."
+  },
+  {
+    "original_paragraph": 1236,
+    "before": "Qwen baseline configuration. The same-input local baseline pins Qwen2.5-VL-7B (Qwen Team 2025) through Ollama with model digest recorded, Q4_K_M quantization, deterministic decoding with seed 1729, context length 4,096 and a maximum of 180 output tokens; the prompt and JSON schema were frozen before the first response. It requests a forced box plus verbalised presence, uniqueness and box-confidence scores, which are prompted self-reports rather than native Jev probabilities. Inference runs serially on an 18 GiB Apple arm64 Mac. Local compute and energy costs are unmeasured, so the API charge is not treated as the total economic cost.",
+    "after": "Qwen baseline configuration. We pin the same-input baseline to Qwen2.5-VL-7B (Qwen Team 2025), run it through Ollama and record the model digest. It uses Q4_K_M quantization, deterministic decoding with seed 1729, context length 4,096 and at most 180 output tokens. We froze the prompt and JSON schema before collecting the first response. The prompt forces a box and asks for verbalised presence, uniqueness and box-confidence scores. These scores are prompted self-reports, unlike Jev’s native probabilities. Requests run serially on an 18 GiB Apple arm64 Mac. Because local compute and energy costs are unmeasured, the API charge is not treated as total economic cost."
+  },
+  {
+    "original_paragraph": 1282,
+    "before": "The observed strict-accuracy ordering persists under each reference, while absolute performance, and even the number of unique targets, varies substantially with annotation choice. This is evidence for continued label audit, not proof that any reference is correct. Centre-only and IoU ≥ 0.3 variants are retained in the machine-readable sensitivity table.",
+    "after": "Each human reference gives the same ordering of strict accuracy, although annotation choice substantially changes the absolute performance and even the number of unique targets. This supports further auditing of labels; it does not prove that any reference is correct. The machine-readable sensitivity table also retains centre-only and IoU ≥ 0.3 results."
+  },
+  {
+    "original_paragraph": 1283,
+    "before": "Qwen latency and integrity. Local Qwen request-to-full-response latency is 11.34 s mean and 16.67 s p95, including the cold first call; this measures the local quantized deployment, not a hosted Qwen service or a hardware-normalised speed comparison. All 951 input-image hashes match between Jev and Qwen, and the pinned Qwen model/protocol hashes are unchanged across the resumed collection. All 62 baseline failures violate box geometry. The completed per-case comparison ledger and paired bootstrap intervals are included in the artifact. Collection was resumed after 446 attempts without repeating earlier logged inputs.",
+    "after": "Qwen latency and integrity. Mean time from a local Qwen request to its full response is 11.34 s, and p95 is 16.67 s, including the cold first call. These measurements describe the local quantized deployment; they do not represent a hosted service or a comparison at matched hardware. Jev and Qwen use matching hashes for all 951 input images. The pinned Qwen model/protocol hashes also remain unchanged through the resumed collection. Each of the 62 baseline failures violates box geometry. The artifact includes the completed per-case comparison ledger and paired bootstrap intervals. We resumed collection after 446 attempts without rerunning any earlier logged input."
+  },
+  {
+    "original_paragraph": 1284,
+    "before": "New candidate pool. A new source-disjoint pool contains 180 tasks on 60 ScreenSpot-Pro screenshots (Li et al. 2025): 60 source-positive instructions, 60 cross-application absent candidates and 60 generic multiple-target candidates. File-name and decoded-pixel duplicates against the prior 951 cases are rejected. These are candidate construction categories, not labels; two blind human passes and independent adjudication must establish final states before confirmatory inference. The professional desktop source is a new domain, not a balanced mobile/web/desktop sample, and no model predictions are collected before labelling.",
+    "after": "New candidate pool. We constructed a source-disjoint pool of 180 tasks using 60 ScreenSpot-Pro screenshots (Li et al. 2025). It contains 60 source-positive instructions, 60 cross-application absent candidates and 60 generic multiple-target candidates. We reject file-name and decoded-pixel duplicates of the previous 951 cases. These categories describe construction, not verified target states. Final labels require two blind human passes and independent adjudication before confirmatory inference. This professional desktop source adds a domain; it does not form a balanced mobile/web/desktop sample. We collect no model predictions before labelling."
+  },
+  {
+    "original_paragraph": 1285,
+    "before": "Pending human tasks. The independent 100-case audit (60 flagged, 40 consensus) also remains a human task; automated analysis and an annotation package cannot substitute for completed human responses. Future labels must create a versioned sensitivity cohort rather than overwrite the frozen experiment.",
+    "after": "Pending human tasks. The independent audit of 100 cases, including 60 flagged and 40 consensus cases, still requires human responses. An annotation package and automated analysis cannot replace that work. Any future labels must define a versioned sensitivity cohort while the frozen experiment is retained."
+  },
+  {
+    "original_paragraph": 1287,
+    "before": "GoClick (Li, Chen, and Zhang 2026, Table 3) reports standard ScreenSpot-v2 point-grounding results, with local timing on one L20 GPU, batch size one, at 360 × 780 images. Its task distribution and timing definitions differ from our matched-input experiment, so the values below are historical context, not new tests or a model ranking.",
+    "after": "GoClick (Li, Chen, and Zhang 2026, Table 3) reports point grounding on standard ScreenSpot-v2. Local timing uses one L20 GPU, batch size one and 360 × 780 images. The task distribution and timing definitions differ from those in our matched-input experiment. We therefore include these values as historical context, without treating them as new tests or ranking the models."
+  },
+  {
+    "original_paragraph": 1309,
+    "before": "Timing definitions. Published local timings separate time to first token (TTFT) from time per output token (TPOT), whereas our timings measure full HTTP response time. Approximate local generation time for L output tokens is TTFT + (L − 1) × TPOT. The selected study reports no comparable GPT-4o timing, so these values cannot establish a Jev speedup.",
+    "after": "Timing definitions. Published local measurements distinguish time to first token (TTFT) from time per output token (TPOT). Our measurements instead cover the full HTTP response. For L output tokens, approximate local generation time is TTFT + (L − 1) × TPOT. The selected study gives no comparable timing for GPT-4o, so it cannot establish a Jev speedup."
+  },
+  {
+    "original_paragraph": 1310,
+    "before": "GPT-4o price scenario. Official input/output rates are $2.50/$10 per million tokens (OpenAI 2026a). The documented high-detail image rules (OpenAI 2026b) yield 992,205 image tokens for our 951 prepared image dimensions. Assuming 250 text-input and 80 output tokens per case gives an estimated $3.835688. These prompt lengths are assumptions, not a measured GPT-4o bill or accuracy result.",
+    "after": "GPT-4o price scenario. The official input/output prices are $2.50/$10 per million tokens (OpenAI 2026a). Applying the documented high-detail image rules (OpenAI 2026b) to our prepared image dimensions gives 992,205 image tokens for 951 cases. If each case also uses 250 text-input tokens and 80 output tokens, the estimated bill is $3.835688. The assumed prompt lengths were not measured, and this scenario supplies neither a GPT-4o bill nor an accuracy result."
+  }
+]

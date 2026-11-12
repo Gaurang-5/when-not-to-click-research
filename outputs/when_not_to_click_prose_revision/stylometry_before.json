@@ -1,0 +1,66 @@
+{
+  "length": 53580,
+  "suspicious_total": 17,
+  "hits": [
+    {
+      "codepoint": "U+00A0",
+      "label": "U+00A0 NO-BREAK SPACE (Zs)",
+      "count": 17,
+      "kind": "space",
+      "confidence": "informational",
+      "sample_offsets": [
+        3022,
+        3284,
+        3381,
+        3479,
+        3533,
+        3656,
+        3686,
+        17828,
+        30556,
+        30992
+      ]
+    }
+  ],
+  "notes": [
+    "Layer A only: invisible/format Unicode and space homoglyphs (edit-based carriers).",
+    "Statistical (token-sampling) watermarks are not detectable here; use Layer B rewrite.",
+    "Inspect kinds: strip, bidi, tag_chars, variation_selector, zwj_family, private_use, space, confusable, other_cf.",
+    "Load-bearing invisibles are preserved by default during cleaning: emoji glue, CJK/Mongolian variation selectors, script joiners, complete flag tag sequences, same-script fillers/selectors (Mongolian FVS, Khmer inherent vowels, Hangul jamo fillers), RTL directional marks/paired embeddings, orthographic Arabic/Syriac Cf marks, and visible-layout format controls next to their own script (Egyptian hieroglyph quadrat, Duployan shorthand, musical beaming). Inspection still reports bidi controls. Use explicit strip flags only after review."
+  ],
+  "stylometry": {
+    "path": "outputs/when_not_to_click_prose_revision/before.txt",
+    "word_count": 8690,
+    "sentence_count": 1686,
+    "burstiness_cv": 1.3813,
+    "lexical_diversity": 0.7989,
+    "ai_ngram_density": 0.0069,
+    "matched_markers": [
+      {
+        "phrase": "ultimately,",
+        "count": 1,
+        "weight": 0.6,
+        "samples": [
+          "ultimately "
+        ],
+        "spans": [
+          [
+            9339,
+            9350
+          ]
+        ]
+      }
+    ],
+    "score": 0.1225,
+    "confidence_level": "CLEAN",
+    "density_tier": "low",
+    "status": "ok",
+    "findings": [
+      "AI cadence phrase 'ultimately,' (1x)"
+    ],
+    "findings_confidence": [
+      "informational"
+    ],
+    "notes": []
+  }
+}

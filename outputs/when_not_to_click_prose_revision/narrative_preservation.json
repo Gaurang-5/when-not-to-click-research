@@ -1,0 +1,15 @@
+{
+  "rewritten_paragraphs": 66,
+  "editing_passes": 1,
+  "editable_math_objects_unchanged": 17,
+  "all_tables_unchanged": true,
+  "all_numerical_values_preserved": true,
+  "all_paragraph_and_run_formatting_preserved": true,
+  "all_other_package_parts_unchanged": true,
+  "authorship_or_detector_claim": null,
+  "output": "/Users/gaurangbhatia/Documents/ChatGPT/research/outputs/when_not_to_click_prose_revision/When_Not_to_Click_TFf_Prose_Revised.docx",
+  "visual_review": {
+    "pages_checked": 23,
+    "status": "passed"
+  }
+}

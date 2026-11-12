@@ -1,0 +1,28 @@
+{
+  "display_equations_centered": 16,
+  "equation_numbers_separated": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6a",
+    "6b",
+    "6c",
+    "7a",
+    "7b",
+    "8",
+    "9",
+    "10",
+    "11",
+    "C1",
+    "C2"
+  ],
+  "formula_content_preserved": true,
+  "all_prose_preserved": true,
+  "data_tables_reformatted": 25,
+  "data_table_values_preserved": true,
+  "output": "/Users/gaurangbhatia/Documents/ChatGPT/research/outputs/when_not_to_click_prose_revision/When_Not_to_Click_TFf_Formatted.docx",
+  "visual_review": "All 23 final pages inspected",
+  "pdf": "/Users/gaurangbhatia/Documents/ChatGPT/research/outputs/when_not_to_click_prose_revision/When_Not_to_Click_TFf_Formatted.pdf"
+}

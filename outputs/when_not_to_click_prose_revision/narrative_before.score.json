@@ -1,0 +1,57 @@
+{
+  "length": 26433,
+  "suspicious_total": 1,
+  "hits": [
+    {
+      "codepoint": "U+00A0",
+      "label": "U+00A0 NO-BREAK SPACE (Zs)",
+      "count": 1,
+      "kind": "space",
+      "confidence": "informational",
+      "sample_offsets": [
+        24531
+      ]
+    }
+  ],
+  "notes": [
+    "Layer A only: invisible/format Unicode and space homoglyphs (edit-based carriers).",
+    "Statistical (token-sampling) watermarks are not detectable here; use Layer B rewrite.",
+    "Inspect kinds: strip, bidi, tag_chars, variation_selector, zwj_family, private_use, space, confusable, other_cf.",
+    "Load-bearing invisibles are preserved by default during cleaning: emoji glue, CJK/Mongolian variation selectors, script joiners, complete flag tag sequences, same-script fillers/selectors (Mongolian FVS, Khmer inherent vowels, Hangul jamo fillers), RTL directional marks/paired embeddings, orthographic Arabic/Syriac Cf marks, and visible-layout format controls next to their own script (Egyptian hieroglyph quadrat, Duployan shorthand, musical beaming). Inspection still reports bidi controls. Use explicit strip flags only after review."
+  ],
+  "stylometry": {
+    "path": "/Users/gaurangbhatia/Documents/ChatGPT/research/outputs/when_not_to_click_prose_revision/narrative_before.txt",
+    "word_count": 3899,
+    "sentence_count": 249,
+    "burstiness_cv": 0.5501,
+    "lexical_diversity": 0.8658,
+    "ai_ngram_density": 0.0154,
+    "matched_markers": [
+      {
+        "phrase": "ultimately,",
+        "count": 1,
+        "weight": 0.6,
+        "samples": [
+          "ultimately "
+        ],
+        "spans": [
+          [
+            4910,
+            4921
+          ]
+        ]
+      }
+    ],
+    "score": 0.1225,
+    "confidence_level": "CLEAN",
+    "density_tier": "low",
+    "status": "ok",
+    "findings": [
+      "AI cadence phrase 'ultimately,' (1x)"
+    ],
+    "findings_confidence": [
+      "informational"
+    ],
+    "notes": []
+  }
+}
