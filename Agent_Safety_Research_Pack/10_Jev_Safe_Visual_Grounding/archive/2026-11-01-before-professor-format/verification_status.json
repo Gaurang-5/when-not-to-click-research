@@ -1,0 +1,25 @@
+{
+  "client_date": "2026-10-24",
+  "verified_utc": "2026-10-24T01:34:25.669720+00:00",
+  "layout": "single-column conference preprint, NIPS2017 visual reference",
+  "tests_passed": 73,
+  "pdf_pages": 21,
+  "pdf_visual_review": "all final pages rendered and inspected",
+  "text_column_bounds_check": "passed",
+  "serif_fonts_embedded": true,
+  "latex_compile": "success",
+  "retained": {
+    "paragraphs": 66,
+    "tables": 25,
+    "equations": 8,
+    "figures": 10,
+    "references": 15
+  },
+  "unchanged_numerical_evidence_files": 25,
+  "stable_artifact_hashes_verified": 131,
+  "jev_additional_collection_complete": true,
+  "local_baseline_complete": true,
+  "human_audit_complete": false,
+  "fresh_cohort_human_labels_complete": false,
+  "api_calls_for_reformatting": 0
+}

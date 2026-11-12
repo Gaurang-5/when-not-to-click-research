@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/Users/gaurangbhatia/research/Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/workspace/scripts/prepare_fresh_real_cohort.py", line 68, in <module>
+    if __name__=='__main__':main()
+                            ~~~~^^
+  File "/Users/gaurangbhatia/research/Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/workspace/scripts/prepare_fresh_real_cohort.py", line 60, in main
+    if count<20:raise ValueError(f'Only {count} disjoint images for {platform}')
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: Only 0 disjoint images for desktop

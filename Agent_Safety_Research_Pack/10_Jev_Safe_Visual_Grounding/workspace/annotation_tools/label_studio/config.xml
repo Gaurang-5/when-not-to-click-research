@@ -1,0 +1,38 @@
+<View>
+  <View style="padding: 14px; margin-bottom: 12px; border: 1px solid #d0d7de; border-radius: 8px; background: #f6f8fa;">
+    <Header value="Instruction shown to the agent" />
+    <Text name="instruction" value="$instruction" />
+    <Text name="case_id" value="$case_id" />
+  </View>
+
+  <Header value="1. Choose exactly one target status" />
+  <Choices name="target_status" toName="image" choice="single-radio"
+           required="true" requiredMessage="Choose one target status before submitting.">
+    <Choice value="unique" />
+    <Choice value="absent" />
+    <Choice value="multiple" />
+    <Choice value="occluded" />
+    <Choice value="offscreen" />
+    <Choice value="unclear" />
+  </Choices>
+
+  <Header value="2. Inspect the screenshot" />
+  <Image name="image" value="$image" zoom="true" zoomControl="true"
+         rotateControl="false" maxWidth="1400" />
+
+  <Header value="3. For unique or multiple only: draw the full clickable target box(es)" />
+  <RectangleLabels name="target_boxes" toName="image" strokeWidth="3">
+    <Label value="valid_target" background="#16A34A" />
+  </RectangleLabels>
+
+  <Header value="4. Add a note for unclear, occluded, offscreen, or borderline cases" />
+  <TextArea name="notes" toName="image" rows="3" maxSubmissions="1"
+            placeholder="Explain what made the case uncertain. Do not mention model predictions." />
+
+  <Choices name="confidence" toName="image" choice="single-radio"
+           required="true" requiredMessage="Choose annotation confidence.">
+    <Choice value="high" />
+    <Choice value="medium" />
+    <Choice value="low" />
+  </Choices>
+</View>

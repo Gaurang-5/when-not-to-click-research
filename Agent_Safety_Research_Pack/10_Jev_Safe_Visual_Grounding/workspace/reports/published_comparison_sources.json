@@ -1,0 +1,50 @@
+{
+  "retrieved": "2026-10-23",
+  "rows": [
+    {
+      "id": "goclick",
+      "title": "GoClick: Lightweight Element Grounding Model for Autonomous GUI Interaction",
+      "authors": "Hongxin Li, Yuntao Chen, Zhaoxiang Zhang",
+      "year": 2026,
+      "url": "https://arxiv.org/html/2604.23941v1",
+      "location": "Table 3 and Section 4.1.2",
+      "benchmark": "ScreenSpot-v2, point grounding",
+      "GPT-4o_accuracy_percent": 20.4,
+      "GPT-4o_latency": "not reported",
+      "Qwen2VL-7B_accuracy_percent": 66.9,
+      "Qwen2VL-7B_TTFT_ms": 118.9,
+      "Qwen2VL-7B_TPOT_ms": 21.2,
+      "UGround_accuracy_percent": 76.5,
+      "UGround_TTFT_ms": 1034.6,
+      "UGround_TPOT_ms": 27.9,
+      "timing_conditions": "one L20 GPU, batch 1, 360x780 image, median-length prompt, 2000 repeats, BF16, deterministic generation",
+      "comparability": "published context only; not our counterfactual cohort or primary center-plus-IoU criterion"
+    },
+    {
+      "id": "openai_price",
+      "title": "OpenAI GPT-4o model documentation",
+      "url": "https://developers.openai.com/api/docs/models/gpt-4o",
+      "location": "Pricing",
+      "input_usd_per_million": 2.5,
+      "output_usd_per_million": 10,
+      "availability": "marked deprecated on retrieval; historical model context"
+    },
+    {
+      "id": "openai_vision",
+      "title": "OpenAI Images and vision",
+      "url": "https://developers.openai.com/api/docs/guides/images-vision",
+      "location": "Tile-based image tokenization",
+      "base_tokens": 85,
+      "tile_tokens": 170,
+      "rules": "fit within 2048 square, reduce shortest side to at most 768, ceil 512-pixel tiles; high detail"
+    },
+    {
+      "id": "typesafe_price",
+      "url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "input_usd_per_million": 0.042,
+      "output_usd_per_million": 0,
+      "caution": "Independent jevtypesafeai.com reseller site quotes a different rate; direct TypeSafe endpoint used here."
+    }
+  ],
+  "restriction": "Do not infer same-dataset superiority, GPT-4o speedup, or measured LLM invoice from these sources. No LLM evaluation executed."
+}

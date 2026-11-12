@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jev Safe Visual Grounding Academic Candidate row",
+  "type": "object",
+  "required": [
+    "dataset_row_version", "case_id", "task_kind", "source_dataset",
+    "source_revision", "source_item_id", "image_locator", "local_image_path",
+    "instruction", "instruction_role", "target_status", "label_status",
+    "human_review_required", "width", "height", "bbox_format",
+    "ground_truth_boxes_px", "ground_truth_boxes_norm", "reference_action",
+    "localization_eligibility", "element_type", "interface_source", "platform",
+    "application", "layout_family", "source_license", "license_status",
+    "redistribution_status", "image_group_id", "proposed_split", "split_locked"
+  ],
+  "properties": {
+    "dataset_row_version": {"const": "1.0"},
+    "case_id": {"type": "string", "minLength": 1},
+    "task_kind": {"enum": ["gui_grounding", "visual_grounding"]},
+    "source_dataset": {"type": "string", "minLength": 1},
+    "source_revision": {"type": "string", "minLength": 1},
+    "source_item_id": {"type": "string", "minLength": 1},
+    "image_locator": {"type": "string", "minLength": 1},
+    "local_image_path": {"type": "string", "minLength": 1},
+    "instruction": {"type": "string", "minLength": 1},
+    "instruction_role": {"enum": ["positive", "absent", "absent_candidate"]},
+    "target_status": {"enum": ["unique", "absent_candidate", "absent", "multiple", "occluded", "offscreen", "unclear"]},
+    "label_status": {"type": "string", "minLength": 1},
+    "human_review_required": {"type": "boolean"},
+    "width": {"type": "integer", "minimum": 1},
+    "height": {"type": "integer", "minimum": 1},
+    "bbox_format": {"const": "xyxy_absolute_and_normalized"},
+    "ground_truth_boxes_px": {"$ref": "#/$defs/boxes"},
+    "ground_truth_boxes_norm": {"$ref": "#/$defs/normalizedBoxes"},
+    "reference_action": {"enum": ["click", "abstain", "clarify"]},
+    "localization_eligibility": {"type": "boolean"},
+    "element_type": {"type": "string"},
+    "interface_source": {"type": "string"},
+    "platform": {"type": "string"},
+    "application": {"type": "string"},
+    "layout_family": {"type": "string"},
+    "difficulty": {"type": "string"},
+    "source_license": {"type": "string"},
+    "license_status": {"type": "string"},
+    "redistribution_status": {"type": "string"},
+    "provenance_note": {"type": "string"},
+    "image_group_id": {"type": "string", "minLength": 1},
+    "proposed_split": {"enum": ["dev", "development", "calibration", "test", "test_external"]},
+    "split_locked": {"type": "boolean"},
+    "paired_case_id": {"type": ["string", "null"]}
+  },
+  "$defs": {
+    "boxes": {
+      "type": "array",
+      "items": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "minItems": 4, "maxItems": 4}
+    },
+    "normalizedBoxes": {
+      "type": "array",
+      "items": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}, {"type": "number"}], "minItems": 4, "maxItems": 4}
+    }
+  },
+  "additionalProperties": true
+}

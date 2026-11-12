@@ -1,0 +1,174 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[margin=0.72in]{geometry}
+\usepackage{graphicx,booktabs,microtype,amsmath,url,xcolor,hyperref,balance}
+\usepackage[font=small]{caption}
+\usepackage{enumitem}
+\hypersetup{colorlinks=true,allcolors=blue!55!black}
+\setlist{nosep,leftmargin=*}
+\newcommand{\jev}{Jev~1.14}
+\newcommand{\risk}{\mathrm{Risk}}
+\newcommand{\coverage}{\mathrm{Coverage}}
+
+\title{\textbf{When Not to Click: Stress-Testing Native Visual Decisions\\for Absent and Ambiguous GUI Targets}}
+\author{Anonymous Authors}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Visual grounding systems often emit a location even when a requested interface target is absent or non-unique. We evaluate whether the native structured outputs of \jev---a presence judgement, a caller-defined match-count choice, and a bounding box with confidence---support safer click-or-abstain decisions than box confidence alone. The executed study contains 200 synthetic GUI cases across five disjoint layout families and six target states. Policies were fitted on 80 development cases, selected on 40 calibration cases, frozen, and evaluated once on 80 held-out cases. A box-confidence policy accepted 27/80 cases with 10 incorrect clicks (37.0\% selective risk), including 5/10 multiple-target cases. A presence--uniqueness--box gate accepted 26/80 with no observed incorrect clicks, while a simpler uniqueness-only gate accepted all 30 eligible unique targets and no negative case. The multiple-target acceptance difference was $-50$ percentage points but was not significant after the prespecified Holm correction ($p=0.126$). We additionally report a two-annotator study over 951 candidate external cases: exact status agreement was 79.8\%, Cohen's $\kappa=0.613$, and mean matched box IoU was 0.619 over 205 comparable localizable cases. Reviewer-approved Annotator B decisions resolve 259 flagged cases and the remaining 692 use consensus, producing a frozen external label set. The frozen policies were then evaluated on all 951 external cases: 940 outputs parsed successfully and 11 failed closed. The logistic gate accepted 69/951 with no observed incorrect accepts; the three-signal gate accepted 92 with 16 incorrect accepts, while box confidence accepted 127 with 61 incorrect accepts. The findings show external transfer of conservative gating, but do not establish deployment safety.
+\end{abstract}
+
+\section{Introduction}
+GUI agents map natural-language instructions to executable screen coordinates. A plausible coordinate is not evidence that the requested target exists, is uniquely determined, or is safe to click. An absent ``Delete'' button and two visible ``Approve'' buttons pose different risks, yet a localizer designed to return one region may still produce a box.
+
+This paper studies \jev's experimental visual interface. A single request can return (i) a Noul presence score, (ii) a Choice distribution over none, one, or several matches, and (iii) one Box with localization confidence. We ask whether fixed gates composed from these outputs reduce unsafe accepted clicks relative to box confidence alone.
+
+Our contribution is an exact-interface empirical measurement rather than a new uncertainty algorithm:
+\begin{itemize}
+  \item a controlled 200-call study with absent, multiple, occluded, offscreen, unclear, and unique states;
+  \item source-level development, calibration, and held-out layout families, with policies frozen before test collection;
+  \item paired risk, coverage, localization, calibration, operational, and cost analyses from retained API responses;
+  \item a separately collected, reviewer-resolved 951-case external study executed with the already-frozen policies and fail-closed parsing.
+\end{itemize}
+
+\section{Related Work}
+ScreenSpot introduced realistic single-step GUI grounding across mobile, desktop, and web environments \cite{seeclick}. OS-Atlas later corrected annotation errors and named the revision ScreenSpot-V2 \cite{osatlas}. ScreenSpot-Pro emphasizes high-resolution professional applications and small targets \cite{screenspotpro}. These benchmarks primarily measure whether a predicted point falls within a visible target; they do not by themselves resolve safe behavior when no unique target exists.
+
+SafeGround uses dispersion from stochastic grounding samples and calibration to control false discoveries \cite{safeground}. Argus benchmarks post-hoc uncertainty methods across model, dataset, and observable-interface regimes and reports that rankings transfer more reliably across datasets than across model classes \cite{argus}. CORA wraps a GUI policy with a conformal execute/abstain controller and a diagnostician \cite{cora}. These works preclude broad novelty claims for confidence gating or abstention. Our narrower question is whether one model's native presence and match-count outputs add useful information beyond its Box confidence.
+
+\section{Interface and Policies}
+Each request pins \texttt{jev-1.14.0} and sends one screenshot with three questions. The Box result contains normalized edges and confidence. Presence asks whether a valid target exists. Match-count Choice defines none, exactly one, or several valid visible matches. The API uses the required experimental image header. Box is treated as forced-output: a valid region is not evidence of existence.
+
+Let $p$ be presence, $u$ the probability of exactly one match, and $b$ Box confidence. We evaluate
+\begin{align*}
+A &: \text{accept every valid Box}, & B &: b\ge \tau_B,\\
+C &: \min(p,b)\ge \tau_C, & D &: \min(p,u,b)\ge \tau_D,\\
+E &: \sigma(\beta_0+\beta^\top x)\ge \tau_E. &&
+\end{align*}
+Policy E is an L2-regularized logistic model. We also test presence-only, uniqueness-only, and presence-plus-uniqueness ablations. Threshold selection maximizes calibration coverage subject to an empirical selective-risk ceiling of 30\%. The parser fails closed on version drift, malformed probabilities, non-finite values, and degenerate boxes.
+
+\section{Synthetic Dataset and Protocol}
+The pilot contains 200 locally rendered screenshots: 25 templates nested in five layout families, with eight target-state variants per template. Sidebar and kanban families form development (80 cases), tables form calibration (40), and dialogs plus toolbars form the held-out test (80). Each template contributes three unique cases and one each of absent, multiple, occluded, offscreen, and unclear.
+
+Generator state and DOM geometry provide procedural labels. A click is correct only when the case is uniquely eligible, its predicted center lies inside the reference box, and IoU is at least 0.5. Every accepted click on a non-eligible state is incorrect. All requests completed before held-out outcomes were analyzed.
+
+For accepted set $S_\tau$ and incorrect-action indicator $\ell_i$,
+\[
+\risk(\tau)=\frac{\sum_{i\in S_\tau}\ell_i}{|S_\tau|},\qquad
+\coverage(\tau)=\frac{|S_\tau|}{n}.
+\]
+We also report marginal incorrect-action rate, state-specific false acceptance, and useful unique automation. Intervals resample templates. Paired primary comparisons use template-level sign randomization, with Holm correction over absent and multiple endpoints.
+
+\section{Human Annotation Study}
+Two annotators independently labeled the same 951 candidate external cases without viewing model predictions. Each selected one of six states (unique, absent, multiple, occluded, offscreen, unclear), drew all valid clickable boxes for unique or multiple cases, and recorded confidence. Automated validation required exactly one status, valid box cardinality, and in-bounds geometry. Thirteen initial format defects were corrected; both corrected exports pass all structural checks.
+
+Before resolution, annotators agreed on 759/951 statuses (79.8\%), with Cohen's $\kappa=0.613$. Among 205 same-status cases with comparable localizable boxes, mean maximum-matched IoU was 0.619. A deterministic rule flagged 259 cases: any status disagreement, unequal box count, matched IoU below 0.5, or low-confidence annotation. Annotator B's complete pass had independent reviewer approval, so the study authors designated B's decisions as final for all flagged cases. The other 692 cases use two-annotator consensus; localizable boxes use maximum-IoU-matched coordinate means. The frozen set contains 640 absent, 206 unique, 54 multiple, 27 occluded, 5 offscreen, and 19 unclear cases. This rule was fixed before collecting external Jev predictions.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/status_confusion_matrix.pdf}
+  \caption{Pre-adjudication status confusion matrix ($n=951$). The dominant disagreement is A unique versus B absent (89 cases).}
+  \label{fig:confusion}
+\end{figure}
+
+\section{Results}
+\subsection{Operations and validity}
+The synthetic study issued 200 requests with no retries. All resolved to \texttt{jev-1.14.0}; 199 parsed successfully. One development offscreen case returned a zero-width Box and failed closed. All 80 held-out outputs were valid. Total usage was 457,978 input and 15,425 output tokens, with estimated cost \$0.019235 under the recorded pricing rule. Held-out latency was 524\,ms mean and 647\,ms p95.
+
+\subsection{Held-out policy behavior}
+\begin{table}[t]
+\centering
+\caption{Held-out synthetic results ($n=80$). UA is useful automation among 30 eligible unique cases.}
+\label{tab:policy}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+Policy & Cov. & Errors & Risk & UA \\
+\midrule
+Box confidence B & 33.8\% & 10 & 37.0\% & 56.7\%\\
+Presence+Box C & 27.5\% & 5 & 22.7\% & 56.7\%\\
+Three-signal D & 32.5\% & 0 & 0.0\% & 86.7\%\\
+Logistic E & 36.3\% & 0 & 0.0\% & 96.7\%\\
+Uniqueness only & 37.5\% & 0 & 0.0\% & 100.0\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+All B--E policies rejected 10/10 absent cases. B's ten incorrect accepts were five multiple and five occluded targets. D made no incorrect accepts but rejected four correctly localized toolbar targets; E rejected one. Uniqueness-only accepted all 30 unique cases and no negative case.
+
+All unique test cases satisfied the primary localization rule; 27/30 reached IoU$\ge0.75$ and mean IoU was 0.797. Thus B's errors were selection errors on ineligible cases rather than localization failures on eligible cases.
+
+\begin{figure}[t]
+  \centering
+  \includegraphics[width=\columnwidth]{figures/live_policy_comparison.png}
+  \caption{Coverage and selective risk of frozen held-out synthetic policies.}
+  \label{fig:policies}
+\end{figure}
+
+\subsection{Primary comparison and transfer}
+Absent acceptance was zero for both B and D. Multiple-target acceptance fell from 50\% under B to zero under D. The cluster-bootstrap difference interval was $[-0.80,-0.20]$; template-level sign-randomization gave $p=0.063$ before and $p=0.126$ after Holm correction. We report direction and magnitude without a significance claim.
+
+B covered 62.5\% of dialog cases but 5.0\% of toolbar cases. D covered 37.5\% and 27.5\%; E covered 35.0\% in both. Two families cannot establish general transfer. Held-out Brier/ECE were 0.152/0.191 for presence, 0.238/0.325 for Box confidence against correct localization, and 0.045/0.167 for the logistic score.
+
+\subsection{External confirmatory evaluation}
+The frozen policies were applied once to all 951 reviewer-resolved cases. Of 951 post-credential responses, 940 parsed successfully and 11 failed closed: six returned degenerate or reversed boxes and five returned Choice probabilities that did not sum to one. No automatic retries were used. The complete log contains 1,022 network records because 71 earlier requests were rejected during credential setup; those records had no token usage. The billable responses used 3,160,605 input and 72,436 output tokens, for an estimated cost of \$0.132745 under the recorded input-token pricing rule. Across all records, latency was 456 ms mean and 625 ms p95.
+
+\begin{table}[t]
+\centering
+\caption{External frozen-policy results ($n=951$). UA is useful automation among 206 unique cases.}
+\label{tab:external}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Policy & Accept & Cov. & Errors & Risk & UA \\
+\midrule
+Box confidence B & 127 & 13.4\% & 61 & 48.0\% & 32.0\%\\
+Presence+Box C & 95 & 10.0\% & 37 & 38.9\% & 28.2\%\\
+Three-signal D & 92 & 9.7\% & 16 & 17.4\% & 36.9\%\\
+Logistic E & 69 & 7.3\% & 0 & 0.0\% & 33.5\%\\
+Uniqueness only & 73 & 7.7\% & 1 & 1.4\% & 35.0\%\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+D reduced absent false accepts from 15/640 under B to 7/640 (case-weighted difference $-1.25$ percentage points; cluster-sign Holm-adjusted $p=0.0225$). On multiple targets, D reduced wrong accepts from 21/54 to 0/54 (difference $-38.9$ points; adjusted $p=0.00020$). E accepted 69 unique cases and no negative case. Zero observed errors among 69 accepts corresponds to an optimistic independent-sampling 95\% rule-of-three upper bound of 4.3\%; source clustering and prior policy selection prevent interpreting this as a certified risk guarantee.
+
+\subsection{Annotation reliability}
+Figure~\ref{fig:confusion} gives the complete cross-tabulation. A used unique more often (275 versus 206), while B used absent more often (640 versus 582). The moderate kappa and 192 status disagreements motivated the prespecified resolution process. Review flags also include 45 same-status cases with IoU below 0.5, four box-count disagreements, and 36 cases with at least one low-confidence annotation; reasons overlap.
+
+\section{Error Analysis}
+Box confidence accepted five duplicated and five occluded cases. Presence removed occluded errors but retained duplicates. Match count removed duplicates and, in this cohort, rejected every other negative state. The four D false rejections and one E false rejection were toolbar unique targets with IoU 0.778--0.803, indicating conservative semantic thresholds rather than poor localization.
+
+One development response had \texttt{left == right}. In the external study, six responses had degenerate/reversed boxes and five had malformed Choice probability sums. Retaining these cases in denominators while failing closed demonstrates that HTTP success is not equivalent to an actionable localization.
+
+\section{Discussion}
+The main empirical lesson is simpler than the initial three-signal hypothesis: native match count carried nearly all useful discrimination on the authored pilot. Joint gates improved markedly over Box confidence but did not improve over uniqueness-only. Future evaluation should treat uniqueness-only as a first-class baseline.
+
+Zero observed errors among 26--30 accepted actions provide weak assurance. Under optimistic independent sampling, zero errors in 26 accepts gives a one-sided 95\% rule-of-three upper bound near 11.5\%; clustering and policy selection make that illustration optimistic.
+
+The external result changes the practical interpretation of the pilot. The conservative policy ordering transferred, and match-count gating again removed every multiple-target wrong accept. Absolute performance shifted sharply: unique localization accuracy at IoU$\ge0.5$ was 56.3\%, and the zero-error policy covered only 7.3\% of all cases. Safety gains therefore came with substantial abstention. The human study also shows that counterfactual GUI instructions contain label ambiguity; reporting agreement and freezing resolution before prediction avoids outcome-dependent adjudication.
+
+\section{Limitations}
+The synthetic interfaces share one generator and vocabulary, and only two layout families are held out. External ground truth uses reviewer-approved Annotator B for 259 flagged cases, which is less independent than a separate third adjudicator. The external cohort is dominated by absent cases (640/951), so aggregate coverage and risk depend on this composition. Eleven malformed HTTP-200 outputs were counted as fail-closed abstentions. There is no independent grounding-model baseline. Confidence outputs share a request, simulated clicks do not measure downstream task harm, and zero observed errors cannot certify a true zero risk. Findings apply to one version, prompt, and collection date.
+
+\section{Ethics and Reproducibility}
+Synthetic data contain no personal information. External images retain source and license metadata and require privacy review before release. No real application actions were executed. Credentials remain environment variables and are excluded from logs and archives.
+
+The artifact includes generation code, strict parsing, all 200 synthetic-study API records, all 1,022 external collection records including setup failures, frozen policies and SHA-256 digests, analyses, corrected Label Studio exports, the pre-adjudication comparison table, frozen final labels, and deterministic evaluation scripts. Seed is 1729; model and prompt are pinned to \texttt{jev-1.14.0} and \texttt{presence-count-box-v1}.
+
+\section{Conclusion}
+On 80 held-out synthetic cases, \jev's match-count signal separated unique from non-unique targets more effectively than Box confidence. On the 951-case external cohort, the frozen three-signal gate reduced multiple-target wrong accepts from 21/54 to zero and absent false accepts from 15/640 to 7/640; both cluster-sign comparisons remained significant after Holm correction. The frozen logistic gate accepted 69 cases with no observed incorrect accepts, at 7.3\% coverage. This confirms conservative transfer for the evaluated interface while leaving deployment safety, broader model comparison, and downstream harm unresolved.
+
+\balance
+\begin{thebibliography}{9}
+\bibitem{seeclick} K. Cheng et al. SeeClick: Harnessing GUI Grounding for Advanced Visual GUI Agents. \emph{ACL}, 2024. arXiv:2401.10935.
+\bibitem{osatlas} Z. Wu et al. OS-ATLAS: A Foundation Action Model for Generalist GUI Agents. \emph{ICLR}, 2025. arXiv:2410.23218.
+\bibitem{screenspotpro} K. Li et al. ScreenSpot-Pro: GUI Grounding for Professional High-Resolution Computer Use. arXiv:2504.07981, 2025.
+\bibitem{safeground} Q. Wang, Y. Fan, and X. E. Wang. SafeGround: Know When to Trust GUI Grounding Models via Uncertainty Calibration. arXiv:2602.02419, 2026.
+\bibitem{argus} D. Kumar et al. Uncertainty Quantification for Computer-Use Agents: A Benchmark across Vision-Language Models and GUI Grounding Datasets. \emph{NeurIPS}, 2026. arXiv:2606.25760.
+\bibitem{cora} Y. Feng et al. CORA: Conformal Risk-Controlled Agents for Safeguarded Mobile GUI Automation. arXiv:2604.09155, 2026.
+\bibitem{jev} TypeSafe AI. Jev 1.14 model and Box interface documentation, 2026. \url{https://www.jevtypesafeai.com/jev-1-14}.
+\end{thebibliography}
+\end{document}

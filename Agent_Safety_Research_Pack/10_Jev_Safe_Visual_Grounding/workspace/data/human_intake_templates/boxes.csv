@@ -1,0 +1,3 @@
+case_id,annotator_id,annotation_round,box_index,left,top,right,bottom,box_note
+example_case_001,ANNOTATOR_A,independent,0,235,180,385,222,
+example_case_001,ANNOTATOR_B,independent,0,236,181,386,223,

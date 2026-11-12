@@ -1,0 +1,19 @@
+{
+  "file_name": "pc_ede36f9b-1154-4f76-b7f8-c15d7d3f9b6e.png",
+  "bbox": [
+    0.9479166666666666,
+    0.14444444444444443,
+    0.99375,
+    0.2074074074074074
+  ],
+  "instruction": "close",
+  "data_type": "icon",
+  "data_source": "windows",
+  "local_image": "screenspot_example.png",
+  "license": "Apache-2.0 per upstream card",
+  "source": "https://huggingface.co/datasets/bevaya/ScreenSpot",
+  "retrieved": "2026-10-17",
+  "purpose": "download/schema/visual inspection only; excluded from pilot and all metrics",
+  "label_review": "original source annotation; uniqueness and absent variants not independently annotated",
+  "image_sha256": "9b313894d70c16c3ce09adb404fac1bd32334fc50bf761014bf0fe44761def1c"
+}

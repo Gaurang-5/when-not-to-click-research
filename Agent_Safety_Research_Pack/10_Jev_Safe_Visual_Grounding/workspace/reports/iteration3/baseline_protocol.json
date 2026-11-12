@@ -1,0 +1,12 @@
+{
+  "model": "qwen2.5vl:7b",
+  "backend": "Ollama local, quantized Q4_K_M",
+  "temperature": 0,
+  "seed": 1729,
+  "num_ctx": 4096,
+  "num_predict": 180,
+  "cohort": "951 exact prepared images, real751 reported separately",
+  "coordinate_units": "absolute pixels in supplied image; force one best box even if absent to match Jev forced-output interface",
+  "confidence": "verbalized prompted probabilities, not native logits or calibrated probabilities",
+  "prompt": "Locate the GUI element matching the instruction using only visible pixels. Return exactly one best bounding box even if no target exists; reflect absence or ambiguity in the probabilities. Coordinates are absolute pixels [left,top,right,bottom] in the supplied image. presence is the probability at least one visible target matches; one is the probability exactly one matches; confidence is probability your box accurately localizes the requested target. match_count is none, one, or several. Do not infer hidden/offscreen elements. Return JSON only."
+}

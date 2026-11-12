@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Jev safe GUI grounding case",
+  "type": "object",
+  "required": [
+    "case_id", "application_id", "template_id", "layout_family",
+    "screenshot_path", "screenshot_sha256", "instruction", "target_status",
+    "plausible_match_count", "ground_truth_boxes", "localization_eligibility",
+    "reference_action", "source", "source_license", "annotation_status", "split"
+  ],
+  "properties": {
+    "case_id": {"type": "string", "minLength": 1},
+    "application_id": {"type": "string", "minLength": 1},
+    "template_id": {"type": "string", "minLength": 1},
+    "layout_family": {"type": "string", "minLength": 1},
+    "screenshot_path": {"type": "string", "minLength": 1},
+    "screenshot_sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "instruction": {"type": "string", "minLength": 1},
+    "target_status": {"enum": ["unique", "absent", "multiple", "occluded", "offscreen", "unclear"]},
+    "plausible_match_count": {"type": "integer", "minimum": 0},
+    "ground_truth_boxes": {
+      "type": "array",
+      "items": {
+        "type": "array",
+        "prefixItems": [
+          {"type": "number"}, {"type": "number"},
+          {"type": "number"}, {"type": "number"}
+        ],
+        "minItems": 4,
+        "maxItems": 4
+      }
+    },
+    "localization_eligibility": {"type": "boolean"},
+    "reference_action": {"enum": ["click", "abstain", "clarify"]},
+    "difficulty": {"type": "string"},
+    "source": {"type": "string"},
+    "source_license": {"type": "string"},
+    "annotator_1_label": {"type": ["string", "null"]},
+    "annotator_2_label": {"type": ["string", "null"]},
+    "adjudicated_label": {"type": ["string", "null"]},
+    "procedural_label": {"type": ["string", "null"]},
+    "annotation_status": {"type": "string"},
+    "split": {"enum": ["dev", "calibration", "test"]},
+    "width": {"type": "integer", "minimum": 1},
+    "height": {"type": "integer", "minimum": 1},
+    "target_size": {"type": "string"},
+    "clutter": {"type": "string"}
+  },
+  "additionalProperties": true
+}

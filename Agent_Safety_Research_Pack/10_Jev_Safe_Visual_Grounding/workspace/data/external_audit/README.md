@@ -1,0 +1,9 @@
+# Public dataset audit, not an experimental cohort
+
+Retrieved 17 October 2026. The rootsautomation/ScreenSpot URL redirects to bevaya/ScreenSpot. Its source card declares Apache-2.0 and 1,272 examples. We retrieved the dataset-server first 100 rows, inspected actual fields and downloaded/visually inspected one 960×540 screenshot. The inspected image contains a Windows file window/context menu, with no visible personal account information. Original annotation asks `close` and supplies normalized xyxy coordinates. It is retained here solely as a collection feasibility example, not as a human-verified unique-target label or a Jev test result. Source card retained for attribution; original creators are researchers from Nanjing University and Shanghai AI Laboratory (SeeClick).
+
+Also retrieved OS-Copilot/ScreenSpot-v2 `screenspot_web_v2.json`: 437 records with fields img_filename,bbox,instruction,data_type,data_source. The first bbox is [2321,129,208,70], so do not apply normalized xyxy parsing to that file. Its repository card declares Apache-2.0. The full image archive was not collected; no v2 image entered the pilot. Neither inspected schema has explicit absent/ambiguous status labels. This does not prove those categories never appear; it means new status annotations are required.
+
+The 200-case controlled dataset is synthetic-only. A mixed-source confirmatory dataset remains uncollected. Required extension: sample source applications, group repeated screenshots, independently label visible match count and ambiguity, create carefully reviewed instruction contrasts, preserve original licenses and split by source application/layout family. Public positive examples alone cannot validate absent-target safety. The single downloaded sample is not an independent baseline.
+
+Sources: https://huggingface.co/datasets/bevaya/ScreenSpot ; https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2 ; https://arxiv.org/abs/2401.10935

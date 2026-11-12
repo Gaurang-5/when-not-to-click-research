@@ -1,0 +1,16 @@
+{
+  "generated_files": [
+    "agreement_report.json",
+    "PRELIMINARY_AGREEMENT_REPORT.md",
+    "validation_issues.csv",
+    "corrections_annotator_a.csv",
+    "corrections_annotator_b.csv",
+    "case_comparison.csv",
+    "adjudication_tasks.json"
+  ],
+  "raw_exports": [
+    "raw_exports/annotator_a_export.json",
+    "raw_exports/annotator_b_export.json"
+  ],
+  "warning": "Do not freeze labels until validation issues are corrected and every flagged case is adjudicated."
+}

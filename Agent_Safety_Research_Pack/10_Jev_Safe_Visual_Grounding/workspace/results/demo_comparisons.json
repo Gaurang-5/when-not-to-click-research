@@ -1,0 +1,40 @@
+[
+  {
+    "endpoint": "absent",
+    "comparison": "D_minus_B",
+    "n": 10,
+    "difference": -0.2,
+    "p_cluster_sign": 0.5074492550744926,
+    "clusters": 10,
+    "permutations": 10000,
+    "difference_ci": {
+      "low": -0.5,
+      "high": 0.0,
+      "defined_replicates": 1000,
+      "requested_replicates": 1000,
+      "cluster_unit": "template_id",
+      "clusters": 10,
+      "method": "percentile_cluster_bootstrap"
+    },
+    "p_holm": 0.5074492550744926
+  },
+  {
+    "endpoint": "multiple",
+    "comparison": "D_minus_B",
+    "n": 10,
+    "difference": -0.3,
+    "p_cluster_sign": 0.252974702529747,
+    "clusters": 10,
+    "permutations": 10000,
+    "difference_ci": {
+      "low": -0.6,
+      "high": 0.0,
+      "defined_replicates": 1000,
+      "requested_replicates": 1000,
+      "cluster_unit": "template_id",
+      "clusters": 10,
+      "method": "percentile_cluster_bootstrap"
+    },
+    "p_holm": 0.505949405059494
+  }
+]

@@ -1,0 +1,3 @@
+annotator,case_id,issue
+A,ssv2v_web_155_neg,offscreen_requires_0_boxes_found_1
+A,ssv2v_web_183_neg,unique_requires_1_box_found_0

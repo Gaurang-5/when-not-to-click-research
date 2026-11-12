@@ -1,0 +1,5 @@
+source_dataset,role,pinned_revision,upstream_url,license_note,redistribution_decision
+ScreenSpot-v2-variants,1500 paired real-GUI tasks,aa4d83b6833d77d3bb3b7cb769951e2db80052b6,https://huggingface.co/datasets/likaixin/ScreenSpot-v2-variants,"Parent ScreenSpot-v2 lists Apache-2.0; variants repository licence metadata is unclear",Manifest and fetch URLs only pending release review
+ImageJevBench Box public v0.1,300 external localization tasks,609a664e81f46e03731600bd7bd9f1b7a61257c5,https://github.com/fstandhartinger/jevbench/tree/main/datasets/imagejev-box-v0.1,Per-item CC BY / CC BY-SA / no-known-restrictions plus attribution,Manifest only; downloader verifies published hashes
+GUI-Recover CF Pilot,66 auxiliary wrong-click candidates,5878d5ac7dae36362788cc4f795dde5e4b4bba4d,https://huggingface.co/datasets/tyang4/gui-recover-cf-pilot,CC-BY-4.0 annotations; upstream image terms apply,Metadata only and excluded from primary benchmark count
+Jev safe GUI grounding synthetic pilot,200 controlled safety tasks,local_pilot_v1,local,CC0-1.0 project-authored assets,Included locally

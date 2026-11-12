@@ -1,0 +1,16 @@
+{
+  "manuscript_version": "audited-2026-10-23",
+  "research_type": "empirical native-interface transfer audit",
+  "pdf_pages": 15,
+  "tests_passed": 64,
+  "raw_log_unchanged_sha256": "aefdc987be72fcfff60aa39cd04f67f3277517e64d94027ea104a28b68c85c10",
+  "paid_api_calls_during_upgrade": 0,
+  "independent_third_review": "not performed; blinded 100-case queue prepared",
+  "same_dataset_llm_baseline": "not performed; published contextual comparison only",
+  "cohorts": {
+    "mixed": 951,
+    "real": 751,
+    "pilot_reuse": 200
+  },
+  "main_result": "Frozen logistic E accepts only one real-interface case. Prior mixed-cohort strong transfer conclusion withdrawn."
+}

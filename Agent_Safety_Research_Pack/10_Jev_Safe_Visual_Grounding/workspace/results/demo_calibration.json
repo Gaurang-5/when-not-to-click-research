@@ -1,0 +1,806 @@
+{
+  "presence_all": {
+    "n": 78,
+    "brier": 0.14328965321366924,
+    "ece": 0.1855341035057388,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 1,
+        "confidence": 0.055653563580585215,
+        "frequency": 0.0
+      },
+      {
+        "bin": 1,
+        "n": 2,
+        "confidence": 0.11859907711250109,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 7,
+        "confidence": 0.25450587138736724,
+        "frequency": 0.5714285714285714
+      },
+      {
+        "bin": 3,
+        "n": 5,
+        "confidence": 0.325354099034107,
+        "frequency": 0.0
+      },
+      {
+        "bin": 4,
+        "n": 8,
+        "confidence": 0.4474762354631473,
+        "frequency": 0.5
+      },
+      {
+        "bin": 5,
+        "n": 10,
+        "confidence": 0.5567025166814372,
+        "frequency": 0.8
+      },
+      {
+        "bin": 6,
+        "n": 15,
+        "confidence": 0.6500236554381331,
+        "frequency": 0.9333333333333333
+      },
+      {
+        "bin": 7,
+        "n": 11,
+        "confidence": 0.7533478359923294,
+        "frequency": 0.9090909090909091
+      },
+      {
+        "bin": 8,
+        "n": 13,
+        "confidence": 0.8437713884025967,
+        "frequency": 0.9230769230769231
+      },
+      {
+        "bin": 9,
+        "n": 6,
+        "confidence": 0.918896152096,
+        "frequency": 1.0
+      }
+    ]
+  },
+  "presence_absent": {
+    "n": 10,
+    "brier": 0.09478700203098135,
+    "ece": 0.2784757755929999,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 1,
+        "confidence": 0.055653563580585215,
+        "frequency": 0.0
+      },
+      {
+        "bin": 1,
+        "n": 2,
+        "confidence": 0.11859907711250109,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 1,
+        "confidence": 0.23387559834862656,
+        "frequency": 0.0
+      },
+      {
+        "bin": 3,
+        "n": 3,
+        "confidence": 0.3335782851243309,
+        "frequency": 0.0
+      },
+      {
+        "bin": 4,
+        "n": 3,
+        "confidence": 0.4190985281342641,
+        "frequency": 0.0
+      },
+      {
+        "bin": 5,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 6,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  },
+  "presence_multiple": {
+    "n": 9,
+    "brier": 0.13549825122041462,
+    "ece": 0.3594392573791545,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 2,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 3,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 4,
+        "n": 1,
+        "confidence": 0.48588775292799585,
+        "frequency": 1.0
+      },
+      {
+        "bin": 5,
+        "n": 1,
+        "confidence": 0.5534344076497264,
+        "frequency": 1.0
+      },
+      {
+        "bin": 6,
+        "n": 4,
+        "confidence": 0.6384557623720257,
+        "frequency": 1.0
+      },
+      {
+        "bin": 7,
+        "n": 3,
+        "confidence": 0.7239671578405948,
+        "frequency": 1.0
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  },
+  "presence_unique": {
+    "n": 29,
+    "brier": 0.11650320902247398,
+    "ece": 0.29514301685431754,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 2,
+        "n": 2,
+        "confidence": 0.2840339496474717,
+        "frequency": 1.0
+      },
+      {
+        "bin": 3,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 4,
+        "n": 1,
+        "confidence": 0.4361451809052868,
+        "frequency": 1.0
+      },
+      {
+        "bin": 5,
+        "n": 4,
+        "confidence": 0.5561254355166224,
+        "frequency": 1.0
+      },
+      {
+        "bin": 6,
+        "n": 6,
+        "confidence": 0.6483009004284874,
+        "frequency": 1.0
+      },
+      {
+        "bin": 7,
+        "n": 5,
+        "confidence": 0.7634647123994731,
+        "frequency": 1.0
+      },
+      {
+        "bin": 8,
+        "n": 8,
+        "confidence": 0.8471400697313947,
+        "frequency": 1.0
+      },
+      {
+        "bin": 9,
+        "n": 3,
+        "confidence": 0.9092960555128751,
+        "frequency": 1.0
+      }
+    ]
+  },
+  "box_event_all": {
+    "n": 78,
+    "brier": 0.4059127013608762,
+    "ece": 0.42675886642738947,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 1,
+        "confidence": 0.19987151858911895,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 2,
+        "confidence": 0.26169307390800417,
+        "frequency": 1.0
+      },
+      {
+        "bin": 3,
+        "n": 3,
+        "confidence": 0.3399075734335244,
+        "frequency": 0.3333333333333333
+      },
+      {
+        "bin": 4,
+        "n": 9,
+        "confidence": 0.4600757047054661,
+        "frequency": 0.2222222222222222
+      },
+      {
+        "bin": 5,
+        "n": 18,
+        "confidence": 0.5616927565584823,
+        "frequency": 0.2777777777777778
+      },
+      {
+        "bin": 6,
+        "n": 6,
+        "confidence": 0.6614632156198526,
+        "frequency": 0.6666666666666666
+      },
+      {
+        "bin": 7,
+        "n": 15,
+        "confidence": 0.7471625370394397,
+        "frequency": 0.13333333333333333
+      },
+      {
+        "bin": 8,
+        "n": 16,
+        "confidence": 0.8508727783244268,
+        "frequency": 0.25
+      },
+      {
+        "bin": 9,
+        "n": 8,
+        "confidence": 0.935901164349689,
+        "frequency": 0.25
+      }
+    ]
+  },
+  "box_event_absent": {
+    "n": 10,
+    "brier": 0.4179014364417098,
+    "ece": 0.6242251874729929,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 2,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 3,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 4,
+        "n": 2,
+        "confidence": 0.48995741937318965,
+        "frequency": 0.0
+      },
+      {
+        "bin": 5,
+        "n": 5,
+        "confidence": 0.546800520988046,
+        "frequency": 0.0
+      },
+      {
+        "bin": 6,
+        "n": 1,
+        "confidence": 0.6297275254014052,
+        "frequency": 0.0
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 2,
+        "confidence": 0.9493034528209575,
+        "frequency": 0.0
+      }
+    ]
+  },
+  "box_event_multiple": {
+    "n": 9,
+    "brier": 0.5205129280101346,
+    "ece": 0.6938034748537405,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 2,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 3,
+        "n": 1,
+        "confidence": 0.3280338561536651,
+        "frequency": 0.0
+      },
+      {
+        "bin": 4,
+        "n": 1,
+        "confidence": 0.4548752600007236,
+        "frequency": 0.0
+      },
+      {
+        "bin": 5,
+        "n": 1,
+        "confidence": 0.5497726796463152,
+        "frequency": 0.0
+      },
+      {
+        "bin": 6,
+        "n": 1,
+        "confidence": 0.663987155860178,
+        "frequency": 0.0
+      },
+      {
+        "bin": 7,
+        "n": 2,
+        "confidence": 0.7810984454260923,
+        "frequency": 0.0
+      },
+      {
+        "bin": 8,
+        "n": 1,
+        "confidence": 0.8514951452813736,
+        "frequency": 0.0
+      },
+      {
+        "bin": 9,
+        "n": 2,
+        "confidence": 0.9169351429446122,
+        "frequency": 0.0
+      }
+    ]
+  },
+  "box_event_unique": {
+    "n": 29,
+    "brier": 0.2390793203935812,
+    "ece": 0.28591522146204396,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 1,
+        "confidence": 0.19987151858911895,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 2,
+        "confidence": 0.26169307390800417,
+        "frequency": 1.0
+      },
+      {
+        "bin": 3,
+        "n": 2,
+        "confidence": 0.3458444320734541,
+        "frequency": 0.5
+      },
+      {
+        "bin": 4,
+        "n": 2,
+        "confidence": 0.42716609575446624,
+        "frequency": 1.0
+      },
+      {
+        "bin": 5,
+        "n": 6,
+        "confidence": 0.5795236462326788,
+        "frequency": 0.8333333333333334
+      },
+      {
+        "bin": 6,
+        "n": 4,
+        "confidence": 0.6687661531143829,
+        "frequency": 1.0
+      },
+      {
+        "bin": 7,
+        "n": 3,
+        "confidence": 0.7396464945202469,
+        "frequency": 0.6666666666666666
+      },
+      {
+        "bin": 8,
+        "n": 7,
+        "confidence": 0.850229514094209,
+        "frequency": 0.5714285714285714
+      },
+      {
+        "bin": 9,
+        "n": 2,
+        "confidence": 0.9286312425422968,
+        "frequency": 1.0
+      }
+    ]
+  },
+  "joint_all": {
+    "n": 78,
+    "brier": 0.17551970378414666,
+    "ece": 0.09643107662290729,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 1,
+        "confidence": 0.0986781190084983,
+        "frequency": 0.0
+      },
+      {
+        "bin": 1,
+        "n": 16,
+        "confidence": 0.1493869504484221,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 15,
+        "confidence": 0.25303435887163456,
+        "frequency": 0.13333333333333333
+      },
+      {
+        "bin": 3,
+        "n": 20,
+        "confidence": 0.34553682867843794,
+        "frequency": 0.35
+      },
+      {
+        "bin": 4,
+        "n": 12,
+        "confidence": 0.4544269657406273,
+        "frequency": 0.5833333333333334
+      },
+      {
+        "bin": 5,
+        "n": 13,
+        "confidence": 0.5377781072947686,
+        "frequency": 0.46153846153846156
+      },
+      {
+        "bin": 6,
+        "n": 1,
+        "confidence": 0.6099840349532938,
+        "frequency": 0.0
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  },
+  "joint_absent": {
+    "n": 10,
+    "brier": 0.032411976017647205,
+    "ece": 0.16878833960313494,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 1,
+        "confidence": 0.0986781190084983,
+        "frequency": 0.0
+      },
+      {
+        "bin": 1,
+        "n": 5,
+        "confidence": 0.12655167598591674,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 4,
+        "confidence": 0.2391117242733169,
+        "frequency": 0.0
+      },
+      {
+        "bin": 3,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 4,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 5,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 6,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  },
+  "joint_multiple": {
+    "n": 9,
+    "brier": 0.041817492734220564,
+    "ece": 0.20048190293411927,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 5,
+        "confidence": 0.16721929634305,
+        "frequency": 0.0
+      },
+      {
+        "bin": 2,
+        "n": 4,
+        "confidence": 0.24206016117295592,
+        "frequency": 0.0
+      },
+      {
+        "bin": 3,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 4,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 5,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 6,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  },
+  "joint_unique": {
+    "n": 29,
+    "brier": 0.3047003957843717,
+    "ece": 0.33125085941391674,
+    "bins": [
+      {
+        "bin": 0,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 1,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 2,
+        "n": 3,
+        "confidence": 0.26518641736846554,
+        "frequency": 0.6666666666666666
+      },
+      {
+        "bin": 3,
+        "n": 8,
+        "confidence": 0.3572717341121514,
+        "frequency": 0.875
+      },
+      {
+        "bin": 4,
+        "n": 10,
+        "confidence": 0.44872017028940137,
+        "frequency": 0.7
+      },
+      {
+        "bin": 5,
+        "n": 8,
+        "confidence": 0.531598781137474,
+        "frequency": 0.75
+      },
+      {
+        "bin": 6,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 7,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 8,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      },
+      {
+        "bin": 9,
+        "n": 0,
+        "confidence": null,
+        "frequency": null
+      }
+    ]
+  }
+}

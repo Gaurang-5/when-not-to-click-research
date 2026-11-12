@@ -1,0 +1,19 @@
+policy,method,threshold,test_scope,n,correct_localizations,accepted,incorrect_accepted,coverage,selective_risk,correct_accepted,calibration_certified
+B,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+B,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+B,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False
+C,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+C,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+C,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False
+D,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+D,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+D,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False
+E,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+E,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+E,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False
+uniqueness,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+uniqueness,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+uniqueness,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False
+E_real_fit,empirical calibration risk <=10%; no guarantee,,all test cases descriptive,229,16,0,0,0.0,,0,
+E_real_fit,"LTT alpha10%, family delta5% across policies and grid",,one case per source cluster,220,11,0,0,0.0,,0,False
+E_real_fit,"LTT alpha10%, family delta5% across policies and grid",,all test cases descriptive,229,16,0,0,0.0,,0,False

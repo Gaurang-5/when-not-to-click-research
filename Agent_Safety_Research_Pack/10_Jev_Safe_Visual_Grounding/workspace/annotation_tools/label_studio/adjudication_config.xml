@@ -1,0 +1,30 @@
+<View>
+  <View style="padding: 14px; margin-bottom: 12px; border: 1px solid #d0d7de; border-radius: 8px; background: #f6f8fa;">
+    <Header value="Adjudication case" />
+    <Text name="instruction" value="$instruction" />
+    <Text name="case_id" value="$case_id" />
+    <Text name="review_reasons" value="$review_reasons" />
+  </View>
+  <Header value="Independent annotations" />
+  <Text name="annotator_a_summary" value="$annotator_a_summary" />
+  <Text name="annotator_b_summary" value="$annotator_b_summary" />
+  <Header value="A/B comparison (red = A, blue = B)" />
+  <Image name="comparison_image" value="$comparison_image" zoom="true" zoomControl="true" maxWidth="1400" />
+  <Header value="Final status" />
+  <Choices name="adjudicated_status" toName="image" choice="single-radio" required="true">
+    <Choice value="unique" />
+    <Choice value="absent" />
+    <Choice value="multiple" />
+    <Choice value="occluded" />
+    <Choice value="offscreen" />
+    <Choice value="unclear" />
+  </Choices>
+  <Header value="Untouched screenshot for the final decision" />
+  <Image name="image" value="$image" zoom="true" zoomControl="true" maxWidth="1400" />
+  <Header value="For unique or multiple only: draw final target box(es)" />
+  <RectangleLabels name="adjudicated_boxes" toName="image" strokeWidth="3">
+    <Label value="valid_target" background="#7C3AED" />
+  </RectangleLabels>
+  <TextArea name="adjudication_notes" toName="image" rows="3" maxSubmissions="1"
+            placeholder="Explain the final decision, especially when overriding an annotator." />
+</View>

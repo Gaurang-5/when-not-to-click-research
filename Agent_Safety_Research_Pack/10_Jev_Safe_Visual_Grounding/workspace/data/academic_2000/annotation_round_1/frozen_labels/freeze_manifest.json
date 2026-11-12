@@ -1,0 +1,19 @@
+{
+  "state": "FROZEN",
+  "cases": 951,
+  "status_counts": {
+    "absent": 640,
+    "unique": 206,
+    "multiple": 54,
+    "offscreen": 5,
+    "occluded": 27,
+    "unclear": 19
+  },
+  "consensus_cases": 692,
+  "adjudicated_cases": 259,
+  "annotator_a_sha256": "5b4fd366fda83af6f8f99894e56854aa1380f2f6ddd000809a2ced724518c471",
+  "annotator_b_sha256": "c38c061d6eb29ceb750abcbdc617266c25830922fb84f5937418708e6793e669",
+  "adjudication_export_sha256": "c9ee4ffae41d61f1283122348de94a3b6e9fae5a01e4eee0967949bbc77790fc",
+  "final_labels_sha256": "6bf1daa033378c35c4c19e553ed00d8d0f9b8e9876055bd1b3238b7e6a428831",
+  "rule": "Reviewer-approved Annotator B labels resolve all 259 flagged cases; unflagged localizable boxes use the coordinate-wise mean after maximum-IoU matching."
+}

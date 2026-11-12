@@ -1,0 +1,27 @@
+{
+  "config_sha256": "dbee0e2855691dbb3c35f079447f9a50c8b415a4391e493887d29ad8cf730311",
+  "thresholds": {
+    "A": 0.0,
+    "B": 0.8375633614753883,
+    "C": 0.6288174135572904,
+    "D": 0.5394663325790428,
+    "E": 0.4003192064229431,
+    "presence": 0.7231497597166432,
+    "uniqueness": 0.6844358240296216,
+    "presence_uniqueness": 0.5765461590012094
+  },
+  "joint_coef": [
+    [
+      1.3890807970484393,
+      2.0255090799424633,
+      0.36374944300537065
+    ]
+  ],
+  "joint_intercept": [
+    -2.9119412169437395
+  ],
+  "training_split": "dev",
+  "threshold_split": "calibration",
+  "test_used_for_selection": false,
+  "provenance": "simulated_fixture"
+}

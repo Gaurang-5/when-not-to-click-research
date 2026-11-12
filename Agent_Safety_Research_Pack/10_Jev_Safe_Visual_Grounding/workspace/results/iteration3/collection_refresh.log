@@ -1,0 +1,375 @@
+{
+  "state": "COMPLETE",
+  "repeat_progress": {
+    "original:r1": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 740,
+      "failures": 11,
+      "latency_mean_ms": 468.8127841437913
+    },
+    "original:r2": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 732,
+      "failures": 19,
+      "latency_mean_ms": 1262.0407405194514
+    },
+    "original:r3": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 741,
+      "failures": 10,
+      "latency_mean_ms": 1008.6841815257729
+    },
+    "original:r4": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 743,
+      "failures": 8,
+      "latency_mean_ms": 1055.7078843634124
+    },
+    "original:r5": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 740,
+      "failures": 11,
+      "latency_mean_ms": 1161.9618250811902
+    },
+    "literal:r1": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 743,
+      "failures": 8,
+      "latency_mean_ms": 1192.395198853517
+    },
+    "conservative:r1": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true,
+      "valid_outputs": 740,
+      "failures": 11,
+      "latency_mean_ms": 1175.7441549574125
+    }
+  },
+  "baseline": {
+    "state": "COMPLETE",
+    "attempted": 951,
+    "expected": 951,
+    "real_attempted": 751,
+    "ok": 889,
+    "cost_usd": null,
+    "cost_note": "local GPU/energy unpriced; zero cloud API calls",
+    "latency_mean_ms": 11339.130860446588,
+    "latency_p95_ms": 16667.045771006087,
+    "same_input_images_verified": 951,
+    "model_digest": "5ced39dfa4bac325dc183dd1e4febaa1c46b3ea28bce48896c8e69c1e79611cc",
+    "raw_sha256": "a42bd571da31342832f3939d09abae43a594b3894cfcd2686c954aa284d2c0e7",
+    "metrics_note": "Forced geometry and fixed one-label semantic gate only; no Jev-trained logistic applied to Qwen self-reports.",
+    "primary_metrics": {
+      "Jev": {
+        "n": 751,
+        "valid_outputs": 740,
+        "unique_n": 131,
+        "strict_correct": 41,
+        "iou03_correct": 64,
+        "center_correct": 77,
+        "one_label_gate": {
+          "accepted": 194,
+          "errors": 163
+        }
+      },
+      "Qwen": {
+        "n": 751,
+        "valid_outputs": 694,
+        "unique_n": 131,
+        "strict_correct": 22,
+        "iou03_correct": 34,
+        "center_correct": 67,
+        "one_label_gate": {
+          "accepted": 604,
+          "errors": 583
+        }
+      }
+    },
+    "deployment_comparison": {
+      "Jev": {
+        "attempts": 951,
+        "valid_outputs": 940,
+        "failure_outputs": 11,
+        "latency_mean_ms": 459.14957826384455,
+        "latency_p95_ms": 627.8241255058674,
+        "api_cost_estimate_usd": 0.13437047400000002,
+        "total_economic_cost_usd": null,
+        "cost_note": "Jev recorded token rate estimate, not invoice; local Qwen hardware and electricity unpriced."
+      },
+      "Qwen": {
+        "attempts": 951,
+        "valid_outputs": 889,
+        "failure_outputs": 62,
+        "latency_mean_ms": 11339.130860446588,
+        "latency_p95_ms": 16667.045771006087,
+        "api_cost_estimate_usd": 0,
+        "total_economic_cost_usd": null,
+        "cost_note": "Jev recorded token rate estimate, not invoice; local Qwen hardware and electricity unpriced."
+      }
+    },
+    "label_sensitivity": [
+      {
+        "labels": "final",
+        "model": "Jev",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 41,
+        "unique_accuracy": 0.31297709923664124
+      },
+      {
+        "labels": "final",
+        "model": "Jev",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 64,
+        "unique_accuracy": 0.48854961832061067
+      },
+      {
+        "labels": "final",
+        "model": "Jev",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 77,
+        "unique_accuracy": 0.5877862595419847
+      },
+      {
+        "labels": "final",
+        "model": "Qwen",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 22,
+        "unique_accuracy": 0.16793893129770993
+      },
+      {
+        "labels": "final",
+        "model": "Qwen",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 34,
+        "unique_accuracy": 0.2595419847328244
+      },
+      {
+        "labels": "final",
+        "model": "Qwen",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 67,
+        "unique_accuracy": 0.5114503816793893
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Jev",
+        "criterion": "strict",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 20,
+        "unique_accuracy": 0.36363636363636365
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Jev",
+        "criterion": "iou03",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 33,
+        "unique_accuracy": 0.6
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Jev",
+        "criterion": "center",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 40,
+        "unique_accuracy": 0.7272727272727273
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Qwen",
+        "criterion": "strict",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 15,
+        "unique_accuracy": 0.2727272727272727
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Qwen",
+        "criterion": "iou03",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 21,
+        "unique_accuracy": 0.38181818181818183
+      },
+      {
+        "labels": "consensus_only",
+        "model": "Qwen",
+        "criterion": "center",
+        "n": 515,
+        "unique_n": 55,
+        "correct": 39,
+        "unique_accuracy": 0.7090909090909091
+      },
+      {
+        "labels": "A_only",
+        "model": "Jev",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 55,
+        "unique_accuracy": 0.275
+      },
+      {
+        "labels": "A_only",
+        "model": "Jev",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 93,
+        "unique_accuracy": 0.465
+      },
+      {
+        "labels": "A_only",
+        "model": "Jev",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 128,
+        "unique_accuracy": 0.64
+      },
+      {
+        "labels": "A_only",
+        "model": "Qwen",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 18,
+        "unique_accuracy": 0.09
+      },
+      {
+        "labels": "A_only",
+        "model": "Qwen",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 45,
+        "unique_accuracy": 0.225
+      },
+      {
+        "labels": "A_only",
+        "model": "Qwen",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 200,
+        "correct": 105,
+        "unique_accuracy": 0.525
+      },
+      {
+        "labels": "B_only",
+        "model": "Jev",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 41,
+        "unique_accuracy": 0.31297709923664124
+      },
+      {
+        "labels": "B_only",
+        "model": "Jev",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 64,
+        "unique_accuracy": 0.48854961832061067
+      },
+      {
+        "labels": "B_only",
+        "model": "Jev",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 76,
+        "unique_accuracy": 0.5801526717557252
+      },
+      {
+        "labels": "B_only",
+        "model": "Qwen",
+        "criterion": "strict",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 20,
+        "unique_accuracy": 0.15267175572519084
+      },
+      {
+        "labels": "B_only",
+        "model": "Qwen",
+        "criterion": "iou03",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 32,
+        "unique_accuracy": 0.24427480916030533
+      },
+      {
+        "labels": "B_only",
+        "model": "Qwen",
+        "criterion": "center",
+        "n": 751,
+        "unique_n": 131,
+        "correct": 66,
+        "unique_accuracy": 0.5038167938931297
+      }
+    ],
+    "paired_geometry_comparison": {
+      "estimates": {
+        "strict_unique_accuracy_difference_Qwen_minus_Jev": -0.1450381679389313,
+        "iou03_unique_accuracy_difference_Qwen_minus_Jev": -0.22900763358778625,
+        "center_unique_accuracy_difference_Qwen_minus_Jev": -0.07633587786259542
+      },
+      "source_cluster_ci": {
+        "strict_unique_accuracy_difference_Qwen_minus_Jev": {
+          "low": -0.2222222222222222,
+          "high": -0.072992700729927,
+          "defined_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "iou03_unique_accuracy_difference_Qwen_minus_Jev": {
+          "low": -0.3169057025077293,
+          "high": -0.13571125907990314,
+          "defined_replicates": 2000,
+          "requested_replicates": 2000
+        },
+        "center_unique_accuracy_difference_Qwen_minus_Jev": {
+          "low": -0.15079365079365079,
+          "high": 0.0,
+          "defined_replicates": 2000,
+          "requested_replicates": 2000
+        }
+      },
+      "note": "Paired by identical input and human reference; geometry criteria are separate exploratory endpoints, no superiority test or multiplicity-adjusted claim."
+    },
+    "failure_counts": {
+      "out-of-bounds or degenerate box": 62
+    },
+    "latency_after_first_request_mean_ms": 11335.6951128439,
+    "latency_first_request_ms": 14603.091083001345
+  }
+}

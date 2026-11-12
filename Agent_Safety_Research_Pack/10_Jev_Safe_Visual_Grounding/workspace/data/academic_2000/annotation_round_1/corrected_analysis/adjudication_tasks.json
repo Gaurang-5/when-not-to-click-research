@@ -1,0 +1,2592 @@
+[
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_101_neg",
+      "instruction": "upload",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_16d04f01-66a7-45df-a189-66c29fa935d7.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[320.289, 482.712, 475.66, 520.036]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[326.404, 486.37, 435.514, 515.034]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_103_neg",
+      "instruction": "duplicate",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_01c641cb-aa78-4bae-80ea-dda820dd00eb.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[155.371, 169.367, 212.658, 194.539]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_105_neg",
+      "instruction": "fast-forward",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_471e7c2d-8c16-4626-9b8e-7e0fd79e3a32.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[178.807, 454.069, 213.526, 494.864]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_109_neg",
+      "instruction": "update protection",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_79377abe-731c-4d3b-ab04-b332c4054b81.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[152.767, 111.971, 368.029, 224.81]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_112_neg",
+      "instruction": "choose a new theme",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_3f7ea28c-0425-4837-a540-dc5bb23449b8.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[48.608, 24.412, 105.027, 51.32]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_116_neg",
+      "instruction": "print a test page",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[323.815, 509.533, 668.265, 566.676], [319.053, 573.026, 665.091, 633.344]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_136_neg",
+      "instruction": "access additional configurations",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_f2244f33-a9c9-44e7-bacb-3e51f72d619e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[9.376, 491.793, 115.064, 531.0]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_147_neg",
+      "instruction": "check for updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_7b437f7a-8819-467b-b5a6-96e8588f15a2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[16.491, 850.045, 139.425, 908.514]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_149_neg",
+      "instruction": "restore",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_56c33426-0532-47dd-bf74-2a560c5a63f0.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[133.73, 52.971, 184.965, 124.178], [190.175, 54.708, 263.987, 136.335]]; notes=(none)",
+      "annotator_b_summary": "status=offscreen; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_151_neg",
+      "instruction": "verify microphone",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_1f6ac92f-9273-4758-a571-d0c831bb1dba.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[333.605, 204.95, 532.571, 243.846]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_153_neg",
+      "instruction": "access additional network configuration",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_85012b9e-3058-4501-a9c7-6415d31c7699.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[330.613, 593.907, 776.417, 656.738]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_156_neg",
+      "instruction": "submit feedback",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5df0bc8e-3005-4a32-b824-0318d6a05bdd.png",
+      "review_reasons": "box_count_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[342.949, 804.207, 1145.658, 931.502], [336.958, 262.079, 474.737, 407.345], [483.722, 254.591, 624.496, 407.345], [13.478, 166.233, 263.576, 200.677]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[356.265, 269.995, 469.695, 393.01], [493.659, 287.568, 611.882, 389.815]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_185_neg",
+      "instruction": "switch to satellite view",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[698.443, 1557.66, 751.156, 1618.279]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_191_neg",
+      "instruction": "mute the sound",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_e2bd639a-f297-48fd-bee0-3b7044b0ad57.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[42.992, 503.961, 573.226, 558.896]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[52.233, 515.959, 107.014, 551.63]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_1_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5e09e8e9-7ef6-44be-ad54-aeaeac151897.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[837.613, 37.324, 872.333, 68.571]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_200_neg",
+      "instruction": "initiate pairing",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[24.27, 544.334, 478.459, 592.873]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_210_neg",
+      "instruction": "enhance battery performance",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_cc362e8f-6ef3-4273-9dfb-baeab56ad760.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[335.634, 461.701, 1044.559, 553.387]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[354.555, 461.096, 392.979, 511.747]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_212_neg",
+      "instruction": "customize keyboard settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_f344a1f6-cbf8-4115-9c9b-a9dfd00fbfe7.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[457.477, 357.708, 865.069, 419.759]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[438.332, 367.306, 886.811, 440.362]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_220_neg",
+      "instruction": "enable notifications",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_ed2173e7-c929-4f52-9777-db36a36e0c3e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[515.373, 151.873, 694.634, 196.688], [540.271, 271.38, 619.942, 338.603]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_221_neg",
+      "instruction": "reset password",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_b93bf9fd-afa5-40c0-b103-48f235f3ffe0.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[961.791, 220.343, 1252.902, 291.111]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[984.842, 226.479, 1233.627, 267.658]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_223_neg",
+      "instruction": "sync settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_6ca110ef-dfac-49fe-a9eb-4ba4f621cbdc.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1153.358, 142.912, 1300.295, 199.271]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_227_neg",
+      "instruction": "sync time",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_8c34d9b6-4f21-4cfa-a277-8a4fe45c9ef7.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[117.445, 224.526, 582.042, 309.156]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_237_neg",
+      "instruction": "archive all emails",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5392df82-37d6-41f3-838d-2afa1062dcc8.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=medium; boxes=[[1204.494, 21.509, 1273.323, 83.884]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_244_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_6d0b3e39-872b-48ec-b894-0490106eb629.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=medium; boxes=[]; notes=\"The GET/Download button for the featured DaisyDisk app is located further down the App Store story page, cut off by the bottom edge of the visible viewport.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_246_neg",
+      "instruction": "download all featured apps",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_8be15b4a-65cc-4e89-94a2-3b6b571f41e2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[1059.936, 219.904, 1207.271, 288.074], [1053.339, 499.181, 1202.873, 560.754], [1783.419, 224.302, 1917.56, 283.676], [1779.021, 373.836, 1919.759, 417.817]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_24_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_83462e63-b0cd-4921-9d19-8a534ed445c7.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[835.009, 19.096, 864.521, 49.476]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_253_neg",
+      "instruction": "upload",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_09fff6da-5dd8-4288-a0e7-f503273c1908.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1407.261, 795.996, 1564.959, 866.585]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[359.815, 818.041, 587.39, 858.021]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_262_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_0205fe68-a787-4651-8cfa-495802d6beb6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[440.753, 5.342, 491.507, 58.767]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_264_neg",
+      "instruction": "insert a shape",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_00b0c9f6-b24f-4bff-b492-12117b50e63b.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2.498, 117.387, 127.377, 237.271]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[90.589, 266.438, 213.151, 367.685]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_266_neg",
+      "instruction": "insert a chart",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_3f805781-f2fe-45dc-8bc5-e62d12f1c359.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[477.653, 250.08, 597.692, 335.108]]; notes=(none)",
+      "annotator_b_summary": "status=occluded; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_268_neg",
+      "instruction": "change font color",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_41147eb1-3e27-4aa0-b9f9-71363b9be5c9.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[717.73, 197.563, 797.756, 257.583]]; notes=(none)",
+      "annotator_b_summary": "status=occluded; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_270_neg",
+      "instruction": "preview font",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_c2ffa4d3-4cf7-4813-986d-d741f1260c4c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[222.286, 187.319, 1006.53, 237.271]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_272_neg",
+      "instruction": "change the theme",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_71e8f8bd-7ff0-4846-ada6-ce337a0f5ebc.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[364.202, 65.721, 479.213, 112.273]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_273_neg",
+      "instruction": "rotate",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_9eebe928-6d8a-4de5-8212-039d0282b082.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[1304.26, 548.548, 1385.959, 606.904]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_274_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_b113f651-ec99-4a84-8c15-ff0fc1aee615.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[228.674, 8.167, 285.843, 54.446]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[238.137, 14.521, 275.89, 46.466]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_277_neg",
+      "instruction": "verify email",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_18a939a5-8f77-4519-9c7a-d62b11e7b878.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[746.877, 529.038, 964.716, 608.034]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_279_neg",
+      "instruction": "save settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_45480159-6b1b-4528-9109-dab1905c62b7.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1622.398, 1337.413, 1770.501, 1380.048]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_27_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_14fd6f5f-37d5-4b22-953e-626e11044f3e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=medium; boxes=[[834.141, 0.868, 867.125, 32.116]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_290_neg",
+      "instruction": "activate trial",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_ec085abc-591d-4dcc-830c-defddc958f47.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[760.863, 572.595, 1091.956, 612.845]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_298_neg",
+      "instruction": "create shortcut",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_2c2b6cbd-39cf-4bd2-80aa-d953890c21e5.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_29_neg",
+      "instruction": "duplicate the file",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_fa28755f-aee4-48f3-a484-02e670a6ff8f.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[558.119, 392.333, 644.051, 415.769]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[543.699, 392.979, 630.616, 410.548]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_302_neg",
+      "instruction": "share",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_b313a50d-ac5e-4189-beb9-3f5ceb67e536.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1105.971, 28.668, 1163.307, 81.477]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_307_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_8g2jf6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[172.0, 94.0, 201.0, 124.0]]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_314_neg",
+      "instruction": "verify dependencies",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_j6tmln.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=low; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_315_neg",
+      "instruction": "lock the session",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_js1st2.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_31_neg",
+      "instruction": "update security settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_b1f1df2a-6c3d-40f9-ac70-dea7925c85dc.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[277.758, 144.087, 456.564, 247.378]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_320_neg",
+      "instruction": "print",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_oyo43s.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[259.85, 98.647, 286.316, 120.301]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_321_neg",
+      "instruction": "add a new language",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_p4xo8z.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1145.263, 413.835, 1729.925, 464.361]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1410.411, 416.712, 1491.781, 470.959]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_324_neg",
+      "instruction": "sync time",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_rvnx5q.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=unique; confidence=medium; boxes=[[1140.451, 108.271, 1737.143, 156.391]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=low; boxes=[[1665.828, 115.093, 1722.924, 150.438], [1650.875, 162.672, 1729.721, 211.611]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_330_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_vcud9k.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[104.013, 14.446, 153.13, 69.342]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[92.466, 3.082, 154.11, 49.315]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_33_neg",
+      "instruction": "view humidity levels",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_73f3744f-675f-44e3-8c55-ef34bdce0da9.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[427.92, 131.067, 474.792, 184.882]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_35_neg",
+      "instruction": "activate additional security features",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_eb0b756c-e471-40eb-bfaa-06b432094ac6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[376.709, 289.15, 502.568, 326.474], [618.011, 287.414, 736.058, 329.078]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_36_neg",
+      "instruction": "insert a chart",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_dd51aeab-7e2c-40aa-82e6-0f870e49e6ba.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=Because the control genuinely exists in the current functional state but is physically cropped out or requires scrolling to view, the precise and correct status is offscreen.",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_41_neg",
+      "instruction": "take a full-screen screenshot",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_dfd488a9-d3c6-4e00-844a-6d56834a367e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[147.559, 18.228, 216.998, 78.987]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_43_neg",
+      "instruction": "adjust light intensity",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_05f0185e-a291-4e4c-a777-ffb2c46037c6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[398.409, 193.671, 670.958, 431.501]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[420.719, 230.24, 656.507, 415.171], [394.829, 428.116, 679.623, 465.103]]; notes=also might be some more options offscreen9"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_44_neg",
+      "instruction": "apply gradient",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_aae370cb-9618-497e-8877-1a862725d28e.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[490.993, 136.849, 528.904, 214.521]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_45_neg",
+      "instruction": "insert an image",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_f317f992-32e1-4470-ab0b-31910a70bcd4.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[120.205, 42.534, 179.384, 62.877]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_48_neg",
+      "instruction": "save downloads",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_ac6779f8-a188-4633-bfcc-ab05ada6848c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[874.937, 42.532, 900.108, 69.439]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_49_neg",
+      "instruction": "open folder",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_3b590e58-aab0-42c4-9b74-7d1a6b7f26fe.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[31.248, 54.792, 177.939, 89.512]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[34.212, 62.877, 509.486, 86.918]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_54_neg",
+      "instruction": "refresh the weather forecast",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_942d98d0-92d0-49ab-bc98-49a700c1822b.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=medium; boxes=[]; notes=\"The page header / browser bar containing the refresh control is located above the cropped top edge of the visible viewport.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_57_neg",
+      "instruction": "navigate to the parent directory",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_88dde48f-6594-4f17-b117-3529b2bde02e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[9.548, 207.45, 32.984, 232.622]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_58_neg",
+      "instruction": "access printer settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5b1e5fe2-e063-463f-ab56-2b09d17b88a5.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[155.371, 349.042, 272.55, 461.881]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_5_neg",
+      "instruction": "view history",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_f0122b91-3f8b-4510-9a6e-f0239d84b94e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[788.733, 108.185, 820.171, 135.925]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_62_neg",
+      "instruction": "open keyboard settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_ecf34119-ce66-4699-a169-60e5279a650f.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=offscreen; confidence=low; boxes=[]; notes=may be chances are there as there is different keyboard options on screen"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_63_neg",
+      "instruction": "preview the file",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_445877f4-ba58-468b-97b6-e770b1a9f02a.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_64_neg",
+      "instruction": "access additional configuration options",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_92e1062b-0d4a-4e14-8b25-b79e4b6c9b55.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[43.4, 134.647, 256.926, 205.823], [313.345, 135.515, 515.588, 200.615], [571.139, 130.307, 759.494, 202.351], [848.029, 128.571, 948.716, 207.077], [41.664, 250.09, 219.602, 317.794], [300.325, 240.542, 524.268, 309.982], [585.895, 241.41, 782.929, 319.53], [852.369, 237.939, 960.0, 310.368], [46.004, 350.778, 276.022, 414.141], [314.213, 353.382, 552.043, 421.085], [585.895, 349.042, 792.477, 412.405], [853.237, 340.362, 960.0, 421.471], [45.136, 454.937, 259.53, 528.716]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_65_neg",
+      "instruction": "apply a custom gradient",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_09e2a811-2e5f-4cfc-9d6c-97acda34edf7.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[751.682, 301.302, 914.864, 322.134]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[750.822, 309.76, 916.336, 326.404]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_66_neg",
+      "instruction": "synchronize",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_c7974702-d944-412f-83b2-61f92cf3c68c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The synchronization controls (AutoSave or cloud sync icon) are located on the top left/center of the application title bar, which is cropped outside the visible viewport.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_6_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_354a6cb2-3fe0-4cea-950c-d7f8e01fdf45.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[668.354, 15.624, 696.13, 41.664]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[767.466, 12.945, 788.733, 35.137]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_73_neg",
+      "instruction": "access additional language preferences",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_a2b172fe-7e11-4795-8424-c18d5b65a009.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=offscreen; confidence=low; boxes=[]; notes=add a language option is offscreen",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_82_neg",
+      "instruction": "access the weather forecast",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5a8a71e4-4c80-4b17-b724-a6b6d48a339f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[621.483, 501.808, 719.566, 536.528]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_83_neg",
+      "instruction": "view history",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_986f4ae9-9dd8-4c5c-b3d8-fb3fb5557d17.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=offscreen; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_85_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_89fc8216-3292-418c-864f-edcce3c34dc5.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[923.544, 449.729, 955.66, 471.429]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_8_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_db6b6fa2-11cc-4b06-88cb-22c180f07a3b.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[20.832, 7.812, 40.796, 33.852]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[12.021, 1.849, 40.685, 29.589]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_desktop_97_neg",
+      "instruction": "open with custom app",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/pc_5da8f8cd-8ba2-490a-86e0-5c82421a9bee.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[341.989, 247.486, 557.251, 270.922]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[331.952, 248.733, 467.877, 268.151]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_0_neg",
+      "instruction": "view messages",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_1ca5b944-293a-46a1-af95-eb35bc8a0b2a.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1229.342, 1437.303, 1382.022, 1582.087]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[294.863, 780.685, 435.274, 966.027]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_100_neg",
+      "instruction": "create a new account",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_c1f1188d-1bd3-4ce6-8e3f-96628d07b0b9.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[85.348, 1182.684, 1072.95, 1337.124]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_104_neg",
+      "instruction": "enable notifications",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_3a1f306e-784a-411a-98cb-f11a2157a5c7.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[52.835, 1239.583, 1121.721, 1337.124]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_113_neg",
+      "instruction": "set a reminder",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_20aa1fbd-f09f-4923-9fb4-15998cda6fe3.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[992.856, 229.788, 1135.932, 312.164]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_118_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_a14fb632-fab9-4537-8c7b-8c650fd91bd7.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[520.218, 1857.342, 670.594, 1999.589]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_127_neg",
+      "instruction": "activate focus duration",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_8d5dea76-69b8-4076-82ef-38b2fb8a1b30.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[42.376, 2095.666, 1005.457, 2284.43]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[110.959, 2165.753, 900.0, 2247.945]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_130_neg",
+      "instruction": "confirm screen time limit",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_b012267b-fcd6-4d0c-991a-f2a4afd0a2ff.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[42.376, 1937.721, 1059.39, 2157.303]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_141_neg",
+      "instruction": "take a new photo",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_5c883ab7-6769-436e-a677-96b0f5a4c950.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_160_neg",
+      "instruction": "create a new folder",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_dc3bbcd3-d7bb-4ce2-be50-eb6f564d2ddc.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[728.09, 443.018, 847.512, 520.064]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_165_neg",
+      "instruction": "add a new folder",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_275415f1-ade1-4210-9e92-8f998a671c96.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[743.499, 1024.719, 820.546, 1105.618]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_170_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_4fafbd92-0af2-4b02-9cf8-952227fd9993.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[847.512, 2037.881, 1020.867, 2153.451], [851.364, 1702.729, 1020.867, 1822.151], [851.364, 1382.986, 1028.571, 1486.998], [847.512, 1051.685, 1005.457, 1147.994]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_173_neg",
+      "instruction": "create subtask",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_2b80c9bf-0040-492e-8dca-d81cc9042b5a.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[73.194, 936.116, 986.196, 1213.483]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[924.658, 2210.959, 1056.164, 2334.247]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_189_neg",
+      "instruction": "backup data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_0dcb6532-d25e-4bb0-8746-ccdbec623bce.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[23.114, 577.849, 566.292, 1067.095]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_194_neg",
+      "instruction": "enable auto brightness",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_d52263df-908a-4f53-93de-b51d691ad995.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[45.205, 1947.945, 1039.726, 2104.11]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_197_neg",
+      "instruction": "activate Dark Mode",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_3607031a-15bb-48cd-a2e6-84a7ce433173.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[0.0, 1236.986, 1027.397, 1356.164]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_199_neg",
+      "instruction": "sync time",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f61ea850-a79c-41b8-891f-8c55326e1530.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[15.409, 573.997, 1067.095, 681.862]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_201_neg",
+      "instruction": "activate special battery optimization mode",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_04545977-3f36-4a33-a787-72ec8a9dd4f2.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[824.398, 1147.994, 1036.276, 1244.302]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[834.247, 1142.466, 932.877, 1253.425]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_215_neg",
+      "instruction": "add a new workout",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_88c8a639-8051-4241-943c-41104b363caa.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[909.149, 173.355, 1005.457, 281.22]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[896.17, 155.745, 1044.255, 298.723]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_221_neg",
+      "instruction": "add new health data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_e277f0fc-fe73-4304-9d8e-2bc4613e1986.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[947.673, 96.308, 1051.685, 188.764]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_224_neg",
+      "instruction": "turn on location services",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f515dd3d-41eb-4fe9-b74a-ac66e60a8b75.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[535.474, 2076.404, 990.048, 2265.169]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[608.219, 2120.548, 916.438, 2206.849]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_22_neg",
+      "instruction": "upload the file",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_4b1df148-c6ac-452a-b55d-f8e6c6dee059.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1460.995, 55.281, 1547.865, 142.151]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1477.123, 70.205, 1561.37, 126.37]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_240_neg",
+      "instruction": "update the weather information",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f53240ec-a09f-4857-9ca1-db5fb79455c3.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[42.376, 1020.867, 543.178, 1575.602]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[69.863, 1064.384, 489.041, 1500.0]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_243_neg",
+      "instruction": "access settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_b9537ded-e771-43c7-bab4-1db747625d87.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2263.884, 65.811, 2319.165, 128.989]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_245_neg",
+      "instruction": "apply wallpaper",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_4e17db8b-85df-4278-ba0a-9f03e5ca85da.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[960.835, 221.124, 2229.663, 323.788]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[2134.247, 249.932, 2221.301, 294.863]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_249_neg",
+      "instruction": "bookmark the page",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f859f69e-20c1-4630-9435-e959c43590d5.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[2042.761, 131.621, 2119.101, 221.124], [2250.722, 147.416, 2327.063, 213.226]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_252_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_41aa1b5c-01f3-455d-807e-9c90c705dd1f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1990.112, 294.831, 2140.161, 465.939]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_255_neg",
+      "instruction": "sync data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_663faca5-79a3-48f6-b64c-9f7989292d17.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[647.576, 423.82, 808.154, 560.706]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_256_neg",
+      "instruction": "center the map on your location",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_9d30c621-fe06-4f6a-86e7-6664cc3bb566.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[76.34, 1279.358, 684.43, 1392.552]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_258_neg",
+      "instruction": "create new template",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f5b4ae93-55f8-4f0c-9c9e-dda8685c37b5.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[5.616, 351.027, 120.753, 452.123]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_25_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_a8181231-d30c-4051-9ff2-16808694adbf.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2016.437, 50.016, 2084.88, 136.886]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_265_neg",
+      "instruction": "back up data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_e3f2b3d7-4c56-44ba-af3f-ae885a3e0dbb.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[926.613, 558.074, 2258.62, 739.711], [929.246, 802.889, 2245.457, 1013.483]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_274_neg",
+      "instruction": "enable automatic app reviews",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_a2719c16-da39-48ea-8c1c-1239414f0778.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[65.027, 1792.315, 1072.95, 2036.167]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_276_neg",
+      "instruction": "mark location as favorite",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_18b2ff57-9a0c-48e6-a754-de728b5a0479.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[81.284, 1873.599, 312.944, 2190.607]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_279_neg",
+      "instruction": "set up project",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_105a4c27-8695-4555-9121-0dd7cacb5ec2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[73.156, 2117.451, 1101.4, 2267.827]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_283_neg",
+      "instruction": "create a new note",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_7e2e6586-4c35-414e-8608-863b7ceba272.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1044.501, 158.504, 1125.785, 256.045]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1018.87, 130.068, 1170.0, 273.144]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_284_neg",
+      "instruction": "add shape",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_d3865883-8214-4bff-9834-13987580abe8.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[117.062, 975.514, 381.534, 1192.295], [433.562, 984.185, 745.726, 1183.623], [832.438, 1014.534, 1023.205, 1179.288], [160.418, 1331.034, 359.856, 1578.164], [442.233, 1348.377, 667.685, 1573.829], [819.432, 1331.034, 1018.87, 1552.151], [117.062, 1721.24, 342.514, 1868.651], [476.918, 1708.233, 693.699, 1920.678], [771.74, 1682.219, 1057.89, 1903.336], [108.39, 2059.418, 437.897, 2315.219], [476.918, 2111.445, 728.384, 2315.219], [845.445, 2085.432, 1018.87, 2345.568], [125.733, 554.959, 359.856, 854.116], [498.596, 576.637, 706.705, 858.452], [819.432, 585.308, 1049.219, 832.438]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_285_neg",
+      "instruction": "enable data sharing",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_8c25fc62-ca0e-4280-ae68-9146b66089b2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[47.692, 2098.438, 1131.596, 2263.192]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_290_neg",
+      "instruction": "locate nearest repair center",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f6f4bdd0-01eb-41a4-b696-42fcc45097b6.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[467.384, 1162.363, 898.189, 1345.252]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[86.712, 2111.445, 182.096, 2219.836]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_295_neg",
+      "instruction": "add payment method",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_c9c47c96-1b18-45dd-8e88-f0b48c54617d.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[410.485, 495.833, 747.814, 751.878]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_296_neg",
+      "instruction": "proceed",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_12280689-e3e1-4a36-ba3c-709acb969b32.png",
+      "review_reasons": "box_count_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[65.027, 1698.838, 1101.4, 1906.112], [32.514, 1902.048, 1097.335, 2072.745], [77.22, 2084.937, 1089.207, 2251.57]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[121.397, 1738.582, 1040.548, 1890.329], [130.068, 1933.685, 992.856, 2050.747], [151.747, 2120.116, 1005.863, 2241.514], [212.445, 2297.877, 1057.89, 2410.603]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_299_neg",
+      "instruction": "resize",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_641346f3-50a8-4235-8a74-e0c9ee49136f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[69.37, 1131.596, 273.144, 1339.705], [893.137, 1131.596, 1131.596, 1357.048]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_303_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_b4a1ee35-b1b3-4ea6-bd37-22e326ea8620.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1003.859, 121.926, 1150.17, 264.173]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_307_neg",
+      "instruction": "enable all alarms",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_39d89f43-f1df-40b7-a0db-eef4bc2521d0.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[934.767, 2178.414, 1137.978, 2304.404], [930.703, 1889.856, 1137.978, 1999.589], [930.703, 1572.848, 1133.913, 1686.645], [946.96, 1272.096, 1146.106, 1398.087], [938.831, 946.96, 1142.042, 1077.014], [951.024, 638.08, 1137.978, 760.006], [942.896, 333.265, 1137.978, 451.127]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_309_neg",
+      "instruction": "activate privacy settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_085c4ffc-e423-4798-a09f-702ded3d1987.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[60.963, 361.714, 1125.785, 703.108]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[919.151, 385.87, 1101.247, 481.253]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_319_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_97ca06a1-8d37-4ece-b7ed-79517c61da2f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[50.08, 369.823, 1067.095, 704.976]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_321_neg",
+      "instruction": "get more information",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f6431461-6800-4054-a29d-d74b01514198.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[762.761, 127.127, 886.035, 219.583]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_325_neg",
+      "instruction": "schedule",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_8ed6041f-f845-4495-8ca6-def7f40471fd.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[53.425, 2132.877, 1031.507, 2276.712]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_327_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_13b715bb-dd6e-462c-80f3-3ea629b114c0.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[886.035, 100.161, 1080.0, 215.73]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[908.219, 135.616, 1060.274, 197.26]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_332_neg",
+      "instruction": "join as guest",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_97752e81-d94b-49a1-8cb2-709395d63372.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_343_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_674f6746-05c0-4e7d-93de-adf054f0eaf6.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=unique; confidence=low; boxes=[[512.36, 1113.323, 774.318, 1171.108]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_345_neg",
+      "instruction": "sync settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_b7323848-f2e7-492c-95aa-e33e731ff196.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_364_neg",
+      "instruction": "confirm location preference",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_48d10f78-a92e-43fb-ace1-c1a4f5bccb90.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[84.751, 2087.961, 982.343, 2249.759]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[127.397, 1952.055, 920.548, 2050.685], [152.055, 2120.548, 957.534, 2223.288]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_370_neg",
+      "instruction": "create server",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_b4e274d0-a7b6-4cad-97ee-5581ef41c6a0.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[53.933, 651.043, 1009.31, 866.774]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[28.767, 678.082, 1047.945, 789.041]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_373_neg",
+      "instruction": "verify email",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_508e7610-9e30-4626-9ea3-37bf194cb1dd.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[34.671, 2161.156, 1036.276, 2319.101]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_384_neg",
+      "instruction": "share",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_1931c317-b01b-46c9-8c28-a5b81ad5495b.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[61.644, 1960.274, 521.918, 2108.219]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_39_neg",
+      "instruction": "check for updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_3925834b-893d-4cdf-b9cf-a602466175f3.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[52.835, 902.254, 1162.363, 1024.18]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_408_neg",
+      "instruction": "check updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_daf338f0-ebfc-488e-9a55-f8cc03394148.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[327.448, 1028.571, 743.499, 1147.994]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_409_neg",
+      "instruction": "download all updates and new apps",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_31f8a5c2-e28a-488c-bb28-a31c823c9c83.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[123.288, 932.877, 406.849, 1035.616]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_426_neg",
+      "instruction": "configure download preferences",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_c47a7b32-1c13-414c-af34-f8ec2c7a0731.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=medium; boxes=[[65.027, 609.631, 1113.592, 760.006]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_431_neg",
+      "instruction": "activate voice control",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_16545bc1-c614-4dc3-a81c-3d349a93e07d.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_438_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_ec01cb13-de9a-4a4b-9a79-5f810b034474.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[979.474, 1454.986, 1081.079, 1572.848]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_43_neg",
+      "instruction": "sync data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_9b66c296-5f43-4312-b933-4dfabf00247c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[52.835, 1434.665, 1093.271, 1564.719]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_450_neg",
+      "instruction": "add to watchlist",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_0ze76a.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2245.457, 50.016, 2334.96, 136.886]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_451_neg",
+      "instruction": "exit",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_456lbi.jpg",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[22.263, 240.443, 227.085, 338.401]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[33.25, 204.25, 228.0, 342.0]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_453_neg",
+      "instruction": "enable notifications",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_4kk4kc.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[66.79, 2159.535, 1264.552, 2328.735]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_454_neg",
+      "instruction": "sign in",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_4yoej9.jpg",
+      "review_reasons": "box_count_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[57.884, 1963.618, 1224.478, 2141.724], [40.074, 2155.082, 1215.573, 2324.283], [80.148, 2342.093, 1211.12, 2489.03]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[118.75, 2014.0, 1121.0, 2123.25], [133.0, 2166.0, 1083.0, 2303.75], [114.0, 2351.25, 1149.5, 2489.0], [128.25, 2546.0, 1106.75, 2655.25]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_466_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_bojubn.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=medium; boxes=[[1117.615, 360.665, 1206.668, 431.907], [1130.973, 498.697, 1228.931, 618.918], [1135.425, 681.255, 1255.647, 792.571], [1126.52, 837.098, 1269.005, 952.867], [1095.352, 1010.751, 1237.836, 1099.804], [1153.236, 1175.499, 1233.384, 1277.91], [1117.615, 1331.342, 1206.668, 1429.3], [1126.52, 1500.543, 1215.573, 1598.501], [1139.878, 1683.101, 1211.12, 1754.343], [1135.425, 1861.207, 1211.12, 1927.997], [1135.425, 2003.692, 1215.573, 2097.197], [1130.973, 2177.345, 1206.668, 2261.945]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_467_neg",
+      "instruction": "sync",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_c9n6vg.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[1008.218, 360.642, 1458.363, 458.042], [997.689, 447.512, 1350.433, 521.22], [1008.218, 542.279, 1258.299, 613.355], [1013.483, 731.814, 1253.034, 784.462], [1000.321, 631.782, 1292.52, 700.225]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_468_neg",
+      "instruction": "center the map",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_d6m47l.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2250.722, 152.681, 2340.225, 247.448]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_46_neg",
+      "instruction": "connect automatically",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_5c9fb5f1-7d84-4283-8ba4-7821a9545c95.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_470_neg",
+      "instruction": "view events",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_drmphj.jpg",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[1068.75, 1425.0, 1280.0, 1653.0]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_473_neg",
+      "instruction": "check for updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f4j7l5.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[62.337, 503.149, 356.212, 614.465], [948.414, 712.424, 1179.952, 810.382], [935.056, 1073.088, 1184.404, 1193.31], [939.509, 1504.995, 1193.31, 1611.859], [952.867, 1963.618, 1184.404, 2066.029]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_477_neg",
+      "instruction": "access additional configuration options",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_gxel80.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[93.506, 1384.774, 1179.952, 1500.543], [120.222, 525.413, 1197.762, 645.634], [80.148, 783.666, 1193.31, 975.13]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_478_neg",
+      "instruction": "enable Quick Settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_hydu17.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[60.404, 535.011, 1208.09, 707.596]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_482_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_lgsxb6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[408.026, 294.831, 563.339, 508.058]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_485_neg",
+      "instruction": "log calories",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_oap5oc.jpg",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_491_neg",
+      "instruction": "share",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_rxb2i5.jpg",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[601.108, 151.39, 765.856, 280.517]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[365.75, 1087.75, 1078.25, 1163.75]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_496_neg",
+      "instruction": "access additional language options",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_yoaurq.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[929.246, 465.939, 2105.939, 534.382]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[940.753, 466.164, 1238.425, 541.986]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_497_neg",
+      "instruction": "book a flight",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_z0bava.jpg",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[333.949, 1856.754, 623.371, 2070.482]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_4_neg",
+      "instruction": "confirm language selection",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_6949b916-64c8-431f-8842-a29a9a557641.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[1682.123, 1395.685, 1794.452, 1508.014]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_50_neg",
+      "instruction": "enable all notifications",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_70580ad8-f119-4db6-813b-81f950e0569e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[56.363, 1664.877, 1070.897, 1755.925]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_60_neg",
+      "instruction": "optimize battery",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_e3249127-d727-4553-9a2a-db645f430d9b.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[77.22, 524.283, 1125.785, 629.952]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[940.829, 533.281, 1057.89, 628.664]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_62_neg",
+      "instruction": "enable battery saver mode",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_e3249127-d727-4553-9a2a-db645f430d9b.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[56.899, 512.09, 1113.592, 658.401]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[914.815, 515.938, 1044.884, 637.336]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_67_neg",
+      "instruction": "add a new favorite event",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_f1247381-fcf6-440f-8787-19bce69e28de.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[1036.212, 143.075, 1148.938, 247.13]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_72_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_e9d69310-692c-4a78-8b8d-b961a5cfec70.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1007.923, 182.889, 1129.849, 317.008]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[1018.87, 212.445, 1105.582, 281.815]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_mobile_94_neg",
+      "instruction": "access settings",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/mobile_efa861a6-0810-4c8a-9bca-4f481641d03d.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1032.308, 142.247, 1142.042, 260.109]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_0_neg",
+      "instruction": "import",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_213f816e-8e80-4d13-970d-1347bbc7a2a8.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[2335.068, 140.548, 2517.534, 182.466]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_103_neg",
+      "instruction": "change email",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_d00882a8-4d93-4116-91ad-e8bb8fdd8ff2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[611.128, 926.316, 702.556, 962.406]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_109_neg",
+      "instruction": "add to wishlist",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_589e44b7-401b-45f7-a223-b93ac59c5506.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=offscreen; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_110_neg",
+      "instruction": "save for later",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_db995728-d16b-46cb-9621-22e8d8e5596f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1527.82, 1304.06, 1749.173, 1352.18]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[1656.986, 1124.384, 1918.356, 1210.685], [1526.301, 1306.849, 1748.219, 1353.699]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_111_neg",
+      "instruction": "get more information",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_2595ae32-9df7-4198-a48e-6c291a1fb01c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[43.308, 1373.835, 221.353, 1440.0]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_112_neg",
+      "instruction": "add to cart",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_c576ac89-3f3e-4f4d-9efd-1ad4b959a630.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The target control is physically present in the current page layout, but it is located past the edges of the visible viewport and requires scrolling to access.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_113_neg",
+      "instruction": "compare products",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_a4d22512-1c68-4fda-9b49-d207326365ce.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_115_neg",
+      "instruction": "filter by brand",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_844d70be-3743-409c-abf0-a148975fdbc8.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The 'Brand' filter is likely located further down in the left 'Shopping Options' sidebar, which is cut off at the bottom of the visible viewport.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_11_neg",
+      "instruction": "create a new branch",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_7a5f6ad5-ec34-4693-ac45-136547757893.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[885.414, 967.218, 1003.308, 1029.774]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[2298.082, 461.096, 2428.767, 530.137]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_130_neg",
+      "instruction": "filter",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_96671728-050c-4e62-bdb8-5bd68b603de0.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[74.586, 620.752, 1462.857, 1373.835]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_132_neg",
+      "instruction": "secure login",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_70a307b8-62fb-4d66-921a-7c4445af3e65.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[344.06, 1027.368, 512.481, 1101.955]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_133_neg",
+      "instruction": "save draft",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_b645cb4e-48f2-4f75-8503-3da18f2e9b79.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1715.489, 31.278, 1900.752, 84.211]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_13_neg",
+      "instruction": "submit issue",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_e0f18fd6-2a59-4fab-89f0-864c70bba241.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2345.865, 194.887, 2540.752, 286.316]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_141_neg",
+      "instruction": "highlight post",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_89d60b8b-3f6d-4160-93d4-1791d4899455.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_150_neg",
+      "instruction": "sort by popularity",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_4af68da5-d7bb-4910-b434-1301097cda1f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[101.053, 173.233, 243.008, 250.226]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_155_neg",
+      "instruction": "create forum",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_5766e094-3b76-4b5f-8399-e47ff5506df2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The form submission button is located below the viewport boundary and requires scrolling down to reveal.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_166_neg",
+      "instruction": "share",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_48f086db-edfd-43d3-95b8-b2eee50367da.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[202.192, 360.0, 258.904, 401.918], [180.0, 641.096, 261.37, 702.74], [187.397, 1289.589, 256.438, 1333.973]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_172_neg",
+      "instruction": "subscribe to the newsletter",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_acad6928-ac22-40c7-98df-4e0df7b318bc.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=occluded; confidence=high; boxes=[]; notes=The intended target is the top-left \u201cSubscribe to newsletters\u201d link, which is obscured by the active modal overlay.",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[737.26, 1136.712, 1824.658, 1240.274]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_173_neg",
+      "instruction": "share on Twitter",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_516f6429-4157-45f8-93a4-db1d525cedb9.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[192.329, 998.63, 249.041, 1072.603]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_183_neg",
+      "instruction": "subscribe",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_4e4113f0-12bd-4b49-84c4-88a5bbf7924b.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[254.332, 1246.645, 1071.531, 1317.524]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_203_neg",
+      "instruction": "receive updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_6df9c1d5-2acf-4f59-94d6-2fd9362dd8af.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[384.962, 1267.97, 512.481, 1318.496], [772.331, 1265.564, 895.038, 1316.09]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[2095.89, 12.329, 2280.822, 81.37]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_212_neg",
+      "instruction": "find your location",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_20979acb-d8af-4fa2-becf-ed38f73f5fcb.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2483.008, 291.128, 2552.782, 358.496]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[505.479, 120.822, 606.575, 194.795]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_214_neg",
+      "instruction": "zoom in",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_ea184924-e155-4745-abaa-1f9d0e870c67.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2480.602, 125.113, 2552.782, 202.105]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[2512.603, 147.945, 2547.123, 202.192]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_226_neg",
+      "instruction": "update the map",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_7872daa1-5a12-4ada-95cc-0dd9e655fb4f.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[392.18, 12.03, 498.045, 96.241]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_232_neg",
+      "instruction": "view route summary",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_e067ae0f-989b-4e7f-9891-aea5d284a8de.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[668.219, 404.384, 744.658, 466.027]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_242_neg",
+      "instruction": "create account",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_c1b9d596-c60c-47e2-a863-ef92324405ef.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[596.692, 353.684, 820.451, 430.677]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[604.11, 347.671, 811.233, 426.575], [2364.658, 22.192, 2527.397, 101.096]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_244_neg",
+      "instruction": "join",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_0558c1f4-c05b-49a8-8479-04b1575779d2.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2377.143, 4.812, 2545.564, 101.053]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[2384.384, 39.452, 2527.397, 93.699]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_247_neg",
+      "instruction": "save",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_c5db0d44-6584-42e2-85c7-e4802276bad0.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[32.055, 1264.932, 241.644, 1319.178]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_248_neg",
+      "instruction": "send your note",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_5e5f5a65-435a-424f-baf9-e5bf89b917f6.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[21.654, 1248.722, 243.008, 1337.744]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[46.849, 1269.863, 234.247, 1319.178]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_252_neg",
+      "instruction": "create a new map",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_adbf2de0-3a79-4ffd-b344-b4a068f192ea.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[399.398, 762.707, 741.053, 849.323]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_25_neg",
+      "instruction": "add a new issue",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_6b685114-53fc-40a1-ac42-3b8fbdd27fdd.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2037.895, 127.519, 2526.316, 194.887]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_266_neg",
+      "instruction": "switch language",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_77e68e05-bbe4-4f54-96fa-79f714c17505.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=The target control is physically present in the current page layout, but it is located past the edges of the visible viewport and requires scrolling to access.",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[36.986, 1403.014, 426.575, 1440.0], [46.849, 1252.603, 337.808, 1319.178]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_27_neg",
+      "instruction": "update dependencies",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_b97bb6a3-999c-463a-b957-5584c14c8395.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1555.89, 712.603, 1873.973, 756.986]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_288_neg",
+      "instruction": "translate",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_cd72d06c-67ca-4ed8-b550-dcf4b33e5381.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2076.391, 216.541, 2463.759, 315.188]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[734.795, 562.192, 835.89, 586.849], [705.205, 791.507, 895.068, 843.288], [707.671, 880.274, 941.918, 941.918], [737.26, 978.904, 924.658, 1033.151], [710.137, 1072.603, 818.63, 1109.589], [724.932, 1146.575, 1025.753, 1215.616]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_289_neg",
+      "instruction": "view achievements",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_41a4c02b-d68f-48a0-9ea1-a5a20d2ddf3c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[93.835, 1215.038, 300.752, 1292.03]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[125.753, 1136.712, 559.726, 1200.822], [106.027, 1213.151, 347.671, 1287.123]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_292_neg",
+      "instruction": "edit the article",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_be6a7bf9-9411-430f-a685-e97c75f44310.png",
+      "review_reasons": "box_iou_below_0.5; low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1828.571, 348.872, 2052.331, 399.398]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[115.89, 858.082, 318.082, 929.589]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_299_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_22e2b9c7-0140-47aa-8e14-cfd883f3baaf.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[1833.383, 471.579, 1898.346, 543.759], [2018.647, 461.955, 2083.609, 541.353], [1231.88, 733.835, 1292.03, 789.173], [1640.902, 887.82, 1684.211, 931.128], [2341.053, 834.887, 2418.045, 895.038], [1349.774, 1145.263, 1436.391, 1205.414]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_300_neg",
+      "instruction": "recover username",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_0092e09d-acc7-4ced-8871-47cb05a0a554.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=medium; boxes=[[293.425, 986.301, 673.151, 1070.137]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_306_neg",
+      "instruction": "set up MediaWiki",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_dd6b5395-a2da-4d88-a971-c2815899f84d.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[127.519, 976.842, 772.331, 1082.707]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[180.0, 1124.384, 355.068, 1151.507], [374.795, 1092.329, 478.356, 1156.438], [569.589, 1099.726, 720.0, 1146.575], [182.466, 1274.795, 409.315, 1316.712]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_311_neg",
+      "instruction": "mark as favorite",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_e32af83c-f30c-4104-82b3-d5b9a84ad5ee.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The favorite/watchlist star icon is located in the Wikipedia article header at the top of the page, above the visible viewport.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_31_neg",
+      "instruction": "resolve",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_5a35d9c2-2c2d-4a49-ad0a-1408d9cac78e.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[801.203, 1133.233, 1012.932, 1217.444]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_321_neg",
+      "instruction": "download PDF",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_45f9eb11-1663-440f-9e73-78a34793ac95.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=offscreen; confidence=high; boxes=[]; notes=\"The 'Download as PDF' control is located in the Wikipedia article tools sidebar outside the visible viewport frame.\"",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_323_neg",
+      "instruction": "download PDF",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_45f9eb11-1663-440f-9e73-78a34793ac95.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[64.11, 1247.671, 399.452, 1353.699]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_324_neg",
+      "instruction": "create a new page",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_df804fb9-f96e-425e-b1a3-fe8f6810a1de.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[101.053, 801.203, 1431.579, 952.782]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_336_neg",
+      "instruction": "save for later",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_e103f2b7-edaf-4acc-8b85-6cfb0b9c024c.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=occluded; confidence=low; boxes=[]; notes=\"The cart content and item options are blocked by the active confirmation modal overlay.\"",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_350_neg",
+      "instruction": "view details",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_2450df5d-6082-4941-8fe5-ee61df8e7021.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[9.863, 1089.863, 278.63, 1183.562], [500.548, 401.918, 961.644, 1267.397], [1013.425, 406.849, 1476.986, 1245.205], [1536.164, 411.781, 2009.589, 1245.205], [2031.781, 387.123, 2556.986, 1208.219], [1871.507, 1299.452, 1918.356, 1338.904], [2391.781, 1245.205, 2453.425, 1333.973], [1341.37, 1262.466, 1447.397, 1304.384], [845.753, 1274.795, 934.521, 1363.562]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_354_neg",
+      "instruction": "check availability",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_2d77202a-c8d6-4908-9def-c4635e5c4d3d.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[1681.644, 848.219, 1970.137, 951.781]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_374_neg",
+      "instruction": "subscribe to the newsletter",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_0qfaj2.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[940.15, 725.414, 1212.632, 783.158]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_375_neg",
+      "instruction": "subscribe",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_174lzg.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[487.218, 954.586, 658.647, 1019.549]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[499.315, 969.041, 632.466, 1004.178], [797.055, 1059.658, 935.753, 1080.0]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_376_neg",
+      "instruction": "apply",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_1hc78j.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1148.425, 408.699, 1235.342, 436.438]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_380_neg",
+      "instruction": "start tutorial",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_43vc1w.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[364.511, 572.03, 474.586, 611.729]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_385_neg",
+      "instruction": "view real-time weather updates",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_83raem.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[712.782, 16.241, 1097.143, 64.962]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[380.959, 68.425, 663.904, 118.356], [358.767, 120.205, 434.589, 168.288], [486.37, 123.904, 571.438, 155.342]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_38_neg",
+      "instruction": "access help documentation",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_c8e2a933-b6e5-4046-a360-5dbd54dc9753.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2290.526, 9.624, 2384.361, 81.805]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_390_neg",
+      "instruction": "reset password",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_92nqwh.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[1102.556, 351.88, 1203.609, 411.429], [1757.594, 0.0, 1900.15, 59.549]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[1760.521, 9.381, 1907.492, 53.16]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_398_neg",
+      "instruction": "access help",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_coivm6.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1066.466, 557.594, 1133.233, 595.489]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_399_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_d1bbz4.png",
+      "review_reasons": "box_count_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[653.233, 487.218, 1008.722, 539.549], [660.451, 572.03, 976.241, 768.722]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[650.959, 495.616, 969.041, 532.603], [652.808, 552.945, 970.89, 601.027], [656.507, 634.315, 957.945, 662.055], [658.356, 669.452, 963.493, 702.74], [663.904, 719.384, 878.425, 758.219]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_39_neg",
+      "instruction": "download documentation",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_0492a7c3-3b0d-4f62-8c0d-939ad51aa616.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[855.616, 209.589, 1084.932, 313.151]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_404_neg",
+      "instruction": "share",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_ftpvmj.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[817.444, 783.158, 866.165, 822.857]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_406_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_h5egmj.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1259.549, 844.511, 1337.143, 887.82]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_412_neg",
+      "instruction": "get immediate assistance",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_j3nekk.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[494.436, 348.271, 904.06, 433.083]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_419_neg",
+      "instruction": "add to favorites",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_nzts74.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[629.774, 339.248, 781.353, 391.579]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_41_neg",
+      "instruction": "submit feedback",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_1cc05cca-502a-41c3-aebc-b901f85a40fd.png",
+      "review_reasons": "status_disagreement; low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=low; boxes=[[1846.849, 722.466, 2118.082, 764.384]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_421_neg",
+      "instruction": "set notifications",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_q8t3el.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1824.361, 12.632, 1853.233, 48.722]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_429_neg",
+      "instruction": "subscribe to the newsletter",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_tpgtas.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[1079.098, 595.489, 1264.962, 658.647]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_432_neg",
+      "instruction": "schedule a ride",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_uilgwu.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[359.098, 258.045, 833.684, 620.752]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[589.932, 490.068, 782.26, 543.699]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_435_neg",
+      "instruction": "add to wishlist",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_vlk2rj.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[701.955, 258.045, 757.895, 312.18], [1021.353, 263.459, 1073.684, 304.962], [1342.556, 267.068, 1380.451, 308.571], [1660.15, 265.263, 1698.045, 304.962], [707.368, 790.376, 748.872, 822.857], [1024.962, 792.18, 1070.075, 828.271], [1344.361, 788.571, 1384.06, 824.662], [1652.932, 788.571, 1696.241, 824.662]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[723.082, 268.151, 747.123, 301.438], [1026.37, 275.548, 1074.452, 305.137], [1351.849, 275.548, 1385.137, 301.438], [1669.932, 281.096, 1695.822, 301.438], [1660.685, 793.356, 1693.973, 821.096], [1337.055, 793.356, 1374.041, 822.945], [1033.767, 793.356, 1065.205, 826.644], [713.836, 800.753, 745.274, 826.644]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_45_neg",
+      "instruction": "submit feedback",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_200e430d-ec76-48af-987c-ad658b74ab33.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=occluded; confidence=medium; boxes=[]; notes=\"The background content and feedback links are blocked by the active 'Solutions' dropdown menu overlay.\"",
+      "annotator_b_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_53_neg",
+      "instruction": "download the installation guide",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_37acd27f-731c-4292-8caf-159b9be41189.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[101.053, 310.376, 546.165, 969.624], [591.88, 315.188, 1049.023, 981.654], [1089.925, 310.376, 1568.722, 984.06]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=medium; boxes=[[150.411, 786.575, 364.932, 900.0], [618.904, 744.658, 877.808, 828.493], [1116.986, 830.959, 1373.425, 939.452]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_55_neg",
+      "instruction": "access help",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_90c0cf0e-3885-46d1-a1fd-2b29645398d3.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[1398.082, 76.438, 1587.945, 140.548], [1745.753, 36.986, 1975.068, 150.411]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_60_neg",
+      "instruction": "start learning",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_d48576d2-c431-4030-9cc0-c811c752c3a8.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[96.241, 666.466, 411.429, 772.331], [2052.331, 9.624, 2353.083, 190.075]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_61_neg",
+      "instruction": "configure additional project options",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_463c0536-492e-475c-930d-d95ee476ec3c.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[630.376, 969.624, 1178.947, 1044.211], [647.218, 1094.737, 1373.835, 1150.075]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_65_neg",
+      "instruction": "favorite",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_4befbc37-411b-4621-8a3c-c1d95676efa1.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2021.053, 144.361, 2266.466, 214.135]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_78_neg",
+      "instruction": "synchronize data",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_921e2d81-b8a5-425a-81e6-476cd16f9bdb.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[1248.722, 12.03, 1573.534, 93.835], [2206.316, 315.188, 2473.383, 411.429]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_80_neg",
+      "instruction": "download",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_d2dd06b0-8826-4dd6-a3b7-0d88c123a04b.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[2290.526, 490.827, 2456.541, 570.226]]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "ssv2v_web_87_neg",
+      "instruction": "add partner",
+      "image": "/data/local-files/?d=data/academic_2000/images/external/screenspot_v2_variants/web_d1cc72e3-da3f-4d48-bab4-a6aa0bc5a807.png",
+      "review_reasons": "low_confidence",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=absent; confidence=low; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_00_07",
+      "instruction": "Click Export.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_00_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_01_07",
+      "instruction": "Click Archive.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_01_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=medium; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_02_07",
+      "instruction": "Click Approve.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_02_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=too small to click"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_03_07",
+      "instruction": "Click Publish.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_03_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_04_04",
+      "instruction": "Click Download.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_04_04.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=multiple; confidence=high; boxes=[[419.101, 349.438, 582.022, 402.247], [415.73, 460.674, 583.146, 512.36]]; notes=(none)",
+      "annotator_b_summary": "status=multiple; confidence=high; boxes=[[431.507, 365.582, 548.973, 393.151], [430.308, 469.863, 550.171, 504.623]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_dialog_04_07",
+      "instruction": "Click Download.",
+      "image": "/data/local-files/?d=data/screenshots/dialog_04_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_00_02",
+      "instruction": "Click Export.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_00_02.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[57.303, 242.697, 212.36, 291.011]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[73.116, 252.911, 190.582, 276.884]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_00_07",
+      "instruction": "Click Export.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_00_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_01_07",
+      "instruction": "Click Archive.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_01_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_02_07",
+      "instruction": "Click Approve.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_02_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_03_07",
+      "instruction": "Click Publish.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_03_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_kanban_04_07",
+      "instruction": "Click Download.",
+      "image": "/data/local-files/?d=data/screenshots/kanban_04_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_00_07",
+      "instruction": "Click Export.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_00_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_01_00",
+      "instruction": "Click Archive.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_01_00.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[233.708, 173.034, 391.011, 233.708]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[233.733, 189.384, 383.562, 220.548]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_01_07",
+      "instruction": "Click Archive.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_01_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=screenshot is not loaded",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_02_01",
+      "instruction": "Click Approve.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_02_01.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[238.202, 176.404, 401.124, 223.596]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[243.322, 188.185, 385.959, 213.356]]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_02_07",
+      "instruction": "Click Approve.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_02_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_03_07",
+      "instruction": "Click Publish.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_03_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_sidebar_04_07",
+      "instruction": "Click Download.",
+      "image": "/data/local-files/?d=data/screenshots/sidebar_04_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_table_02_07",
+      "instruction": "Click Approve.",
+      "image": "/data/local-files/?d=data/screenshots/table_02_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=medium; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_table_03_07",
+      "instruction": "Click Publish.",
+      "image": "/data/local-files/?d=data/screenshots/table_03_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_table_04_07",
+      "instruction": "Click Download.",
+      "image": "/data/local-files/?d=data/screenshots/table_04_07.png",
+      "review_reasons": "status_disagreement",
+      "annotator_a_summary": "status=absent; confidence=high; boxes=[]; notes=(none)",
+      "annotator_b_summary": "status=unclear; confidence=high; boxes=[]; notes=(none)"
+    }
+  },
+  {
+    "data": {
+      "case_id": "synthetic_toolbar_00_02",
+      "instruction": "Click Export.",
+      "image": "/data/local-files/?d=data/screenshots/toolbar_00_02.png",
+      "review_reasons": "box_iou_below_0.5",
+      "annotator_a_summary": "status=unique; confidence=high; boxes=[[733.708, 77.528, 888.764, 126.966]]; notes=(none)",
+      "annotator_b_summary": "status=unique; confidence=high; boxes=[[750.342, 83.904, 880.993, 109.075]]; notes=(none)"
+    }
+  }
+]

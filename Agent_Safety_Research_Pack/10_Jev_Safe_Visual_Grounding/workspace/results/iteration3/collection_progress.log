@@ -1,0 +1,51 @@
+{
+  "state": "PARTIAL",
+  "repeat_progress": {
+    "original:r1": {
+      "attempted": 751,
+      "expected": 751,
+      "complete": true
+    },
+    "original:r2": {
+      "attempted": 437,
+      "expected": 751,
+      "complete": false
+    },
+    "original:r3": {
+      "attempted": 0,
+      "expected": 751,
+      "complete": false
+    },
+    "original:r4": {
+      "attempted": 0,
+      "expected": 751,
+      "complete": false
+    },
+    "original:r5": {
+      "attempted": 0,
+      "expected": 751,
+      "complete": false
+    },
+    "literal:r1": {
+      "attempted": 0,
+      "expected": 751,
+      "complete": false
+    },
+    "conservative:r1": {
+      "attempted": 0,
+      "expected": 751,
+      "complete": false
+    }
+  },
+  "baseline": {
+    "state": "NOT_STARTED",
+    "attempted": 0,
+    "expected": 951,
+    "real_attempted": 0,
+    "ok": 0,
+    "cost_usd": null,
+    "cost_note": "local GPU/energy unpriced; zero cloud API calls",
+    "latency_mean_ms": null,
+    "latency_p95_ms": null
+  }
+}

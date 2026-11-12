@@ -1,0 +1,103 @@
+{
+  "skill": "clean-user-facing-text",
+  "source_revision": "5c180932a00c793261177f79aee21db8929f3fe2",
+  "preset": "academic / professional",
+  "before": {
+    "length": 32264,
+    "suspicious_total": 0,
+    "hits": [],
+    "notes": [
+      "Layer A only: invisible/format Unicode and space homoglyphs (edit-based carriers).",
+      "Statistical (token-sampling) watermarks are not detectable here; use Layer B rewrite.",
+      "Inspect kinds: strip, bidi, tag_chars, variation_selector, zwj_family, private_use, space, confusable, other_cf.",
+      "Load-bearing invisibles are preserved by default during cleaning: emoji glue, CJK/Mongolian variation selectors, script joiners, complete flag tag sequences, same-script fillers/selectors (Mongolian FVS, Khmer inherent vowels, Hangul jamo fillers), RTL directional marks/paired embeddings, orthographic Arabic/Syriac Cf marks, and visible-layout format controls next to their own script (Egyptian hieroglyph quadrat, Duployan shorthand, musical beaming). Inspection still reports bidi controls. Use explicit strip flags only after review.",
+      "No deterministic Layer A (invisible Unicode/format) carriers detected; statistical and pixel-domain marks are out of scope here."
+    ],
+    "stylometry": {
+      "path": "/Users/gaurangbhatia/research/Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/tmp/pdfs/professor_reference/prose.cleaned.txt",
+      "word_count": 4680,
+      "sentence_count": 302,
+      "burstiness_cv": 0.3766,
+      "lexical_diversity": 0.8764,
+      "ai_ngram_density": 0.0128,
+      "matched_markers": [
+        {
+          "phrase": "ultimately,",
+          "count": 1,
+          "weight": 0.6,
+          "samples": [
+            "ultimately "
+          ],
+          "spans": [
+            [
+              6698,
+              6709
+            ]
+          ]
+        }
+      ],
+      "score": 0.325,
+      "confidence_level": "LOW",
+      "density_tier": "low",
+      "status": "ok",
+      "findings": [
+        "AI cadence phrase 'ultimately,' (1x)"
+      ],
+      "findings_confidence": [
+        "informational"
+      ],
+      "notes": []
+    }
+  },
+  "after": {
+    "length": 32264,
+    "suspicious_total": 0,
+    "hits": [],
+    "notes": [
+      "Layer A only: invisible/format Unicode and space homoglyphs (edit-based carriers).",
+      "Statistical (token-sampling) watermarks are not detectable here; use Layer B rewrite.",
+      "Inspect kinds: strip, bidi, tag_chars, variation_selector, zwj_family, private_use, space, confusable, other_cf.",
+      "Load-bearing invisibles are preserved by default during cleaning: emoji glue, CJK/Mongolian variation selectors, script joiners, complete flag tag sequences, same-script fillers/selectors (Mongolian FVS, Khmer inherent vowels, Hangul jamo fillers), RTL directional marks/paired embeddings, orthographic Arabic/Syriac Cf marks, and visible-layout format controls next to their own script (Egyptian hieroglyph quadrat, Duployan shorthand, musical beaming). Inspection still reports bidi controls. Use explicit strip flags only after review.",
+      "No deterministic Layer A (invisible Unicode/format) carriers detected; statistical and pixel-domain marks are out of scope here."
+    ],
+    "stylometry": {
+      "path": "/Users/gaurangbhatia/research/Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/tmp/pdfs/professor_reference/prose.cleaned.txt",
+      "word_count": 4680,
+      "sentence_count": 302,
+      "burstiness_cv": 0.3766,
+      "lexical_diversity": 0.8764,
+      "ai_ngram_density": 0.0128,
+      "matched_markers": [
+        {
+          "phrase": "ultimately,",
+          "count": 1,
+          "weight": 0.6,
+          "samples": [
+            "ultimately "
+          ],
+          "spans": [
+            [
+              6698,
+              6709
+            ]
+          ]
+        }
+      ],
+      "score": 0.325,
+      "confidence_level": "LOW",
+      "density_tier": "low",
+      "status": "ok",
+      "findings": [
+        "AI cadence phrase 'ultimately,' (1x)"
+      ],
+      "findings_confidence": [
+        "informational"
+      ],
+      "notes": []
+    }
+  },
+  "deterministic_removed_count": 0,
+  "deterministic_replaced_count": 0,
+  "rewrite": "No prose rewrite: density_tier low. Display citations and section references formatted separately.",
+  "claim": "Style measures are informational, not an authorship or detector-evasion verdict."
+}

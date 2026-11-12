@@ -1,0 +1,952 @@
+case_id,instruction,source_dataset,proposed_split,annotator_a_status,annotator_b_status,status_agree,annotator_a_confidence,annotator_b_confidence,annotator_a_box_count,annotator_b_box_count,matched_mean_iou,annotator_a_boxes_xyxy,annotator_b_boxes_xyxy,annotator_a_notes,annotator_b_notes,review_reasons,review_required
+ssv2v_desktop_0_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_100_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_101_neg,upload,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.539316,"[[320.289, 482.712, 475.66, 520.036]]","[[326.404, 486.37, 435.514, 515.034]]",,,low_confidence,True
+ssv2v_desktop_102_neg,access the settings menu,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_103_neg,duplicate,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[155.371, 169.367, 212.658, 194.539]]",[],,,status_disagreement,True
+ssv2v_desktop_104_neg,save search,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_desktop_105_neg,fast-forward,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[178.807, 454.069, 213.526, 494.864]]",[],,,status_disagreement,True
+ssv2v_desktop_106_neg,check spelling,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_107_neg,access the cloud settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_108_neg,access cloud storage settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_109_neg,update protection,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[152.767, 111.971, 368.029, 224.81]]",[],,,status_disagreement,True
+ssv2v_desktop_10_neg,get assistance,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_110_neg,reload,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_111_neg,sync files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_112_neg,choose a new theme,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[48.608, 24.412, 105.027, 51.32]]",[],,,status_disagreement,True
+ssv2v_desktop_113_neg,add shortcut,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_116_neg,print a test page,ScreenSpot-v2-variants,,absent,multiple,False,high,high,0,2,,[],"[[323.815, 509.533, 668.265, 566.676], [319.053, 573.026, 665.091, 633.344]]",,,status_disagreement,True
+ssv2v_desktop_11_neg,save settings,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_desktop_120_neg,synchronize settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_123_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.59896,"[[37.891, 1.024, 60.421, 30.722]]","[[39.329, 7.647, 65.548, 31.682]]",,,,False
+ssv2v_desktop_127_neg,initiate security scan,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_129_neg,connect all accounts,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_12_neg,access quick settings,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_131_neg,download report,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_134_neg,access Favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_136_neg,access additional configurations,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[9.376, 491.793, 115.064, 531.0]]",[],,,status_disagreement,True
+ssv2v_desktop_138_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_13_neg,view cart,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_140_neg,view focus history,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_143_neg,animate,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_147_neg,check for updates,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[16.491, 850.045, 139.425, 908.514]]",[],,,status_disagreement,True
+ssv2v_desktop_149_neg,restore,ScreenSpot-v2-variants,,multiple,offscreen,False,high,high,2,0,,"[[133.73, 52.971, 184.965, 124.178], [190.175, 54.708, 263.987, 136.335]]",[],,,status_disagreement,True
+ssv2v_desktop_14_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_151_neg,verify microphone,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[333.605, 204.95, 532.571, 243.846]]",[],,,status_disagreement,True
+ssv2v_desktop_153_neg,access additional network configuration,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[330.613, 593.907, 776.417, 656.738]]",[],,,status_disagreement,True
+ssv2v_desktop_155_neg,get immediate assistance,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_156_neg,submit feedback,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,4,2,,"[[342.949, 804.207, 1145.658, 931.502], [336.958, 262.079, 474.737, 407.345], [483.722, 254.591, 624.496, 407.345], [13.478, 166.233, 263.576, 200.677]]","[[356.265, 269.995, 469.695, 393.01], [493.659, 287.568, 611.882, 389.815]]",,,box_count_disagreement,True
+ssv2v_desktop_157_neg,troubleshoot,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_159_neg,manage Apple ID preferences,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.625326,"[[1025.326, 124.613, 1143.38, 290.764]]","[[1007.507, 135.267, 1161.432, 263.538]]",,,,False
+ssv2v_desktop_15_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_164_neg,save settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_167_neg,apply settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_16_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_171_neg,reset settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_175_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_178_neg,confirm settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_17_neg,test camera,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_182_neg,share,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.759023,"[[1169.74, 16.122, 1241.393, 91.358]]","[[1175.24, 9.555, 1238.301, 85.993]]",,,,False
+ssv2v_desktop_185_neg,switch to satellite view,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[698.443, 1557.66, 751.156, 1618.279]]",[],,,status_disagreement,True
+ssv2v_desktop_189_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_18_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_191_neg,mute the sound,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.067085,"[[42.992, 503.961, 573.226, 558.896]]","[[52.233, 515.959, 107.014, 551.63]]",,,box_iou_below_0.5,True
+ssv2v_desktop_193_neg,expand settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_195_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_198_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_19_neg,share,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.84768,"[[198.77, 19.964, 453.092, 44.268]]","[[206.199, 17.568, 450.308, 43.459]]",,,,False
+ssv2v_desktop_1_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[837.613, 37.324, 872.333, 68.571]]",[],,,status_disagreement,True
+ssv2v_desktop_200_neg,initiate pairing,ScreenSpot-v2-variants,,unique,absent,False,high,low,1,0,,"[[24.27, 544.334, 478.459, 592.873]]",[],,,status_disagreement;low_confidence,True
+ssv2v_desktop_203_neg,reload the page,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_205_neg,troubleshoot connectivity,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_208_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_20_neg,open settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_210_neg,enhance battery performance,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.029574,"[[335.634, 461.701, 1044.559, 553.387]]","[[354.555, 461.096, 392.979, 511.747]]",,,box_iou_below_0.5,True
+ssv2v_desktop_212_neg,customize keyboard settings,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.582924,"[[457.477, 357.708, 865.069, 419.759]]","[[438.332, 367.306, 886.811, 440.362]]",,,low_confidence,True
+ssv2v_desktop_214_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_216_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_217_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_218_neg,save settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_21_neg,hibernate,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_220_neg,enable notifications,ScreenSpot-v2-variants,,absent,multiple,False,high,medium,0,2,,[],"[[515.373, 151.873, 694.634, 196.688], [540.271, 271.38, 619.942, 338.603]]",,,status_disagreement,True
+ssv2v_desktop_221_neg,reset password,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.497284,"[[961.791, 220.343, 1252.902, 291.111]]","[[984.842, 226.479, 1233.627, 267.658]]",,,box_iou_below_0.5,True
+ssv2v_desktop_223_neg,sync settings,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1153.358, 142.912, 1300.295, 199.271]]",[],,,status_disagreement,True
+ssv2v_desktop_225_neg,enable Face ID,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_227_neg,sync time,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[117.445, 224.526, 582.042, 309.156]]",[],,,status_disagreement,True
+ssv2v_desktop_228_neg,mark favorite applications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_22_neg,open advanced search options,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_230_neg,forward,ScreenSpot-v2-variants,,unique,unique,True,medium,high,1,1,0.855855,"[[1675.538, 21.509, 1750.819, 83.884]]","[[1677.295, 25.24, 1755.308, 84.897]]",,,,False
+ssv2v_desktop_232_neg,save draft,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_234_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_237_neg,archive all emails,ScreenSpot-v2-variants,,unique,absent,False,medium,high,1,0,,"[[1204.494, 21.509, 1273.323, 83.884]]",[],,,status_disagreement,True
+ssv2v_desktop_239_neg,translate,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_23_neg,set a reminder,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,2,2,0.570109,"[[275.154, 328.21, 300.325, 359.458], [664.014, 323.87, 690.922, 361.193]]","[[270.0, 337.5, 299.589, 365.24], [661.13, 332.877, 689.795, 359.692]]",,,,False
+ssv2v_desktop_240_neg,translate,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_241_neg,save to cloud,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_242_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_243_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_244_neg,download,ScreenSpot-v2-variants,,offscreen,absent,False,medium,high,0,0,,[],[],"""The GET/Download button for the featured DaisyDisk app is located further down the App Store story page, cut off by the bottom edge of the visible viewport.""",,status_disagreement,True
+ssv2v_desktop_246_neg,download all featured apps,ScreenSpot-v2-variants,,multiple,absent,False,high,high,4,0,,"[[1059.936, 219.904, 1207.271, 288.074], [1053.339, 499.181, 1202.873, 560.754], [1783.419, 224.302, 1917.56, 283.676], [1779.021, 373.836, 1919.759, 417.817]]",[],,,status_disagreement,True
+ssv2v_desktop_248_neg,filter by rating,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_24_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[835.009, 19.096, 864.521, 49.476]]",[],,,status_disagreement,True
+ssv2v_desktop_250_neg,synchronize settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_251_neg,create a new folder,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_253_neg,upload,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.0,"[[1407.261, 795.996, 1564.959, 866.585]]","[[359.815, 818.041, 587.39, 858.021]]",,,box_iou_below_0.5,True
+ssv2v_desktop_255_neg,save settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_256_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_258_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.571088,"[[444.0, 2.494, 491.393, 49.888]]","[[433.736, 7.983, 484.295, 45.236]]",,,,False
+ssv2v_desktop_25_neg,access the game settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_260_neg,add custom drawing tool,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.756753,"[[645.207, 132.543, 745.239, 257.583]]","[[653.613, 122.719, 752.322, 250.774]]",,,,False
+ssv2v_desktop_262_neg,save,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[440.753, 5.342, 491.507, 58.767]]",,,status_disagreement,True
+ssv2v_desktop_264_neg,insert a shape,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.0,"[[2.498, 117.387, 127.377, 237.271]]","[[90.589, 266.438, 213.151, 367.685]]",,,box_iou_below_0.5,True
+ssv2v_desktop_266_neg,insert a chart,ScreenSpot-v2-variants,,unique,occluded,False,high,high,1,0,,"[[477.653, 250.08, 597.692, 335.108]]",[],,,status_disagreement,True
+ssv2v_desktop_268_neg,change font color,ScreenSpot-v2-variants,,unique,occluded,False,high,high,1,0,,"[[717.73, 197.563, 797.756, 257.583]]",[],,,status_disagreement,True
+ssv2v_desktop_26_neg,share document,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_270_neg,preview font,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[222.286, 187.319, 1006.53, 237.271]]",[],,,status_disagreement,True
+ssv2v_desktop_272_neg,change the theme,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[364.202, 65.721, 479.213, 112.273]]",[],,,status_disagreement,True
+ssv2v_desktop_273_neg,rotate,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[1304.26, 548.548, 1385.959, 606.904]]",,,status_disagreement,True
+ssv2v_desktop_274_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.455837,"[[228.674, 8.167, 285.843, 54.446]]","[[238.137, 14.521, 275.89, 46.466]]",,,box_iou_below_0.5,True
+ssv2v_desktop_275_neg,access help documentation,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_277_neg,verify email,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[746.877, 529.038, 964.716, 608.034]]",,,status_disagreement,True
+ssv2v_desktop_278_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_279_neg,save settings,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[1622.398, 1337.413, 1770.501, 1380.048]]",[],,,status_disagreement,True
+ssv2v_desktop_27_neg,save,ScreenSpot-v2-variants,,unique,absent,False,medium,high,1,0,,"[[834.141, 0.868, 867.125, 32.116]]",[],,,status_disagreement,True
+ssv2v_desktop_280_neg,save settings,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.770882,"[[1629.213, 1334.831, 1779.775, 1379.775]]","[[1642.123, 1335.274, 1766.781, 1383.219]]",,,,False
+ssv2v_desktop_282_neg,update all packages,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_284_neg,switch to dark mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_285_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_287_neg,save preferences,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_288_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_28_neg,synchronize drives,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_290_neg,activate trial,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[760.863, 572.595, 1091.956, 612.845]]",,,status_disagreement,True
+ssv2v_desktop_291_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_292_neg,optimize CPU usage,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_294_neg,optimize,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_296_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_298_neg,create shortcut,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_desktop_29_neg,duplicate the file,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.561782,"[[558.119, 392.333, 644.051, 415.769]]","[[543.699, 392.979, 630.616, 410.548]]",,,low_confidence,True
+ssv2v_desktop_2_neg,customize settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_300_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_302_neg,share,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1105.971, 28.668, 1163.307, 81.477]]",[],,,status_disagreement,True
+ssv2v_desktop_304_neg,translate,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_306_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_307_neg,save,ScreenSpot-v2-variants,,unique,unclear,False,high,medium,1,0,,"[[172.0, 94.0, 201.0, 124.0]]",[],,,status_disagreement,True
+ssv2v_desktop_308_neg,enable automatic battery management,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_desktop_309_neg,download all,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_30_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_310_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_311_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_312_neg,create a new music station,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_313_neg,synchronize files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_314_neg,verify dependencies,ScreenSpot-v2-variants,,absent,absent,True,low,high,0,0,,[],[],,,low_confidence,True
+ssv2v_desktop_315_neg,lock the session,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_desktop_316_neg,upload,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_317_neg,sync network settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_318_neg,compress files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_319_neg,refresh,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_31_neg,update security settings,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[277.758, 144.087, 456.564, 247.378]]",[],,,status_disagreement,True
+ssv2v_desktop_320_neg,print,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[259.85, 98.647, 286.316, 120.301]]",[],,,status_disagreement,True
+ssv2v_desktop_321_neg,add a new language,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.128907,"[[1145.263, 413.835, 1729.925, 464.361]]","[[1410.411, 416.712, 1491.781, 470.959]]",,,box_iou_below_0.5,True
+ssv2v_desktop_322_neg,access help and support,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_323_neg,synchronize files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_324_neg,sync time,ScreenSpot-v2-variants,,unique,multiple,False,medium,low,1,2,,"[[1140.451, 108.271, 1737.143, 156.391]]","[[1665.828, 115.093, 1722.924, 150.438], [1650.875, 162.672, 1729.721, 211.611]]",,,status_disagreement;low_confidence,True
+ssv2v_desktop_325_neg,initiate chat,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_326_neg,save as,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_327_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_328_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.754815,"[[1527.82, 974.436, 1612.03, 1022.556]]","[[1538.63, 976.438, 1612.603, 1018.356]]",,,,False
+ssv2v_desktop_329_neg,synchronize settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_32_neg,apply changes,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_330_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.446744,"[[104.013, 14.446, 153.13, 69.342]]","[[92.466, 3.082, 154.11, 49.315]]",,,box_iou_below_0.5,True
+ssv2v_desktop_331_neg,adjust preferences,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_332_neg,save changes,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_333_neg,verify email,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.809954,"[[1020.15, 567.82, 1135.639, 608.722]]","[[1023.288, 564.658, 1129.315, 611.507]]",,,,False
+ssv2v_desktop_33_neg,view humidity levels,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[427.92, 131.067, 474.792, 184.882]]",[],,,status_disagreement,True
+ssv2v_desktop_34_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_35_neg,activate additional security features,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[376.709, 289.15, 502.568, 326.474], [618.011, 287.414, 736.058, 329.078]]",[],,,status_disagreement,True
+ssv2v_desktop_36_neg,insert a chart,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"Because the control genuinely exists in the current functional state but is physically cropped out or requires scrolling to view, the precise and correct status is offscreen.",,status_disagreement,True
+ssv2v_desktop_37_neg,download the current theme settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_38_neg,add new Bluetooth device,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.810374,"[[222.206, 72.152, 446.148, 131.175]]","[[229.315, 76.747, 429.041, 130.377]]",,,,False
+ssv2v_desktop_39_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_3_neg,install updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_40_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_41_neg,take a full-screen screenshot,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[147.559, 18.228, 216.998, 78.987]]",[],,,status_disagreement,True
+ssv2v_desktop_42_neg,add a new slide,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.765521,"[[162.406, 61.353, 203.91, 144.361]]","[[157.192, 68.425, 205.274, 147.945]]",,,,False
+ssv2v_desktop_43_neg,adjust light intensity,ScreenSpot-v2-variants,,unique,multiple,False,high,medium,1,2,,"[[398.409, 193.671, 670.958, 431.501]]","[[420.719, 230.24, 656.507, 415.171], [394.829, 428.116, 679.623, 465.103]]",,also might be some more options offscreen9,status_disagreement,True
+ssv2v_desktop_44_neg,apply gradient,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[490.993, 136.849, 528.904, 214.521]]",,,status_disagreement;low_confidence,True
+ssv2v_desktop_45_neg,insert an image,ScreenSpot-v2-variants,,absent,unique,False,medium,high,0,1,,[],"[[120.205, 42.534, 179.384, 62.877]]",,,status_disagreement,True
+ssv2v_desktop_46_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_47_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_48_neg,save downloads,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[874.937, 42.532, 900.108, 69.439]]",[],,,status_disagreement,True
+ssv2v_desktop_49_neg,open folder,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.264497,"[[31.248, 54.792, 177.939, 89.512]]","[[34.212, 62.877, 509.486, 86.918]]",,,box_iou_below_0.5,True
+ssv2v_desktop_4_neg,access advanced formatting options,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_50_neg,refresh,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_51_neg,open settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_52_neg,open settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_53_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_54_neg,refresh the weather forecast,ScreenSpot-v2-variants,,offscreen,absent,False,medium,high,0,0,,[],[],"""The page header / browser bar containing the refresh control is located above the cropped top edge of the visible viewport.""",,status_disagreement,True
+ssv2v_desktop_55_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_56_neg,sync files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_57_neg,navigate to the parent directory,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[9.548, 207.45, 32.984, 232.622]]",[],,,status_disagreement,True
+ssv2v_desktop_58_neg,access printer settings,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[155.371, 349.042, 272.55, 461.881]]",[],,,status_disagreement,True
+ssv2v_desktop_59_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.769663,"[[532.948, 501.808, 795.949, 529.584]]","[[538.151, 503.938, 791.507, 526.13]]",,,,False
+ssv2v_desktop_5_neg,view history,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[788.733, 108.185, 820.171, 135.925]]",,,status_disagreement,True
+ssv2v_desktop_60_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_61_neg,access settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_62_neg,open keyboard settings,ScreenSpot-v2-variants,,absent,offscreen,False,high,low,0,0,,[],[],,may be chances are there as there is different keyboard options on screen,status_disagreement;low_confidence,True
+ssv2v_desktop_63_neg,preview the file,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_desktop_64_neg,access additional configuration options,ScreenSpot-v2-variants,,multiple,absent,False,high,medium,13,0,,"[[43.4, 134.647, 256.926, 205.823], [313.345, 135.515, 515.588, 200.615], [571.139, 130.307, 759.494, 202.351], [848.029, 128.571, 948.716, 207.077], [41.664, 250.09, 219.602, 317.794], [300.325, 240.542, 524.268, 309.982], [585.895, 241.41, 782.929, 319.53], [852.369, 237.939, 960.0, 310.368], [46.004, 350.778, 276.022, 414.141], [314.213, 353.382, 552.043, 421.085], [585.895, 349.042, 792.477, 412.405], [853.237, 340.362, 960.0, 421.471], [45.136, 454.937, 259.53, 528.716]]",[],,,status_disagreement,True
+ssv2v_desktop_65_neg,apply a custom gradient,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.488322,"[[751.682, 301.302, 914.864, 322.134]]","[[750.822, 309.76, 916.336, 326.404]]",,,box_iou_below_0.5,True
+ssv2v_desktop_66_neg,synchronize,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The synchronization controls (AutoSave or cloud sync icon) are located on the top left/center of the application title bar, which is cropped outside the visible viewport.""",,status_disagreement,True
+ssv2v_desktop_67_neg,refresh,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_68_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_69_neg,adjust preferences,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_6_neg,add to favorites,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.0,"[[668.354, 15.624, 696.13, 41.664]]","[[767.466, 12.945, 788.733, 35.137]]",,,box_iou_below_0.5,True
+ssv2v_desktop_70_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_71_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_72_neg,access advanced sound settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_73_neg,access additional language preferences,ScreenSpot-v2-variants,,offscreen,absent,False,low,medium,0,0,,[],[],add a language option is offscreen,,status_disagreement;low_confidence,True
+ssv2v_desktop_74_neg,download the player's stats,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_75_neg,add a table,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_76_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_77_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_78_neg,export as PDF,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_79_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_7_neg,access settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_80_neg,reconnect the camera,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_81_neg,upload your files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_82_neg,access the weather forecast,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[621.483, 501.808, 719.566, 536.528]]",[],,,status_disagreement,True
+ssv2v_desktop_83_neg,view history,ScreenSpot-v2-variants,,absent,offscreen,False,high,high,0,0,,[],[],,,status_disagreement,True
+ssv2v_desktop_84_neg,download all files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_85_neg,download,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[923.544, 449.729, 955.66, 471.429]]",[],,,status_disagreement,True
+ssv2v_desktop_86_neg,refresh the page,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_87_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_88_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_89_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_8_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.489812,"[[20.832, 7.812, 40.796, 33.852]]","[[12.021, 1.849, 40.685, 29.589]]",,,box_iou_below_0.5,True
+ssv2v_desktop_90_neg,listen to live commentary,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_91_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_92_neg,download the video,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_93_neg,download all top free apps,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_94_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_95_neg,delete,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_96_neg,open settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_97_neg,open with custom app,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.466526,"[[341.989, 247.486, 557.251, 270.922]]","[[331.952, 248.733, 467.877, 268.151]]",,,box_iou_below_0.5,True
+ssv2v_desktop_98_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_99_neg,open advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_desktop_9_neg,access the support page,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_0_neg,view messages,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.0,"[[1229.342, 1437.303, 1382.022, 1582.087]]","[[294.863, 780.685, 435.274, 966.027]]",,,box_iou_below_0.5,True
+ssv2v_mobile_100_neg,create a new account,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[85.348, 1182.684, 1072.95, 1337.124]]",[],,,status_disagreement,True
+ssv2v_mobile_102_neg,access memory functions,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_104_neg,enable notifications,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[52.835, 1239.583, 1121.721, 1337.124]]",[],,,status_disagreement,True
+ssv2v_mobile_109_neg,synchronize,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_10_neg,upload,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.558395,"[[26.324, 371.172, 131.621, 442.247]]","[[25.274, 345.411, 106.712, 449.315]]",,,,False
+ssv2v_mobile_113_neg,set a reminder,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[992.856, 229.788, 1135.932, 312.164]]",,,status_disagreement,True
+ssv2v_mobile_118_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[520.218, 1857.342, 670.594, 1999.589]]",[],,,status_disagreement,True
+ssv2v_mobile_123_neg,create a new message,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.790762,"[[1016.051, 130.055, 1146.106, 268.238]]","[[1023.205, 143.075, 1140.267, 264.473]]",,,,False
+ssv2v_mobile_127_neg,activate focus duration,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.356736,"[[42.376, 2095.666, 1005.457, 2284.43]]","[[110.959, 2165.753, 900.0, 2247.945]]",,,box_iou_below_0.5,True
+ssv2v_mobile_12_neg,add a new event,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.743962,"[[342.215, 73.708, 418.555, 142.151]]","[[342.603, 64.589, 426.849, 137.603]]",,,,False
+ssv2v_mobile_130_neg,confirm screen time limit,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[42.376, 1937.721, 1059.39, 2157.303]]",[],,,status_disagreement,True
+ssv2v_mobile_133_neg,access additional configuration options,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_136_neg,connect to all networks,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_138_neg,enable backup,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_141_neg,take a new photo,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_142_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_145_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_147_neg,search,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.880202,"[[73.194, 458.427, 1001.605, 566.292]]","[[110.959, 456.164, 949.315, 567.123]]",,,,False
+ssv2v_mobile_148_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_150_neg,start the transfer process,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,2,2,0.720535,"[[53.933, 1779.775, 531.621, 2299.839], [562.44, 1779.775, 1005.457, 2299.839]]","[[587.671, 1800.0, 957.534, 2247.945], [106.849, 1812.329, 476.712, 2297.26]]",,,,False
+ssv2v_mobile_151_neg,backup data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_152_neg,proceed,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.651093,"[[550.883, 2114.928, 1005.457, 2288.283]]","[[575.342, 2141.096, 978.082, 2268.493]]",,,,False
+ssv2v_mobile_155_neg,search for devices,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_158_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_160_neg,create a new folder,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[728.09, 443.018, 847.512, 520.064]]",[],,,status_disagreement,True
+ssv2v_mobile_163_neg,upload,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_165_neg,add a new folder,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[743.499, 1024.719, 820.546, 1105.618]]",[],,,status_disagreement,True
+ssv2v_mobile_168_neg,mark time,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_16_neg,refresh,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_170_neg,save,ScreenSpot-v2-variants,,multiple,absent,False,high,high,4,0,,"[[847.512, 2037.881, 1020.867, 2153.451], [851.364, 1702.729, 1020.867, 1822.151], [851.364, 1382.986, 1028.571, 1486.998], [847.512, 1051.685, 1005.457, 1147.994]]",[],,,status_disagreement,True
+ssv2v_mobile_173_neg,create subtask,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.0,"[[73.194, 936.116, 986.196, 1213.483]]","[[924.658, 2210.959, 1056.164, 2334.247]]",,,box_iou_below_0.5,True
+ssv2v_mobile_176_neg,create a new task,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.686424,"[[801.284, 2064.848, 1009.31, 2253.612]]","[[821.918, 2083.562, 994.521, 2239.726]]",,,,False
+ssv2v_mobile_179_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_181_neg,synchronize,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_183_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_186_neg,activate secure connection,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_189_neg,backup data,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[23.114, 577.849, 566.292, 1067.095]]",[],,,status_disagreement,True
+ssv2v_mobile_191_neg,enable night mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_194_neg,enable auto brightness,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[45.205, 1947.945, 1039.726, 2104.11]]",,,status_disagreement,True
+ssv2v_mobile_197_neg,activate Dark Mode,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[0.0, 1236.986, 1027.397, 1356.164]]",,,status_disagreement;low_confidence,True
+ssv2v_mobile_199_neg,sync time,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[15.409, 573.997, 1067.095, 681.862]]",[],,,status_disagreement,True
+ssv2v_mobile_19_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_1_neg,refresh weather,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_201_neg,activate special battery optimization mode,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.434719,"[[824.398, 1147.994, 1036.276, 1244.302]]","[[834.247, 1142.466, 932.877, 1253.425]]",,,box_iou_below_0.5,True
+ssv2v_mobile_204_neg,view history,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_207_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_208_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_20_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_210_neg,favorite profile,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_212_neg,add a new app,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_215_neg,add a new workout,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.49064,"[[909.149, 173.355, 1005.457, 281.22]]","[[896.17, 155.745, 1044.255, 298.723]]",,,box_iou_below_0.5,True
+ssv2v_mobile_218_neg,synchronize data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_221_neg,add new health data,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[947.673, 96.308, 1051.685, 188.764]]",[],,,status_disagreement,True
+ssv2v_mobile_224_neg,turn on location services,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.309991,"[[535.474, 2076.404, 990.048, 2265.169]]","[[608.219, 2120.548, 916.438, 2206.849]]",,,box_iou_below_0.5,True
+ssv2v_mobile_226_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_229_neg,optimize battery,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.722821,"[[34.671, 932.263, 1070.947, 1082.504]]","[[8.219, 965.753, 1060.274, 1089.041]]",,,,False
+ssv2v_mobile_22_neg,upload the file,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.478419,"[[1460.995, 55.281, 1547.865, 142.151]]","[[1477.123, 70.205, 1561.37, 126.37]]",,,box_iou_below_0.5,True
+ssv2v_mobile_232_neg,synchronize data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_235_neg,sync messages,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_238_neg,download the file,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_239_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_240_neg,update the weather information,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.65728,"[[42.376, 1020.867, 543.178, 1575.602]]","[[69.863, 1064.384, 489.041, 1500.0]]",,,low_confidence,True
+ssv2v_mobile_243_neg,access settings,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2263.884, 65.811, 2319.165, 128.989]]",[],,,status_disagreement,True
+ssv2v_mobile_244_neg,access settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_245_neg,apply wallpaper,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.030027,"[[960.835, 221.124, 2229.663, 323.788]]","[[2134.247, 249.932, 2221.301, 294.863]]",,,box_iou_below_0.5,True
+ssv2v_mobile_246_neg,activate advanced drawing features,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_248_neg,take a screenshot,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_249_neg,bookmark the page,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[2042.761, 131.621, 2119.101, 221.124], [2250.722, 147.416, 2327.063, 213.226]]",[],,,status_disagreement,True
+ssv2v_mobile_252_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1990.112, 294.831, 2140.161, 465.939]]",[],,,status_disagreement,True
+ssv2v_mobile_254_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_255_neg,sync data,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[647.576, 423.82, 808.154, 560.706]]",[],,,status_disagreement,True
+ssv2v_mobile_256_neg,center the map on your location,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[76.34, 1279.358, 684.43, 1392.552]]",[],,,status_disagreement,True
+ssv2v_mobile_257_neg,view location history,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_258_neg,create new template,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[5.616, 351.027, 120.753, 452.123]]",,,status_disagreement,True
+ssv2v_mobile_259_neg,sync files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_25_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2016.437, 50.016, 2084.88, 136.886]]",[],,,status_disagreement,True
+ssv2v_mobile_261_neg,open favorites menu,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_262_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_263_neg,favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_265_neg,back up data,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[926.613, 558.074, 2258.62, 739.711], [929.246, 802.889, 2245.457, 1013.483]]",[],,,status_disagreement,True
+ssv2v_mobile_266_neg,reset settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_268_neg,enable dark mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_269_neg,sync settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_271_neg,create a new password,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.632708,"[[885.997, 170.697, 983.538, 264.173]]","[[897.473, 164.753, 992.856, 247.13]]",,,,False
+ssv2v_mobile_272_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_273_neg,open detailed settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_274_neg,enable automatic app reviews,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[65.027, 1792.315, 1072.95, 2036.167]]",[],,,status_disagreement,True
+ssv2v_mobile_275_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_276_neg,mark location as favorite,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[81.284, 1873.599, 312.944, 2190.607]]",[],,,status_disagreement,True
+ssv2v_mobile_278_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_279_neg,set up project,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[73.156, 2117.451, 1101.4, 2267.827]]",[],,,status_disagreement,True
+ssv2v_mobile_280_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_281_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.592302,"[[971.345, 158.504, 1146.106, 264.173]]","[[984.185, 190.767, 1153.274, 260.137]]",,,,False
+ssv2v_mobile_283_neg,create a new note,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.36667,"[[1044.501, 158.504, 1125.785, 256.045]]","[[1018.87, 130.068, 1170.0, 273.144]]",,,box_iou_below_0.5,True
+ssv2v_mobile_284_neg,add shape,ScreenSpot-v2-variants,,absent,multiple,False,high,high,0,15,,[],"[[117.062, 975.514, 381.534, 1192.295], [433.562, 984.185, 745.726, 1183.623], [832.438, 1014.534, 1023.205, 1179.288], [160.418, 1331.034, 359.856, 1578.164], [442.233, 1348.377, 667.685, 1573.829], [819.432, 1331.034, 1018.87, 1552.151], [117.062, 1721.24, 342.514, 1868.651], [476.918, 1708.233, 693.699, 1920.678], [771.74, 1682.219, 1057.89, 1903.336], [108.39, 2059.418, 437.897, 2315.219], [476.918, 2111.445, 728.384, 2315.219], [845.445, 2085.432, 1018.87, 2345.568], [125.733, 554.959, 359.856, 854.116], [498.596, 576.637, 706.705, 858.452], [819.432, 585.308, 1049.219, 832.438]]",,,status_disagreement,True
+ssv2v_mobile_285_neg,enable data sharing,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[47.692, 2098.438, 1131.596, 2263.192]]",,,status_disagreement,True
+ssv2v_mobile_286_neg,confirm settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_288_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_28_neg,upload files,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.572641,"[[13.162, 360.642, 128.989, 465.939]]","[[0.0, 370.685, 109.521, 449.315]]",,,,False
+ssv2v_mobile_290_neg,locate nearest repair center,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.0,"[[467.384, 1162.363, 898.189, 1345.252]]","[[86.712, 2111.445, 182.096, 2219.836]]",,,box_iou_below_0.5,True
+ssv2v_mobile_292_neg,book a flight,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_293_neg,search nearby,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_mobile_295_neg,add payment method,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[410.485, 495.833, 747.814, 751.878]]",[],,,status_disagreement,True
+ssv2v_mobile_296_neg,proceed,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,3,4,,"[[65.027, 1698.838, 1101.4, 1906.112], [32.514, 1902.048, 1097.335, 2072.745], [77.22, 2084.937, 1089.207, 2251.57]]","[[121.397, 1738.582, 1040.548, 1890.329], [130.068, 1933.685, 992.856, 2050.747], [151.747, 2120.116, 1005.863, 2241.514], [212.445, 2297.877, 1057.89, 2410.603]]",,,box_count_disagreement,True
+ssv2v_mobile_297_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_mobile_299_neg,resize,ScreenSpot-v2-variants,,absent,multiple,False,high,medium,0,2,,[],"[[69.37, 1131.596, 273.144, 1339.705], [893.137, 1131.596, 1131.596, 1357.048]]",,,status_disagreement,True
+ssv2v_mobile_301_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_303_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1003.859, 121.926, 1150.17, 264.173]]",[],,,status_disagreement,True
+ssv2v_mobile_304_neg,download the splits data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_305_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_306_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_307_neg,enable all alarms,ScreenSpot-v2-variants,,multiple,absent,False,high,high,7,0,,"[[934.767, 2178.414, 1137.978, 2304.404], [930.703, 1889.856, 1137.978, 1999.589], [930.703, 1572.848, 1133.913, 1686.645], [946.96, 1272.096, 1146.106, 1398.087], [938.831, 946.96, 1142.042, 1077.014], [951.024, 638.08, 1137.978, 760.006], [942.896, 333.265, 1137.978, 451.127]]",[],,,status_disagreement,True
+ssv2v_mobile_308_neg,access support,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_309_neg,activate privacy settings,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.047779,"[[60.963, 361.714, 1125.785, 703.108]]","[[919.151, 385.87, 1101.247, 481.253]]",,,box_iou_below_0.5,True
+ssv2v_mobile_310_neg,save settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_311_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_313_neg,synchronize tabs,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_314_neg,adjust privacy preferences,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.527587,"[[442.998, 739.685, 796.584, 861.612]]","[[463.911, 741.39, 702.37, 836.774]]",,,,False
+ssv2v_mobile_315_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_316_neg,upload a new file,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_317_neg,switch to the front camera,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_319_neg,download,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[50.08, 369.823, 1067.095, 704.976]]",[],,,status_disagreement,True
+ssv2v_mobile_31_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_321_neg,get more information,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[762.761, 127.127, 886.035, 219.583]]",[],,,status_disagreement,True
+ssv2v_mobile_323_neg,switch to selfie mode,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.712991,"[[758.909, 1964.687, 955.377, 2130.337]]","[[739.726, 1927.397, 957.534, 2124.658]]",,,,False
+ssv2v_mobile_325_neg,schedule,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[53.425, 2132.877, 1031.507, 2276.712]]",,,status_disagreement,True
+ssv2v_mobile_327_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.418145,"[[886.035, 100.161, 1080.0, 215.73]]","[[908.219, 135.616, 1060.274, 197.26]]",,,box_iou_below_0.5,True
+ssv2v_mobile_329_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_331_neg,scroll to the top,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_332_neg,join as guest,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_335_neg,confirm settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_338_neg,upload images,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_341_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_343_neg,add to favorites,ScreenSpot-v2-variants,,unique,absent,False,low,high,1,0,,"[[512.36, 1113.323, 774.318, 1171.108]]",[],,,status_disagreement;low_confidence,True
+ssv2v_mobile_344_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_345_neg,sync settings,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_348_neg,book tickets,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_350_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_353_neg,finalize,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_356_neg,edit profile,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_359_neg,download the test results,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_35_neg,take a quick photo,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.681351,"[[894.125, 211.339, 1085.143, 516.154]]","[[893.137, 195.103, 1088.24, 433.562]]",,,,False
+ssv2v_mobile_362_neg,opt out,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_mobile_364_neg,confirm location preference,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,2,,"[[84.751, 2087.961, 982.343, 2249.759]]","[[127.397, 1952.055, 920.548, 2050.685], [152.055, 2120.548, 957.534, 2223.288]]",,,status_disagreement,True
+ssv2v_mobile_367_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_368_neg,access settings,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.671614,"[[50.08, 2207.384, 165.65, 2315.249]]","[[36.986, 2202.74, 156.164, 2297.26]]",,,,False
+ssv2v_mobile_370_neg,create server,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.49726,"[[53.933, 651.043, 1009.31, 866.774]]","[[28.767, 678.082, 1047.945, 789.041]]",,,box_iou_below_0.5,True
+ssv2v_mobile_373_neg,verify email,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[34.671, 2161.156, 1036.276, 2319.101]]",[],,,status_disagreement,True
+ssv2v_mobile_376_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_379_neg,favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_381_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_383_neg,mark all messages as read,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_mobile_384_neg,share,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[61.644, 1960.274, 521.918, 2108.219]]",,,status_disagreement,True
+ssv2v_mobile_386_neg,access settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_389_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_392_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_395_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_398_neg,enable high-contrast mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_39_neg,check for updates,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[52.835, 902.254, 1162.363, 1024.18]]",[],,,status_disagreement,True
+ssv2v_mobile_401_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_402_neg,mark all as read,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_405_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_406_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_408_neg,check updates,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[327.448, 1028.571, 743.499, 1147.994]]",[],,,status_disagreement,True
+ssv2v_mobile_409_neg,download all updates and new apps,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[123.288, 932.877, 406.849, 1035.616]]",,,status_disagreement,True
+ssv2v_mobile_410_neg,access the settings menu,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_412_neg,sync data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_414_neg,enable Data Saver Mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_417_neg,access settings,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.765458,"[[85.348, 650.273, 312.944, 869.74]]","[[78.041, 685.027, 307.829, 880.13]]",,,,False
+ssv2v_mobile_420_neg,reset passcode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_421_neg,reset settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_425_neg,sync data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_426_neg,configure download preferences,ScreenSpot-v2-variants,,unique,absent,False,medium,high,1,0,,"[[65.027, 609.631, 1113.592, 760.006]]",[],,,status_disagreement,True
+ssv2v_mobile_428_neg,enable Dark Mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_431_neg,activate voice control,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_433_neg,download the album,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_434_neg,download the album,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_mobile_436_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_438_neg,save,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[979.474, 1454.986, 1081.079, 1572.848]]",[],,,status_disagreement,True
+ssv2v_mobile_43_neg,sync data,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[52.835, 1434.665, 1093.271, 1564.719]]",[],,,status_disagreement,True
+ssv2v_mobile_440_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_441_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_443_neg,mark as favorite,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.689954,"[[414.549, 1552.526, 1125.785, 1633.811]]","[[420.555, 1526.137, 1153.274, 1638.863]]",,,,False
+ssv2v_mobile_446_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_449_neg,mark as important,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_449_pos,view the photo pictured in Apr 11,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.985824,"[[634.414, 597.56, 2360.0, 1640.0]]","[[634.658, 612.192, 2360.0, 1640.0]]",,,,False
+ssv2v_mobile_450_neg,add to watchlist,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2245.457, 50.016, 2334.96, 136.886]]",[],,,status_disagreement,True
+ssv2v_mobile_451_neg,exit,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.680487,"[[22.263, 240.443, 227.085, 338.401]]","[[33.25, 204.25, 228.0, 342.0]]",,,low_confidence,True
+ssv2v_mobile_452_neg,pause the timer,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_453_neg,enable notifications,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[66.79, 2159.535, 1264.552, 2328.735]]",[],,,status_disagreement,True
+ssv2v_mobile_454_neg,sign in,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,3,4,,"[[57.884, 1963.618, 1224.478, 2141.724], [40.074, 2155.082, 1215.573, 2324.283], [80.148, 2342.093, 1211.12, 2489.03]]","[[118.75, 2014.0, 1121.0, 2123.25], [133.0, 2166.0, 1083.0, 2303.75], [114.0, 2351.25, 1149.5, 2489.0], [128.25, 2546.0, 1106.75, 2655.25]]",,,box_count_disagreement,True
+ssv2v_mobile_455_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_456_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_457_neg,view notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_458_neg,enable dark mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_459_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_460_neg,start a new project,ScreenSpot-v2-variants,,multiple,multiple,True,high,medium,3,3,0.88866,"[[48.979, 1812.228, 1211.12, 2048.218], [53.432, 2106.103, 1193.31, 2319.83], [48.979, 2399.978, 1188.857, 2627.063]]","[[66.5, 1795.5, 1230.25, 2047.25], [66.5, 2099.5, 1244.5, 2318.0], [47.5, 2403.5, 1225.5, 2603.0]]",,,,False
+ssv2v_mobile_461_neg,take a photo,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.648717,"[[2161.22, 734.446, 2334.96, 895.024]]","[[2198.836, 746.986, 2325.205, 890.205]]",,,,False
+ssv2v_mobile_462_neg,reset,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_463_neg,start a new voice memo,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.724507,"[[231.653, 1432.039, 408.026, 1576.822]]","[[252.74, 1440.616, 395.959, 1569.795]]",,,,False
+ssv2v_mobile_464_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_465_neg,reset network settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_466_neg,add to favorites,ScreenSpot-v2-variants,,multiple,absent,False,medium,high,12,0,,"[[1117.615, 360.665, 1206.668, 431.907], [1130.973, 498.697, 1228.931, 618.918], [1135.425, 681.255, 1255.647, 792.571], [1126.52, 837.098, 1269.005, 952.867], [1095.352, 1010.751, 1237.836, 1099.804], [1153.236, 1175.499, 1233.384, 1277.91], [1117.615, 1331.342, 1206.668, 1429.3], [1126.52, 1500.543, 1215.573, 1598.501], [1139.878, 1683.101, 1211.12, 1754.343], [1135.425, 1861.207, 1211.12, 1927.997], [1135.425, 2003.692, 1215.573, 2097.197], [1130.973, 2177.345, 1206.668, 2261.945]]",[],,,status_disagreement,True
+ssv2v_mobile_467_neg,sync,ScreenSpot-v2-variants,,multiple,absent,False,high,high,5,0,,"[[1008.218, 360.642, 1458.363, 458.042], [997.689, 447.512, 1350.433, 521.22], [1008.218, 542.279, 1258.299, 613.355], [1013.483, 731.814, 1253.034, 784.462], [1000.321, 631.782, 1292.52, 700.225]]",[],,,status_disagreement,True
+ssv2v_mobile_468_neg,center the map,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2250.722, 152.681, 2340.225, 247.448]]",[],,,status_disagreement,True
+ssv2v_mobile_469_neg,access the settings menu,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_46_neg,connect automatically,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_470_neg,view events,ScreenSpot-v2-variants,,absent,unique,False,medium,low,0,1,,[],"[[1068.75, 1425.0, 1280.0, 1653.0]]",,,status_disagreement;low_confidence,True
+ssv2v_mobile_471_neg,reconnect,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_mobile_472_neg,access advanced settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_473_neg,check for updates,ScreenSpot-v2-variants,,multiple,absent,False,high,high,5,0,,"[[62.337, 503.149, 356.212, 614.465], [948.414, 712.424, 1179.952, 810.382], [935.056, 1073.088, 1184.404, 1193.31], [939.509, 1504.995, 1193.31, 1611.859], [952.867, 1963.618, 1184.404, 2066.029]]",[],,,status_disagreement,True
+ssv2v_mobile_474_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_475_neg,reset location settings,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_476_neg,access advanced notification options,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_477_neg,access additional configuration options,ScreenSpot-v2-variants,,multiple,absent,False,high,high,3,0,,"[[93.506, 1384.774, 1179.952, 1500.543], [120.222, 525.413, 1197.762, 645.634], [80.148, 783.666, 1193.31, 975.13]]",[],,,status_disagreement,True
+ssv2v_mobile_478_neg,enable Quick Settings,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[60.404, 535.011, 1208.09, 707.596]]",[],,,status_disagreement,True
+ssv2v_mobile_479_neg,update,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_480_neg,synchronize bookmarks,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_481_neg,set reminder time,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.669652,"[[845.008, 1516.276, 1210.915, 1603.146]]","[[859.315, 1491.164, 1187.877, 1597.877]]",,,,False
+ssv2v_mobile_482_neg,add to favorites,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[408.026, 294.831, 563.339, 508.058]]",[],,,status_disagreement,True
+ssv2v_mobile_483_neg,proceed,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_484_neg,favorite location,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_485_neg,log calories,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_mobile_486_neg,mark all as read,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_487_neg,enable weather notifications,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.762254,"[[529.117, 226.388, 979.262, 326.421]]","[[533.562, 244.315, 991.301, 322.945]]",,,,False
+ssv2v_mobile_488_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_489_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_490_neg,refresh the weather data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_491_neg,share,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.0,"[[601.108, 151.39, 765.856, 280.517]]","[[365.75, 1087.75, 1078.25, 1163.75]]",,,box_iou_below_0.5,True
+ssv2v_mobile_492_neg,update,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_mobile_493_neg,back up,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.500251,"[[62.337, 351.759, 1184.404, 583.297]]","[[71.25, 342.0, 1211.25, 475.0]]",,,,False
+ssv2v_mobile_494_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_495_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_496_neg,access additional language options,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.245249,"[[929.246, 465.939, 2105.939, 534.382]]","[[940.753, 466.164, 1238.425, 541.986]]",,,box_iou_below_0.5,True
+ssv2v_mobile_497_neg,book a flight,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[333.949, 1856.754, 623.371, 2070.482]]",[],,,status_disagreement,True
+ssv2v_mobile_498_neg,mute notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_499_neg,delete all alarms,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_4_neg,confirm language selection,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[1682.123, 1395.685, 1794.452, 1508.014]]",,,status_disagreement;low_confidence,True
+ssv2v_mobile_500_neg,synchronize files,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_50_neg,enable all notifications,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[56.363, 1664.877, 1070.897, 1755.925]]",,,status_disagreement,True
+ssv2v_mobile_53_neg,enable dark mode,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_57_neg,test Siri,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_60_neg,optimize battery,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.100772,"[[77.22, 524.283, 1125.785, 629.952]]","[[940.829, 533.281, 1057.89, 628.664]]",,,box_iou_below_0.5,True
+ssv2v_mobile_62_neg,enable battery saver mode,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.102131,"[[56.899, 512.09, 1113.592, 658.401]]","[[914.815, 515.938, 1044.884, 637.336]]",,,box_iou_below_0.5,True
+ssv2v_mobile_63_neg,switch to the front camera,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.688954,"[[930.703, 2068.681, 1129.849, 2280.019]]","[[949.5, 2085.432, 1148.938, 2258.856]]",,,,False
+ssv2v_mobile_67_neg,add a new favorite event,ScreenSpot-v2-variants,,absent,unique,False,medium,low,0,1,,[],"[[1036.212, 143.075, 1148.938, 247.13]]",,,status_disagreement;low_confidence,True
+ssv2v_mobile_72_neg,save,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.367844,"[[1007.923, 182.889, 1129.849, 317.008]]","[[1018.87, 212.445, 1105.582, 281.815]]",,,box_iou_below_0.5,True
+ssv2v_mobile_74_neg,pause,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_77_neg,view purchase history,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_79_neg,Turn on Data Saver,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_7_neg,confirm translation,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.745372,"[[1679.486, 1392.552, 1782.151, 1518.909]]","[[1693.356, 1395.685, 1771.986, 1519.247]]",,,,False
+ssv2v_mobile_82_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_87_neg,cancel,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.549419,"[[1007.923, 1109.528, 1142.042, 1239.583]]","[[1036.212, 1096.911, 1122.925, 1226.979]]",,,,False
+ssv2v_mobile_88_neg,download all songs,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_92_neg,add a new station,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_mobile_94_neg,access settings,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1032.308, 142.247, 1142.042, 260.109]]",[],,,status_disagreement,True
+ssv2v_mobile_96_neg,upload,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_0_neg,import,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[2335.068, 140.548, 2517.534, 182.466]]",,,status_disagreement;low_confidence,True
+ssv2v_web_100_neg,apply coupon,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_103_neg,change email,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[611.128, 926.316, 702.556, 962.406]]",[],,,status_disagreement,True
+ssv2v_web_105_neg,add all items to cart,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_106_neg,sort by price,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_107_neg,apply discount,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_109_neg,add to wishlist,ScreenSpot-v2-variants,,absent,offscreen,False,high,medium,0,0,,[],[],,,status_disagreement,True
+ssv2v_web_10_neg,back up projects,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_110_neg,save for later,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,2,,"[[1527.82, 1304.06, 1749.173, 1352.18]]","[[1656.986, 1124.384, 1918.356, 1210.685], [1526.301, 1306.849, 1748.219, 1353.699]]",,,status_disagreement,True
+ssv2v_web_111_neg,get more information,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[43.308, 1373.835, 221.353, 1440.0]]",[],,,status_disagreement,True
+ssv2v_web_112_neg,add to cart,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The target control is physically present in the current page layout, but it is located past the edges of the visible viewport and requires scrolling to access.""",,status_disagreement,True
+ssv2v_web_113_neg,compare products,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_web_115_neg,filter by brand,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The 'Brand' filter is likely located further down in the left 'Shopping Options' sidebar, which is cut off at the bottom of the visible viewport.""",,status_disagreement,True
+ssv2v_web_117_neg,filter by price,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_119_neg,download reviews,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_11_neg,create a new branch,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.0,"[[885.414, 967.218, 1003.308, 1029.774]]","[[2298.082, 461.096, 2428.767, 530.137]]",,,box_iou_below_0.5,True
+ssv2v_web_120_neg,stay signed in,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_122_neg,receive verification code,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.815434,"[[358.496, 926.316, 690.526, 993.684]]","[[372.329, 929.589, 680.548, 988.767]]",,,,False
+ssv2v_web_124_neg,verify email,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_125_neg,apply discount,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_126_neg,compare prices,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_127_neg,preview the product details,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,2,2,0.566417,"[[1017.744, 476.391, 1263.158, 550.977], [1015.338, 1106.767, 1207.82, 1171.729]]","[[1023.288, 490.685, 1213.151, 547.397], [1018.356, 1124.384, 1190.959, 1163.836]]",,,,False
+ssv2v_web_128_neg,compare prices,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_130_neg,filter,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[74.586, 620.752, 1462.857, 1373.835]]",[],,,status_disagreement,True
+ssv2v_web_132_neg,secure login,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[344.06, 1027.368, 512.481, 1101.955]]",[],,,status_disagreement,True
+ssv2v_web_133_neg,save draft,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1715.489, 31.278, 1900.752, 84.211]]",[],,,status_disagreement,True
+ssv2v_web_135_neg,archive,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_137_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_139_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_13_neg,submit issue,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2345.865, 194.887, 2540.752, 286.316]]",[],,,status_disagreement,True
+ssv2v_web_141_neg,highlight post,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_web_143_neg,mark as read,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_146_neg,pin,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_148_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_149_neg,mark as read,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_150_neg,sort by popularity,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[101.053, 173.233, 243.008, 250.226]]",[],,,status_disagreement,True
+ssv2v_web_151_neg,save to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_152_neg,mark as resolved,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_154_neg,report comment,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_155_neg,create forum,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The form submission button is located below the viewport boundary and requires scrolling down to reveal.""",,status_disagreement,True
+ssv2v_web_158_neg,preview,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_160_neg,preview,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_163_neg,preview,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_164_neg,enable notifications,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_166_neg,share,ScreenSpot-v2-variants,,absent,multiple,False,high,high,0,3,,[],"[[202.192, 360.0, 258.904, 401.918], [180.0, 641.096, 261.37, 702.74], [187.397, 1289.589, 256.438, 1333.973]]",,,status_disagreement,True
+ssv2v_web_167_neg,save changes,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_16_neg,select priority,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_172_neg,subscribe to the newsletter,ScreenSpot-v2-variants,,occluded,unique,False,high,medium,0,1,,[],"[[737.26, 1136.712, 1824.658, 1240.274]]","The intended target is the top-left “Subscribe to newsletters” link, which is obscured by the active modal overlay.",,status_disagreement,True
+ssv2v_web_173_neg,share on Twitter,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[192.329, 998.63, 249.041, 1072.603]]",,,status_disagreement,True
+ssv2v_web_175_neg,download PDF,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_177_neg,download the article,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_178_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_180_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_182_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_183_neg,subscribe,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[254.332, 1246.645, 1071.531, 1317.524]]",[],,,status_disagreement,True
+ssv2v_web_185_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_187_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_188_neg,download results,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_190_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_191_neg,join the group,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_193_neg,create post,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_196_neg,access help documentation,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_197_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_198_neg,confirm,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_web_201_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_202_neg,subscribe to weather alerts,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_203_neg,receive updates,ScreenSpot-v2-variants,,multiple,unique,False,high,high,2,1,,"[[384.962, 1267.97, 512.481, 1318.496], [772.331, 1265.564, 895.038, 1316.09]]","[[2095.89, 12.329, 2280.822, 81.37]]",,,status_disagreement,True
+ssv2v_web_205_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_207_neg,bookmark,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_209_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_210_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_212_neg,find your location,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.0,"[[2483.008, 291.128, 2552.782, 358.496]]","[[505.479, 120.822, 606.575, 194.795]]",,,box_iou_below_0.5,True
+ssv2v_web_214_neg,zoom in,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.336242,"[[2480.602, 125.113, 2552.782, 202.105]]","[[2512.603, 147.945, 2547.123, 202.192]]",,,box_iou_below_0.5,True
+ssv2v_web_216_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_218_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_219_neg,capture screenshot,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_21_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_221_neg,zoom in,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.543514,"[[2487.82, 125.113, 2547.97, 202.105]]","[[2492.877, 140.548, 2537.26, 197.26]]",,,,False
+ssv2v_web_223_neg,bookmark the current map view,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_224_neg,bookmark the current map view,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_226_neg,update the map,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[392.18, 12.03, 498.045, 96.241]]",[],,,status_disagreement,True
+ssv2v_web_227_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_229_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_230_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_232_neg,view route summary,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[668.219, 404.384, 744.658, 466.027]]",,,status_disagreement,True
+ssv2v_web_234_neg,get route overview,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_235_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_236_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_238_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_23_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_240_neg,save to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_242_neg,create account,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,2,,"[[596.692, 353.684, 820.451, 430.677]]","[[604.11, 347.671, 811.233, 426.575], [2364.658, 22.192, 2527.397, 101.096]]",,,status_disagreement,True
+ssv2v_web_244_neg,join,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.478624,"[[2377.143, 4.812, 2545.564, 101.053]]","[[2384.384, 39.452, 2527.397, 93.699]]",,,box_iou_below_0.5,True
+ssv2v_web_245_neg,submit your note,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.536535,"[[28.872, 1234.286, 274.286, 1347.368]]","[[41.918, 1255.068, 236.712, 1331.507]]",,,,False
+ssv2v_web_247_neg,save,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[32.055, 1264.932, 241.644, 1319.178]]",,,status_disagreement,True
+ssv2v_web_248_neg,send your note,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.468985,"[[21.654, 1248.722, 243.008, 1337.744]]","[[46.849, 1269.863, 234.247, 1319.178]]",,,box_iou_below_0.5,True
+ssv2v_web_249_neg,preview the note,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_252_neg,create a new map,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[399.398, 762.707, 741.053, 849.323]]",[],,,status_disagreement,True
+ssv2v_web_253_neg,bookmark the page,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_255_neg,download the entire Wikipedia database,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_259_neg,register,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_25_neg,add a new issue,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2037.895, 127.519, 2526.316, 194.887]]",[],,,status_disagreement,True
+ssv2v_web_261_neg,bookmark,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_263_neg,save to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_264_neg,provide feedback,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_266_neg,switch language,ScreenSpot-v2-variants,,offscreen,multiple,False,high,high,0,2,,[],"[[36.986, 1403.014, 426.575, 1440.0], [46.849, 1252.603, 337.808, 1319.178]]","The target control is physically present in the current page layout, but it is located past the edges of the visible viewport and requires scrolling to access.",,status_disagreement,True
+ssv2v_web_268_neg,upload,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.743308,"[[2300.15, 389.774, 2483.008, 469.173]]","[[2303.014, 396.986, 2478.082, 458.63]]",,,,False
+ssv2v_web_271_neg,download the video,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_274_neg,subscribe to updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_276_neg,upload data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_278_neg,refine search results,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_27_neg,update dependencies,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[1555.89, 712.603, 1873.973, 756.986]]",,,status_disagreement,True
+ssv2v_web_280_neg,verify email,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_282_neg,verify email,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_284_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_285_neg,subscribe to updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_288_neg,translate,ScreenSpot-v2-variants,,unique,multiple,False,high,medium,1,6,,"[[2076.391, 216.541, 2463.759, 315.188]]","[[734.795, 562.192, 835.89, 586.849], [705.205, 791.507, 895.068, 843.288], [707.671, 880.274, 941.918, 941.918], [737.26, 978.904, 924.658, 1033.151], [710.137, 1072.603, 818.63, 1109.589], [724.932, 1146.575, 1025.753, 1215.616]]",,,status_disagreement,True
+ssv2v_web_289_neg,view achievements,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,2,,"[[93.835, 1215.038, 300.752, 1292.03]]","[[125.753, 1136.712, 559.726, 1200.822], [106.027, 1213.151, 347.671, 1287.123]]",,,status_disagreement,True
+ssv2v_web_292_neg,edit the article,ScreenSpot-v2-variants,,unique,unique,True,high,low,1,1,0.0,"[[1828.571, 348.872, 2052.331, 399.398]]","[[115.89, 858.082, 318.082, 929.589]]",,,box_iou_below_0.5;low_confidence,True
+ssv2v_web_293_neg,bookmark,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_295_neg,highlight text,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_297_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_299_neg,download,ScreenSpot-v2-variants,,multiple,absent,False,high,high,6,0,,"[[1833.383, 471.579, 1898.346, 543.759], [2018.647, 461.955, 2083.609, 541.353], [1231.88, 733.835, 1292.03, 789.173], [1640.902, 887.82, 1684.211, 931.128], [2341.053, 834.887, 2418.045, 895.038], [1349.774, 1145.263, 1436.391, 1205.414]]",[],,,status_disagreement,True
+ssv2v_web_2_neg,create a new task,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_300_neg,recover username,ScreenSpot-v2-variants,,absent,unique,False,high,medium,0,1,,[],"[[293.425, 986.301, 673.151, 1070.137]]",,,status_disagreement,True
+ssv2v_web_303_neg,log in,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.846975,"[[108.271, 887.82, 832.481, 972.03]]","[[110.959, 882.74, 828.493, 964.11]]",,,,False
+ssv2v_web_304_neg,enable two-factor authentication,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_305_neg,subscribe to email updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_306_neg,set up MediaWiki,ScreenSpot-v2-variants,,unique,multiple,False,high,medium,1,4,,"[[127.519, 976.842, 772.331, 1082.707]]","[[180.0, 1124.384, 355.068, 1151.507], [374.795, 1092.329, 478.356, 1156.438], [569.589, 1099.726, 720.0, 1146.575], [182.466, 1274.795, 409.315, 1316.712]]",,,status_disagreement,True
+ssv2v_web_309_neg,access quick installation instructions,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_310_neg,download the player list,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_311_neg,mark as favorite,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The favorite/watchlist star icon is located in the Wikipedia article header at the top of the page, above the visible viewport.""",,status_disagreement,True
+ssv2v_web_313_neg,download PDF,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_315_neg,submit article,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_318_neg,download PDF,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_31_neg,resolve,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[801.203, 1133.233, 1012.932, 1217.444]]",[],,,status_disagreement,True
+ssv2v_web_321_neg,download PDF,ScreenSpot-v2-variants,,offscreen,absent,False,high,high,0,0,,[],[],"""The 'Download as PDF' control is located in the Wikipedia article tools sidebar outside the visible viewport frame.""",,status_disagreement,True
+ssv2v_web_323_neg,download PDF,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[64.11, 1247.671, 399.452, 1353.699]]",,,status_disagreement;low_confidence,True
+ssv2v_web_324_neg,create a new page,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[101.053, 801.203, 1431.579, 952.782]]",[],,,status_disagreement,True
+ssv2v_web_326_neg,expand additional search filters,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.697399,"[[110.677, 538.947, 1862.256, 644.812]]","[[113.425, 554.795, 1861.644, 628.767]]",,,,False
+ssv2v_web_329_neg,download PDF,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_332_neg,add to wishlist,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_334_neg,apply coupon,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_336_neg,save for later,ScreenSpot-v2-variants,,occluded,absent,False,low,medium,0,0,,[],[],"""The cart content and item options are blocked by the active confirmation modal overlay.""",,status_disagreement;low_confidence,True
+ssv2v_web_339_neg,save for later,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_33_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_341_neg,apply discount,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_344_neg,share,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_347_neg,get assistance,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_349_neg,save login credentials,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_350_neg,view details,ScreenSpot-v2-variants,,absent,multiple,False,high,high,0,9,,[],"[[9.863, 1089.863, 278.63, 1183.562], [500.548, 401.918, 961.644, 1267.397], [1013.425, 406.849, 1476.986, 1245.205], [1536.164, 411.781, 2009.589, 1245.205], [2031.781, 387.123, 2556.986, 1208.219], [1871.507, 1299.452, 1918.356, 1338.904], [2391.781, 1245.205, 2453.425, 1333.973], [1341.37, 1262.466, 1447.397, 1304.384], [845.753, 1274.795, 934.521, 1363.562]]",,,status_disagreement,True
+ssv2v_web_354_neg,check availability,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[1681.644, 848.219, 1970.137, 951.781]]",,,status_disagreement;low_confidence,True
+ssv2v_web_356_neg,upload a new image,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_358_neg,get assistance,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_360_neg,sort by price,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_362_neg,subscribe for updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_365_neg,preview review,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_368_neg,get assistance,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_36_neg,create a new project,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_370_neg,save draft,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_372_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_373_neg,compare prices,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_374_neg,subscribe to the newsletter,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[940.15, 725.414, 1212.632, 783.158]]",[],,,status_disagreement,True
+ssv2v_web_375_neg,subscribe,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,2,,"[[487.218, 954.586, 658.647, 1019.549]]","[[499.315, 969.041, 632.466, 1004.178], [797.055, 1059.658, 935.753, 1080.0]]",,,status_disagreement,True
+ssv2v_web_376_neg,apply,ScreenSpot-v2-variants,,absent,unique,False,high,high,0,1,,[],"[[1148.425, 408.699, 1235.342, 436.438]]",,,status_disagreement,True
+ssv2v_web_377_neg,download all repositories,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_378_neg,customize cookie preferences,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_379_neg,download,ScreenSpot-v2-variants,,absent,absent,True,medium,high,0,0,,[],[],,,,False
+ssv2v_web_380_neg,start tutorial,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[364.511, 572.03, 474.586, 611.729]]",[],,,status_disagreement,True
+ssv2v_web_381_neg,download,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.854747,"[[310.376, 627.97, 517.895, 683.91]]","[[308.836, 630.616, 510.411, 680.548]]",,,,False
+ssv2v_web_382_neg,set alarm,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_383_neg,access help documentation,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.570707,"[[830.075, 696.541, 1095.338, 770.526]]","[[837.74, 710.137, 1080.0, 756.37]]",,,,False
+ssv2v_web_384_neg,apply discount,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_385_neg,view real-time weather updates,ScreenSpot-v2-variants,,unique,multiple,False,high,high,1,3,,"[[712.782, 16.241, 1097.143, 64.962]]","[[380.959, 68.425, 663.904, 118.356], [358.767, 120.205, 434.589, 168.288], [486.37, 123.904, 571.438, 155.342]]",,,status_disagreement,True
+ssv2v_web_386_neg,download all,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_387_neg,bookmark this location,ScreenSpot-v2-variants,,unique,unique,True,medium,medium,1,1,0.707662,"[[1568.12, 200.301, 1716.09, 249.023]]","[[1555.274, 190.479, 1725.411, 247.808]]",,,,False
+ssv2v_web_388_neg,access help,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.712296,"[[1414.737, 1.805, 1510.376, 45.113]]","[[1403.63, 9.247, 1514.589, 46.233]]",,,,False
+ssv2v_web_389_neg,download,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.555604,"[[1183.759, 3.609, 1304.662, 36.09]]","[[1189.11, 9.247, 1296.37, 29.589]]",,,,False
+ssv2v_web_38_neg,access help documentation,ScreenSpot-v2-variants,,unique,absent,False,high,low,1,0,,"[[2290.526, 9.624, 2384.361, 81.805]]",[],,,status_disagreement;low_confidence,True
+ssv2v_web_390_neg,reset password,ScreenSpot-v2-variants,,multiple,unique,False,high,high,2,1,,"[[1102.556, 351.88, 1203.609, 411.429], [1757.594, 0.0, 1900.15, 59.549]]","[[1760.521, 9.381, 1907.492, 53.16]]",,,status_disagreement,True
+ssv2v_web_391_neg,share the article,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_392_neg,gift wrap,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_393_neg,pre-order,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_394_neg,enroll,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.804085,"[[267.068, 523.308, 470.977, 600.902]]","[[284.795, 525.205, 456.781, 599.178]]",,,,False
+ssv2v_web_395_neg,switch currency to EUR,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.508317,"[[954.586, 602.707, 1111.579, 640.602]]","[[946.849, 608.425, 1094.795, 630.616]]",,,,False
+ssv2v_web_396_neg,subscribe to the newsletter,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_397_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_398_neg,access help,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1066.466, 557.594, 1133.233, 595.489]]",[],,,status_disagreement,True
+ssv2v_web_399_neg,download,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,2,5,,"[[653.233, 487.218, 1008.722, 539.549], [660.451, 572.03, 976.241, 768.722]]","[[650.959, 495.616, 969.041, 532.603], [652.808, 552.945, 970.89, 601.027], [656.507, 634.315, 957.945, 662.055], [658.356, 669.452, 963.493, 702.74], [663.904, 719.384, 878.425, 758.219]]",,,box_count_disagreement,True
+ssv2v_web_39_neg,download documentation,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[855.616, 209.589, 1084.932, 313.151]]",,,status_disagreement;low_confidence,True
+ssv2v_web_400_neg,flag review,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_401_neg,mark as favorite,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_402_neg,bookmark,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_403_neg,download installer,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_404_neg,share,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[817.444, 783.158, 866.165, 822.857]]",[],,,status_disagreement,True
+ssv2v_web_405_neg,view your shopping cart,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_406_neg,add to favorites,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[1259.549, 844.511, 1337.143, 887.82]]",[],,,status_disagreement,True
+ssv2v_web_407_neg,subscribe to updates,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_408_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_409_neg,customize feed,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_410_neg,pin the comment,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_411_neg,compare models,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_412_neg,get immediate assistance,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[494.436, 348.271, 904.06, 433.083]]",[],,,status_disagreement,True
+ssv2v_web_413_neg,subscribe to the newsletter,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.718285,"[[1255.94, 77.594, 1366.015, 117.293]]","[[1257.534, 75.822, 1379.589, 110.959]]",,,,False
+ssv2v_web_414_neg,save the post,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_415_neg,reset password,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_416_neg,pre-order,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_417_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_418_neg,save for later,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_419_neg,add to favorites,ScreenSpot-v2-variants,,unique,absent,False,high,medium,1,0,,"[[629.774, 339.248, 781.353, 391.579]]",[],,,status_disagreement,True
+ssv2v_web_41_neg,submit feedback,ScreenSpot-v2-variants,,absent,unique,False,high,low,0,1,,[],"[[1846.849, 722.466, 2118.082, 764.384]]",,,status_disagreement;low_confidence,True
+ssv2v_web_420_neg,shuffle all playlists,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_421_neg,set notifications,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1824.361, 12.632, 1853.233, 48.722]]",[],,,status_disagreement,True
+ssv2v_web_422_neg,download the article,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_423_neg,share,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.597097,"[[1162.105, 950.977, 1185.564, 997.895]]","[[1163.219, 950.548, 1196.507, 993.082]]",,,,False
+ssv2v_web_424_neg,download all extensions,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_425_neg,update location,ScreenSpot-v2-variants,,unique,unique,True,high,medium,1,1,0.655553,"[[676.692, 101.053, 1221.654, 173.233]]","[[678.699, 114.658, 1215.0, 162.74]]",,,,False
+ssv2v_web_426_neg,download,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.544695,"[[851.729, 476.391, 983.459, 528.722]]","[[852.534, 471.575, 1028.219, 515.959]]",,,,False
+ssv2v_web_427_neg,download the latest catalog,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_428_neg,add to favorites,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_429_neg,subscribe to the newsletter,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[1079.098, 595.489, 1264.962, 658.647]]",[],,,status_disagreement,True
+ssv2v_web_430_neg,add to wishlist,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_431_neg,view your shopping cart,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_432_neg,schedule a ride,ScreenSpot-v2-variants,,unique,unique,True,high,high,1,1,0.059922,"[[359.098, 258.045, 833.684, 620.752]]","[[589.932, 490.068, 782.26, 543.699]]",,,box_iou_below_0.5,True
+ssv2v_web_433_neg,save,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_434_neg,subscribe,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_435_neg,add to wishlist,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,8,8,0.490369,"[[701.955, 258.045, 757.895, 312.18], [1021.353, 263.459, 1073.684, 304.962], [1342.556, 267.068, 1380.451, 308.571], [1660.15, 265.263, 1698.045, 304.962], [707.368, 790.376, 748.872, 822.857], [1024.962, 792.18, 1070.075, 828.271], [1344.361, 788.571, 1384.06, 824.662], [1652.932, 788.571, 1696.241, 824.662]]","[[723.082, 268.151, 747.123, 301.438], [1026.37, 275.548, 1074.452, 305.137], [1351.849, 275.548, 1385.137, 301.438], [1669.932, 281.096, 1695.822, 301.438], [1660.685, 793.356, 1693.973, 821.096], [1337.055, 793.356, 1374.041, 822.945], [1033.767, 793.356, 1065.205, 826.644], [713.836, 800.753, 745.274, 826.644]]",,,box_iou_below_0.5,True
+ssv2v_web_436_neg,send an inquiry,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_45_neg,submit feedback,ScreenSpot-v2-variants,,occluded,absent,False,medium,medium,0,0,,[],[],"""The background content and feedback links are blocked by the active 'Solutions' dropdown menu overlay.""",,status_disagreement,True
+ssv2v_web_47_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_49_neg,view cart,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_4_neg,add task,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_51_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_53_neg,download the installation guide,ScreenSpot-v2-variants,,multiple,multiple,True,high,medium,3,3,0.080139,"[[101.053, 310.376, 546.165, 969.624], [591.88, 315.188, 1049.023, 981.654], [1089.925, 310.376, 1568.722, 984.06]]","[[150.411, 786.575, 364.932, 900.0], [618.904, 744.658, 877.808, 828.493], [1116.986, 830.959, 1373.425, 939.452]]",,,box_iou_below_0.5,True
+ssv2v_web_55_neg,access help,ScreenSpot-v2-variants,,absent,multiple,False,high,high,0,2,,[],"[[1398.082, 76.438, 1587.945, 140.548], [1745.753, 36.986, 1975.068, 150.411]]",,,status_disagreement,True
+ssv2v_web_57_neg,initiate a new security scan,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_60_neg,start learning,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[96.241, 666.466, 411.429, 772.331], [2052.331, 9.624, 2353.083, 190.075]]",[],,,status_disagreement,True
+ssv2v_web_61_neg,configure additional project options,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[630.376, 969.624, 1178.947, 1044.211], [647.218, 1094.737, 1373.835, 1150.075]]",[],,,status_disagreement,True
+ssv2v_web_63_neg,submit for review,ScreenSpot-v2-variants,,offscreen,offscreen,True,high,high,0,0,,[],[],"""The target control is located further down the page below the visible viewport boundary.""",,,False
+ssv2v_web_65_neg,favorite,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2021.053, 144.361, 2266.466, 214.135]]",[],,,status_disagreement,True
+ssv2v_web_68_neg,fork the repository,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_6_neg,synchronize,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_70_neg,sync,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_71_neg,invite a new member,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_72_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_73_neg,export data,ScreenSpot-v2-variants,,absent,absent,True,high,medium,0,0,,[],[],,,,False
+ssv2v_web_76_neg,download order details,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_78_neg,synchronize data,ScreenSpot-v2-variants,,multiple,absent,False,high,high,2,0,,"[[1248.722, 12.03, 1573.534, 93.835], [2206.316, 315.188, 2473.383, 411.429]]",[],,,status_disagreement,True
+ssv2v_web_80_neg,download,ScreenSpot-v2-variants,,unique,absent,False,high,high,1,0,,"[[2290.526, 490.827, 2456.541, 570.226]]",[],,,status_disagreement,True
+ssv2v_web_82_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_84_neg,add a new customer,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_86_neg,download,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_87_neg,add partner,ScreenSpot-v2-variants,,absent,absent,True,high,low,0,0,,[],[],,,low_confidence,True
+ssv2v_web_89_neg,sync data,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_90_neg,download CSV,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_93_neg,add to wishlist,ScreenSpot-v2-variants,,multiple,multiple,True,high,high,5,5,0.61939,"[[276.692, 1200.602, 317.594, 1255.94], [781.955, 1234.286, 820.451, 1287.218], [1292.03, 1198.195, 1330.526, 1241.504], [1792.481, 1323.308, 1833.383, 1366.617], [2302.556, 1200.602, 2341.053, 1246.316]]","[[278.63, 1186.027, 323.014, 1250.137], [784.11, 1237.808, 828.493, 1279.726], [1284.658, 1203.288, 1343.836, 1250.137], [1787.671, 1324.11, 1841.918, 1366.027], [2303.014, 1190.959, 2352.329, 1247.671]]",,,,False
+ssv2v_web_95_neg,add to wishlist,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+ssv2v_web_97_neg,apply coupon,ScreenSpot-v2-variants,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_00_00,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.642824,"[[410.112, 352.809, 560.674, 394.382]]","[[426.712, 351.199, 539.384, 389.555]]",,,,False
+synthetic_dialog_00_01,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.920177,"[[413.483, 352.809, 561.798, 394.382]]","[[412.329, 353.596, 553.767, 394.349]]",,,,False
+synthetic_dialog_00_02,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.708806,"[[416.854, 351.685, 569.663, 398.876]]","[[415.925, 358.39, 564.555, 393.151]]",,,,False
+synthetic_dialog_00_03,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_00_04,Click Export.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.605681,"[[419.101, 353.933, 571.91, 400.0], [419.101, 459.551, 576.404, 512.36]]","[[420.719, 355.993, 566.952, 393.151], [421.918, 474.658, 566.952, 499.829]]",,,,False
+synthetic_dialog_00_05,Click Export.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],export is hidden below sync status popup,,,False
+synthetic_dialog_00_06,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_00_07,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_dialog_01_00,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.79239,"[[410.112, 351.685, 560.674, 400.0]]","[[412.329, 355.993, 553.767, 396.747]]",,,,False
+synthetic_dialog_01_01,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.588328,"[[410.112, 350.562, 565.169, 396.629]]","[[417.123, 361.986, 557.363, 391.952]]",,,,False
+synthetic_dialog_01_02,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.557345,"[[414.607, 352.809, 568.539, 398.876]]","[[412.329, 363.185, 565.753, 389.555]]",,,,False
+synthetic_dialog_01_03,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_01_04,Click Archive.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.505307,"[[422.472, 350.562, 574.157, 401.124], [423.596, 462.921, 575.281, 507.865]]","[[423.116, 355.993, 559.76, 389.555], [418.322, 479.452, 556.164, 501.027]]",,,,False
+synthetic_dialog_01_05,Click Archive.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of archive is hidden below sync status option,,,False
+synthetic_dialog_01_06,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_01_07,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,medium,high,0,0,,[],[],,,status_disagreement,True
+synthetic_dialog_02_00,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.663883,"[[408.989, 352.809, 560.674, 400.0]]","[[418.322, 352.397, 540.582, 391.952]]",,,,False
+synthetic_dialog_02_01,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.562104,"[[412.36, 350.562, 565.169, 402.247]]","[[424.315, 357.192, 547.774, 393.151]]",,,,False
+synthetic_dialog_02_02,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.709999,"[[416.854, 355.056, 564.045, 396.629]]","[[425.514, 361.986, 559.76, 394.349]]",,,,False
+synthetic_dialog_02_03,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_02_04,Click Approve.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.717234,"[[422.472, 353.933, 574.157, 396.629], [422.472, 467.416, 571.91, 506.742]]","[[421.918, 359.589, 569.349, 394.349], [429.11, 462.671, 564.555, 498.63]]",,,,False
+synthetic_dialog_02_05,Click Approve.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of approve is hidden below the sync status option,,,False
+synthetic_dialog_02_06,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_02_07,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,too small to click,status_disagreement,True
+synthetic_dialog_03_00,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.723943,"[[411.236, 352.809, 560.674, 397.753]]","[[414.726, 358.39, 562.158, 391.952]]",,,,False
+synthetic_dialog_03_01,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.743997,"[[413.483, 353.933, 562.921, 400.0]]","[[418.322, 354.795, 556.164, 391.952]]",,,,False
+synthetic_dialog_03_02,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.670926,"[[414.607, 352.809, 566.292, 396.629]]","[[429.11, 355.993, 545.377, 394.349]]",,,,False
+synthetic_dialog_03_03,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_03_04,Click Publish.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.822946,"[[424.719, 352.809, 576.404, 396.629], [424.719, 465.169, 570.787, 503.371]]","[[425.514, 359.589, 569.349, 397.945], [427.911, 466.267, 562.158, 504.623]]",,,,False
+synthetic_dialog_03_05,Click Publish.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of publish option is behind sync status option,,,False
+synthetic_dialog_03_06,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_03_07,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_dialog_04_00,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.952717,"[[410.112, 353.933, 560.674, 396.629]]","[[408.733, 353.596, 559.76, 395.548]]",,,,False
+synthetic_dialog_04_01,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.732889,"[[411.236, 357.303, 556.18, 396.629]]","[[419.521, 351.199, 547.774, 394.349]]",,,,False
+synthetic_dialog_04_02,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.634455,"[[412.36, 357.303, 566.292, 396.629]]","[[420.719, 357.192, 560.959, 384.76]]",,,,False
+synthetic_dialog_04_03,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_04_04,Click Download.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.428949,"[[419.101, 349.438, 582.022, 402.247], [415.73, 460.674, 583.146, 512.36]]","[[431.507, 365.582, 548.973, 393.151], [430.308, 469.863, 550.171, 504.623]]",,,box_iou_below_0.5,True
+synthetic_dialog_04_05,Click Download.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of download is behind the sync status option,,,False
+synthetic_dialog_04_06,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_dialog_04_07,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_kanban_00_00,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.836723,"[[56.18, 244.944, 203.371, 287.64]]","[[56.336, 248.116, 202.568, 284.075]]","""Screenshot failed to load.""",,,False
+synthetic_kanban_00_01,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.878228,"[[58.427, 243.82, 206.742, 287.64]]","[[55.137, 245.719, 201.37, 286.473]]",,,,False
+synthetic_kanban_00_02,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.375898,"[[57.303, 242.697, 212.36, 291.011]]","[[73.116, 252.911, 190.582, 276.884]]",,,box_iou_below_0.5,True
+synthetic_kanban_00_03,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_00_04,Click Export.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.685823,"[[68.539, 243.82, 219.101, 288.764], [64.045, 351.685, 214.607, 400.0]]","[[70.719, 250.514, 214.555, 280.479], [65.925, 358.39, 214.555, 394.349]]",,,,False
+synthetic_kanban_00_05,Click Export.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of export button is hidden below sync status option,sync status is blocking,,False
+synthetic_kanban_00_06,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_00_07,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_kanban_01_00,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.53614,"[[50.562, 241.573, 207.865, 292.135]]","[[64.726, 245.719, 191.781, 279.281]]",,,,False
+synthetic_kanban_01_01,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.846108,"[[57.303, 241.573, 207.865, 289.888]]","[[62.329, 245.719, 204.966, 288.87]]",,,,False
+synthetic_kanban_01_02,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.530795,"[[60.674, 243.82, 211.236, 288.764]]","[[69.521, 252.911, 189.384, 282.877]]",,,,False
+synthetic_kanban_01_03,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_01_04,Click Archive.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.837277,"[[68.539, 243.82, 219.101, 287.64], [65.169, 353.933, 220.225, 397.753]]","[[65.925, 245.719, 224.144, 286.473], [64.726, 351.199, 214.555, 391.952]]",,,,False
+synthetic_kanban_01_05,Click Archive.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of archive button is hidden below sync status option,,,False
+synthetic_kanban_01_06,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_01_07,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_kanban_02_00,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.617436,"[[51.685, 240.449, 208.989, 293.258]]","[[56.336, 246.918, 198.973, 282.877]]",,,,False
+synthetic_kanban_02_01,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.624019,"[[61.798, 244.944, 211.236, 291.011]]","[[62.329, 248.116, 200.171, 279.281]]",,,,False
+synthetic_kanban_02_02,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.926729,"[[59.551, 244.944, 213.483, 287.64]]","[[58.733, 245.719, 209.76, 286.473]]",,,,False
+synthetic_kanban_02_03,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_02_04,Click Approve.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.727222,"[[67.416, 244.944, 215.73, 287.64], [68.539, 351.685, 214.607, 397.753]]","[[65.925, 246.918, 224.144, 281.678], [63.527, 358.39, 215.753, 390.753]]",,,,False
+synthetic_kanban_02_05,Click Approve.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of approve button is hidden below sync status option,,,False
+synthetic_kanban_02_06,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_02_07,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_kanban_03_00,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.554426,"[[57.303, 243.82, 205.618, 287.64]]","[[63.527, 249.315, 200.171, 275.685]]",,,,False
+synthetic_kanban_03_01,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.673352,"[[57.303, 246.067, 207.865, 285.393]]","[[70.719, 252.911, 203.767, 282.877]]",,,,False
+synthetic_kanban_03_02,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.665577,"[[59.551, 242.697, 208.989, 289.888]]","[[59.932, 250.514, 204.966, 282.877]]",,,,False
+synthetic_kanban_03_03,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_03_04,Click Publish.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.75181,"[[67.416, 243.82, 225.843, 285.393], [66.292, 349.438, 221.348, 396.629]]","[[70.719, 352.397, 209.76, 390.753], [75.514, 240.925, 209.76, 284.075]]",,,,False
+synthetic_kanban_03_05,Click Publish.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of publish is hidden below the sync status option,,,False
+synthetic_kanban_03_06,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_03_07,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_kanban_04_00,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.561051,"[[55.056, 241.573, 210.112, 294.382]]","[[52.74, 248.116, 203.767, 279.281]]",,,,False
+synthetic_kanban_04_01,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.693325,"[[57.303, 242.697, 211.236, 288.764]]","[[58.733, 248.116, 200.171, 282.877]]",,,,False
+synthetic_kanban_04_02,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.705026,"[[60.674, 242.697, 211.236, 287.64]]","[[62.329, 246.918, 213.356, 279.281]]",,,,False
+synthetic_kanban_04_03,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_04_04,Click Download.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.779004,"[[68.0, 245.0, 218.0, 289.0], [69.0, 355.0, 217.0, 397.0]]","[[62.329, 245.719, 216.952, 285.274], [65.925, 354.795, 216.952, 384.76]]",,,,False
+synthetic_kanban_04_05,Click Download.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of download button is hidden below sync status option,,,False
+synthetic_kanban_04_06,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_kanban_04_07,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,medium,0,0,,[],[],,,status_disagreement,True
+synthetic_sidebar_00_00,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.873215,"[[232.584, 176.404, 385.393, 223.596]]","[[238.527, 178.596, 379.966, 224.144]]",,,,False
+synthetic_sidebar_00_01,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.888101,"[[239.326, 179.775, 387.64, 221.348]]","[[244.521, 178.596, 382.363, 220.548]]",,,,False
+synthetic_sidebar_00_02,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.885703,"[[240.449, 176.404, 393.258, 222.472]]","[[232.534, 178.596, 391.952, 221.747]]",,,,False
+synthetic_sidebar_00_03,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_00_04,Click Export.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.830441,"[[248.315, 176.404, 397.753, 222.472], [248.315, 288.764, 401.124, 329.213]]","[[249.315, 183.39, 397.945, 220.548], [255.308, 288.87, 395.548, 332.021]]",,,,False
+synthetic_sidebar_00_05,Click Export.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of export is hidden below sync status option,,,False
+synthetic_sidebar_00_06,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_00_07,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_sidebar_01_00,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.489226,"[[233.708, 173.034, 391.011, 233.708]]","[[233.733, 189.384, 383.562, 220.548]]",,,box_iou_below_0.5,True
+synthetic_sidebar_01_01,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.871999,"[[239.326, 175.281, 386.517, 219.101]]","[[242.123, 178.596, 391.952, 219.349]]",,,,False
+synthetic_sidebar_01_02,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.90508,"[[240.449, 178.652, 391.011, 221.348]]","[[244.521, 178.596, 383.562, 220.548]]",,,,False
+synthetic_sidebar_01_03,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_01_04,Click Archive.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.667257,"[[246.067, 179.775, 397.753, 220.225], [248.315, 288.764, 404.494, 334.831]]","[[252.911, 182.192, 406.336, 215.753], [248.116, 296.062, 387.158, 326.027]]",,,,False
+synthetic_sidebar_01_05,Click Archive.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of archive is hidden below sync status option,,,False
+synthetic_sidebar_01_06,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_01_07,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],screenshot is not loaded,,status_disagreement,True
+synthetic_sidebar_02_00,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.555273,"[[235.955, 177.528, 382.022, 224.719]]","[[239.726, 183.39, 372.774, 212.158]]",,,,False
+synthetic_sidebar_02_01,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.466965,"[[238.202, 176.404, 401.124, 223.596]]","[[243.322, 188.185, 385.959, 213.356]]",,,box_iou_below_0.5,True
+synthetic_sidebar_02_02,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.605215,"[[239.326, 176.404, 387.64, 221.348]]","[[244.521, 188.185, 384.76, 216.952]]",,,,False
+synthetic_sidebar_02_03,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_02_04,Click Approve.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.696241,"[[246.067, 175.281, 401.124, 221.348], [248.315, 288.764, 397.753, 332.584]]","[[256.507, 186.986, 389.555, 221.747], [249.315, 293.664, 391.952, 328.425]]",,,,False
+synthetic_sidebar_02_05,Click Approve.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of approve is hidden below sync status option,,,False
+synthetic_sidebar_02_06,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_02_07,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,medium,0,0,,[],[],,,status_disagreement,True
+synthetic_sidebar_03_00,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.641422,"[[233.708, 180.899, 385.393, 217.978]]","[[250.514, 183.39, 361.986, 215.753]]",,,,False
+synthetic_sidebar_03_01,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.884213,"[[240.449, 179.775, 389.888, 222.472]]","[[243.322, 178.596, 381.164, 221.747]]",,,,False
+synthetic_sidebar_03_02,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.801004,"[[243.82, 179.775, 389.888, 221.348]]","[[250.514, 178.596, 384.76, 216.952]]",,,,False
+synthetic_sidebar_03_03,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_03_04,Click Publish.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.844007,"[[249.438, 180.899, 394.382, 222.472], [248.315, 288.764, 398.876, 333.708]]","[[248.116, 179.795, 399.144, 221.747], [243.322, 293.664, 401.541, 329.623]]",,,,False
+synthetic_sidebar_03_05,Click Publish.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of publish is hidden below sync status option,,,False
+synthetic_sidebar_03_06,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_03_07,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,medium,0,0,,[],[],,,status_disagreement,True
+synthetic_sidebar_04_00,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.664316,"[[234.831, 177.528, 383.146, 220.225]]","[[242.123, 185.788, 367.979, 221.747]]",,,,False
+synthetic_sidebar_04_01,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.919813,"[[237.079, 180.899, 388.764, 216.854]]","[[239.726, 180.993, 379.966, 216.952]]",,,,False
+synthetic_sidebar_04_02,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.700189,"[[243.82, 179.775, 388.764, 222.472]]","[[248.116, 183.39, 387.158, 214.555]]",,,,False
+synthetic_sidebar_04_03,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_04_04,Click Download.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.667036,"[[246.067, 174.157, 401.124, 228.09], [249.438, 288.764, 395.506, 333.708]]","[[248.116, 182.192, 394.349, 214.555], [252.911, 293.664, 393.151, 329.623]]",,,,False
+synthetic_sidebar_04_05,Click Download.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of download is hidden below sync status,,,False
+synthetic_sidebar_04_06,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_sidebar_04_07,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,medium,0,0,,[],[],,,status_disagreement,True
+synthetic_table_00_00,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.801324,"[[722.472, 216.854, 867.416, 258.427]]","[[722.774, 221.747, 859.418, 260.103]]",,,,False
+synthetic_table_00_01,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.633982,"[[722.472, 207.865, 877.528, 264.045]]","[[722.774, 214.555, 871.404, 251.712]]",,,,False
+synthetic_table_00_02,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.772469,"[[728.09, 214.607, 876.404, 259.551]]","[[733.562, 218.151, 867.808, 256.507]]",,,,False
+synthetic_table_00_03,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_00_04,Click Export.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.622297,"[[732.584, 212.36, 883.146, 255.056], [733.708, 325.843, 880.899, 369.663]]","[[731.164, 219.349, 878.596, 255.308], [729.966, 322.432, 877.397, 347.603]]",,,,False
+synthetic_table_00_05,Click Export.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],export option is behind sync status,,,False
+synthetic_table_00_06,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_00_07,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_01_00,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.811388,"[[721.348, 214.607, 871.91, 258.427]]","[[717.979, 216.952, 859.418, 256.507]]",,,,False
+synthetic_table_01_01,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.9337,"[[724.719, 214.607, 873.034, 256.18]]","[[723.973, 213.356, 875.0, 255.308]]",,,,False
+synthetic_table_01_02,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.78595,"[[729.213, 214.607, 877.528, 255.056]]","[[727.568, 220.548, 876.199, 252.911]]",,,,False
+synthetic_table_01_03,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_01_04,Click Archive.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.843891,"[[733.708, 213.483, 884.27, 255.056], [734.831, 323.596, 880.899, 365.169]]","[[738.356, 216.952, 876.199, 255.308], [739.555, 327.226, 877.397, 365.582]]",,,,False
+synthetic_table_01_05,Click Archive.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of archive is hidden below sync status option,,,False
+synthetic_table_01_06,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_01_07,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_02_00,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.736503,"[[723.596, 211.236, 868.539, 257.303]]","[[728.767, 210.959, 854.623, 250.514]]",,,,False
+synthetic_table_02_01,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.832537,"[[725.843, 215.73, 873.034, 258.427]]","[[721.575, 215.753, 870.205, 252.911]]",screenshot is not loaded,,,False
+synthetic_table_02_02,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.700379,"[[722.472, 211.236, 877.528, 258.427]]","[[723.973, 215.753, 871.404, 250.514]]",,,,False
+synthetic_table_02_03,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_02_04,Click Approve.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.755066,"[[733.708, 214.607, 884.27, 257.303], [733.708, 324.719, 884.27, 367.416]]","[[734.76, 218.151, 876.199, 252.911], [738.356, 327.226, 876.199, 361.986]]",,,,False
+synthetic_table_02_05,Click Approve.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of approve option is hidden below sync status option,,,False
+synthetic_table_02_06,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_02_07,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,medium,0,0,,[],[],,,status_disagreement,True
+synthetic_table_03_00,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.599512,"[[719.101, 213.483, 870.787, 260.674]]","[[728.767, 216.952, 852.226, 251.712]]",,,,False
+synthetic_table_03_01,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.95941,"[[724.719, 214.607, 876.404, 256.18]]","[[725.171, 213.356, 876.199, 256.507]]",screenshot is not loaded,,,False
+synthetic_table_03_02,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.874584,"[[725.843, 214.607, 877.528, 257.303]]","[[722.774, 216.952, 876.199, 255.308]]",,,,False
+synthetic_table_03_03,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_03_04,Click Publish.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.791651,"[[732.584, 213.483, 882.022, 255.056], [733.708, 324.719, 887.64, 369.663]]","[[737.158, 212.158, 879.795, 257.705], [729.966, 327.226, 877.397, 361.986]]",,,,False
+synthetic_table_03_05,Click Publish.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of publish is hidden below sync status option,,,False
+synthetic_table_03_06,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_03_07,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_table_04_00,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.602784,"[[715.73, 212.36, 875.281, 259.551]]","[[717.979, 221.747, 858.219, 254.11]]",,,,False
+synthetic_table_04_01,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.658406,"[[724.719, 214.607, 871.91, 257.303]]","[[725.171, 221.747, 869.007, 250.514]]",,,,False
+synthetic_table_04_02,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.751649,"[[723.596, 215.73, 877.528, 257.303]]","[[726.37, 218.151, 875.0, 250.514]]",,,,False
+synthetic_table_04_03,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_04_04,Click Download.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.82116,"[[731.461, 213.483, 883.146, 256.18], [733.708, 323.596, 882.022, 366.292]]","[[734.76, 213.356, 879.795, 254.11], [737.158, 329.623, 880.993, 361.986]]",,,,False
+synthetic_table_04_05,Click Download.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of download option is under sync status option,,,False
+synthetic_table_04_06,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_table_04_07,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,unclear,False,high,high,0,0,,[],[],,,status_disagreement,True
+synthetic_toolbar_00_00,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.617016,"[[730.337, 79.775, 879.775, 120.225]]","[[735.959, 87.5, 877.397, 113.87]]",,,,False
+synthetic_toolbar_00_01,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.870469,"[[731.461, 76.404, 886.517, 121.348]]","[[725.171, 79.11, 885.788, 119.863]]",,,,False
+synthetic_toolbar_00_02,Click Export.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.429006,"[[733.708, 77.528, 888.764, 126.966]]","[[750.342, 83.904, 880.993, 109.075]]",,,box_iou_below_0.5,True
+synthetic_toolbar_00_03,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],screenshot is not loaded,,,False
+synthetic_toolbar_00_04,Click Export.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.712592,"[[738.202, 75.281, 895.506, 126.966], [742.697, 189.888, 897.753, 229.213]]","[[741.952, 82.705, 877.397, 116.267], [741.952, 191.781, 891.781, 231.336]]",,,,False
+synthetic_toolbar_00_05,Click Export.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of export option is hidden below sync status option,,,False
+synthetic_toolbar_00_06,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],screenshot is not loaded,,,False
+synthetic_toolbar_00_07,Click Export.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_01_00,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.858749,"[[732.584, 79.775, 877.528, 121.348]]","[[731.164, 79.11, 889.384, 123.459]]",,,,False
+synthetic_toolbar_01_01,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.923724,"[[733.708, 78.652, 879.775, 120.225]]","[[735.959, 77.911, 879.795, 122.26]]",,,,False
+synthetic_toolbar_01_02,Click Archive.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.765337,"[[737.079, 79.775, 886.517, 120.225]]","[[744.349, 82.705, 882.192, 116.267]]",,,,False
+synthetic_toolbar_01_03,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_01_04,Click Archive.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.851032,"[[742.697, 79.775, 892.135, 120.225], [742.697, 189.888, 892.135, 233.708]]","[[746.747, 82.705, 888.185, 119.863], [749.144, 190.582, 886.986, 230.137]]",,,,False
+synthetic_toolbar_01_05,Click Archive.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of archive option is hidden below sync status option,,,False
+synthetic_toolbar_01_06,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_01_07,Click Archive.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_02_00,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.771986,"[[731.461, 82.022, 882.022, 119.101]]","[[733.562, 79.11, 866.61, 122.26]]",,,,False
+synthetic_toolbar_02_01,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.73573,"[[732.584, 80.899, 883.146, 123.596]]","[[743.151, 75.514, 873.801, 121.062]]",,,,False
+synthetic_toolbar_02_02,Click Approve.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.674063,"[[737.079, 82.022, 888.764, 117.978]]","[[737.158, 87.5, 866.61, 121.062]]",,,,False
+synthetic_toolbar_02_03,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_02_04,Click Approve.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.723141,"[[742.697, 75.281, 895.506, 123.596], [739.326, 188.764, 893.258, 231.461]]","[[744.349, 79.11, 894.178, 123.459], [749.144, 194.178, 891.781, 219.349]]",,,,False
+synthetic_toolbar_02_05,Click Approve.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],"Target ""Approve"" button is partially blocked by the Sync status tooltip overlay",,,False
+synthetic_toolbar_02_06,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_02_07,Click Approve.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_03_00,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.661804,"[[731.461, 79.775, 877.528, 124.719]]","[[732.363, 86.301, 866.61, 118.664]]",,,,False
+synthetic_toolbar_03_01,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.774696,"[[732.584, 78.652, 884.27, 122.472]]","[[738.356, 82.705, 872.603, 121.062]]",,,,False
+synthetic_toolbar_03_02,Click Publish.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,medium,1,1,0.828408,"[[735.955, 79.775, 883.146, 117.978]]","[[735.959, 75.514, 880.993, 121.062]]",,,,False
+synthetic_toolbar_03_03,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_03_04,Click Publish.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.710931,"[[746.067, 82.022, 891.011, 121.348], [744.944, 189.888, 891.011, 231.461]]","[[746.747, 73.116, 883.39, 121.062], [749.144, 196.575, 880.993, 226.541]]",,,,False
+synthetic_toolbar_03_05,Click Publish.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of publish is hidden below sync status option,,,False
+synthetic_toolbar_03_06,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_03_07,Click Publish.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_04_00,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.878242,"[[733.708, 82.022, 877.528, 117.978]]","[[738.356, 82.705, 869.007, 117.466]]",,,,False
+synthetic_toolbar_04_01,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.695925,"[[735.955, 75.281, 882.022, 124.719]]","[[734.76, 77.911, 867.808, 116.267]]",,,,False
+synthetic_toolbar_04_02,Click Download.,Jev safe GUI grounding synthetic pilot,,unique,unique,True,high,high,1,1,0.818846,"[[733.708, 77.528, 884.27, 123.596]]","[[739.555, 75.514, 883.39, 118.664]]",,,,False
+synthetic_toolbar_04_03,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_04_04,Click Download.,Jev safe GUI grounding synthetic pilot,,multiple,multiple,True,high,high,2,2,0.862585,"[[742.697, 78.652, 889.888, 122.472], [742.697, 188.764, 892.135, 231.461]]","[[743.151, 82.705, 885.788, 118.664], [746.747, 189.384, 888.185, 231.336]]",,,,False
+synthetic_toolbar_04_05,Click Download.,Jev safe GUI grounding synthetic pilot,,occluded,occluded,True,high,high,0,0,,[],[],part of download button is hidden below sync status option,,,False
+synthetic_toolbar_04_06,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False
+synthetic_toolbar_04_07,Click Download.,Jev safe GUI grounding synthetic pilot,,absent,absent,True,high,high,0,0,,[],[],,,,False

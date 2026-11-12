@@ -1,0 +1,952 @@
+case_id,cohort,platform,target_status,target_size,confidence,label_provenance,correct,iou,valid,A_accept,B_accept,C_accept,D_accept,E_accept,presence_accept,uniqueness_accept,presence_uniqueness_accept
+ssv2v_desktop_0_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_100_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_101_neg,real,desktop,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,True,0.7545580957857619,True,True,True,False,False,False,False,False,False
+ssv2v_desktop_102_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_103_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_104_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_105_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_106_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,True,False,True,False,False,False,False
+ssv2v_desktop_107_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_108_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_109_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_desktop_10_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_110_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_111_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_112_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_113_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_116_neg,real,desktop,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.08087620376788414,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_11_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_120_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_123_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.04566607935915249,True,True,True,True,False,False,False,False,False
+ssv2v_desktop_127_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_129_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_12_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_131_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_134_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_136_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_138_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_13_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_140_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_143_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_147_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,True,False,False,False,False
+ssv2v_desktop_149_neg,real,desktop,offscreen,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_14_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_151_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_153_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_155_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_156_neg,real,desktop,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_157_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_159_neg,real,desktop,unique,large (>=1%),high,two_annotator_consensus,False,0.43694866353031664,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_15_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_164_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_167_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_16_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_171_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_175_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_178_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_17_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_182_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.27972928393111457,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_185_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_189_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_18_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_191_neg,real,desktop,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.49542840337902666,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_193_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_195_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_198_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_19_neg,real,desktop,unique,large (>=1%),high,two_annotator_consensus,True,0.6607352190738875,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_1_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_200_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_203_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_205_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_208_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_20_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_210_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.06276732250068069,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_212_neg,real,desktop,unique,large (>=1%),low,reviewer_approved_annotator_b,True,0.5188738110019926,True,True,False,False,True,False,False,False,False
+ssv2v_desktop_214_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_216_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_217_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_218_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_21_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_220_neg,real,desktop,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.5623351621012785,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_221_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6621632759406741,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_223_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_225_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_227_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_228_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_22_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_230_neg,real,desktop,unique,medium (0.1-1%),medium,two_annotator_consensus,False,0.2022347860755362,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_232_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_234_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_237_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_239_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_23_neg,real,desktop,multiple,not_unique,high,two_annotator_consensus,False,0.5116517168876688,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_240_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_241_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_242_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_243_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_244_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_246_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_248_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_24_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_250_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_251_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_253_neg,real,desktop,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_255_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_256_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_258_neg,real,desktop,unique,small (<0.1%),high,two_annotator_consensus,False,0.1278012558998215,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_25_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_260_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.477117255411662,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_262_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.27564288313583307,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_264_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6788718590698184,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_266_neg,real,desktop,occluded,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_268_neg,real,desktop,occluded,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_26_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_270_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_272_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_273_neg,real,desktop,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.11407638838577726,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_274_neg,real,desktop,unique,small (<0.1%),high,reviewer_approved_annotator_b,False,0.14750390290502297,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_275_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_277_neg,real,desktop,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.19906392442824722,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_278_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_279_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_27_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_280_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.4216646539573603,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_282_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_284_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_285_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_287_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_288_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_28_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_290_neg,real,desktop,unique,large (>=1%),high,reviewer_approved_annotator_b,True,0.8409896506047189,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_291_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_292_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_294_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_296_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_298_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_29_neg,real,desktop,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.2038756084419609,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_2_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_300_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_302_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_304_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_306_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_307_neg,real,desktop,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_308_neg,real,desktop,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_309_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_30_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_310_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_311_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_312_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_313_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_314_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_315_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_316_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_317_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_318_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_319_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_desktop_31_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_320_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_321_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_322_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_323_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_324_neg,real,desktop,multiple,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_325_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_326_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_327_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_328_neg,real,desktop,unique,small (<0.1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_329_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_32_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_330_neg,real,desktop,unique,small (<0.1%),high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,True,False,False,False,False
+ssv2v_desktop_331_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_332_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_333_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_33_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,False,True,False,False,False,False
+ssv2v_desktop_34_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_35_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_36_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_37_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_38_neg,real,desktop,unique,large (>=1%),medium,two_annotator_consensus,True,0.5170175987788533,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_39_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_3_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_40_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_41_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_42_neg,real,desktop,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.25379764260650345,True,True,True,True,True,False,False,False,False
+ssv2v_desktop_43_neg,real,desktop,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.4959513914819413,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_44_neg,real,desktop,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_45_neg,real,desktop,unique,small (<0.1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_46_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_47_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_48_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_49_neg,real,desktop,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.10444576451355156,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_4_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_desktop_50_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_51_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_52_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_53_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_54_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_55_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_56_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_57_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,False,False,False,False,False
+ssv2v_desktop_58_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_desktop_59_neg,real,desktop,unique,large (>=1%),medium,two_annotator_consensus,True,0.757350922671361,True,True,True,False,False,False,False,False,False
+ssv2v_desktop_5_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.11696842999518896,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_60_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_61_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_62_neg,real,desktop,offscreen,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_63_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_64_neg,real,desktop,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_65_neg,real,desktop,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,True,0.738065579989712,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_66_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_67_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_68_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_69_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_6_neg,real,desktop,unique,small (<0.1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_70_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_71_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_72_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_73_neg,real,desktop,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_74_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_75_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_76_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_77_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_78_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_79_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_7_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_80_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_81_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_82_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,False,False,False,False,False
+ssv2v_desktop_83_neg,real,desktop,offscreen,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_84_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_85_neg,real,desktop,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_86_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_87_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_88_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_desktop_89_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_8_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.25685106386246637,True,True,True,True,False,False,False,False,False
+ssv2v_desktop_90_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_91_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_92_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_93_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_94_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_95_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_96_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_97_neg,real,desktop,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.3618462788549841,True,True,False,False,True,False,False,False,False
+ssv2v_desktop_98_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_99_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_desktop_9_neg,real,desktop,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_0_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.7499745479010578,True,True,True,True,False,False,False,False,False
+ssv2v_mobile_100_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_102_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_104_neg,real,mobile,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_109_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_10_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.28438628005786853,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_113_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.004537730216905284,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_118_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_123_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.3881673798502447,True,True,False,False,False,False,False,True,False
+ssv2v_mobile_127_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_12_neg,real,mobile,unique,medium (0.1-1%),medium,two_annotator_consensus,False,0.443967342831138,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_130_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_133_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_136_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_138_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_141_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_142_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_145_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_147_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.8567238631508094,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_148_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_150_neg,real,mobile,multiple,not_unique,high,two_annotator_consensus,False,0.8451832483686453,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_151_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_152_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.7652413911707189,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_155_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_158_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_160_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_163_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_165_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_168_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_16_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_170_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_173_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_176_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.8138581999313708,True,True,True,True,True,True,False,True,False
+ssv2v_mobile_179_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_181_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_183_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_186_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_189_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_191_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_194_neg,real,mobile,unique,large (>=1%),medium,reviewer_approved_annotator_b,True,0.5442433676239212,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_197_neg,real,mobile,unique,large (>=1%),low,reviewer_approved_annotator_b,True,0.5464696323637297,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_199_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_19_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_1_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_201_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.5134480884860303,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_204_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_207_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_208_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_20_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_210_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_212_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_215_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.22048013178015766,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_218_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_221_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_224_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.34649607768527146,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_226_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_229_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,False,0.47399968454820296,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_22_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_232_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_235_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_238_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_239_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_240_neg,real,mobile,unique,large (>=1%),low,reviewer_approved_annotator_b,True,0.9088792364089733,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_243_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_244_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_245_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_246_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_248_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_249_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_252_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_mobile_254_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_255_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_256_neg,real,mobile,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_257_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_258_neg,real,mobile,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.4989360124532317,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_259_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_25_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_261_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_262_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_263_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_265_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_266_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_268_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_269_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_271_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.43405567551799784,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_272_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_273_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_274_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_275_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_276_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_278_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_279_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_280_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_281_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_283_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.2467595988249385,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_284_neg,real,mobile,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_285_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,True,0.7625006755943459,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_286_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_288_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_28_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.27146836584798245,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_290_neg,real,mobile,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_292_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_293_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_295_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_296_neg,real,mobile,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.6149062604159661,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_297_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_299_neg,real,mobile,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.16541382406564076,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_301_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_303_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_304_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_305_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_306_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_307_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_308_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_309_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6533001077082204,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_310_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_311_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_313_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_314_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.598034295963699,True,True,True,False,True,False,False,False,False
+ssv2v_mobile_315_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_316_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_317_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_319_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_31_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_321_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_323_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_325_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,True,0.8230023200959016,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_327_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6087023689745686,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_329_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_331_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_332_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_335_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_338_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_341_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_343_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_344_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_345_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_348_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_350_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_353_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_356_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_359_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_35_neg,real,mobile,unique,large (>=1%),medium,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_mobile_362_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_364_neg,real,mobile,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.36718897307151943,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_367_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_368_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.4107210632675131,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_370_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,True,0.569108391346977,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_373_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_376_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_379_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_381_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_383_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_384_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_386_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_389_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_392_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_395_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_398_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_39_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_401_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_402_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_405_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_406_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_408_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_409_neg,real,mobile,unique,large (>=1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_410_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_412_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_414_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_417_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.7296233705266313,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_420_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_421_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_425_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_426_neg,real,mobile,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,True,True,False,False,False,False,False
+ssv2v_mobile_428_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_431_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_433_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_434_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_436_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_438_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_43_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_440_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_441_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_443_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.6462071676865975,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_446_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_449_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_449_pos,real,mobile,unique,large (>=1%),high,two_annotator_consensus,False,0.2212894433405688,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_450_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_451_neg,real,mobile,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.4780552625924118,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_452_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_453_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_454_neg,real,mobile,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.4884276870278492,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_455_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_456_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_457_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_458_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_459_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_460_neg,real,mobile,multiple,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_461_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7516250704249956,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_462_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_463_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7276330034500598,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_464_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_465_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_466_neg,real,mobile,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_467_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_468_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_469_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_46_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_470_neg,real,mobile,unique,large (>=1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_471_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_472_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_mobile_473_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_474_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_475_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_476_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_477_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_478_neg,real,mobile,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_479_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_480_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_481_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_482_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_483_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_484_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_485_neg,real,mobile,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_486_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_487_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.6620799980907056,True,True,True,True,True,False,False,False,False
+ssv2v_mobile_488_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_489_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_490_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_491_neg,real,mobile,unique,large (>=1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_492_neg,real,mobile,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_493_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,True,0.7339076823845319,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_494_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_495_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_496_neg,real,mobile,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.34308954066507014,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_497_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_498_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_499_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_4_neg,real,mobile,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.05498086641233169,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_500_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_50_neg,real,mobile,unique,large (>=1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_53_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_57_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_60_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_62_neg,real,mobile,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6456797256958227,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_63_neg,real,mobile,unique,large (>=1%),high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_67_neg,real,mobile,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.33852561223101196,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_72_neg,real,mobile,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,True,0.5636710214833066,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_74_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_77_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_79_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_7_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6364473545084841,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_82_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_87_neg,real,mobile,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.43347645734129653,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_88_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_92_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_94_neg,real,mobile,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_mobile_96_neg,real,mobile,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_0_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_100_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_103_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_105_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_106_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_107_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_109_neg,real,web,offscreen,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_10_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_110_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.4883150905578752,True,True,False,False,False,False,False,False,False
+ssv2v_web_111_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_112_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_113_neg,real,web,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_115_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_117_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_119_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_11_neg,real,web,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_120_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_122_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.19878774379792083,True,True,False,False,False,False,False,False,False
+ssv2v_web_124_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_125_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_126_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_127_neg,real,web,multiple,not_unique,high,two_annotator_consensus,False,0.1375494695986404,True,True,False,False,False,False,False,False,False
+ssv2v_web_128_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_130_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_132_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_133_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_135_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_137_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_web_139_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_13_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_141_neg,real,web,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_143_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_146_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_148_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_149_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_150_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_151_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_152_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_154_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_155_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_158_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_160_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_163_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_164_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_166_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_167_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_16_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_172_neg,real,web,unique,large (>=1%),medium,reviewer_approved_annotator_b,True,0.9624077806769894,True,True,False,False,False,False,False,False,False
+ssv2v_web_173_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.3024346509547163,True,True,True,True,True,False,False,False,False
+ssv2v_web_175_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_177_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_178_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_180_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_182_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_183_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_185_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_187_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_188_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_190_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_191_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_193_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_196_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_197_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_198_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_201_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_202_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_203_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_205_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_207_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_209_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_210_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_212_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_214_neg,real,web,unique,small (<0.1%),high,reviewer_approved_annotator_b,False,0.17869873354836022,True,True,True,True,True,False,False,False,False
+ssv2v_web_216_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_218_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_219_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_21_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_221_neg,real,web,unique,small (<0.1%),high,two_annotator_consensus,False,0.24805184539027572,True,True,True,True,True,False,False,False,False
+ssv2v_web_223_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_224_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_226_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_227_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_229_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_230_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_232_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_234_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_235_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_236_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_238_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_23_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_240_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_242_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.23403563758493737,True,True,False,False,False,False,False,False,False
+ssv2v_web_244_neg,real,web,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.38010290033243843,True,True,False,False,False,False,False,False,False
+ssv2v_web_245_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7040277530220226,True,True,True,True,True,False,False,False,False
+ssv2v_web_247_neg,real,web,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,True,0.5514758534859605,True,True,False,False,False,False,False,False,False
+ssv2v_web_248_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6034092530479512,True,True,False,False,True,False,False,False,False
+ssv2v_web_249_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_252_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_253_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_255_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_259_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_25_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_261_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_263_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_264_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_266_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.3345131748992836,True,True,False,False,False,False,False,False,False
+ssv2v_web_268_neg,real,web,unique,medium (0.1-1%),medium,two_annotator_consensus,True,0.6494440283005978,True,True,True,True,False,False,False,False,False
+ssv2v_web_271_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_274_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_276_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_278_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_27_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_280_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_282_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_284_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_285_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_288_neg,real,web,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_289_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.49496178791107176,True,True,False,False,False,False,False,False,False
+ssv2v_web_292_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_293_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_295_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_297_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_299_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_2_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_300_neg,real,web,unique,medium (0.1-1%),medium,reviewer_approved_annotator_b,False,0.1527498616624291,True,True,False,False,False,False,False,False,False
+ssv2v_web_303_neg,real,web,unique,large (>=1%),high,two_annotator_consensus,True,0.7933590432359667,True,True,False,False,False,False,True,False,False
+ssv2v_web_304_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_305_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_306_neg,real,web,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,True,True,False,False,False,False,False
+ssv2v_web_309_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_310_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_311_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_313_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_315_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_318_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_31_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_321_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_323_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_324_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_326_neg,real,web,unique,large (>=1%),medium,two_annotator_consensus,True,0.6237954743682969,True,True,False,False,False,False,False,False,False
+ssv2v_web_329_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_332_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_334_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_336_neg,real,web,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_339_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_33_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_341_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_344_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_347_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_349_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_350_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.11466411381230018,True,True,False,False,False,False,False,False,False
+ssv2v_web_354_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,True,False,False,False,False,False,False
+ssv2v_web_356_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_358_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_360_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_362_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_365_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_368_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_36_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_370_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_372_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_373_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_374_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_375_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.5372133028786492,True,True,False,False,False,False,False,False,False
+ssv2v_web_376_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_377_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_378_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_379_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_380_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_381_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.5908141957731439,True,True,True,False,False,False,False,False,False
+ssv2v_web_382_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_383_neg,real,web,unique,medium (0.1-1%),medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_384_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_385_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_web_386_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_387_neg,real,web,unique,medium (0.1-1%),medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_388_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.38625246605436336,True,True,False,False,True,False,False,False,False
+ssv2v_web_389_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.4444139895400074,True,True,False,False,False,False,False,False,False
+ssv2v_web_38_neg,real,web,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_390_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.30834669928270264,True,True,False,False,False,False,False,False,False
+ssv2v_web_391_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_392_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_393_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_394_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6987880435397408,True,True,True,True,True,False,False,False,False
+ssv2v_web_395_neg,real,web,unique,medium (0.1-1%),medium,two_annotator_consensus,False,0.46021294461485274,True,True,True,False,False,False,False,False,False
+ssv2v_web_396_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_397_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_398_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,True,True,True,False,False,False,False
+ssv2v_web_399_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.3736444320732865,True,True,False,False,False,False,False,False,False
+ssv2v_web_39_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_400_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_401_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_402_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_403_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_404_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_405_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_web_406_neg,real,web,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_407_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_408_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_409_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_410_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_411_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_412_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_413_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.27878974734648515,True,True,False,False,False,False,False,False,False
+ssv2v_web_414_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_415_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_416_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_web_417_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_418_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_419_neg,real,web,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_41_neg,real,web,unique,medium (0.1-1%),low,reviewer_approved_annotator_b,False,0.2195749583078705,True,True,False,False,False,False,False,False,False
+ssv2v_web_420_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_421_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_422_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_423_neg,real,web,unique,small (<0.1%),medium,two_annotator_consensus,False,0.1236914036334229,True,True,False,False,False,False,False,False,False
+ssv2v_web_424_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_425_neg,real,web,unique,large (>=1%),medium,two_annotator_consensus,False,0.15308654405444383,True,True,False,False,False,False,False,False,False
+ssv2v_web_426_neg,real,web,unique,medium (0.1-1%),high,two_annotator_consensus,False,0.4206710420239512,True,True,False,False,False,False,False,False,False
+ssv2v_web_427_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_428_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_429_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_430_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_431_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_432_neg,real,web,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_433_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_434_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_435_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_436_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_45_neg,real,web,absent,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_47_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_49_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_4_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_51_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_53_neg,real,web,multiple,not_unique,medium,reviewer_approved_annotator_b,False,0.6894458128431021,True,True,False,False,False,False,False,False,False
+ssv2v_web_55_neg,real,web,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_57_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_60_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_61_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_63_neg,real,web,offscreen,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_65_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_68_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_6_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_70_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,False,False,False,False,False,False,False,False,False
+ssv2v_web_71_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_72_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_73_neg,real,web,absent,not_unique,medium,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_76_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_78_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_80_neg,real,web,absent,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_82_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_84_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_86_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_87_neg,real,web,absent,not_unique,low,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_89_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_90_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_93_neg,real,web,multiple,not_unique,high,two_annotator_consensus,False,0.27811181675403623,True,True,False,False,False,False,False,False,False
+ssv2v_web_95_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+ssv2v_web_97_neg,real,web,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_00_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7156562455782318,True,True,True,True,True,True,False,True,False
+synthetic_dialog_00_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8113703334693888,True,True,True,True,True,True,False,True,False
+synthetic_dialog_00_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8039433256648139,True,True,True,True,True,True,False,True,False
+synthetic_dialog_00_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_00_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7399405952001289,True,True,True,True,False,False,True,False,False
+synthetic_dialog_00_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_dialog_00_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_00_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_01_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.829350765306124,True,True,True,True,True,True,False,True,False
+synthetic_dialog_01_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7522177703771226,True,True,True,True,True,True,False,True,False
+synthetic_dialog_01_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7099570767857147,True,True,True,True,True,True,False,True,False
+synthetic_dialog_01_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_01_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7734472153061224,True,True,True,True,False,False,True,False,False
+synthetic_dialog_01_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_dialog_01_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_01_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_02_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7072535629761915,True,True,True,True,True,True,False,True,False
+synthetic_dialog_02_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8235793398639466,True,True,True,True,True,True,False,True,False
+synthetic_dialog_02_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6635284469387757,True,True,True,True,True,True,False,True,False
+synthetic_dialog_02_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_02_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7387859979591838,True,True,True,True,False,False,True,False,False
+synthetic_dialog_02_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_dialog_02_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_02_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_03_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7792487745274534,True,True,True,True,True,True,False,True,False
+synthetic_dialog_03_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8132173714285728,True,True,True,True,True,True,False,True,False
+synthetic_dialog_03_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7489475918367345,True,True,True,True,True,True,False,True,False
+synthetic_dialog_03_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_03_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7743882612244899,True,True,True,True,False,False,True,False,False
+synthetic_dialog_03_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_dialog_03_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_03_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_04_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8598440866167292,True,True,True,True,True,True,False,True,False
+synthetic_dialog_04_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.766398411428572,True,True,True,True,True,True,False,True,False
+synthetic_dialog_04_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6434475970147736,True,True,True,True,True,True,False,True,False
+synthetic_dialog_04_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_04_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,reviewer_approved_annotator_b,False,0.4130637951530618,True,True,True,True,False,False,True,False,False
+synthetic_dialog_04_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_dialog_04_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_dialog_04_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_00_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.799354061989715,True,True,True,True,True,True,False,True,False
+synthetic_kanban_00_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.9340464322500038,True,True,True,True,True,True,False,True,False
+synthetic_kanban_00_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.536383317714286,True,True,True,True,True,True,False,True,False
+synthetic_kanban_00_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_00_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6819485799136361,True,True,True,True,False,False,True,False,False
+synthetic_kanban_00_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_00_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_00_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_01_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7231891873155056,True,True,True,True,True,True,False,True,False
+synthetic_kanban_01_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.750312837770427,True,True,True,True,True,True,False,True,False
+synthetic_kanban_01_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8038949409523808,True,True,True,True,True,True,False,True,False
+synthetic_kanban_01_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_01_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6946256517105196,True,True,True,True,False,False,True,False,False
+synthetic_kanban_01_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_01_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_01_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_02_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7338712502966327,True,True,True,True,True,True,False,True,False
+synthetic_kanban_02_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7888155623395885,True,True,True,True,True,True,False,True,False
+synthetic_kanban_02_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8251880364820027,True,True,True,True,True,True,False,True,False
+synthetic_kanban_02_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_02_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6672385566740976,True,True,True,True,False,False,True,False,False
+synthetic_kanban_02_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_kanban_02_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_02_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_03_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7015757889756352,True,True,True,True,True,True,False,True,False
+synthetic_kanban_03_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8128513844341917,True,True,True,True,True,True,False,True,False
+synthetic_kanban_03_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8348498627687834,True,True,True,True,True,True,False,True,False
+synthetic_kanban_03_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_03_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6213907637769477,True,True,True,True,False,False,True,False,False
+synthetic_kanban_03_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_kanban_03_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_03_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_04_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7805058265712888,True,True,True,True,True,True,False,True,False
+synthetic_kanban_04_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7833292759070967,True,True,True,True,True,True,False,True,False
+synthetic_kanban_04_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.729215170574864,True,True,True,True,True,True,False,True,False
+synthetic_kanban_04_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_04_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6926343702307972,True,True,True,True,False,False,True,False,False
+synthetic_kanban_04_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_kanban_04_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_kanban_04_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_00_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.835734125606957,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_00_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.749288659076232,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_00_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7581718181261692,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_00_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_00_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7151900671839027,True,True,True,True,False,False,True,False,False
+synthetic_sidebar_00_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_sidebar_00_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_00_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_01_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6888000354141351,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_01_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7007007768119063,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_01_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7550687728577462,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_01_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_01_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6747645004650759,True,True,True,True,False,False,True,False,False
+synthetic_sidebar_01_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_sidebar_01_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_01_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_02_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6671539167204863,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_02_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.5290932815741926,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_02_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7608405836461404,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_02_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_02_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6844993887649636,True,True,True,True,False,False,True,False,False
+synthetic_sidebar_02_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_sidebar_02_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_02_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_03_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6798392467261907,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_03_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7732721450132359,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_03_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7502567243676408,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_03_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_03_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6818790662797809,True,True,True,True,False,False,True,False,False
+synthetic_sidebar_03_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_sidebar_03_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_03_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_04_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7202876102540987,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_04_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6837739473795749,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_04_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7742177722415831,True,True,True,True,True,True,False,True,False
+synthetic_sidebar_04_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_04_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.6817943638835958,True,True,True,True,False,False,True,False,False
+synthetic_sidebar_04_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,True,False,False,False,False,False,False
+synthetic_sidebar_04_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_sidebar_04_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_00_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8820022120393497,True,True,False,False,True,True,False,True,False
+synthetic_table_00_01,synthetic_reuse,web_synthetic,unique,large (>=1%),high,two_annotator_consensus,True,0.6959565292534677,True,True,False,False,True,True,False,True,False
+synthetic_table_00_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7589131200487711,True,True,True,True,True,False,False,False,False
+synthetic_table_00_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_00_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7487229528091605,True,True,True,True,False,False,True,False,False
+synthetic_table_00_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_00_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_00_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_01_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7815777844763505,True,True,False,False,True,True,False,True,False
+synthetic_table_01_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8169707715381174,True,True,False,False,False,True,True,True,True
+synthetic_table_01_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7110082618743204,True,True,True,True,True,True,False,False,False
+synthetic_table_01_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_01_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7217735906556042,True,True,True,True,False,False,True,False,False
+synthetic_table_01_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_01_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_01_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_02_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6132386877910522,True,True,False,False,False,True,False,True,False
+synthetic_table_02_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7363389520552153,True,True,False,False,True,True,False,True,False
+synthetic_table_02_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.6715589396307063,True,True,False,False,False,True,False,True,False
+synthetic_table_02_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_02_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.745635837157749,True,True,True,True,False,False,False,False,False
+synthetic_table_02_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_02_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_02_07,synthetic_reuse,web_synthetic,unclear,not_unique,medium,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_03_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7099079083973677,True,True,False,False,True,True,False,True,False
+synthetic_table_03_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.709469152729771,True,True,False,False,True,True,False,True,False
+synthetic_table_03_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.729825847016531,True,True,False,False,True,False,False,False,False
+synthetic_table_03_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_03_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7147338508897246,True,True,True,True,False,False,True,False,False
+synthetic_table_03_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_03_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_03_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_04_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7808960137651912,True,True,False,False,True,True,False,True,False
+synthetic_table_04_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7036177381753222,True,True,False,False,True,True,False,True,False
+synthetic_table_04_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7092577565967475,True,True,False,False,True,False,False,False,False
+synthetic_table_04_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_04_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7059135875378239,True,True,True,True,False,False,True,False,False
+synthetic_table_04_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_04_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_table_04_07,synthetic_reuse,web_synthetic,unclear,not_unique,high,reviewer_approved_annotator_b,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_00_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.9063941415769736,True,True,False,False,True,False,False,True,False
+synthetic_toolbar_00_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7762646237770008,True,True,False,False,True,True,False,True,False
+synthetic_toolbar_00_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,reviewer_approved_annotator_b,True,0.6584734299857553,True,True,False,False,True,True,False,True,False
+synthetic_toolbar_00_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_00_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7829186635092918,True,True,False,False,False,False,True,False,False
+synthetic_toolbar_00_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_00_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_00_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_01_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7349522527179769,True,True,False,False,True,True,False,True,False
+synthetic_toolbar_01_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7921977798355077,True,True,False,False,False,True,False,True,False
+synthetic_toolbar_01_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8759359273818612,True,True,False,False,False,True,False,True,False
+synthetic_toolbar_01_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_01_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7807161008533678,True,True,False,False,False,False,True,False,False
+synthetic_toolbar_01_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_01_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_01_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_02_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8330809121668009,True,True,True,True,True,True,False,True,False
+synthetic_toolbar_02_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8440628644897963,True,True,True,True,True,True,False,True,False
+synthetic_toolbar_02_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.9041558391319147,True,True,False,False,True,True,False,True,False
+synthetic_toolbar_02_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_02_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7698400054525315,True,True,False,False,False,False,True,False,False
+synthetic_toolbar_02_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_02_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_02_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_03_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8513537861716729,True,True,False,False,False,True,False,True,False
+synthetic_toolbar_03_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7969720143382115,True,True,False,False,False,False,False,True,False
+synthetic_toolbar_03_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),medium,two_annotator_consensus,True,0.7968084403545974,True,True,False,False,False,True,False,True,False
+synthetic_toolbar_03_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_03_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7269790217883221,True,True,False,False,False,False,True,False,False
+synthetic_toolbar_03_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_03_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_03_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_04_00,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7900640513928348,True,True,False,False,True,False,False,True,False
+synthetic_toolbar_04_01,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.8928600875664682,True,True,False,False,True,True,False,True,False
+synthetic_toolbar_04_02,synthetic_reuse,web_synthetic,unique,medium (0.1-1%),high,two_annotator_consensus,True,0.7380930985394863,True,True,False,False,False,False,False,True,False
+synthetic_toolbar_04_03,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_04_04,synthetic_reuse,web_synthetic,multiple,not_unique,high,two_annotator_consensus,False,0.7864788380952381,True,True,False,False,False,False,True,False,False
+synthetic_toolbar_04_05,synthetic_reuse,web_synthetic,occluded,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_04_06,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False
+synthetic_toolbar_04_07,synthetic_reuse,web_synthetic,absent,not_unique,high,two_annotator_consensus,False,0.0,True,True,False,False,False,False,False,False,False

@@ -1,0 +1,2 @@
+source_id,application_family_id,application_name,source_url,version_or_capture_date,owner,license_or_permission,redistribution_allowed,attribution_required,account_type,sensitive_data_removed,notes
+source_01,app_01_example,Example App,https://example.com,2026-10-17,REPLACE_OWNER,REPLACE_PERMISSION,true,false,demo,true,

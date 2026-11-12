@@ -1,0 +1,52 @@
+{
+  "state": "PRELIMINARY_REQUIRES_CORRECTIONS",
+  "tasks_per_annotator": 951,
+  "case_sets_identical": true,
+  "annotator_a_export_sha256": "dc80da336e2071be5a612dede1aa94b8d3401d7c48a92f6006ec7e8189f664d0",
+  "annotator_b_export_sha256": "2ce32318a7557bfe73f4be53736c1f4befab70c36c5fcabd31e4ffbb5278cdb7",
+  "annotator_a_status_counts": {
+    "absent": 582,
+    "unique": 275,
+    "multiple": 54,
+    "offscreen": 12,
+    "occluded": 28
+  },
+  "annotator_b_status_counts": {
+    "absent": 640,
+    "unique": 204,
+    "multiple": 56,
+    "offscreen": 5,
+    "occluded": 27,
+    "unclear": 19
+  },
+  "exact_status_agreements": 755,
+  "status_disagreements": 196,
+  "raw_status_agreement": 0.7939011566771819,
+  "cohens_kappa": 0.6050773230278337,
+  "annotation_format_issues": 13,
+  "cases_flagged_for_review": 262,
+  "same_status_localizable_cases_with_comparable_boxes": 201,
+  "mean_matched_box_iou": 0.6192473777848956,
+  "status_pair_counts": {
+    "absent__absent": 523,
+    "absent__multiple": 9,
+    "absent__offscreen": 3,
+    "absent__unclear": 18,
+    "absent__unique": 29,
+    "multiple__absent": 15,
+    "multiple__multiple": 35,
+    "multiple__offscreen": 1,
+    "multiple__unique": 3,
+    "occluded__absent": 2,
+    "occluded__occluded": 25,
+    "occluded__unique": 1,
+    "offscreen__absent": 10,
+    "offscreen__multiple": 1,
+    "offscreen__offscreen": 1,
+    "unique__absent": 90,
+    "unique__multiple": 11,
+    "unique__occluded": 2,
+    "unique__unclear": 1,
+    "unique__unique": 171
+  }
+}

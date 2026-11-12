@@ -1,0 +1,31 @@
+{
+  "auxiliary_counterfactual_candidates": 66,
+  "dataset_name": "Jev Safe Visual Grounding Academic Candidate 2000",
+  "external_images_included": false,
+  "human_review_required": 951,
+  "primary_task_count": 2000,
+  "proposed_split_counts": {
+    "calibration": 282,
+    "development": 372,
+    "test": 1046,
+    "test_external": 300
+  },
+  "published_label_audit_sample": 150,
+  "release_state": "candidate_manifest_not_publication_ready_until_review_queue_is_complete",
+  "source_counts": {
+    "ImageJevBench Box public v0.1": 300,
+    "Jev safe GUI grounding synthetic pilot": 200,
+    "ScreenSpot-v2-variants": 1500
+  },
+  "target_status_counts": {
+    "absent": 25,
+    "absent_candidate": 750,
+    "multiple": 25,
+    "occluded": 25,
+    "offscreen": 25,
+    "unclear": 25,
+    "unique": 1125
+  },
+  "unique_image_groups": 1055,
+  "version": "1.0-candidate"
+}

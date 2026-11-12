@@ -1,0 +1,537 @@
+[
+ {
+  "sample_id": "mobile_00",
+  "gt_description": "Plus (+) add-event button at top-right of iOS Calendar toolbar",
+  "negatives": [
+   {
+    "candidate_id": 2,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "The search magnifier is the immediately adjacent icon button in the same top toolbar, same size and style as the '+' button, so an imprecise grounding model very often lands on the neighboring toolbar icon."
+   },
+   {
+    "candidate_id": 4,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "Tapping a specific date cell (Dec 28) is a common first step in the add-event flow, so a model reasoning 'pick a day to add an event' may click a date instead of the '+' button."
+   },
+   {
+    "candidate_id": 1,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "The '< 2023' back control is another button in the same top toolbar row as the GT, and models biased toward the toolbar region may pick this wrong toolbar instance."
+   },
+   {
+    "candidate_id": 3,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "The Inbox button relates to calendar events (event invitations arrive there), so a model could confuse managing events with adding one."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT annotation looks correct. One obvious confusable is missing from the pool: the list/agenda view-toggle icon in the top toolbar (between '2023' and the search icon, roughly x 730-800, y 170-240 in original pixels) — it is the third toolbar icon adjacent to search and '+' and would be a strong sibling/visual negative. Candidate 63 duplicates candidate 3 (Inbox); only 3 was used."
+ },
+ {
+  "sample_id": "mobile_01",
+  "gt_description": "Round red account/profile avatar icon at top-right of the Apple Music Search page header",
+  "negatives": [
+   {
+    "candidate_id": 2,
+    "error_type": "visual",
+    "difficulty": "hard",
+    "rationale": "It is a round circular icon right-aligned and vertically aligned directly below the GT avatar, so a model matching a small round icon in the upper-right region can easily click this ad-close X instead."
+   },
+   {
+    "candidate_id": 4,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The Library tab holds the user's personal content, and models often map 'my account / my stuff' instructions to a bottom-nav personal tab instead of the avatar icon."
+   },
+   {
+    "candidate_id": 6,
+    "error_type": "spatial",
+    "difficulty": "medium",
+    "rationale": "The 'Search' page title sits in the same header row as the GT avatar, so a model localizing to the header bar may click the prominent title text instead of the small icon."
+   },
+   {
+    "candidate_id": 3,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "'Try It Free' starts a subscription sign-up, which a model could loosely associate with account creation/management, though it is visually and spatially distinct."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT annotation is correct and unambiguous. Pool contains duplicate boxes for the same elements: 4/17 (Library tab) and 3/12 (Try It Free); only one of each pair was used as a negative. No candidate box covers the avatar itself, so no equivalence conflicts."
+ },
+ {
+  "sample_id": "mobile_02",
+  "gt_description": "Air & Rail app icon (plane + train) in the Alipay services grid",
+  "negatives": [
+   {
+    "candidate_id": 13,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "The 'Transport' quick-action is lexically and functionally the closest match to 'air & rail' travel, so a model matching on meaning is very likely to click it."
+   },
+   {
+    "candidate_id": 21,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "DiDi is a same-category service-grid icon in the row just above the GT and is also a transportation service, making it a plausible wrong instance."
+   },
+   {
+    "candidate_id": 24,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "'More' is the adjacent grid item in the same row as Air & Rail, and an uncertain model may pick the neighboring tile or the 'More services' entry."
+   },
+   {
+    "candidate_id": 20,
+    "error_type": "spatial",
+    "difficulty": "easy",
+    "rationale": "This label row (Card Repay / Mobile Top-up / Yu'E Bao) sits directly above the GT icon, so an imprecise localization could land there."
+   }
+  ],
+  "equivalent_candidate_ids": [
+   23
+  ],
+  "quality_ok": true,
+  "notes": "Candidate 23 is a merged OCR box spanning four grid labels including the GT's own 'Air & Rail' text, so it overlaps the GT box and must be excluded as equivalent rather than used as a negative. The pool lacks individual boxes for 'Healthcare' and 'My Mini Apps' (the immediate same-row neighbors), which would have been the most natural sibling negatives; they only exist inside merged box 23."
+ },
+ {
+  "sample_id": "mobile_03",
+  "gt_description": "\"Add title\" placeholder text field at top of new calendar event form",
+  "negatives": [
+   {
+    "candidate_id": 14,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "\"Add description\" is another free-text entry field with identical gray placeholder styling; title vs description is a classic wrong-instance confusion for text-content fields."
+   },
+   {
+    "candidate_id": 4,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "\"Add Guests\" is the very next \"Add ___\" row directly below the GT field with the same gray placeholder look, so a model matching the \"add\" verb and adjacent position could easily click it."
+   },
+   {
+    "candidate_id": 13,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "\"Add location\" belongs to the same family of \"Add ___\" placeholder rows in the form, differing only in which attribute is added."
+   },
+   {
+    "candidate_id": 15,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "\"Add attachment\" is another same-styled \"Add ___\" placeholder row, plausible if the model keys on the word \"add\" rather than \"title\"."
+   },
+   {
+    "candidate_id": 16,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "\"Save\" is the action that commits the newly added event, so a model could conflate \"add title\" with completing the add flow."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box cleanly covers the \"Add title\" field and no candidate overlaps it, so no equivalence traps. Candidates 1 (\"save current settings\", screenspot) and 16 (\"Save\", OCR) refer to the same on-screen Save button; 16 was used and 1 omitted to avoid duplicate negatives. Candidate 12 \"Add rooms\" is a comparable sibling to 13/15 and could substitute for either."
+ },
+ {
+  "sample_id": "mobile_04",
+  "gt_description": "Speech-bubble comments icon with \"1w+\" count in the toolbar row above the progress bar (opens song comments)",
+  "negatives": [
+   {
+    "candidate_id": 9,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "The '99+' count badge belongs to another action icon in the same toolbar row as the GT and mimics the GT's '1w+' comment-count badge, so a model may pick this wrong instance in the row."
+   },
+   {
+    "candidate_id": 1,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The heart/favorite icon is a sibling social-engagement action (like vs comment) that models often conflate with commenting."
+   },
+   {
+    "candidate_id": 12,
+    "error_type": "visual",
+    "difficulty": "medium",
+    "rationale": "The '999w+' count text looks just like the '1w+' comment count attached to the GT icon, so a model matching on the count label could click it."
+   },
+   {
+    "candidate_id": 3,
+    "error_type": "spatial",
+    "difficulty": "easy",
+    "rationale": "The next-song button is directly below and horizontally aligned with the GT icon, so imprecise localization could land there."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT is unambiguous (only comment element on screen). Pool is usable; one missing obvious confusable is the '铃声' (ringtone) bubble / three-dot more menu immediately right of the GT, which is not in the candidate pool."
+ },
+ {
+  "sample_id": "desktop_05",
+  "gt_description": "Language & Region pane icon (flag with globe) in macOS System Preferences grid",
+  "negatives": [
+   {
+    "candidate_id": 42,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "Keyboard is where language input sources are configured on macOS, so the 'language' keyword can pull a model to this pane."
+   },
+   {
+    "candidate_id": 40,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "Date & Time handles time zones and locale-dependent formats, a common conflation with 'region' settings."
+   },
+   {
+    "candidate_id": 5,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "On iOS and newer macOS System Settings, Language & Region lives under General, so a model with that prior may click the General pane."
+   },
+   {
+    "candidate_id": 51,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "Notifications & Focus is the same-category pane icon immediately to the right of GT in the same grid row, an adjacent-item slip."
+   },
+   {
+    "candidate_id": 27,
+    "error_type": "spatial",
+    "difficulty": "easy",
+    "rationale": "Spotlight is the pane directly to the left of GT, so an imprecise localization can land on it."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box cleanly covers the Language & Region icon and label; candidate pool is good. The GT's own text label was not emitted as a separate OCR candidate, so there is no equivalence trap. Search field (13/14) was excluded since it satisfies the task only indirectly via typing."
+ },
+ {
+  "sample_id": "desktop_06",
+  "gt_description": "left-arrow back button in the top-left of the Windows Settings title bar",
+  "negatives": [
+   {
+    "candidate_id": 1,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "The Home navigation row is the other page-navigation control in the app and sits directly below the back arrow; models frequently conflate 'go back' with 'go home'."
+   },
+   {
+    "candidate_id": 4,
+    "error_type": "spatial",
+    "difficulty": "medium",
+    "rationale": "The 'Settings' title text is immediately right of the back arrow in the same title bar, so an imprecise click aimed at the top-left corner lands here."
+   },
+   {
+    "candidate_id": 5,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The 'Home' label is the text of the same home-navigation entry, a plausible target for a model that interprets 'back to previous page' as returning to the Settings home."
+   },
+   {
+    "candidate_id": 36,
+    "error_type": "visual",
+    "difficulty": "easy",
+    "rationale": "The minimize '-' is another small window-chrome icon button in the same title bar row, superficially similar in category to the back icon."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "Candidates 1 and 5 overlap the same 'Home' element (screenspot row vs OCR label). The strongest natural confusable, the window close 'X' button in the top-right, is not in the candidate pool (only minimize '-' as id 36 is)."
+ },
+ {
+  "sample_id": "desktop_07",
+  "gt_description": "Pencil tool icon in the Tools group of the MS Paint ribbon",
+  "negatives": [
+   {
+    "candidate_id": 8,
+    "error_type": "visual",
+    "difficulty": "hard",
+    "rationale": "The Shapes 'Outline' dropdown icon literally depicts a small pencil drawing on a page, making it visually near-identical in motif to the pencil tool icon."
+   },
+   {
+    "candidate_id": 12,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "'Brushes' is the neighboring freehand-drawing tool and models commonly conflate pencil and brush as the drawing implement."
+   },
+   {
+    "candidate_id": 20,
+    "error_type": "spatial",
+    "difficulty": "medium",
+    "rationale": "The 'Tools' group label sits directly below the pencil icon and lexically matches the word 'tool' in the instruction."
+   },
+   {
+    "candidate_id": 9,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "The Text 'A' tool is an adjacent icon inside the same Tools group cluster — right group and element category, wrong tool."
+   },
+   {
+    "candidate_id": 3,
+    "error_type": "sibling",
+    "difficulty": "easy",
+    "rationale": "The Select button is another ribbon tool (its sibling ScreenSpot instruction is 'use the select tool'), so the shared 'tool' wording can misdirect the click."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box precisely covers the pencil icon (verified via zoomed crop). Other same-group Tools icons (fill bucket, eraser, eyedropper, magnifier) are absent from the candidate pool and would have been strong sibling negatives; only the 'A' text tool (id 9) from that cluster is available."
+ },
+ {
+  "sample_id": "desktop_08",
+  "gt_description": "\"Select all\" button tile in the Select section of Paint 3D's right-side 3D selection panel",
+  "negatives": [
+   {
+    "candidate_id": 28,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "\"Multiselect\" is the adjacent tile in the same Select group with identical styling and a name containing \"select\", making it the classic wrong-instance click."
+   },
+   {
+    "candidate_id": 27,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The \"Select\" section label sits directly above the GT and lexically matches most of \"select all\", so a text-matching model may anchor on it."
+   },
+   {
+    "candidate_id": 6,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The toolbar \"Select\" tool is a prominent selection control whose label is a substring of the instruction, a plausible functional mix-up."
+   },
+   {
+    "candidate_id": 25,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "\"3D selection\" panel header contains \"selection\" and sits just above the GT panel, so a model keying on selection wording might click it."
+   },
+   {
+    "candidate_id": 10,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "\"Magic select\" is another selection tool whose label contains \"select\", a weaker but still selection-related distractor."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box matches the visible \"Select all\" tile well. Pool is good; the strongest confusable (Multiselect, id 28) is present. The other tiles below GT (Group id 30 / Ungroup id 31) share the tile style but are lexically unrelated, so they were not selected."
+ },
+ {
+  "sample_id": "desktop_09",
+  "gt_description": "\"Jump to the spot that's clicked\" radio option under \"Click in the scroll bar to:\" in macOS General preferences",
+  "negatives": [
+   {
+    "candidate_id": 21,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "It is the other option in the exact same radio group ('Jump to the next page'), directly above GT, sharing the leading words 'Jump to the', so a model matching on 'jump to' easily picks it."
+   },
+   {
+    "candidate_id": 20,
+    "error_type": "visual",
+    "difficulty": "medium",
+    "rationale": "The 'Always' option shows an identical unselected radio circle just above the GT group, so a model localizing 'the clickable radio near the scroll settings' can land here."
+   },
+   {
+    "candidate_id": 19,
+    "error_type": "visual",
+    "difficulty": "medium",
+    "rationale": "'When scrolling' is another identical unselected radio circle nearby whose text also mentions scrolling, overlapping the scroll-bar context of the instruction."
+   },
+   {
+    "candidate_id": 18,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "'Show scroll bars: Automatically...' is the related scroll-bar setting row right above, and a model keying on the scroll-bar context (and its currently-selected radio) might click it."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box matches the green overlay exactly and is unambiguous. Note candidate 21's OCR box spans both the label 'Click in the scroll bar to:' and the 'Jump to the next page' radio, but its center falls on the sibling radio row, so it works well as the hard negative."
+ },
+ {
+  "sample_id": "web_10",
+  "gt_description": "The \"Type\" dropdown selector (showing \"Issue\") on GitLab's New Issue form",
+  "negatives": [
+   {
+    "candidate_id": 32,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "The 'Type ?' field label sits directly above the GT dropdown and literally contains the word 'Type', so a model grounding 'choose type of issue' very often snaps to the label instead of the dropdown control."
+   },
+   {
+    "candidate_id": 41,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "The Assignee 'Unassigned' dropdown is the same widget category (form dropdown selector) on the same New Issue form, so a model that finds a dropdown but misreads which field could click it."
+   },
+   {
+    "candidate_id": 10,
+    "error_type": "semantic",
+    "difficulty": "medium",
+    "rationale": "The 'Issues' sidebar navigation item lexically matches 'issue' in the instruction, and models biased toward text matching may click the nav entry instead of the form control."
+   },
+   {
+    "candidate_id": 44,
+    "error_type": "sibling",
+    "difficulty": "easy",
+    "rationale": "'Select due date' is another dropdown-style selector on the same form; its 'Select…' affordance suggests choosing something, making it a same-category wrong-instance click."
+   },
+   {
+    "candidate_id": 29,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "The large 'New Issue' page heading is the most visually salient text containing 'Issue', so a weak model may anchor on it despite it not being an interactive control."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box cleanly covers the Type dropdown and matches the instruction. Pool is usable; no candidate duplicates the GT element. The dropdown's chevron icon itself was not a separate candidate, which would have been another good visual/spatial negative, but the pool still offers strong confusables."
+ },
+ {
+  "sample_id": "web_11",
+  "gt_description": "Unchecked checkbox for the \"Open external links in new tab\" setting",
+  "negatives": [
+   {
+    "candidate_id": 1,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "It is the very next checkbox in the same settings list, directly below the GT and visually identical in form, so an off-by-one row error lands here."
+   },
+   {
+    "candidate_id": 22,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "The 'Open the linked content' dropdown sits just above the GT and shares the words 'open' and 'link' with the instruction, making it the strongest lexical distractor."
+   },
+   {
+    "candidate_id": 2,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "It is another identical-looking checkbox ('Show post previews') in the same settings column, a plausible wrong-instance pick when scanning toggle options."
+   },
+   {
+    "candidate_id": 39,
+    "error_type": "sibling",
+    "difficulty": "easy",
+    "rationale": "'Auto-fetch submission titles' is another checkbox option row on the same page; a model confusing which option to toggle could click this row instead."
+   }
+  ],
+  "equivalent_candidate_ids": [
+   23
+  ],
+  "quality_ok": true,
+  "notes": "GT box correctly covers the unchecked checkbox left of the 'Open external links in new tab' label. Candidate 23 (the label text itself) is treated as equivalent since form labels are typically bound to their checkbox and clicking it would also toggle the option; likewise candidate 24 overlaps candidate 1's label but the checkbox candidate 1 was preferred as the negative."
+ },
+ {
+  "sample_id": "web_12",
+  "gt_description": "Thumbs up (👍 0) reaction button on the GitLab issue",
+  "negatives": [
+   {
+    "candidate_id": 1,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "The thumbs down button is the immediately adjacent reaction of the same widget and looks nearly identical to the thumbs up, making it the classic wrong-instance click."
+   },
+   {
+    "candidate_id": 2,
+    "error_type": "visual",
+    "difficulty": "medium",
+    "rationale": "The add-reaction smiley icon sits in the same emoji reaction row and is a similar-looking emoji-style icon, but it opens the reaction picker rather than being the thumbs up itself."
+   },
+   {
+    "candidate_id": 3,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "The issue's more-options icon is also an icon-shaped action 'on this issue', so a model latching onto 'icon on this issue' could pick it despite the wrong function."
+   },
+   {
+    "candidate_id": 43,
+    "error_type": "spatial",
+    "difficulty": "easy",
+    "rationale": "The 'Create merge request' button lies in the same horizontal band as the reaction row, so a model localizing that region but not the exact icon could click it."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box correctly covers the thumbs up reaction. Pool is usable; the strongest confusables (thumbs down, add-reaction) are present. Most other candidates are unrelated sidebar/OCR text, so only four negatives are genuinely plausible."
+ },
+ {
+  "sample_id": "web_13",
+  "gt_description": "\"Why GitLab\" navigation menu item in the top header bar",
+  "negatives": [
+   {
+    "candidate_id": 4,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "\"Platform\" is the top-nav item immediately adjacent to the GT \"Why GitLab\" tab — same menu row, same element category, and the nearest clickable sibling."
+   },
+   {
+    "candidate_id": 7,
+    "error_type": "sibling",
+    "difficulty": "hard",
+    "rationale": "\"Resources\" is a same-row nav sibling and the word \"doc\" in the instruction semantically pulls models toward the Resources/documentation menu."
+   },
+   {
+    "candidate_id": 8,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "\"Company\" is a nav sibling whose about/why-us connotation overlaps with the \"why GitLab\" intent of the instruction."
+   },
+   {
+    "candidate_id": 5,
+    "error_type": "sibling",
+    "difficulty": "medium",
+    "rationale": "\"Solutions\" is another same-category top-nav tab in the same bar, a generic wrong-instance pick when the model can't read the GT label."
+   },
+   {
+    "candidate_id": 16,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "The large \"GitLab Feedback\" page title contains the salient word \"GitLab\" and is the most visually prominent text, tempting keyword-matching models."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box clearly covers the \"Why GitLab\" header nav item. Candidate 1 (\"check pricing\" screenspot box) largely duplicates candidate 6 (Pricing OCR box); pricing was judged less confusable than the selected nav siblings so neither was used. No candidate is an alternative valid target."
+ },
+ {
+  "sample_id": "web_14",
+  "gt_description": "Blue \"Proceed to Checkout\" button in the mini-cart dropdown",
+  "negatives": [
+   {
+    "candidate_id": 40,
+    "error_type": "semantic",
+    "difficulty": "hard",
+    "rationale": "\"View and Edit Cart\" is the other primary action link in the same mini-cart panel and is functionally adjacent to checkout (cart page is the usual route to checkout), so a model may pick it as the checkout entry point."
+   },
+   {
+    "candidate_id": 8,
+    "error_type": "spatial",
+    "difficulty": "medium",
+    "rationale": "\"7 Items in Cart\" sits in the mini-cart header directly above the checkout button, so a model localizing 'checkout' to the cart panel may snap to this nearby cart label."
+   },
+   {
+    "candidate_id": 13,
+    "error_type": "spatial",
+    "difficulty": "medium",
+    "rationale": "The $369.98 cart subtotal is immediately above the Proceed to Checkout button and is the amount to be checked out, making it a likely adjacent mis-click."
+   },
+   {
+    "candidate_id": 19,
+    "error_type": "semantic",
+    "difficulty": "easy",
+    "rationale": "The 'added to your shopping cart' banner contains a cart link, so a model matching cart/purchase keywords could click this message instead of the checkout button."
+   }
+  ],
+  "equivalent_candidate_ids": [],
+  "quality_ok": true,
+  "notes": "GT box (1826,388,2487,492) cleanly covers the Proceed to Checkout button. Pool is usable; most OCR candidates are unrelated homepage/product text, so only the mini-cart region offers plausible confusables. Candidates 12 (\"Cart Subtotal :\") and 1 (close-cart X) are weaker duplicates of the selected spatial negatives and were omitted."
+ }
+]

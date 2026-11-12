@@ -1,0 +1,2 @@
+case_id,screenshot_group_id,image_filename,application_family_id,application_name,screen_or_workflow,instruction,width,height,image_sha256,capture_date,device_type,source_id,creator_intended_status,notes
+example_case_001,example_screen_001,example_screen_001.png,app_01_example,Example App,Settings,Click Export,1000,700,REPLACE_WITH_SHA256,2026-10-17,desktop,source_01,unique,Administrative field hidden from annotators

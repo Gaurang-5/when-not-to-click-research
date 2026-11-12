@@ -1,15 +1,20 @@
-# When Not to Click: Research Materials
+# Agent Safety Research
 
-This repository collects the research and manuscript preparation work for *When Not to Click*, including formatted and revised manuscript files, review notes, source text, scripts, and rendered figures and pages.
+This repository contains the planning, methods, code, results, and manuscript materials for *Transferability of Safety Decisions in Autonomous AI Agents: Evaluating Probabilistic Decision Models Under Distribution Shift*. It also includes formatting and review work for *When Not to Click*.
 
-## Contents
+## Start here
 
-- `outputs/jev-formatted-2026-11-03/` — formatted manuscript and associated layout materials.
-- `outputs/jev-paper-review-2026-11-03/` — extracted manuscript text, rendered pages, and submission review.
-- `outputs/when_not_to_click_prose_revision/` — manuscript revisions, change and preservation records, and rendered comparisons.
+1. [Research workspace guide](00_START_HERE.md)
+2. [Research pack map](Agent_Safety_Research_Pack/README.md)
+3. [Active Jev study guide](Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/00_START_HERE.md)
+4. [Verified execution status](Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/workspace/reports/RESEARCH_COMPLETION_STATUS.md)
+5. [Manuscript source](Agent_Safety_Research_Pack/10_Jev_Safe_Visual_Grounding/paper/main.tex)
+6. [Manuscript and prose review materials](outputs/)
 
-These files document work in progress. The review notes identify unresolved issues that should be addressed before submission. A formatting or prose revision does not establish that the manuscript is ready for publication.
+## Scope and data
 
-## Large temporary tools
+The included synthetic pilot was authored for this project and is marked CC0-1.0 in its dataset card. Source manifests, attribution, code, and analysis are included for reproducibility.
 
-The bundled Pandoc executable and its downloaded archive are excluded from Git. Install Pandoc separately if you need to rerun the formatting scripts.
+Local Python environments, caches, and temporary render files are omitted. Downloaded paper PDFs, third-party source screenshots, and private or blinded annotator packages are also omitted where the project records say redistribution is unverified or restricted. Their source records and instructions remain in the pack; obtain eligible assets from their cited sources and follow their terms before reuse.
+
+The project is still in progress. The study guides distinguish completed analyses from pending independent review and annotation; the candidate task manifest is not a human-validated benchmark.

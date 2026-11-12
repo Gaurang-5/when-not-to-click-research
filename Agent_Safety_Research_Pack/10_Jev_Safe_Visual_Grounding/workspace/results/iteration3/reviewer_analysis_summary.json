@@ -1,0 +1,3107 @@
+{
+  "state": "OFFLINE_ANALYSES_EXECUTED",
+  "design": {
+    "design": "post-hoc exploratory real cluster split; no untouched holdout claim",
+    "split": {
+      "fit": {
+        "cases": 296,
+        "clusters": 292,
+        "sampled_units": 292
+      },
+      "calibration": {
+        "cases": 226,
+        "clusters": 218,
+        "sampled_units": 218
+      },
+      "test": {
+        "cases": 229,
+        "clusters": 220,
+        "sampled_units": 220
+      }
+    },
+    "split_sha256": "bf9ebd401bb2137c0aa27e91e238c9a6a15771dbf97499c4ce89b1e78a5b88e3",
+    "grid": [
+      0.0,
+      0.05,
+      0.1,
+      0.15000000000000002,
+      0.2,
+      0.25,
+      0.30000000000000004,
+      0.35000000000000003,
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6000000000000001,
+      0.65,
+      0.7000000000000001,
+      0.75,
+      0.8,
+      0.8500000000000001,
+      0.9,
+      0.9500000000000001,
+      1.0
+    ],
+    "target_conditional_error": 0.1,
+    "family_delta": 0.05,
+    "test_unit": "randomly hash-selected one member per independent source cluster; guarantees require i.i.d. cluster draws and protocol fixed before calibration, not fully verifiable in this retrospective cohort",
+    "E_real_fit_coef": [
+      [
+        0.9309950279521609,
+        1.9059352263545963,
+        1.1976889836966174
+      ]
+    ],
+    "E_real_fit_intercept": [
+      -4.67025494302674
+    ],
+    "fit_only": true
+  },
+  "human_reference": {
+    "scope": "real cases labeled unique by both annotators only; agreement reference, not absolute model ceiling",
+    "n": 98,
+    "mean_iou": 0.5123454724021832,
+    "iou_pass_rate": {
+      "0.3": 0.7959183673469388,
+      "0.5": 0.6122448979591837,
+      "0.75": 0.19387755102040816
+    },
+    "A_center_in_B": 0.8163265306122449,
+    "B_center_in_A": 0.8877551020408163
+  },
+  "skill": [
+    {
+      "scope": "all_valid_real",
+      "policy": "B",
+      "n": 740,
+      "positive_rate": 0.05540540540540541,
+      "brier": 0.16303256756756757,
+      "retrospective_constant_brier": 0.052335646457268084,
+      "retrospective_brier_skill": -2.115134303360201,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.05257297297297299,
+      "calibration_constant_skill": -2.101071869216532,
+      "fit_constant_brier": 0.05233576460312246,
+      "fit_constant_skill": -2.1151272710715436
+    },
+    {
+      "scope": "all_valid_real",
+      "policy": "E",
+      "n": 740,
+      "positive_rate": 0.05540540540540541,
+      "brier": 0.0612539527898527,
+      "retrospective_constant_brier": 0.052335646457268084,
+      "retrospective_brier_skill": -0.17040596488793525,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.05257297297297299,
+      "calibration_constant_skill": -0.16512248263651497,
+      "fit_constant_brier": 0.05233576460312246,
+      "fit_constant_skill": -0.17040332274419767
+    },
+    {
+      "scope": "all_valid_real",
+      "policy": "E_real_fit",
+      "n": 740,
+      "positive_rate": 0.05540540540540541,
+      "brier": 0.04496200427384249,
+      "retrospective_constant_brier": 0.052335646457268084,
+      "retrospective_brier_skill": 0.14089139396503214,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.05257297297297299,
+      "calibration_constant_skill": 0.14476960819855456,
+      "fit_constant_brier": 0.05233576460312246,
+      "fit_constant_skill": 0.1408933333676764
+    },
+    {
+      "scope": "exploratory_test_valid",
+      "policy": "B",
+      "n": 228,
+      "positive_rate": 0.07017543859649122,
+      "brier": 0.15906710526315793,
+      "retrospective_constant_brier": 0.06525084641428132,
+      "retrospective_brier_skill": -1.437778419811321,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.06616140350877193,
+      "calibration_constant_skill": -1.4042280971574037,
+      "fit_constant_brier": 0.06545896482516736,
+      "fit_constant_skill": -1.43002781495256
+    },
+    {
+      "scope": "exploratory_test_valid",
+      "policy": "E",
+      "n": 228,
+      "positive_rate": 0.07017543859649122,
+      "brier": 0.07344866160797384,
+      "retrospective_constant_brier": 0.06525084641428132,
+      "retrospective_brier_skill": -0.12563538473729707,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.06616140350877193,
+      "calibration_constant_skill": -0.11014364437168767,
+      "fit_constant_brier": 0.06545896482516736,
+      "fit_constant_skill": -0.12205657092418054
+    },
+    {
+      "scope": "exploratory_test_valid",
+      "policy": "E_real_fit",
+      "n": 228,
+      "positive_rate": 0.07017543859649122,
+      "brier": 0.058221252232763,
+      "retrospective_constant_brier": 0.06525084641428132,
+      "retrospective_brier_skill": 0.10773184667808033,
+      "calibration_constant": 0.04,
+      "calibration_constant_brier": 0.06616140350877193,
+      "calibration_constant_skill": 0.12001183250225644,
+      "fit_constant_brier": 0.06545896482516736,
+      "fit_constant_skill": 0.11056869921080148
+    }
+  ],
+  "ranking": [
+    {
+      "policy": "B",
+      "scope": "valid_outputs",
+      "auroc": 0.8692906242367145,
+      "aurc": 0.8593344432478195,
+      "n": 740,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8201105782955213,
+          "high": 0.912618918579533,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8160936633404918,
+          "high": 0.9004693549646644,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 731.975,
+          "high": 749.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "B",
+      "scope": "all_cases",
+      "auroc": 0.8713156990724837,
+      "aurc": 0.8605951469776529,
+      "n": 751,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8191397107609492,
+          "high": 0.9147850763369455,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8207507757689017,
+          "high": 0.9019386523274311,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 743.0,
+          "high": 760.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "B",
+      "scope": "unique_valid",
+      "auroc": 0.7219786242806249,
+      "aurc": 0.5406310267737968,
+      "n": 130,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.627693954668694,
+          "high": 0.8103852069059159,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.4291826717778686,
+          "high": 0.666695318909209,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 128.0,
+          "high": 133.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "C",
+      "scope": "valid_outputs",
+      "auroc": 0.8430161554834432,
+      "aurc": 0.8650657958882524,
+      "n": 740,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.786731656794258,
+          "high": 0.8973017457974478,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8249523031649848,
+          "high": 0.90620206179844,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 731.975,
+          "high": 749.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "C",
+      "scope": "all_cases",
+      "auroc": 0.8454482995534182,
+      "aurc": 0.8662425517099037,
+      "n": 751,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.7843427284006227,
+          "high": 0.9016312436389442,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8260504697006873,
+          "high": 0.9074041934313161,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 743.0,
+          "high": 760.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "C",
+      "scope": "unique_valid",
+      "auroc": 0.6492189640997533,
+      "aurc": 0.5733485283098758,
+      "n": 130,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.5462999203549893,
+          "high": 0.7504903349165168,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.46595445765794874,
+          "high": 0.6989140382445868,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 128.0,
+          "high": 133.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "D",
+      "scope": "valid_outputs",
+      "auroc": 0.8366132802958931,
+      "aurc": 0.8659532204744687,
+      "n": 740,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.7801683576587253,
+          "high": 0.8901758214789627,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8254465867875971,
+          "high": 0.9053020015530905,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 731.975,
+          "high": 749.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "D",
+      "scope": "all_cases",
+      "auroc": 0.8391446238406046,
+      "aurc": 0.8671169780664948,
+      "n": 751,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.7814020044821344,
+          "high": 0.8923627004566553,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8263114924764736,
+          "high": 0.9067196439061029,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 743.0,
+          "high": 760.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "D",
+      "scope": "unique_valid",
+      "auroc": 0.6368868183063853,
+      "aurc": 0.5714558750599005,
+      "n": 130,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.5323051948051948,
+          "high": 0.732075892857143,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.4662592999928134,
+          "high": 0.7003977386199569,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 128.0,
+          "high": 133.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "E",
+      "scope": "valid_outputs",
+      "auroc": 0.8690812659199553,
+      "aurc": 0.8611516485535018,
+      "n": 740,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8255580281585738,
+          "high": 0.909676226147503,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8201132666400794,
+          "high": 0.9020169589473599,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 731.975,
+          "high": 749.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "E",
+      "scope": "all_cases",
+      "auroc": 0.87110958433528,
+      "aurc": 0.8623857354279925,
+      "n": 751,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8268823046889365,
+          "high": 0.912086812816631,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8211042411856287,
+          "high": 0.9021442073158067,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 743.0,
+          "high": 760.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "E",
+      "scope": "unique_valid",
+      "auroc": 0.6335982460948205,
+      "aurc": 0.5945297142848476,
+      "n": 130,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.5367474556611539,
+          "high": 0.7300279193772514,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.48276217414472816,
+          "high": 0.7239107107952392,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 128.0,
+          "high": 133.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "uniqueness",
+      "scope": "valid_outputs",
+      "auroc": 0.8609162915663491,
+      "aurc": 0.8640141304405674,
+      "n": 740,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8099002705263934,
+          "high": 0.9039232644057168,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8228864444149062,
+          "high": 0.9044888606983428,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 731.975,
+          "high": 749.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "uniqueness",
+      "scope": "all_cases",
+      "auroc": 0.8630711095843353,
+      "aurc": 0.8652062901502674,
+      "n": 751,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.8157961530448202,
+          "high": 0.9066639969573015,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.8233935897060944,
+          "high": 0.9049183266241102,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 743.0,
+          "high": 760.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    },
+    {
+      "policy": "uniqueness",
+      "scope": "unique_valid",
+      "auroc": 0.6407234858865442,
+      "aurc": 0.5933329653272194,
+      "n": 130,
+      "cluster_ci": {
+        "auroc": {
+          "low": 0.5417719245951137,
+          "high": 0.7397945318173565,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "aurc": {
+          "low": 0.47820398290431726,
+          "high": 0.7165590596876515,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        },
+        "n": {
+          "low": 128.0,
+          "high": 133.0,
+          "defined_replicates": 1000,
+          "requested_replicates": 1000
+        }
+      }
+    }
+  ],
+  "recovery": [
+    {
+      "policy": "B",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "B",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "B",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "C",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "C",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "C",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "D",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "D",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "D",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "uniqueness",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "uniqueness",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "uniqueness",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E_real_fit",
+      "method": "empirical calibration risk <=10%; no guarantee",
+      "threshold": null,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E_real_fit",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "one case per source cluster",
+      "n": 220,
+      "correct_localizations": 11,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    },
+    {
+      "policy": "E_real_fit",
+      "method": "LTT alpha10%, family delta5% across policies and grid",
+      "threshold": null,
+      "calibration_certified": false,
+      "test_scope": "all test cases descriptive",
+      "n": 229,
+      "correct_localizations": 16,
+      "accepted": 0,
+      "incorrect_accepted": 0,
+      "coverage": 0.0,
+      "selective_risk": null,
+      "correct_accepted": 0
+    }
+  ],
+  "ltt_details": [
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 203,
+          "errors": 194,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9892609688448286,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 170,
+          "errors": 161,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.987139311507558,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 149,
+          "errors": 141,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9883412992257024,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 133,
+          "errors": 125,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.986909805179963,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 118,
+          "errors": 110,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9852069115908209,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 95,
+          "errors": 87,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9815205057818692,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 88,
+          "errors": 80,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9800037883221708,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 79,
+          "errors": 71,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9776445193473973,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 71,
+          "errors": 63,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9750249284006043,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 62,
+          "errors": 54,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9712319132470444,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 49,
+          "errors": 42,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9721832188586365,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 40,
+          "errors": 34,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9756022075889829,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 35,
+          "errors": 29,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9718910759095927,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 29,
+          "errors": 23,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9656105111089933,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 25,
+          "errors": 19,
+          "p_value": 0.9999999999999997,
+          "simultaneous_upper": 0.9595854773729959,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 12,
+          "errors": 7,
+          "p_value": 0.99999658647,
+          "simultaneous_upper": 0.9410533933632065,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 6,
+          "errors": 4,
+          "p_value": 0.999945,
+          "simultaneous_upper": 0.9948208754670783,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 2,
+          "errors": 1,
+          "p_value": 0.99,
+          "simultaneous_upper": 0.9998015676138814,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "B"
+    },
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 140,
+          "errors": 132,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9875771394649638,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 99,
+          "errors": 91,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9822881570828569,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 73,
+          "errors": 65,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9757357770267407,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 60,
+          "errors": 52,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9702269489610086,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 54,
+          "errors": 46,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9667409160361989,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 48,
+          "errors": 40,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9623289183250399,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 45,
+          "errors": 37,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9596519760010892,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 39,
+          "errors": 31,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9529645351312486,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 38,
+          "errors": 30,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9516277639172772,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 34,
+          "errors": 26,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9454206440111464,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 28,
+          "errors": 21,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9492856999878612,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 19,
+          "errors": 13,
+          "p_value": 0.9999999999287227,
+          "simultaneous_upper": 0.9451462481974873,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 17,
+          "errors": 11,
+          "p_value": 0.9999999961848272,
+          "simultaneous_upper": 0.9377099528023575,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 15,
+          "errors": 9,
+          "p_value": 0.999999813379752,
+          "simultaneous_upper": 0.9279161960274448,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 14,
+          "errors": 8,
+          "p_value": 0.99999874943487,
+          "simultaneous_upper": 0.9217497670013152,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 9,
+          "errors": 4,
+          "p_value": 0.99910908,
+          "simultaneous_upper": 0.9158981111703762,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 2,
+          "errors": 1,
+          "p_value": 0.99,
+          "simultaneous_upper": 0.9998015676138814,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "C"
+    },
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 136,
+          "errors": 128,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9872043885491556,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 97,
+          "errors": 89,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.981912475435009,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 68,
+          "errors": 60,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9738769142978136,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 56,
+          "errors": 48,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9679903170882929,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 49,
+          "errors": 41,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9631438943694912,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 43,
+          "errors": 35,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9576450544726706,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 41,
+          "errors": 33,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9554275906473135,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 37,
+          "errors": 29,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9502125791330078,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 35,
+          "errors": 27,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9471175610312049,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 30,
+          "errors": 24,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9668455799362577,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 26,
+          "errors": 21,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9752310896136613,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 17,
+          "errors": 13,
+          "p_value": 0.999999999994931,
+          "simultaneous_upper": 0.978633553786089,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 15,
+          "errors": 11,
+          "p_value": 0.999999999659664,
+          "simultaneous_upper": 0.9754856268336981,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 13,
+          "errors": 9,
+          "p_value": 0.999999978507,
+          "simultaneous_upper": 0.9712443100026013,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 12,
+          "errors": 8,
+          "p_value": 0.999999834165,
+          "simultaneous_upper": 0.9685174727515226,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 8,
+          "errors": 4,
+          "p_value": 0.99956835,
+          "simultaneous_upper": 0.9491412219213242,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 2,
+          "errors": 1,
+          "p_value": 0.99,
+          "simultaneous_upper": 0.9998015676138814,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "D"
+    },
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 76,
+          "errors": 68,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9767292445488501,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 54,
+          "errors": 46,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9667409160361989,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 47,
+          "errors": 39,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.96147702769322,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 42,
+          "errors": 34,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9565646622581233,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 36,
+          "errors": 28,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9487118522884816,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 34,
+          "errors": 26,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9454206440111464,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 29,
+          "errors": 22,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9512013405820134,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 25,
+          "errors": 18,
+          "p_value": 0.9999999999999902,
+          "simultaneous_upper": 0.942511115592691,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 23,
+          "errors": 17,
+          "p_value": 0.9999999999999796,
+          "simultaneous_upper": 0.9557019022880178,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 18,
+          "errors": 12,
+          "p_value": 0.9999999994733841,
+          "simultaneous_upper": 0.9416657699815185,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 16,
+          "errors": 10,
+          "p_value": 0.9999999729714844,
+          "simultaneous_upper": 0.9331732947833975,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 14,
+          "errors": 9,
+          "p_value": 0.99999993159585,
+          "simultaneous_upper": 0.9507973073195524,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 11,
+          "errors": 7,
+          "p_value": 0.9999987516,
+          "simultaneous_upper": 0.9652149741255386,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 4,
+          "errors": 3,
+          "p_value": 0.9999,
+          "simultaneous_upper": 0.9999007788845258,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "E"
+    },
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 171,
+          "errors": 162,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9872158495435115,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 145,
+          "errors": 136,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9848755195634301,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 114,
+          "errors": 105,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9806521218387213,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 101,
+          "errors": 93,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9826485456218097,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 92,
+          "errors": 84,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9808996153601907,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 83,
+          "errors": 75,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9787584198452836,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 72,
+          "errors": 64,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9753854870334747,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 63,
+          "errors": 55,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9717093556103327,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 57,
+          "errors": 49,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9685804301102738,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 50,
+          "errors": 44,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.980697107101905,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 49,
+          "errors": 43,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9802854873443185,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 43,
+          "errors": 37,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9773926145157101,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 42,
+          "errors": 36,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.976825772256545,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 33,
+          "errors": 27,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9700694427542406,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 29,
+          "errors": 23,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9656105111089933,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 26,
+          "errors": 20,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9612819113525987,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 20,
+          "errors": 15,
+          "p_value": 0.9999999999996737,
+          "simultaneous_upper": 0.9670633882568044,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 15,
+          "errors": 10,
+          "p_value": 0.999999990703899,
+          "simultaneous_upper": 0.9545459970023459,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 8,
+          "errors": 5,
+          "p_value": 0.99997659,
+          "simultaneous_upper": 0.9803113114843687,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 1,
+          "errors": 1,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "uniqueness"
+    },
+    {
+      "threshold": null,
+      "accepted": 0,
+      "certified": false,
+      "alpha": 0.1,
+      "delta": 0.008333333333333333,
+      "tests": [
+        {
+          "threshold": 0.0,
+          "accepted": 217,
+          "errors": 208,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9899633959678661,
+          "passes": false
+        },
+        {
+          "threshold": 0.05,
+          "accepted": 53,
+          "errors": 45,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9660788678111153,
+          "passes": false
+        },
+        {
+          "threshold": 0.1,
+          "accepted": 39,
+          "errors": 31,
+          "p_value": 1.0,
+          "simultaneous_upper": 0.9529645351312486,
+          "passes": false
+        },
+        {
+          "threshold": 0.15000000000000002,
+          "accepted": 22,
+          "errors": 16,
+          "p_value": 0.9999999999998396,
+          "simultaneous_upper": 0.9534648331233824,
+          "passes": false
+        },
+        {
+          "threshold": 0.2,
+          "accepted": 15,
+          "errors": 10,
+          "p_value": 0.999999990703899,
+          "simultaneous_upper": 0.9545459970023459,
+          "passes": false
+        },
+        {
+          "threshold": 0.25,
+          "accepted": 7,
+          "errors": 4,
+          "p_value": 0.9998235,
+          "simultaneous_upper": 0.9770086373356912,
+          "passes": false
+        },
+        {
+          "threshold": 0.30000000000000004,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.35000000000000003,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.4,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.45,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.5,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.55,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.6000000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.65,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.7000000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.75,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.8,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.8500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 0.9500000000000001,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        },
+        {
+          "threshold": 1.0,
+          "accepted": 0,
+          "errors": 0,
+          "p_value": 1.0,
+          "simultaneous_upper": 1.0,
+          "passes": false
+        }
+      ],
+      "method": "one-sided exact binomial LTT with Bonferroni across fixed thresholds; one sampled case per independent source cluster; exploratory dataset",
+      "policy": "E_real_fit"
+    }
+  ],
+  "sensitivity": [
+    {
+      "labels": "final",
+      "criterion": "strict",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 45,
+      "incorrect_accepted": 28,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.6222222222222222,
+      "correct_accepted": 17,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "strict",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 26,
+      "incorrect_accepted": 17,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.6538461538461539,
+      "correct_accepted": 9,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "strict",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 26,
+      "incorrect_accepted": 16,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.6153846153846154,
+      "correct_accepted": 10,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "strict",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "strict",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 2,
+      "incorrect_accepted": 1,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.5,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "iou03",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 45,
+      "incorrect_accepted": 24,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.5333333333333333,
+      "correct_accepted": 21,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "iou03",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 26,
+      "incorrect_accepted": 15,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5769230769230769,
+      "correct_accepted": 11,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "iou03",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 26,
+      "incorrect_accepted": 12,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.46153846153846156,
+      "correct_accepted": 14,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "iou03",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "iou03",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "center",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 77,
+      "accepted": 45,
+      "incorrect_accepted": 23,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.5111111111111111,
+      "correct_accepted": 22,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "center",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 77,
+      "accepted": 26,
+      "incorrect_accepted": 14,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5384615384615384,
+      "correct_accepted": 12,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "center",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 77,
+      "accepted": 26,
+      "incorrect_accepted": 11,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.4230769230769231,
+      "correct_accepted": 15,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "center",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 77,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "final",
+      "criterion": "center",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 77,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "strict",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 55,
+      "accepted": 45,
+      "incorrect_accepted": 22,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.4888888888888889,
+      "correct_accepted": 23,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "strict",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 55,
+      "accepted": 26,
+      "incorrect_accepted": 15,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5769230769230769,
+      "correct_accepted": 11,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "strict",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 55,
+      "accepted": 26,
+      "incorrect_accepted": 15,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5769230769230769,
+      "correct_accepted": 11,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "strict",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 55,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "strict",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 55,
+      "accepted": 2,
+      "incorrect_accepted": 1,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.5,
+      "correct_accepted": 1,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "iou03",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 93,
+      "accepted": 45,
+      "incorrect_accepted": 14,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.3111111111111111,
+      "correct_accepted": 31,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "iou03",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 93,
+      "accepted": 26,
+      "incorrect_accepted": 9,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.34615384615384615,
+      "correct_accepted": 17,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "iou03",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 93,
+      "accepted": 26,
+      "incorrect_accepted": 6,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.23076923076923078,
+      "correct_accepted": 20,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "iou03",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 93,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "iou03",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 93,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "center",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 128,
+      "accepted": 45,
+      "incorrect_accepted": 11,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.24444444444444444,
+      "correct_accepted": 34,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "center",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 128,
+      "accepted": 26,
+      "incorrect_accepted": 6,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.23076923076923078,
+      "correct_accepted": 20,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "center",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 128,
+      "accepted": 26,
+      "incorrect_accepted": 4,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.15384615384615385,
+      "correct_accepted": 22,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "center",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 128,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "A_only",
+      "criterion": "center",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 128,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 200,
+      "state_counts": {
+        "absent": 507,
+        "unique": 200,
+        "multiple": 29,
+        "offscreen": 12,
+        "occluded": 3
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "strict",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 45,
+      "incorrect_accepted": 28,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.6222222222222222,
+      "correct_accepted": 17,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "strict",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 26,
+      "incorrect_accepted": 17,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.6538461538461539,
+      "correct_accepted": 9,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "strict",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 26,
+      "incorrect_accepted": 16,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.6153846153846154,
+      "correct_accepted": 10,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "strict",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "strict",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 41,
+      "accepted": 2,
+      "incorrect_accepted": 1,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.5,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "iou03",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 45,
+      "incorrect_accepted": 24,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.5333333333333333,
+      "correct_accepted": 21,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "iou03",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 26,
+      "incorrect_accepted": 15,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5769230769230769,
+      "correct_accepted": 11,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "iou03",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 26,
+      "incorrect_accepted": 12,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.46153846153846156,
+      "correct_accepted": 14,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "iou03",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "iou03",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 64,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "center",
+      "policy": "B",
+      "n": 751,
+      "correct_localizations": 76,
+      "accepted": 45,
+      "incorrect_accepted": 23,
+      "coverage": 0.05992010652463382,
+      "selective_risk": 0.5111111111111111,
+      "correct_accepted": 22,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "center",
+      "policy": "C",
+      "n": 751,
+      "correct_localizations": 76,
+      "accepted": 26,
+      "incorrect_accepted": 14,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.5384615384615384,
+      "correct_accepted": 12,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "center",
+      "policy": "D",
+      "n": 751,
+      "correct_localizations": 76,
+      "accepted": 26,
+      "incorrect_accepted": 11,
+      "coverage": 0.03462050599201065,
+      "selective_risk": 0.4230769230769231,
+      "correct_accepted": 15,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "center",
+      "policy": "E",
+      "n": 751,
+      "correct_localizations": 76,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.0013315579227696406,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "B_only",
+      "criterion": "center",
+      "policy": "uniqueness",
+      "n": 751,
+      "correct_localizations": 76,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.002663115845539281,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 131,
+      "state_counts": {
+        "absent": 583,
+        "unique": 131,
+        "multiple": 29,
+        "offscreen": 5,
+        "occluded": 2,
+        "unclear": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "strict",
+      "policy": "B",
+      "n": 515,
+      "correct_localizations": 20,
+      "accepted": 20,
+      "incorrect_accepted": 8,
+      "coverage": 0.038834951456310676,
+      "selective_risk": 0.4,
+      "correct_accepted": 12,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "strict",
+      "policy": "C",
+      "n": 515,
+      "correct_localizations": 20,
+      "accepted": 11,
+      "incorrect_accepted": 4,
+      "coverage": 0.021359223300970873,
+      "selective_risk": 0.36363636363636365,
+      "correct_accepted": 7,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "strict",
+      "policy": "D",
+      "n": 515,
+      "correct_localizations": 20,
+      "accepted": 12,
+      "incorrect_accepted": 5,
+      "coverage": 0.02330097087378641,
+      "selective_risk": 0.4166666666666667,
+      "correct_accepted": 7,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "strict",
+      "policy": "E",
+      "n": 515,
+      "correct_localizations": 20,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.001941747572815534,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "strict",
+      "policy": "uniqueness",
+      "n": 515,
+      "correct_localizations": 20,
+      "accepted": 2,
+      "incorrect_accepted": 1,
+      "coverage": 0.003883495145631068,
+      "selective_risk": 0.5,
+      "correct_accepted": 1,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "iou03",
+      "policy": "B",
+      "n": 515,
+      "correct_localizations": 33,
+      "accepted": 20,
+      "incorrect_accepted": 6,
+      "coverage": 0.038834951456310676,
+      "selective_risk": 0.3,
+      "correct_accepted": 14,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "iou03",
+      "policy": "C",
+      "n": 515,
+      "correct_localizations": 33,
+      "accepted": 11,
+      "incorrect_accepted": 3,
+      "coverage": 0.021359223300970873,
+      "selective_risk": 0.2727272727272727,
+      "correct_accepted": 8,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "iou03",
+      "policy": "D",
+      "n": 515,
+      "correct_localizations": 33,
+      "accepted": 12,
+      "incorrect_accepted": 3,
+      "coverage": 0.02330097087378641,
+      "selective_risk": 0.25,
+      "correct_accepted": 9,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "iou03",
+      "policy": "E",
+      "n": 515,
+      "correct_localizations": 33,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.001941747572815534,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "iou03",
+      "policy": "uniqueness",
+      "n": 515,
+      "correct_localizations": 33,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.003883495145631068,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "center",
+      "policy": "B",
+      "n": 515,
+      "correct_localizations": 40,
+      "accepted": 20,
+      "incorrect_accepted": 6,
+      "coverage": 0.038834951456310676,
+      "selective_risk": 0.3,
+      "correct_accepted": 14,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "center",
+      "policy": "C",
+      "n": 515,
+      "correct_localizations": 40,
+      "accepted": 11,
+      "incorrect_accepted": 3,
+      "coverage": 0.021359223300970873,
+      "selective_risk": 0.2727272727272727,
+      "correct_accepted": 8,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "center",
+      "policy": "D",
+      "n": 515,
+      "correct_localizations": 40,
+      "accepted": 12,
+      "incorrect_accepted": 3,
+      "coverage": 0.02330097087378641,
+      "selective_risk": 0.25,
+      "correct_accepted": 9,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "center",
+      "policy": "E",
+      "n": 515,
+      "correct_localizations": 40,
+      "accepted": 1,
+      "incorrect_accepted": 0,
+      "coverage": 0.001941747572815534,
+      "selective_risk": 0.0,
+      "correct_accepted": 1,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    },
+    {
+      "labels": "consensus_only",
+      "criterion": "center",
+      "policy": "uniqueness",
+      "n": 515,
+      "correct_localizations": 40,
+      "accepted": 2,
+      "incorrect_accepted": 0,
+      "coverage": 0.003883495145631068,
+      "selective_risk": 0.0,
+      "correct_accepted": 2,
+      "unique_n": 55,
+      "state_counts": {
+        "absent": 454,
+        "unique": 55,
+        "multiple": 5,
+        "offscreen": 1
+      }
+    }
+  ]
+}

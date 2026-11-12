@@ -1,0 +1,3 @@
+case_id,annotator_id,annotation_round,target_status,plausible_match_count,safe_action,confidence,needs_review,instruction_defect,image_defect,notes,annotated_at
+example_case_001,ANNOTATOR_A,independent,unique,1,click,high,false,false,false,,2026-10-17T00:00:00Z
+example_case_001,ANNOTATOR_B,independent,unique,1,click,high,false,false,false,,2026-10-17T00:00:00Z

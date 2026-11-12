@@ -1,0 +1,32 @@
+{
+  "ollama": {
+    "version": "0.40.8"
+  },
+  "model": {
+    "name": "qwen2.5vl:7b",
+    "model": "qwen2.5vl:7b",
+    "modified_at": "2026-10-23T19:41:23.809269182+05:30",
+    "size": 5969245856,
+    "digest": "5ced39dfa4bac325dc183dd1e4febaa1c46b3ea28bce48896c8e69c1e79611cc",
+    "details": {
+      "parent_model": "",
+      "format": "gguf",
+      "family": "qwen25vl",
+      "families": [
+        "qwen25vl"
+      ],
+      "parameter_size": "8.3B",
+      "quantization_level": "Q4_K_M",
+      "context_length": 128000,
+      "embedding_length": 3584,
+      "runner": "ggml"
+    },
+    "capabilities": [
+      "completion",
+      "vision"
+    ]
+  },
+  "machine": "Apple arm64, 18GiB unified memory",
+  "protocol_sha256": "69ab36c560e1c75d02d8afb0791cea41a2ad5946f6d10d49a6cf8e984ac619cb",
+  "collection_mode": "serial local HTTP, cold first request retained"
+}

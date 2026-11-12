@@ -1,0 +1,52 @@
+{
+  "state": "READY_FOR_ADJUDICATION",
+  "tasks_per_annotator": 951,
+  "case_sets_identical": true,
+  "annotator_a_export_sha256": "5b4fd366fda83af6f8f99894e56854aa1380f2f6ddd000809a2ced724518c471",
+  "annotator_b_export_sha256": "c38c061d6eb29ceb750abcbdc617266c25830922fb84f5937418708e6793e669",
+  "annotator_a_status_counts": {
+    "absent": 582,
+    "unique": 275,
+    "multiple": 54,
+    "offscreen": 12,
+    "occluded": 28
+  },
+  "annotator_b_status_counts": {
+    "absent": 640,
+    "unique": 206,
+    "multiple": 54,
+    "offscreen": 5,
+    "occluded": 27,
+    "unclear": 19
+  },
+  "exact_status_agreements": 759,
+  "status_disagreements": 192,
+  "raw_status_agreement": 0.7981072555205048,
+  "cohens_kappa": 0.6127743410407198,
+  "annotation_format_issues": 0,
+  "cases_flagged_for_review": 259,
+  "same_status_localizable_cases_with_comparable_boxes": 205,
+  "mean_matched_box_iou": 0.6192486840355689,
+  "status_pair_counts": {
+    "absent__absent": 524,
+    "absent__multiple": 7,
+    "absent__offscreen": 3,
+    "absent__unclear": 18,
+    "absent__unique": 30,
+    "multiple__absent": 15,
+    "multiple__multiple": 36,
+    "multiple__offscreen": 1,
+    "multiple__unique": 2,
+    "occluded__absent": 2,
+    "occluded__occluded": 25,
+    "occluded__unique": 1,
+    "offscreen__absent": 10,
+    "offscreen__multiple": 1,
+    "offscreen__offscreen": 1,
+    "unique__absent": 89,
+    "unique__multiple": 10,
+    "unique__occluded": 2,
+    "unique__unclear": 1,
+    "unique__unique": 173
+  }
+}
